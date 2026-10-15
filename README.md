@@ -1,213 +1,191 @@
 # Nimbus
-Sistema de análise de dados meteorológicos desenvolvido em Python para a disciplina de 	Programação em Ambiente Visual (PAV).
 
-O Nimbus tem como objetivo armazenar observações meteorológicas, consultar dados históricos e gerar análises estatísticas por período e localidade. O projeto será desenvolvido em dupla por **Arthur Maia Rangel** e **Natan Mauricio Santos**.
+**Sistema de Análise de Dados Meteorológicos** desenvolvido em Python para a disciplina de Programação Aplicada (PAV).
 
->**Status:** Planejamento inicial. As tecnologias e regras propostas neste *README* devem ser confirmadas pela equipe antes da implementação.
+**Integrantes:** Natan Mauricio Santos e Arthur Maia Rangel.
 
-## 1. Objetivos
-- Cadastrar e manter localidades, fontes de dados e registros meteorológicos.
-- Consultar observações por localidade, período ou combinação dos dois filtros.
-- Calcular estatísticas como média, valor máximo e valor mínimo.
-- Comparar dados entre períodos ou localidades.
-- Validar os dados antes de armazená-los.
-- Disponibilizar os dados por uma API REST e uma interface gráfica.
-- Empacotar a API e o banco de dados em containers Docker.
+> **Status:** Planejamento e especificação. As funcionalidades descritas ainda precisam ser implementadas e testadas.
 
-*O projeto deve ir além de operações **CRUD***: o processamento e a análise dos dados meteorológicos são funcionalidades centrais.
+## 1. Objetivo
 
-## 2. Tecnologias propostas
+O Nimbus organiza observações meteorológicas coletadas em diferentes momentos e pontos geográficos. O sistema permitirá cadastrar pontos de observação e fontes de dados, armazenar temperatura, umidade e precipitação, consultar históricos e calcular estatísticas e comparações por período e ponto.
+
+O projeto vai além de um CRUD ao incluir análise estatística e importação validada de arquivos CSV.
+
+## 2. Funcionalidades previstas
+
+- Cadastro, consulta, edição e exclusão de pontos de observação.
+- Cadastro, consulta, edição e exclusão de fontes de dados.
+- Cadastro, consulta, edição e exclusão de registros meteorológicos.
+- Importação de observações por CSV.
+- Filtros por período e ponto de observação.
+- Cálculo de média, mínimo e máximo.
+- Comparação entre períodos ou pontos.
+- Validação de dados e relatório de linhas rejeitadas na importação.
+
+## 3. Modelo de dados
+
+O modelo inicial possui três tabelas relacionadas.
+
+### `ponto_observacao`
+
+Representa um **ponto geográfico específico**, como uma estação meteorológica ou um local definido por coordenadas. Não representa automaticamente uma cidade inteira.
+
+| Campo | Descrição |
+|---|---|
+| `id` | Chave primária. |
+| `nome` | Nome do ponto ou estação. |
+| `latitude` | Latitude em graus decimais. |
+| `longitude` | Longitude em graus decimais. |
+| `cidade` | Município (complementar). |
+| `estado` | Estado (complementar). |
+
+### `fonte_dados`
+
+| Campo | Descrição |
+|---|---|
+| `id` | Chave primária. |
+| `nome` | Nome da fonte. |
+| `tipo` | Categoria da fonte. |
+| `descricao` | Descrição opcional. |
+
+### `registro_meteorologico`
+
+| Campo | Descrição |
+|---|---|
+| `id` | Chave primária. |
+| `ponto_observacao_id` | Chave estrangeira para `ponto_observacao`. |
+| `fonte_id` | Chave estrangeira para `fonte_dados`. |
+| `data_hora` | Momento da observação. |
+| `temperatura` | Temperatura em graus Celsius (°C). |
+| `umidade` | Umidade relativa (%). |
+| `precipitacao` | Precipitação em milímetros (mm). |
+
+**Relacionamentos:** um ponto de observação pode ter muitos registros; uma fonte pode estar associada a muitos registros. Cada registro referencia um ponto e uma fonte existentes.
+
+A combinação `fonte_id + ponto_observacao_id + data_hora` será única para impedir observações duplicadas da mesma fonte no mesmo ponto e instante.
+
+## 4. Regras de negócio principais
+
+1. Cada registro deve estar associado a um ponto de observação cadastrado.
+2. Temperatura, umidade, precipitação, data/hora, ponto e fonte são obrigatórios.
+3. Umidade deve estar entre 0% e 100%.
+4. Precipitação não pode ser negativa e é armazenada em mm.
+5. Temperatura deve estar entre −90 °C e 60 °C, inclusive.
+6. Datas e horas devem ser válidas e não podem estar no futuro.
+7. A fonte de dados deve existir.
+8. Não é permitido excluir ponto ou fonte que possua registros associados.
+9. A data inicial de uma consulta deve ser anterior ou igual à data final.
+10. Estatísticas devem respeitar os filtros; sem resultados, o sistema deve informar que não há dados.
+11. Não pode haver dois registros com a mesma fonte, ponto e data/hora.
+12. Linhas inválidas ou duplicadas no CSV devem ser identificadas no relatório de importação.
+13. Latitude deve estar entre −90 e 90 graus.
+14. Longitude deve estar entre −180 e 180 graus.
+15. Nome, latitude e longitude são obrigatórios para um ponto de observação.
+
+## 5. Formato CSV proposto
+
+O padrão inicial usa codificação UTF-8, separador `;`, ponto como separador decimal e data/hora em `AAAA-MM-DD HH:MM:SS`.
+
+```csv
+ponto_observacao_id;fonte_id;data_hora;temperatura;umidade;precipitacao
+1;1;2026-10-10 14:00:00;23.5;72;0.0
+1;1;2026-10-10 15:00:00;24.1;68;0.2
+2;1;2026-10-10 14:00:00;21.8;80;1.4
+```
+
+Os IDs devem corresponder a pontos de observação e fontes previamente cadastrados. A API validará campos, tipos, limites, datas futuras e duplicidades. O relatório de importação indicará quantidades importadas e rejeitadas e o motivo de cada rejeição.
+
+## 6. Tecnologias
 
 | Componente | Tecnologia |
-| :---: | :---: |
-| *Linguagem* | Python |
-| *API REST* | Flask-RESTful |
-| *ORM / modelos* | SQLAlchemy |
-| *Banco de dados* | MySQL |
-| *Interface gráfica* | Tkinter |
-| *Comunicação da interface com a API* | HTTP/JSON usando requests |
-| *Containerização* | Docker e Docker Compose |
-| *Controle de versão* | Git e GitHub |
+|---|---|
+| Linguagem | Python |
+| API REST | Flask-RESTful |
+| ORM | SQLAlchemy |
+| Banco de dados | MySQL |
+| Interface gráfica | Tkinter |
+| Comunicação HTTP | `requests` |
+| Leitura de CSV | Biblioteca padrão `csv` |
+| Containers | Docker e Docker Compose |
+| Versionamento | Git |
 
-As tecnologias são uma proposta inicial compatível com as opções do enunciado. A equipe pode confirmar ou ajustar as escolhas antes de iniciar a implementação.
+As escolhas seguem as alternativas previstas no enunciado. A interface será executada fora dos containers; API e banco ficarão em containers separados. SQLite não será utilizado.
 
-## 3. Escopo funcional inicial
+## 7. Arquitetura planejada
 
-### Cadastros
-- Localidades.
-- Fontes de dados meteorológicos.
-- Registros meteorológicos.
-  
-### Consultas e análises
-- Consultar registros por período.
-- Consultar registros por localidade.
-- Combinar filtros de período e localidade.
-- Calcular média, máximo e mínimo para as variáveis selecionadas.
-- Comparar períodos ou localidades.
-- Informar claramente quando uma consulta não encontrar registros.
-  
-### Validações propostas
-As regras abaixo são decisões de projeto que deverão ser implementadas e testadas. Os limites específicos ainda precisam ser documentados.
-1. Todo registro deve estar associado a uma localidade existente.
-2. Os campos obrigatórios do registro devem ser informados.
-3. A umidade relativa deve estar entre 0% e 100%.
-4. A precipitação não pode ser negativa e será armazenada em milímetros (mm).
-5. A temperatura deve respeitar uma faixa válida definida e documentada pelo projeto.
-6. As datas devem ser válidas; a política para datas futuras será definida antes da implementação.
-7. Todo registro deve estar associado a uma fonte de dados cadastrada.
-8. A exclusão de localidade ou fonte com registros associados deve preservar a integridade dos dados.
-9. A data inicial de uma consulta deve ser anterior ou igual à data final.
-10. Estatísticas devem considerar apenas os registros válidos que correspondam aos filtros selecionados.
-As regras originais do grupo estão no documento REGRA DE NEGÓCIOS.pdf. Antes da entrega da especificação, comparar esta lista com o documento e registrar formalmente as decisões finais.
-
-## 4. Modelo de dados inicial
-O projeto prevê três tabelas, dentro do limite de 3 a 5 tabelas solicitado no enunciado.
-
-**`localidade`**
-- `id` — chave primária.
-- `nome` — nome da estação ou localidade.
-- `cidade` — município.
-- `estado` — estado.
-
-**`fonte_dados`**
-- id — chave primária.
-- nome — nome da fonte.
-- tipo — tipo de fonte (por exemplo, estação, arquivo ou serviço externo).
-- descricao — descrição opcional.
-
-**`registro_meteorologico`**
-- id — chave primária.
-- localidade_id — chave estrangeira para localidade.
-- fonte_id — chave estrangeira para fonte_dados.
-- data_hora — data e hora da observação.
-- temperatura — temperatura em graus Celsius (°C).
-- umidade — umidade relativa em porcentagem (%).
-- precipitacao — precipitação em milímetros (mm).
-  
-**Relacionamentos:** uma localidade pode possuir vários registros; uma fonte pode ser utilizada por vários registros. Cada registro aponta para uma localidade e uma fonte existentes.
-O modelo é preliminar. Tipos SQL, precisão decimal, restrições de unicidade, política de exclusão e tratamento de fuso horário serão definidos durante a fase de modelagem.
-
-## 5. Estrutura planejada do projeto
-```
+```text
 Nimbus/
-  ├── projeto_API/
-  │   ├── entities/          # Modelos SQLAlchemy e relacionamentos
-  │   ├── controllers/       # Coordenação das requisições
-  │   ├── services/          # Regras de negócio e análises
-  │   ├── repositories/      # Acesso e consultas ao banco
-  │   ├── routes/            # Endpoints da API
-  │   ├── config/            # Configurações
-  │   ├── app.py             # Inicialização da API
-  │   ├── requirements.txt   # Dependências da API
-  │   └── Dockerfile
-  ├── interface/
-  │   ├── telas/             # Janelas e formulários Tkinter
-  │   ├── services/          # Cliente HTTP para a API
-  │   ├── app.py             # Inicialização da interface
-  │   └── requirements.txt   # Dependências da interface
-  ├── database/
-  │   └── init.sql           # Script inicial do banco
-  ├── docker-compose.yml
-  ├── .env.example           # Exemplo de variáveis de ambiente
-  ├── .gitignore
-  └── README.md
+├── projeto_API/
+│   ├── entities/
+│   ├── controllers/
+│   ├── services/
+│   ├── repositories/
+│   ├── routes/
+│   ├── config/
+│   ├── app.py
+│   ├── requirements.txt
+│   └── Dockerfile
+├── interface/
+│   ├── telas/
+│   ├── services/
+│   ├── app.py
+│   └── requirements.txt
+├── database/
+│   └── init.sql
+├── docker-compose.yml
+├── .env.example
+├── .gitignore
+└── README.md
 ```
-A estrutura pode evoluir conforme a implementação. A interface gráfica deverá permanecer fora dos containers, enquanto a API e o banco de dados serão executados em containers separados.
 
-## 6. Fases de desenvolvimento
-### Fase 1 — Especificação e planejamento
-- [ ] Confirmar as tecnologias.
-- [ ] Revisar as regras de negócio originais.
-- [ ] Definir os requisitos funcionais e não funcionais.
-- [ ] Definir unidades, faixas válidas e política de datas.
-- [ ] Desenhar o modelo entidade-relacionamento.
-- [ ] Dividir as responsabilidades entre os integrantes.
-Entrega: especificação aprovada e modelo de dados inicial.
+- `entities`: modelos SQLAlchemy e relacionamentos.
+- `repositories`: acesso ao banco.
+- `services`: regras de negócio, importação e estatísticas.
+- `controllers`: coordenação de requisições e respostas.
+- `routes`: endpoints HTTP.
+- `config`: configurações da aplicação.
+- `interface`: telas e chamadas HTTP à API.
 
-### Fase 2 — Banco de dados e modelos
-- [ ] Criar o banco MySQL e o script database/init.sql.
-- [ ] Configurar a conexão com SQLAlchemy.
-- [ ] Implementar as classes Localidade, FonteDados e RegistroMeteorologico.
-- [ ] Definir chaves primárias, chaves estrangeiras e restrições.
-- [ ] Testar os relacionamentos e a persistência.
-Entrega: banco inicializado e modelos funcionando.
+Fluxo: **interface → API → services/repositories → MySQL**. A interface não acessará o banco diretamente.
 
-### Fase 3 — API REST e arquitetura em camadas
-- [ ] Implementar repositories, services, controllers e routes.
-- [ ] Criar operações POST, GET, PUT e DELETE para cada entidade.
-- [ ] Padronizar respostas JSON e códigos HTTP.
-- [ ] Tratar entradas inválidas, registros inexistentes e erros de banco.
-- [ ] Demonstrar orientação a objetos e programação estruturada no código.
-- [ ] Testar os endpoints.
-Entrega: API funcional e documentada.
+## 8. Divisão de responsabilidades
 
-### Fase 4 — Análises meteorológicas
-- [ ] Implementar filtros por período e localidade.
-- [ ] Implementar média, máximo e mínimo.
-- [ ] Implementar comparação entre períodos ou localidades.
-- [ ] Tratar consultas sem resultados e evitar divisões por zero.
-- [ ] Criar testes com dados conhecidos para conferir os cálculos.
-Entrega: funcionalidades de ciência de dados além do CRUD.
+- **Natan Maurício Santos:** banco de dados, script SQL, modelos SQLAlchemy, backend, API REST, regras de negócio e importação CSV no backend.
+- **Arthur Maia Rangel:** frontend em Tkinter, telas, formulários, seleção de CSV, comunicação HTTP com a API e apresentação dos resultados e erros.
+- **Em conjunto:** testes integrados, Docker, revisão de código, documentação e apresentação. Ambos devem compreender a arquitetura geral e as partes que apresentarem.
 
-### Fase 5 — Interface gráfica
-- [ ] Criar telas de cadastro, consulta, edição e exclusão para as três entidades.
-- [ ] Criar tela de filtros e análises.
-- [ ] Consumir a API com requests.
-- [ ] Exibir mensagens claras para erros de validação, comunicação e operações proibidas.
-- [ ] Testar a interface com a API em execução.
-Entrega: interface funcional executada fora dos containers.
+## 9. Fases de desenvolvimento
 
-### Fase 6 — Dockerização
-- [ ] Criar o Dockerfile da API.
-- [ ] Configurar o serviço MySQL no docker-compose.yml.
-- [ ] Configurar variáveis de ambiente e dependências entre serviços.
-- [ ] Garantir que o banco seja inicializado pelo script SQL.
-- [ ] Testar a inicialização em ambiente limpo.
-- [ ] Documentar como executar e encerrar o ambiente.
-Entrega: API e banco executando em containers separados.
+1. **Especificação e planejamento:** revisar e aprovar requisitos, regras, modelo e tecnologias.
+2. **Banco e modelos:** criar `init.sql`, configurar SQLAlchemy e testar relacionamentos.
+3. **API REST:** implementar POST, GET, PUT e DELETE para cada entidade.
+4. **Análises e importação:** implementar filtros, estatísticas, comparações e importação CSV.
+5. **Interface gráfica:** desenvolver telas e integrar com a API.
+6. **Dockerização:** executar API e MySQL em containers separados.
+7. **Testes integrados:** testar regras, erros, persistência, importação e comunicação.
+8. **Documentação e apresentação:** finalizar instruções, slides e roteiro de demonstração.
 
-### Fase 7 — Testes integrados e revisão
-- [ ] Testar o CRUD de todas as entidades.
-- [ ] Testar as dez regras de negócio.
-- [ ] Demonstrar pelo menos três regras durante a apresentação.
-- [ ] Demonstrar pelo menos dois casos de erro.
-- [ ] Verificar comunicação interface–API e persistência no banco.
-- [ ] Revisar nomes, mensagens, documentação e tratamento de exceções.
-Entrega: versão candidata à apresentação.
+## 10. Critérios de conclusão
 
-### Fase 8 — Documentação e apresentação
-- [ ] Finalizar este README com instruções reais de instalação e execução.
-- [ ] Preparar slides com contexto, problema, requisitos, banco, arquitetura, classes, endpoints, interface e dificuldades.
-- [ ] Preparar roteiro de demonstração.
-- [ ] Dividir a apresentação entre Arthur e Natan.
-- [ ] Garantir que ambos compreendam as principais partes do código.
-Entrega: código da API, código da interface e slides, conforme o enunciado.
+- [ ] Três tabelas relacionais com modelos SQLAlchemy.
+- [ ] Operações POST, GET, PUT e DELETE para cada entidade.
+- [ ] Regras de negócio aplicadas na API.
+- [ ] Interface conectada à API.
+- [ ] Estatísticas e comparações além do CRUD.
+- [ ] Importação CSV validada.
+- [ ] API e banco em containers separados.
+- [ ] Script SQL e `docker-compose.yml` entregues.
+- [ ] Testes e demonstração preparados.
+- [ ] README e slides revisados.
 
-## 7. Como executar
-As instruções definitivas serão adicionadas quando a configuração estiver pronta. O objetivo é que, ao final, o ambiente possa ser iniciado a partir da raiz do projeto com Docker Compose e que a interface seja executada separadamente.
-Exemplo previsto para a versão final:
-```
-# Iniciar API e banco de dados
-docker compose up --build
+## 11. Como executar
 
-# Em outro terminal, iniciar a interface
-# (os comandos definitivos serão documentados após a configuração do ambiente)
-```
-Não execute esses comandos esperando que o projeto funcione antes da criação dos arquivos correspondentes.
-## 8. Critérios de conclusão
-O projeto estará pronto quando:
-- [ ] Houver de 3 a 5 tabelas relacionais com modelos SQLAlchemy.
-- [ ] Todas as entidades tiverem operações POST, GET, PUT e DELETE na API.
-- [ ] A API aplicar as regras de negócio.
-- [ ] A interface realizar as operações por meio da API.
-- [ ] Existirem consultas, estatísticas e comparações de dados.
-- [ ] A API e o banco forem executados em containers separados.
-- [ ] O script SQL e o docker-compose.yml forem entregues.
-- [ ] Os testes e a demonstração atenderem aos requisitos do professor.
-- [ ] A documentação e os slides estiverem finalizados.
-## 9. Equipe
-- Arthur Maia Rangel
-- Natan Maurício Santos
-A divisão das tarefas será definida na Fase 1, buscando participação dos dois integrantes na implementação e compreensão do sistema.
-## 10. Referência do trabalho
-Projeto desenvolvido com base no enunciado da disciplina PAV e no documento de regras de negócio do grupo. Este README representa o planejamento inicial; decisões e comandos deverão ser atualizados para refletir o código efetivamente implementado.
+Os comandos de execução serão adicionados quando os arquivos da API, banco e interface estiverem implementados e testados. O projeto deverá permitir iniciar API e banco pelo Docker Compose e executar a interface separadamente.
+
+## 12. Referências
+
+- Enunciado do trabalho PAV.
+- Documento inicial `REGRA DE NEGÓCIOS.pdf`.
+
+Este README descreve o planejamento; não afirma que funcionalidades ainda não implementadas já estejam disponíveis.
