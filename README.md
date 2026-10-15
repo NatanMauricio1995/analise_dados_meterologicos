@@ -1,6 +1,6 @@
-MeteoData
+Nimbus
 Sistema de análise de dados meteorológicos desenvolvido em Python para a disciplina de Programação Aplicada (PAV).
-O MeteoData tem como objetivo armazenar observações meteorológicas, consultar dados históricos e gerar análises estatísticas por período e localidade. O projeto será desenvolvido em dupla por Arthur Maia Rangel e Natan Maurício Santos.
+O Nimbus tem como objetivo armazenar observações meteorológicas, consultar dados históricos e gerar análises estatísticas por período e localidade. O projeto será desenvolvido em dupla por Arthur Maia Rangel e Natan Maurício Santos.
 Status: Planejamento inicial. As tecnologias e regras propostas neste README devem ser confirmadas pela equipe antes da implementação.
 
 1. Objetivos
@@ -74,7 +74,7 @@ Relacionamentos: uma localidade pode possuir vários registros; uma fonte pode s
 O modelo é preliminar. Tipos SQL, precisão decimal, restrições de unicidade, política de exclusão e tratamento de fuso horário serão definidos durante a fase de modelagem.
 
 5. Estrutura planejada do projeto
-MeteoData/
+Nimbus/
 ├── projeto_API/
 │   ├── entities/          # Modelos SQLAlchemy e relacionamentos
 │   ├── controllers/       # Coordenação das requisições
