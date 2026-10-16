@@ -107,7 +107,7 @@ As regras abaixo são a versão de trabalho do Nimbus, baseadas no tema e nas re
 - **Longitude:** faixa válida de −180 a 180 graus.
 - **Temperatura:** faixa inclusiva de −90 °C a 60 °C.
 - **Datas futuras:** proibidas. A aplicação deverá padronizar o tratamento de fuso horário.
-- **Duplicidade:** bloqueada para a combinação `fonte_id + ponto_observacao_id + data_hora`.
+- **Duplicidade:** bloqueada para a combinação `fonte_dados_id + ponto_observacao_id + data_hora`.
 - **Entrada de dados:** cadastro manual e importação de CSV.
 - **Unidades:** temperatura em °C, umidade em porcentagem (%) e precipitação em mm.
 - **Exclusão:** bloquear a exclusão de pontos e fontes que possuam registros associados.
@@ -147,7 +147,7 @@ A fonte deve representar a procedência dos dados. O mecanismo de entrada (manua
 |---|---|
 | `id` | Chave primária. |
 | `ponto_observacao_id` | Chave estrangeira para `ponto_observacao`. |
-| `fonte_id` | Chave estrangeira para `fonte_dados`. |
+| `fonte_dados_id` | Chave estrangeira para `fonte_dados`. |
 | `data_hora` | Momento da observação. |
 | `temperatura` | Temperatura em °C. |
 | `umidade` | Umidade relativa em %. |
@@ -158,7 +158,7 @@ A fonte deve representar a procedência dos dados. O mecanismo de entrada (manua
 - Um ponto de observação pode ter muitos registros meteorológicos.
 - Uma fonte pode estar associada a muitos registros.
 - Cada registro pertence a um ponto de observação e a uma fonte existentes.
-- A combinação (`fonte_id`, `ponto_observacao_id`, `data_hora`) deve possuir restrição de unicidade.
+- A combinação (`fonte_dados_id`, `ponto_observacao_id`, `data_hora`) deve possuir restrição de unicidade.
 - As chaves estrangeiras devem impedir referências a entidades inexistentes.
 - A exclusão de pontos e fontes em uso deve ser bloqueada.
 - Latitude e longitude devem ser armazenadas em tipos numéricos adequados para preservar casas decimais.
@@ -172,7 +172,7 @@ A validação crítica deve ocorrer na API e, quando possível, também ser refo
 O formato padrão proposto usa UTF-8, ponto e vírgula como separador, ponto como separador decimal e data/hora no padrão `AAAA-MM-DD HH:MM:SS`.
 
 ```csv
-ponto_observacao_id;fonte_id;data_hora;temperatura;umidade;precipitacao
+ponto_observacao_id;fonte_dados_id;data_hora;temperatura;umidade;precipitacao
 1;1;2026-10-10 14:00:00;23.5;72;0.0
 1;1;2026-10-10 15:00:00;24.1;68;0.2
 2;1;2026-10-10 14:00:00;21.8;80;1.4

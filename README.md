@@ -55,7 +55,7 @@ Representa um **ponto geográfico específico**, como uma estação meteorológi
 |---|---|
 | `id` | Chave primária. |
 | `ponto_observacao_id` | Chave estrangeira para `ponto_observacao`. |
-| `fonte_id` | Chave estrangeira para `fonte_dados`. |
+| `fonte_dados_id` | Chave estrangeira para `fonte_dados`. |
 | `data_hora` | Momento da observação. |
 | `temperatura` | Temperatura em graus Celsius (°C). |
 | `umidade` | Umidade relativa (%). |
@@ -63,7 +63,7 @@ Representa um **ponto geográfico específico**, como uma estação meteorológi
 
 **Relacionamentos:** um ponto de observação pode ter muitos registros; uma fonte pode estar associada a muitos registros. Cada registro referencia um ponto e uma fonte existentes.
 
-A combinação `fonte_id + ponto_observacao_id + data_hora` será única para impedir observações duplicadas da mesma fonte no mesmo ponto e instante.
+A combinação `fonte_dados_id + ponto_observacao_id + data_hora` será única para impedir observações duplicadas da mesma fonte no mesmo ponto e instante.
 
 ### Modelagem do Banco de Dados
 
@@ -97,7 +97,7 @@ O arquivo editável está disponível em:
 O padrão inicial usa codificação UTF-8, separador `;`, ponto como separador decimal e data/hora em `AAAA-MM-DD HH:MM:SS`.
 
 ```csv
-ponto_observacao_id;fonte_id;data_hora;temperatura;umidade;precipitacao
+ponto_observacao_id;fonte_dados_id;data_hora;temperatura;umidade;precipitacao
 1;1;2026-10-10 14:00:00;23.5;72;0.0
 1;1;2026-10-10 15:00:00;24.1;68;0.2
 2;1;2026-10-10 14:00:00;21.8;80;1.4

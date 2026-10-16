@@ -1,5 +1,5 @@
-from slqalchemy import Integer, String, Numeric
-from slqalchemy.orm import Mapped, mapped_column, relationship
+from sqlalchemy import Integer, String, Numeric
+from sqlalchemy.orm import Mapped, mapped_column, relationship
 
 from entities.base import Base
 
