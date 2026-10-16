@@ -1,7 +1,7 @@
 from datetime import datetime
 from decimal import Decimal
 
-from sqlalchemy import Interger, DateTime, Numeric, ForeignKey
+from sqlalchemy import Integer, DateTime, Numeric, ForeignKey
 from sqlalchemy.orm import Mapped, mapped_column, relationship
 
 from entities.base import base
@@ -9,9 +9,9 @@ from entities.base import base
 class RegistroMeteorologico(Base):
     __tablename__ = "registro_meteorologico"
 
-    registro_meteorologico_id : Mapped[int] = mapped_column(Interger, primary_key = True, autoincrement = True)
+    registro_meteorologico_id : Mapped[int] = mapped_column(Integer, primary_key = True, autoincrement = True)
 
-    ponto_observacao_id : Mapped[int] = mapped_column(Interger, ForeignKey("ponto_observacao.ponto_observacao_id"), nullable = False)
+    ponto_observacao_id : Mapped[int] = mapped_column(Integer, ForeignKey("ponto_observacao.ponto_observacao_id"), nullable = False)
 
     fonte_dados_id : Mapped[int] = mapped_column(Integer, ForeignKey("fonte_dados.fonte_dados.id"), nullable = False)
 
