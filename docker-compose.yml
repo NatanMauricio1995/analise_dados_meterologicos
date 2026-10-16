@@ -1,0 +1,50 @@
+
+services:
+  banco:
+    image: mysql:8.4
+    container_name: nimbus_mysql
+    restart: unless-stopped
+    environment:
+      MYSQL_ROOT_PASSWORD: ${MYSQL_ROOT_PASSWORD:?Defina MYSQL_ROOT_PASSWORD no .env}
+      MYSQL_DATABASE: ${DB_NAME:?Defina DB_NAME no .env}
+      MYSQL_USER: ${DB_USER:?Defina DB_USER no .env}
+      MYSQL_PASSWORD: ${DB_PASSWORD:?Defina DB_PASSWORD no .env}
+    ports:
+      - "3306:3306"
+    volumes:
+      - dados_mysql:/var/lib/mysql
+      - ./database/init.sql:/docker-entrypoint-initdb.d/01-init.sql:ro
+    healthcheck:
+      test:
+        - CMD
+        - mysqladmin
+        - ping
+        - -h
+        - 127.0.0.1
+        - -u
+        - root
+        - --password=$$MYSQL_ROOT_PASSWORD
+      interval: 10s
+      timeout: 5s
+      retries: 10
+
+  api:
+    build:
+      context: ./projeto_API
+      dockerfile: Dockerfile
+    container_name: nimbus_api
+    restart: unless-stopped
+    environment:
+      DB_HOST: banco
+      DB_PORT: 3306
+      DB_NAME: ${DB_NAME:?Defina DB_NAME no .env}
+      DB_USER: ${DB_USER:?Defina DB_USER no .env}
+      DB_PASSWORD: ${DB_PASSWORD:?Defina DB_PASSWORD no .env}
+    ports:
+      - "5000:5000"
+    depends_on:
+      banco:
+        condition: service_healthy
+
+volumes:
+  dados_mysql:
