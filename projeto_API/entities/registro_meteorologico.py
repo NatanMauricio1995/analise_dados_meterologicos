@@ -22,9 +22,9 @@ class RegistroMeteorologico(Base):
 
     registro_meteorologico_id : Mapped[int] = mapped_column(Integer, primary_key = True, autoincrement = True)
 
-    ponto_observacao_id : Mapped[int] = mapped_column(Integer, ForeignKey("ponto_observacao.ponto_observacao_id"), nullable = False)
+    ponto_observacao_id : Mapped[int] = mapped_column(Integer, ForeignKey("ponto_observacao.ponto_observacao_id", ondelete = "RESTRICT"), nullable = False )
 
-    fonte_dados_id : Mapped[int] = mapped_column(Integer, ForeignKey("fonte_dados.fonte_dados_id"), nullable = False)
+    fonte_dados_id : Mapped[int] = mapped_column(Integer, ForeignKey("fonte_dados.fonte_dados_id", ondelete = "RESTRICT"), nullable = False)
 
     data_hora : Mapped[datetime] = mapped_column(DateTime, nullable = False)
 
