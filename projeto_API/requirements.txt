@@ -1,0 +1,5 @@
+Flask
+Flask-RESTful
+SQLAlchemy
+PyMySQL
+python-dotenv
