@@ -65,6 +65,15 @@ Representa um **ponto geográfico específico**, como uma estação meteorológi
 
 A combinação `fonte_id + ponto_observacao_id + data_hora` será única para impedir observações duplicadas da mesma fonte no mesmo ponto e instante.
 
+### Modelagem do Banco de Dados
+
+O diagrama abaixo apresenta as entidades e os relacionamentos do banco de dados do Nimbus.
+
+![Diagrama Entidade-Relacionamento](docs/modelo_entidade_relacionamento.png)
+
+O arquivo editável está disponível em:
+`docs/modelo_entidade_relacionamento.drawio`.
+
 ## 4. Regras de negócio principais
 
 1. Cada registro deve estar associado a um ponto de observação cadastrado.
