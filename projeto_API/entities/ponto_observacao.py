@@ -6,7 +6,7 @@ from entities.base import Base
 class PontoObservacao(Base): # Define uma classe que herda a configuração declarativa do SQLAlchemy.
     __tablename__ = "ponto_observacao" # Indica que a classe representa a tabela ponto_observacao.
 
-    __tableargs__ = (
+    __table_args__ = (
         CheckConstraint("latitude BETWEEN -90 AND 90", name = "ck_ponto_latitude"),
 
         CheckConstraint("longitude BETWEEN -180 AND 180", name = "ck_ponto_longitude")
