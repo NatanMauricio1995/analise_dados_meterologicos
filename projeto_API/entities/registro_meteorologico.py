@@ -10,7 +10,7 @@ class RegistroMeteorologico(Base):
     __tablename__ = "registro_meteorologico"
 
     __table_args__ = (
-        UniqueConstraint("fonte_dados_id", "ponto_observacao_id", "data_hora", name = "ck_registro_temperatura"),
+        UniqueConstraint("fonte_dados_id", "ponto_observacao_id", "data_hora", name = "uq_registro_fonte_ponto_data"),
 
         CheckConstraint("temperatura BETWEEN -90 AND 60", name = "ck_registro_temperatura"),
 
