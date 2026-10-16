@@ -30,3 +30,8 @@ ESTADOS_BRASIL = {
 }
 
 SIGLAS_ESTADOS = tuple(ESTADOS_BRASIL.keys())
+
+def validar_estado(sigla: str) -> bool:
+    # Essa função recebe uma sigla, remove espaços nas extremidades e converte as letras para maiúsculas antes de verificar se ela existe.
+    sigla = sigla.strip().upper()
+    return sigla in SIGLAS_ESTADOS
