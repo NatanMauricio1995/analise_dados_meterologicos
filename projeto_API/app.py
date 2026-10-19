@@ -8,18 +8,12 @@ api = Api(app)
 
 @app.route("/", methods=["GET"])
 def inicio():
-    return jsonify({
-        "projeto": "Nimbus",
-        "mensagem": "API de análise de dados meteorológicos",
-        "status": "online"
-    }), 200
+    return jsonify({"projeto": "Nimbus", "mensagem": "API de análise de dados meteorológicos", "status": "online"}), 200
 
 
 @app.route("/health", methods=["GET"])
 def verificar_saude():
-    return jsonify({
-        "status": "ok"
-    }), 200
+    return jsonify({"status": "ok"}), 200
 
 
 if __name__ == "__main__":
