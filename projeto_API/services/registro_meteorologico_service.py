@@ -43,7 +43,7 @@ class RegistroMeteorologicoService:
         return self.repositorio.listar_por_fonte(fonte_dados_id)
 
     def criar(self, dados: dict) -> RegistroMeteorologico:
-            dados = self._validar_dados(dados)
+        dados = self._validar_dados(dados)
 
         try:
             registro = self.repositorio.criar(dados)
