@@ -1,0 +1,2 @@
+# Nenhuma dependencia externa de Python e necessaria para o frontend.
+# Tkinter e instalado pelo ambiente Codespaces em .devcontainer/devcontainer.json.

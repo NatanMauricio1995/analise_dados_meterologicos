@@ -1,32 +1,6 @@
-
-# Variáveis de ambiente e credenciais
-.env
-.env.*
-!.env.example
-
-# Python
 __pycache__/
 *.py[cod]
-*.pyo
-
-# Ambientes virtuais
-.venv/
-venv/
-env/
-
-# Testes e ferramentas
-.pytest_cache/
-.mypy_cache/
-.coverage
-htmlcov/
-
-# Configurações locais de editores
-.vscode/
-.idea/
-
-# Logs
-*.log
-
-# Arquivos do sistema operacional
-.DS_Store
-Thumbs.db
+pontos_observacao.json
+fontes_dados.json
+registros_meteorologicos.json
+*.tmp
