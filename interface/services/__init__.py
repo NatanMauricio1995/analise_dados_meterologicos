@@ -1,1 +1,0 @@
-"""Serviços da interface Nimbus."""

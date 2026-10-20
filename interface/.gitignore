@@ -1,6 +1,0 @@
-__pycache__/
-*.py[cod]
-pontos_observacao.json
-fontes_dados.json
-registros_meteorologicos.json
-*.tmp
