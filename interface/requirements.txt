@@ -1,2 +1,0 @@
-# O frontend utiliza somente a biblioteca padrão do Python.
-# O Tkinter deve estar instalado no ambiente (python3-tk no Debian/Ubuntu).
