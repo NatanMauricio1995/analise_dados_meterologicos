@@ -7,6 +7,7 @@ from services.ponto_observacao_service import PontoObservacaoService
 from flask import jsonify, request
 
 
+
 def listar_pontos():
     sessao = obter_sessao()
 
