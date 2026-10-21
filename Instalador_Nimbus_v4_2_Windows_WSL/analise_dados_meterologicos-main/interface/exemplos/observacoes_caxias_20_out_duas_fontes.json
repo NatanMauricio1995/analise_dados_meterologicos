@@ -1,0 +1,472 @@
+{
+  "observacoes": [
+    {
+      "ponto": {
+        "nome": "ESTACAO CAXIAS CENTRO",
+        "latitude": "-22.785600",
+        "longitude": "-43.311700",
+        "cidade": "DUQUE DE CAXIAS",
+        "estado": "RJ"
+      },
+      "fonte": {
+        "nome": "INMET",
+        "tipo": "API",
+        "descricao": "INSTITUTO NACIONAL DE METEOROLOGIA"
+      },
+      "data_hora": "2026-10-20T08:00:00",
+      "temperatura": "23.2",
+      "umidade": "83",
+      "precipitacao": "0.0"
+    },
+    {
+      "ponto": {
+        "nome": "ESTACAO CAXIAS CENTRO",
+        "latitude": "-22.785600",
+        "longitude": "-43.311700",
+        "cidade": "DUQUE DE CAXIAS",
+        "estado": "RJ"
+      },
+      "fonte": {
+        "nome": "INMET",
+        "tipo": "API",
+        "descricao": "INSTITUTO NACIONAL DE METEOROLOGIA"
+      },
+      "data_hora": "2026-10-20T09:00:00",
+      "temperatura": "23.6",
+      "umidade": "84",
+      "precipitacao": "0.0"
+    },
+    {
+      "ponto": {
+        "nome": "ESTACAO CAXIAS CENTRO",
+        "latitude": "-22.785600",
+        "longitude": "-43.311700",
+        "cidade": "DUQUE DE CAXIAS",
+        "estado": "RJ"
+      },
+      "fonte": {
+        "nome": "INMET",
+        "tipo": "API",
+        "descricao": "INSTITUTO NACIONAL DE METEOROLOGIA"
+      },
+      "data_hora": "2026-10-20T10:00:00",
+      "temperatura": "25.4",
+      "umidade": "78",
+      "precipitacao": "0.0"
+    },
+    {
+      "ponto": {
+        "nome": "ESTACAO CAXIAS CENTRO",
+        "latitude": "-22.785600",
+        "longitude": "-43.311700",
+        "cidade": "DUQUE DE CAXIAS",
+        "estado": "RJ"
+      },
+      "fonte": {
+        "nome": "INMET",
+        "tipo": "API",
+        "descricao": "INSTITUTO NACIONAL DE METEOROLOGIA"
+      },
+      "data_hora": "2026-10-20T11:00:00",
+      "temperatura": "27.7",
+      "umidade": "71",
+      "precipitacao": "0.0"
+    },
+    {
+      "ponto": {
+        "nome": "ESTACAO CAXIAS CENTRO",
+        "latitude": "-22.785600",
+        "longitude": "-43.311700",
+        "cidade": "DUQUE DE CAXIAS",
+        "estado": "RJ"
+      },
+      "fonte": {
+        "nome": "INMET",
+        "tipo": "API",
+        "descricao": "INSTITUTO NACIONAL DE METEOROLOGIA"
+      },
+      "data_hora": "2026-10-20T12:00:00",
+      "temperatura": "30.0",
+      "umidade": "68",
+      "precipitacao": "0.0"
+    },
+    {
+      "ponto": {
+        "nome": "ESTACAO CAXIAS CENTRO",
+        "latitude": "-22.785600",
+        "longitude": "-43.311700",
+        "cidade": "DUQUE DE CAXIAS",
+        "estado": "RJ"
+      },
+      "fonte": {
+        "nome": "INMET",
+        "tipo": "API",
+        "descricao": "INSTITUTO NACIONAL DE METEOROLOGIA"
+      },
+      "data_hora": "2026-10-20T13:00:00",
+      "temperatura": "32.1",
+      "umidade": "64",
+      "precipitacao": "0.0"
+    },
+    {
+      "ponto": {
+        "nome": "ESTACAO CAXIAS CENTRO",
+        "latitude": "-22.785600",
+        "longitude": "-43.311700",
+        "cidade": "DUQUE DE CAXIAS",
+        "estado": "RJ"
+      },
+      "fonte": {
+        "nome": "INMET",
+        "tipo": "API",
+        "descricao": "INSTITUTO NACIONAL DE METEOROLOGIA"
+      },
+      "data_hora": "2026-10-20T14:00:00",
+      "temperatura": "33.7",
+      "umidade": "62",
+      "precipitacao": "0.0"
+    },
+    {
+      "ponto": {
+        "nome": "ESTACAO CAXIAS CENTRO",
+        "latitude": "-22.785600",
+        "longitude": "-43.311700",
+        "cidade": "DUQUE DE CAXIAS",
+        "estado": "RJ"
+      },
+      "fonte": {
+        "nome": "INMET",
+        "tipo": "API",
+        "descricao": "INSTITUTO NACIONAL DE METEOROLOGIA"
+      },
+      "data_hora": "2026-10-20T15:00:00",
+      "temperatura": "33.4",
+      "umidade": "58",
+      "precipitacao": "0.0"
+    },
+    {
+      "ponto": {
+        "nome": "ESTACAO CAXIAS CENTRO",
+        "latitude": "-22.785600",
+        "longitude": "-43.311700",
+        "cidade": "DUQUE DE CAXIAS",
+        "estado": "RJ"
+      },
+      "fonte": {
+        "nome": "INMET",
+        "tipo": "API",
+        "descricao": "INSTITUTO NACIONAL DE METEOROLOGIA"
+      },
+      "data_hora": "2026-10-20T16:00:00",
+      "temperatura": "33.0",
+      "umidade": "58",
+      "precipitacao": "0.0"
+    },
+    {
+      "ponto": {
+        "nome": "ESTACAO CAXIAS CENTRO",
+        "latitude": "-22.785600",
+        "longitude": "-43.311700",
+        "cidade": "DUQUE DE CAXIAS",
+        "estado": "RJ"
+      },
+      "fonte": {
+        "nome": "INMET",
+        "tipo": "API",
+        "descricao": "INSTITUTO NACIONAL DE METEOROLOGIA"
+      },
+      "data_hora": "2026-10-20T17:00:00",
+      "temperatura": "30.5",
+      "umidade": "73",
+      "precipitacao": "2.8"
+    },
+    {
+      "ponto": {
+        "nome": "ESTACAO CAXIAS CENTRO",
+        "latitude": "-22.785600",
+        "longitude": "-43.311700",
+        "cidade": "DUQUE DE CAXIAS",
+        "estado": "RJ"
+      },
+      "fonte": {
+        "nome": "INMET",
+        "tipo": "API",
+        "descricao": "INSTITUTO NACIONAL DE METEOROLOGIA"
+      },
+      "data_hora": "2026-10-20T18:00:00",
+      "temperatura": "28.4",
+      "umidade": "77",
+      "precipitacao": "5.8"
+    },
+    {
+      "ponto": {
+        "nome": "ESTACAO CAXIAS CENTRO",
+        "latitude": "-22.785600",
+        "longitude": "-43.311700",
+        "cidade": "DUQUE DE CAXIAS",
+        "estado": "RJ"
+      },
+      "fonte": {
+        "nome": "INMET",
+        "tipo": "API",
+        "descricao": "INSTITUTO NACIONAL DE METEOROLOGIA"
+      },
+      "data_hora": "2026-10-20T19:00:00",
+      "temperatura": "28.1",
+      "umidade": "80",
+      "precipitacao": "2.6"
+    },
+    {
+      "ponto": {
+        "nome": "ESTACAO CAXIAS CENTRO",
+        "latitude": "-22.785600",
+        "longitude": "-43.311700",
+        "cidade": "DUQUE DE CAXIAS",
+        "estado": "RJ"
+      },
+      "fonte": {
+        "nome": "INMET",
+        "tipo": "API",
+        "descricao": "INSTITUTO NACIONAL DE METEOROLOGIA"
+      },
+      "data_hora": "2026-10-20T20:00:00",
+      "temperatura": "28.5",
+      "umidade": "73",
+      "precipitacao": "0.0"
+    },
+    {
+      "ponto": {
+        "nome": "ESTACAO CAXIAS CENTRO",
+        "latitude": "-22.785600",
+        "longitude": "-43.311700",
+        "cidade": "DUQUE DE CAXIAS",
+        "estado": "RJ"
+      },
+      "fonte": {
+        "nome": "SENSOR CAXIAS",
+        "tipo": "SENSOR",
+        "descricao": "SENSOR DE CAMPO INSTALADO NO PONTO"
+      },
+      "data_hora": "2026-10-20T08:00:00",
+      "temperatura": "22.6",
+      "umidade": "87",
+      "precipitacao": "0.0"
+    },
+    {
+      "ponto": {
+        "nome": "ESTACAO CAXIAS CENTRO",
+        "latitude": "-22.785600",
+        "longitude": "-43.311700",
+        "cidade": "DUQUE DE CAXIAS",
+        "estado": "RJ"
+      },
+      "fonte": {
+        "nome": "SENSOR CAXIAS",
+        "tipo": "SENSOR",
+        "descricao": "SENSOR DE CAMPO INSTALADO NO PONTO"
+      },
+      "data_hora": "2026-10-20T09:00:00",
+      "temperatura": "22.9",
+      "umidade": "86",
+      "precipitacao": "0.0"
+    },
+    {
+      "ponto": {
+        "nome": "ESTACAO CAXIAS CENTRO",
+        "latitude": "-22.785600",
+        "longitude": "-43.311700",
+        "cidade": "DUQUE DE CAXIAS",
+        "estado": "RJ"
+      },
+      "fonte": {
+        "nome": "SENSOR CAXIAS",
+        "tipo": "SENSOR",
+        "descricao": "SENSOR DE CAMPO INSTALADO NO PONTO"
+      },
+      "data_hora": "2026-10-20T10:00:00",
+      "temperatura": "24.6",
+      "umidade": "77",
+      "precipitacao": "0.0"
+    },
+    {
+      "ponto": {
+        "nome": "ESTACAO CAXIAS CENTRO",
+        "latitude": "-22.785600",
+        "longitude": "-43.311700",
+        "cidade": "DUQUE DE CAXIAS",
+        "estado": "RJ"
+      },
+      "fonte": {
+        "nome": "SENSOR CAXIAS",
+        "tipo": "SENSOR",
+        "descricao": "SENSOR DE CAMPO INSTALADO NO PONTO"
+      },
+      "data_hora": "2026-10-20T11:00:00",
+      "temperatura": "27.0",
+      "umidade": "75",
+      "precipitacao": "0.0"
+    },
+    {
+      "ponto": {
+        "nome": "ESTACAO CAXIAS CENTRO",
+        "latitude": "-22.785600",
+        "longitude": "-43.311700",
+        "cidade": "DUQUE DE CAXIAS",
+        "estado": "RJ"
+      },
+      "fonte": {
+        "nome": "SENSOR CAXIAS",
+        "tipo": "SENSOR",
+        "descricao": "SENSOR DE CAMPO INSTALADO NO PONTO"
+      },
+      "data_hora": "2026-10-20T12:00:00",
+      "temperatura": "29.8",
+      "umidade": "69",
+      "precipitacao": "0.0"
+    },
+    {
+      "ponto": {
+        "nome": "ESTACAO CAXIAS CENTRO",
+        "latitude": "-22.785600",
+        "longitude": "-43.311700",
+        "cidade": "DUQUE DE CAXIAS",
+        "estado": "RJ"
+      },
+      "fonte": {
+        "nome": "SENSOR CAXIAS",
+        "tipo": "SENSOR",
+        "descricao": "SENSOR DE CAMPO INSTALADO NO PONTO"
+      },
+      "data_hora": "2026-10-20T13:00:00",
+      "temperatura": "31.8",
+      "umidade": "63",
+      "precipitacao": "0.0"
+    },
+    {
+      "ponto": {
+        "nome": "ESTACAO CAXIAS CENTRO",
+        "latitude": "-22.785600",
+        "longitude": "-43.311700",
+        "cidade": "DUQUE DE CAXIAS",
+        "estado": "RJ"
+      },
+      "fonte": {
+        "nome": "SENSOR CAXIAS",
+        "tipo": "SENSOR",
+        "descricao": "SENSOR DE CAMPO INSTALADO NO PONTO"
+      },
+      "data_hora": "2026-10-20T14:00:00",
+      "temperatura": "32.6",
+      "umidade": "64",
+      "precipitacao": "0.0"
+    },
+    {
+      "ponto": {
+        "nome": "ESTACAO CAXIAS CENTRO",
+        "latitude": "-22.785600",
+        "longitude": "-43.311700",
+        "cidade": "DUQUE DE CAXIAS",
+        "estado": "RJ"
+      },
+      "fonte": {
+        "nome": "SENSOR CAXIAS",
+        "tipo": "SENSOR",
+        "descricao": "SENSOR DE CAMPO INSTALADO NO PONTO"
+      },
+      "data_hora": "2026-10-20T15:00:00",
+      "temperatura": "33.0",
+      "umidade": "63",
+      "precipitacao": "0.0"
+    },
+    {
+      "ponto": {
+        "nome": "ESTACAO CAXIAS CENTRO",
+        "latitude": "-22.785600",
+        "longitude": "-43.311700",
+        "cidade": "DUQUE DE CAXIAS",
+        "estado": "RJ"
+      },
+      "fonte": {
+        "nome": "SENSOR CAXIAS",
+        "tipo": "SENSOR",
+        "descricao": "SENSOR DE CAMPO INSTALADO NO PONTO"
+      },
+      "data_hora": "2026-10-20T16:00:00",
+      "temperatura": "32.4",
+      "umidade": "64",
+      "precipitacao": "0.0"
+    },
+    {
+      "ponto": {
+        "nome": "ESTACAO CAXIAS CENTRO",
+        "latitude": "-22.785600",
+        "longitude": "-43.311700",
+        "cidade": "DUQUE DE CAXIAS",
+        "estado": "RJ"
+      },
+      "fonte": {
+        "nome": "SENSOR CAXIAS",
+        "tipo": "SENSOR",
+        "descricao": "SENSOR DE CAMPO INSTALADO NO PONTO"
+      },
+      "data_hora": "2026-10-20T17:00:00",
+      "temperatura": "30.3",
+      "umidade": "72",
+      "precipitacao": "2.5"
+    },
+    {
+      "ponto": {
+        "nome": "ESTACAO CAXIAS CENTRO",
+        "latitude": "-22.785600",
+        "longitude": "-43.311700",
+        "cidade": "DUQUE DE CAXIAS",
+        "estado": "RJ"
+      },
+      "fonte": {
+        "nome": "SENSOR CAXIAS",
+        "tipo": "SENSOR",
+        "descricao": "SENSOR DE CAMPO INSTALADO NO PONTO"
+      },
+      "data_hora": "2026-10-20T18:00:00",
+      "temperatura": "27.9",
+      "umidade": "79",
+      "precipitacao": "5.4"
+    },
+    {
+      "ponto": {
+        "nome": "ESTACAO CAXIAS CENTRO",
+        "latitude": "-22.785600",
+        "longitude": "-43.311700",
+        "cidade": "DUQUE DE CAXIAS",
+        "estado": "RJ"
+      },
+      "fonte": {
+        "nome": "SENSOR CAXIAS",
+        "tipo": "SENSOR",
+        "descricao": "SENSOR DE CAMPO INSTALADO NO PONTO"
+      },
+      "data_hora": "2026-10-20T19:00:00",
+      "temperatura": "27.9",
+      "umidade": "77",
+      "precipitacao": "2.4"
+    },
+    {
+      "ponto": {
+        "nome": "ESTACAO CAXIAS CENTRO",
+        "latitude": "-22.785600",
+        "longitude": "-43.311700",
+        "cidade": "DUQUE DE CAXIAS",
+        "estado": "RJ"
+      },
+      "fonte": {
+        "nome": "SENSOR CAXIAS",
+        "tipo": "SENSOR",
+        "descricao": "SENSOR DE CAMPO INSTALADO NO PONTO"
+      },
+      "data_hora": "2026-10-20T20:00:00",
+      "temperatura": "27.9",
+      "umidade": "74",
+      "precipitacao": "0.0"
+    }
+  ]
+}

@@ -1,0 +1,94 @@
+{
+  "observacoes": [
+    {
+      "ponto": {
+        "nome": "ESTACAO CENTRAL",
+        "latitude": "-22.903500",
+        "longitude": "-43.209600",
+        "cidade": "RIO DE JANEIRO",
+        "estado": "RJ"
+      },
+      "fonte": {
+        "nome": "INMET",
+        "tipo": "API",
+        "descricao": "INSTITUTO NACIONAL DE METEOROLOGIA"
+      },
+      "data_hora": "2026-10-18T08:00:00",
+      "temperatura": "23.5",
+      "umidade": "72",
+      "precipitacao": "0.0"
+    },
+    {
+      "ponto": {
+        "nome": "ESTACAO CENTRAL",
+        "latitude": "-22.903500",
+        "longitude": "-43.209600",
+        "cidade": "RIO DE JANEIRO",
+        "estado": "RJ"
+      },
+      "fonte": {
+        "nome": "INMET",
+        "tipo": "API",
+        "descricao": "INSTITUTO NACIONAL DE METEOROLOGIA"
+      },
+      "data_hora": "2026-10-18T08:00:00",
+      "temperatura": "23.5",
+      "umidade": "72",
+      "precipitacao": "0.0"
+    },
+    {
+      "ponto": {
+        "nome": "ESTACAO SERRANA",
+        "latitude": "-22.461000",
+        "longitude": "-42.653000",
+        "cidade": "TERESOPOLIS",
+        "estado": "RJ"
+      },
+      "fonte": {
+        "nome": "INMET",
+        "tipo": "API",
+        "descricao": "INSTITUTO NACIONAL DE METEOROLOGIA"
+      },
+      "data_hora": "2026-10-18T09:00:00",
+      "temperatura": "75",
+      "umidade": "70",
+      "precipitacao": "0.0"
+    },
+    {
+      "ponto": {
+        "nome": "ESTACAO LITORANEA",
+        "latitude": "-22.883200",
+        "longitude": "-42.017000",
+        "cidade": "ARRAIAL DO CABO",
+        "estado": "RJ"
+      },
+      "fonte": {
+        "nome": "OPEN-METEO",
+        "tipo": "API",
+        "descricao": "SERVICO METEOROLOGICO"
+      },
+      "data_hora": "2026-10-18T10:00:00",
+      "temperatura": "26.4",
+      "umidade": "120",
+      "precipitacao": "0.0"
+    },
+    {
+      "ponto": {
+        "nome": "ESTACAO NORTE",
+        "latitude": "-22.700000",
+        "longitude": "-43.000000",
+        "cidade": "MAGÉ",
+        "estado": "RJ"
+      },
+      "fonte": {
+        "nome": "FONTE LOCAL",
+        "tipo": "SENSOR",
+        "descricao": "SENSOR DE TESTE"
+      },
+      "data_hora": "2026-10-18T11:00:00",
+      "temperatura": "22.0",
+      "umidade": "70",
+      "precipitacao": "-1.0"
+    }
+  ]
+}

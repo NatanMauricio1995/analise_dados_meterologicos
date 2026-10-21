@@ -1,0 +1,2524 @@
+{
+  "observacoes": [
+    {
+      "ponto": {
+        "nome": "PONTO SIMULADO - RIO DE JANEIRO",
+        "latitude": -22.9068,
+        "longitude": -43.1729,
+        "cidade": "Rio de Janeiro",
+        "estado": "RJ"
+      },
+      "fonte": {
+        "nome": "SIMULADOR NIMBUS",
+        "tipo": "SIMULADO",
+        "descricao": "DADOS FICTICIOS DE DEMONSTRACAO - NAO SAO MEDICOES REAIS"
+      },
+      "data_hora": "2026-10-13T00:00:00",
+      "temperatura": 23.1,
+      "umidade": 81,
+      "precipitacao": 0
+    },
+    {
+      "ponto": {
+        "nome": "PONTO SIMULADO - RIO DE JANEIRO",
+        "latitude": -22.9068,
+        "longitude": -43.1729,
+        "cidade": "Rio de Janeiro",
+        "estado": "RJ"
+      },
+      "fonte": {
+        "nome": "SIMULADOR NIMBUS COMPARATIVO",
+        "tipo": "SIMULADO",
+        "descricao": "SEGUNDA FONTE FICTICIA PARA TESTAR FILTROS E COMPARACOES"
+      },
+      "data_hora": "2026-10-13T00:00:00",
+      "temperatura": 23.5,
+      "umidade": 83,
+      "precipitacao": 0
+    },
+    {
+      "ponto": {
+        "nome": "PONTO SIMULADO - PETROPOLIS",
+        "latitude": -22.5108,
+        "longitude": -43.1779,
+        "cidade": "Petropolis",
+        "estado": "RJ"
+      },
+      "fonte": {
+        "nome": "SIMULADOR NIMBUS",
+        "tipo": "SIMULADO",
+        "descricao": "DADOS FICTICIOS DE DEMONSTRACAO - NAO SAO MEDICOES REAIS"
+      },
+      "data_hora": "2026-10-13T00:00:00",
+      "temperatura": 17.2,
+      "umidade": 87,
+      "precipitacao": 0
+    },
+    {
+      "ponto": {
+        "nome": "PONTO SIMULADO - TERESOPOLIS",
+        "latitude": -22.412,
+        "longitude": -42.9659,
+        "cidade": "Teresopolis",
+        "estado": "RJ"
+      },
+      "fonte": {
+        "nome": "SIMULADOR NIMBUS",
+        "tipo": "SIMULADO",
+        "descricao": "DADOS FICTICIOS DE DEMONSTRACAO - NAO SAO MEDICOES REAIS"
+      },
+      "data_hora": "2026-10-13T00:00:00",
+      "temperatura": 17.2,
+      "umidade": 86,
+      "precipitacao": 0
+    },
+    {
+      "ponto": {
+        "nome": "PONTO SIMULADO - CABO FRIO",
+        "latitude": -22.8795,
+        "longitude": -42.0187,
+        "cidade": "Cabo Frio",
+        "estado": "RJ"
+      },
+      "fonte": {
+        "nome": "SIMULADOR NIMBUS",
+        "tipo": "SIMULADO",
+        "descricao": "DADOS FICTICIOS DE DEMONSTRACAO - NAO SAO MEDICOES REAIS"
+      },
+      "data_hora": "2026-10-13T00:00:00",
+      "temperatura": 21.7,
+      "umidade": 84,
+      "precipitacao": 0
+    },
+    {
+      "ponto": {
+        "nome": "PONTO SIMULADO - RIO DE JANEIRO",
+        "latitude": -22.9068,
+        "longitude": -43.1729,
+        "cidade": "Rio de Janeiro",
+        "estado": "RJ"
+      },
+      "fonte": {
+        "nome": "SIMULADOR NIMBUS",
+        "tipo": "SIMULADO",
+        "descricao": "DADOS FICTICIOS DE DEMONSTRACAO - NAO SAO MEDICOES REAIS"
+      },
+      "data_hora": "2026-10-13T06:00:00",
+      "temperatura": 21.8,
+      "umidade": 84,
+      "precipitacao": 0
+    },
+    {
+      "ponto": {
+        "nome": "PONTO SIMULADO - RIO DE JANEIRO",
+        "latitude": -22.9068,
+        "longitude": -43.1729,
+        "cidade": "Rio de Janeiro",
+        "estado": "RJ"
+      },
+      "fonte": {
+        "nome": "SIMULADOR NIMBUS COMPARATIVO",
+        "tipo": "SIMULADO",
+        "descricao": "SEGUNDA FONTE FICTICIA PARA TESTAR FILTROS E COMPARACOES"
+      },
+      "data_hora": "2026-10-13T06:00:00",
+      "temperatura": 22.2,
+      "umidade": 86,
+      "precipitacao": 0
+    },
+    {
+      "ponto": {
+        "nome": "PONTO SIMULADO - PETROPOLIS",
+        "latitude": -22.5108,
+        "longitude": -43.1779,
+        "cidade": "Petropolis",
+        "estado": "RJ"
+      },
+      "fonte": {
+        "nome": "SIMULADOR NIMBUS",
+        "tipo": "SIMULADO",
+        "descricao": "DADOS FICTICIOS DE DEMONSTRACAO - NAO SAO MEDICOES REAIS"
+      },
+      "data_hora": "2026-10-13T06:00:00",
+      "temperatura": 15.9,
+      "umidade": 90,
+      "precipitacao": 0
+    },
+    {
+      "ponto": {
+        "nome": "PONTO SIMULADO - TERESOPOLIS",
+        "latitude": -22.412,
+        "longitude": -42.9659,
+        "cidade": "Teresopolis",
+        "estado": "RJ"
+      },
+      "fonte": {
+        "nome": "SIMULADOR NIMBUS",
+        "tipo": "SIMULADO",
+        "descricao": "DADOS FICTICIOS DE DEMONSTRACAO - NAO SAO MEDICOES REAIS"
+      },
+      "data_hora": "2026-10-13T06:00:00",
+      "temperatura": 15.9,
+      "umidade": 89,
+      "precipitacao": 0
+    },
+    {
+      "ponto": {
+        "nome": "PONTO SIMULADO - CABO FRIO",
+        "latitude": -22.8795,
+        "longitude": -42.0187,
+        "cidade": "Cabo Frio",
+        "estado": "RJ"
+      },
+      "fonte": {
+        "nome": "SIMULADOR NIMBUS",
+        "tipo": "SIMULADO",
+        "descricao": "DADOS FICTICIOS DE DEMONSTRACAO - NAO SAO MEDICOES REAIS"
+      },
+      "data_hora": "2026-10-13T06:00:00",
+      "temperatura": 20.4,
+      "umidade": 87,
+      "precipitacao": 0
+    },
+    {
+      "ponto": {
+        "nome": "PONTO SIMULADO - RIO DE JANEIRO",
+        "latitude": -22.9068,
+        "longitude": -43.1729,
+        "cidade": "Rio de Janeiro",
+        "estado": "RJ"
+      },
+      "fonte": {
+        "nome": "SIMULADOR NIMBUS",
+        "tipo": "SIMULADO",
+        "descricao": "DADOS FICTICIOS DE DEMONSTRACAO - NAO SAO MEDICOES REAIS"
+      },
+      "data_hora": "2026-10-13T12:00:00",
+      "temperatura": 29.6,
+      "umidade": 56,
+      "precipitacao": 0
+    },
+    {
+      "ponto": {
+        "nome": "PONTO SIMULADO - RIO DE JANEIRO",
+        "latitude": -22.9068,
+        "longitude": -43.1729,
+        "cidade": "Rio de Janeiro",
+        "estado": "RJ"
+      },
+      "fonte": {
+        "nome": "SIMULADOR NIMBUS COMPARATIVO",
+        "tipo": "SIMULADO",
+        "descricao": "SEGUNDA FONTE FICTICIA PARA TESTAR FILTROS E COMPARACOES"
+      },
+      "data_hora": "2026-10-13T12:00:00",
+      "temperatura": 30.0,
+      "umidade": 58,
+      "precipitacao": 0
+    },
+    {
+      "ponto": {
+        "nome": "PONTO SIMULADO - PETROPOLIS",
+        "latitude": -22.5108,
+        "longitude": -43.1779,
+        "cidade": "Petropolis",
+        "estado": "RJ"
+      },
+      "fonte": {
+        "nome": "SIMULADOR NIMBUS",
+        "tipo": "SIMULADO",
+        "descricao": "DADOS FICTICIOS DE DEMONSTRACAO - NAO SAO MEDICOES REAIS"
+      },
+      "data_hora": "2026-10-13T12:00:00",
+      "temperatura": 23.7,
+      "umidade": 62,
+      "precipitacao": 0
+    },
+    {
+      "ponto": {
+        "nome": "PONTO SIMULADO - TERESOPOLIS",
+        "latitude": -22.412,
+        "longitude": -42.9659,
+        "cidade": "Teresopolis",
+        "estado": "RJ"
+      },
+      "fonte": {
+        "nome": "SIMULADOR NIMBUS",
+        "tipo": "SIMULADO",
+        "descricao": "DADOS FICTICIOS DE DEMONSTRACAO - NAO SAO MEDICOES REAIS"
+      },
+      "data_hora": "2026-10-13T12:00:00",
+      "temperatura": 23.7,
+      "umidade": 61,
+      "precipitacao": 0
+    },
+    {
+      "ponto": {
+        "nome": "PONTO SIMULADO - CABO FRIO",
+        "latitude": -22.8795,
+        "longitude": -42.0187,
+        "cidade": "Cabo Frio",
+        "estado": "RJ"
+      },
+      "fonte": {
+        "nome": "SIMULADOR NIMBUS",
+        "tipo": "SIMULADO",
+        "descricao": "DADOS FICTICIOS DE DEMONSTRACAO - NAO SAO MEDICOES REAIS"
+      },
+      "data_hora": "2026-10-13T12:00:00",
+      "temperatura": 28.2,
+      "umidade": 59,
+      "precipitacao": 0
+    },
+    {
+      "ponto": {
+        "nome": "PONTO SIMULADO - RIO DE JANEIRO",
+        "latitude": -22.9068,
+        "longitude": -43.1729,
+        "cidade": "Rio de Janeiro",
+        "estado": "RJ"
+      },
+      "fonte": {
+        "nome": "SIMULADOR NIMBUS",
+        "tipo": "SIMULADO",
+        "descricao": "DADOS FICTICIOS DE DEMONSTRACAO - NAO SAO MEDICOES REAIS"
+      },
+      "data_hora": "2026-10-13T18:00:00",
+      "temperatura": 26.8,
+      "umidade": 70,
+      "precipitacao": 0
+    },
+    {
+      "ponto": {
+        "nome": "PONTO SIMULADO - RIO DE JANEIRO",
+        "latitude": -22.9068,
+        "longitude": -43.1729,
+        "cidade": "Rio de Janeiro",
+        "estado": "RJ"
+      },
+      "fonte": {
+        "nome": "SIMULADOR NIMBUS COMPARATIVO",
+        "tipo": "SIMULADO",
+        "descricao": "SEGUNDA FONTE FICTICIA PARA TESTAR FILTROS E COMPARACOES"
+      },
+      "data_hora": "2026-10-13T18:00:00",
+      "temperatura": 27.2,
+      "umidade": 72,
+      "precipitacao": 0
+    },
+    {
+      "ponto": {
+        "nome": "PONTO SIMULADO - PETROPOLIS",
+        "latitude": -22.5108,
+        "longitude": -43.1779,
+        "cidade": "Petropolis",
+        "estado": "RJ"
+      },
+      "fonte": {
+        "nome": "SIMULADOR NIMBUS",
+        "tipo": "SIMULADO",
+        "descricao": "DADOS FICTICIOS DE DEMONSTRACAO - NAO SAO MEDICOES REAIS"
+      },
+      "data_hora": "2026-10-13T18:00:00",
+      "temperatura": 20.9,
+      "umidade": 76,
+      "precipitacao": 0
+    },
+    {
+      "ponto": {
+        "nome": "PONTO SIMULADO - TERESOPOLIS",
+        "latitude": -22.412,
+        "longitude": -42.9659,
+        "cidade": "Teresopolis",
+        "estado": "RJ"
+      },
+      "fonte": {
+        "nome": "SIMULADOR NIMBUS",
+        "tipo": "SIMULADO",
+        "descricao": "DADOS FICTICIOS DE DEMONSTRACAO - NAO SAO MEDICOES REAIS"
+      },
+      "data_hora": "2026-10-13T18:00:00",
+      "temperatura": 20.9,
+      "umidade": 75,
+      "precipitacao": 0
+    },
+    {
+      "ponto": {
+        "nome": "PONTO SIMULADO - CABO FRIO",
+        "latitude": -22.8795,
+        "longitude": -42.0187,
+        "cidade": "Cabo Frio",
+        "estado": "RJ"
+      },
+      "fonte": {
+        "nome": "SIMULADOR NIMBUS",
+        "tipo": "SIMULADO",
+        "descricao": "DADOS FICTICIOS DE DEMONSTRACAO - NAO SAO MEDICOES REAIS"
+      },
+      "data_hora": "2026-10-13T18:00:00",
+      "temperatura": 25.4,
+      "umidade": 73,
+      "precipitacao": 0
+    },
+    {
+      "ponto": {
+        "nome": "PONTO SIMULADO - RIO DE JANEIRO",
+        "latitude": -22.9068,
+        "longitude": -43.1729,
+        "cidade": "Rio de Janeiro",
+        "estado": "RJ"
+      },
+      "fonte": {
+        "nome": "SIMULADOR NIMBUS",
+        "tipo": "SIMULADO",
+        "descricao": "DADOS FICTICIOS DE DEMONSTRACAO - NAO SAO MEDICOES REAIS"
+      },
+      "data_hora": "2026-10-14T00:00:00",
+      "temperatura": 21.4,
+      "umidade": 86,
+      "precipitacao": 0.6
+    },
+    {
+      "ponto": {
+        "nome": "PONTO SIMULADO - RIO DE JANEIRO",
+        "latitude": -22.9068,
+        "longitude": -43.1729,
+        "cidade": "Rio de Janeiro",
+        "estado": "RJ"
+      },
+      "fonte": {
+        "nome": "SIMULADOR NIMBUS COMPARATIVO",
+        "tipo": "SIMULADO",
+        "descricao": "SEGUNDA FONTE FICTICIA PARA TESTAR FILTROS E COMPARACOES"
+      },
+      "data_hora": "2026-10-14T00:00:00",
+      "temperatura": 21.8,
+      "umidade": 88,
+      "precipitacao": 0.9
+    },
+    {
+      "ponto": {
+        "nome": "PONTO SIMULADO - PETROPOLIS",
+        "latitude": -22.5108,
+        "longitude": -43.1779,
+        "cidade": "Petropolis",
+        "estado": "RJ"
+      },
+      "fonte": {
+        "nome": "SIMULADOR NIMBUS",
+        "tipo": "SIMULADO",
+        "descricao": "DADOS FICTICIOS DE DEMONSTRACAO - NAO SAO MEDICOES REAIS"
+      },
+      "data_hora": "2026-10-14T00:00:00",
+      "temperatura": 15.5,
+      "umidade": 92,
+      "precipitacao": 0.78
+    },
+    {
+      "ponto": {
+        "nome": "PONTO SIMULADO - TERESOPOLIS",
+        "latitude": -22.412,
+        "longitude": -42.9659,
+        "cidade": "Teresopolis",
+        "estado": "RJ"
+      },
+      "fonte": {
+        "nome": "SIMULADOR NIMBUS",
+        "tipo": "SIMULADO",
+        "descricao": "DADOS FICTICIOS DE DEMONSTRACAO - NAO SAO MEDICOES REAIS"
+      },
+      "data_hora": "2026-10-14T00:00:00",
+      "temperatura": 14.6,
+      "umidade": 97,
+      "precipitacao": 0.72
+    },
+    {
+      "ponto": {
+        "nome": "PONTO SIMULADO - CABO FRIO",
+        "latitude": -22.8795,
+        "longitude": -42.0187,
+        "cidade": "Cabo Frio",
+        "estado": "RJ"
+      },
+      "fonte": {
+        "nome": "SIMULADOR NIMBUS",
+        "tipo": "SIMULADO",
+        "descricao": "DADOS FICTICIOS DE DEMONSTRACAO - NAO SAO MEDICOES REAIS"
+      },
+      "data_hora": "2026-10-14T00:00:00",
+      "temperatura": 20.0,
+      "umidade": 89,
+      "precipitacao": 0.48
+    },
+    {
+      "ponto": {
+        "nome": "PONTO SIMULADO - RIO DE JANEIRO",
+        "latitude": -22.9068,
+        "longitude": -43.1729,
+        "cidade": "Rio de Janeiro",
+        "estado": "RJ"
+      },
+      "fonte": {
+        "nome": "SIMULADOR NIMBUS",
+        "tipo": "SIMULADO",
+        "descricao": "DADOS FICTICIOS DE DEMONSTRACAO - NAO SAO MEDICOES REAIS"
+      },
+      "data_hora": "2026-10-14T06:00:00",
+      "temperatura": 20.1,
+      "umidade": 89,
+      "precipitacao": 1.5
+    },
+    {
+      "ponto": {
+        "nome": "PONTO SIMULADO - RIO DE JANEIRO",
+        "latitude": -22.9068,
+        "longitude": -43.1729,
+        "cidade": "Rio de Janeiro",
+        "estado": "RJ"
+      },
+      "fonte": {
+        "nome": "SIMULADOR NIMBUS COMPARATIVO",
+        "tipo": "SIMULADO",
+        "descricao": "SEGUNDA FONTE FICTICIA PARA TESTAR FILTROS E COMPARACOES"
+      },
+      "data_hora": "2026-10-14T06:00:00",
+      "temperatura": 20.5,
+      "umidade": 91,
+      "precipitacao": 1.8
+    },
+    {
+      "ponto": {
+        "nome": "PONTO SIMULADO - PETROPOLIS",
+        "latitude": -22.5108,
+        "longitude": -43.1779,
+        "cidade": "Petropolis",
+        "estado": "RJ"
+      },
+      "fonte": {
+        "nome": "SIMULADOR NIMBUS",
+        "tipo": "SIMULADO",
+        "descricao": "DADOS FICTICIOS DE DEMONSTRACAO - NAO SAO MEDICOES REAIS"
+      },
+      "data_hora": "2026-10-14T06:00:00",
+      "temperatura": 14.2,
+      "umidade": 95,
+      "precipitacao": 1.95
+    },
+    {
+      "ponto": {
+        "nome": "PONTO SIMULADO - TERESOPOLIS",
+        "latitude": -22.412,
+        "longitude": -42.9659,
+        "cidade": "Teresopolis",
+        "estado": "RJ"
+      },
+      "fonte": {
+        "nome": "SIMULADOR NIMBUS",
+        "tipo": "SIMULADO",
+        "descricao": "DADOS FICTICIOS DE DEMONSTRACAO - NAO SAO MEDICOES REAIS"
+      },
+      "data_hora": "2026-10-14T06:00:00",
+      "temperatura": 13.3,
+      "umidade": 99,
+      "precipitacao": 1.8
+    },
+    {
+      "ponto": {
+        "nome": "PONTO SIMULADO - CABO FRIO",
+        "latitude": -22.8795,
+        "longitude": -42.0187,
+        "cidade": "Cabo Frio",
+        "estado": "RJ"
+      },
+      "fonte": {
+        "nome": "SIMULADOR NIMBUS",
+        "tipo": "SIMULADO",
+        "descricao": "DADOS FICTICIOS DE DEMONSTRACAO - NAO SAO MEDICOES REAIS"
+      },
+      "data_hora": "2026-10-14T06:00:00",
+      "temperatura": 18.7,
+      "umidade": 92,
+      "precipitacao": 1.2
+    },
+    {
+      "ponto": {
+        "nome": "PONTO SIMULADO - RIO DE JANEIRO",
+        "latitude": -22.9068,
+        "longitude": -43.1729,
+        "cidade": "Rio de Janeiro",
+        "estado": "RJ"
+      },
+      "fonte": {
+        "nome": "SIMULADOR NIMBUS",
+        "tipo": "SIMULADO",
+        "descricao": "DADOS FICTICIOS DE DEMONSTRACAO - NAO SAO MEDICOES REAIS"
+      },
+      "data_hora": "2026-10-14T12:00:00",
+      "temperatura": 27.9,
+      "umidade": 61,
+      "precipitacao": 3.5
+    },
+    {
+      "ponto": {
+        "nome": "PONTO SIMULADO - RIO DE JANEIRO",
+        "latitude": -22.9068,
+        "longitude": -43.1729,
+        "cidade": "Rio de Janeiro",
+        "estado": "RJ"
+      },
+      "fonte": {
+        "nome": "SIMULADOR NIMBUS COMPARATIVO",
+        "tipo": "SIMULADO",
+        "descricao": "SEGUNDA FONTE FICTICIA PARA TESTAR FILTROS E COMPARACOES"
+      },
+      "data_hora": "2026-10-14T12:00:00",
+      "temperatura": 28.3,
+      "umidade": 63,
+      "precipitacao": 3.8
+    },
+    {
+      "ponto": {
+        "nome": "PONTO SIMULADO - PETROPOLIS",
+        "latitude": -22.5108,
+        "longitude": -43.1779,
+        "cidade": "Petropolis",
+        "estado": "RJ"
+      },
+      "fonte": {
+        "nome": "SIMULADOR NIMBUS",
+        "tipo": "SIMULADO",
+        "descricao": "DADOS FICTICIOS DE DEMONSTRACAO - NAO SAO MEDICOES REAIS"
+      },
+      "data_hora": "2026-10-14T12:00:00",
+      "temperatura": 22.0,
+      "umidade": 67,
+      "precipitacao": 4.55
+    },
+    {
+      "ponto": {
+        "nome": "PONTO SIMULADO - TERESOPOLIS",
+        "latitude": -22.412,
+        "longitude": -42.9659,
+        "cidade": "Teresopolis",
+        "estado": "RJ"
+      },
+      "fonte": {
+        "nome": "SIMULADOR NIMBUS",
+        "tipo": "SIMULADO",
+        "descricao": "DADOS FICTICIOS DE DEMONSTRACAO - NAO SAO MEDICOES REAIS"
+      },
+      "data_hora": "2026-10-14T12:00:00",
+      "temperatura": 21.1,
+      "umidade": 72,
+      "precipitacao": 4.2
+    },
+    {
+      "ponto": {
+        "nome": "PONTO SIMULADO - CABO FRIO",
+        "latitude": -22.8795,
+        "longitude": -42.0187,
+        "cidade": "Cabo Frio",
+        "estado": "RJ"
+      },
+      "fonte": {
+        "nome": "SIMULADOR NIMBUS",
+        "tipo": "SIMULADO",
+        "descricao": "DADOS FICTICIOS DE DEMONSTRACAO - NAO SAO MEDICOES REAIS"
+      },
+      "data_hora": "2026-10-14T12:00:00",
+      "temperatura": 26.5,
+      "umidade": 64,
+      "precipitacao": 2.8
+    },
+    {
+      "ponto": {
+        "nome": "PONTO SIMULADO - RIO DE JANEIRO",
+        "latitude": -22.9068,
+        "longitude": -43.1729,
+        "cidade": "Rio de Janeiro",
+        "estado": "RJ"
+      },
+      "fonte": {
+        "nome": "SIMULADOR NIMBUS",
+        "tipo": "SIMULADO",
+        "descricao": "DADOS FICTICIOS DE DEMONSTRACAO - NAO SAO MEDICOES REAIS"
+      },
+      "data_hora": "2026-10-14T18:00:00",
+      "temperatura": 25.1,
+      "umidade": 75,
+      "precipitacao": 0.9
+    },
+    {
+      "ponto": {
+        "nome": "PONTO SIMULADO - RIO DE JANEIRO",
+        "latitude": -22.9068,
+        "longitude": -43.1729,
+        "cidade": "Rio de Janeiro",
+        "estado": "RJ"
+      },
+      "fonte": {
+        "nome": "SIMULADOR NIMBUS COMPARATIVO",
+        "tipo": "SIMULADO",
+        "descricao": "SEGUNDA FONTE FICTICIA PARA TESTAR FILTROS E COMPARACOES"
+      },
+      "data_hora": "2026-10-14T18:00:00",
+      "temperatura": 25.5,
+      "umidade": 77,
+      "precipitacao": 1.2
+    },
+    {
+      "ponto": {
+        "nome": "PONTO SIMULADO - PETROPOLIS",
+        "latitude": -22.5108,
+        "longitude": -43.1779,
+        "cidade": "Petropolis",
+        "estado": "RJ"
+      },
+      "fonte": {
+        "nome": "SIMULADOR NIMBUS",
+        "tipo": "SIMULADO",
+        "descricao": "DADOS FICTICIOS DE DEMONSTRACAO - NAO SAO MEDICOES REAIS"
+      },
+      "data_hora": "2026-10-14T18:00:00",
+      "temperatura": 19.2,
+      "umidade": 81,
+      "precipitacao": 1.17
+    },
+    {
+      "ponto": {
+        "nome": "PONTO SIMULADO - TERESOPOLIS",
+        "latitude": -22.412,
+        "longitude": -42.9659,
+        "cidade": "Teresopolis",
+        "estado": "RJ"
+      },
+      "fonte": {
+        "nome": "SIMULADOR NIMBUS",
+        "tipo": "SIMULADO",
+        "descricao": "DADOS FICTICIOS DE DEMONSTRACAO - NAO SAO MEDICOES REAIS"
+      },
+      "data_hora": "2026-10-14T18:00:00",
+      "temperatura": 18.3,
+      "umidade": 86,
+      "precipitacao": 1.08
+    },
+    {
+      "ponto": {
+        "nome": "PONTO SIMULADO - CABO FRIO",
+        "latitude": -22.8795,
+        "longitude": -42.0187,
+        "cidade": "Cabo Frio",
+        "estado": "RJ"
+      },
+      "fonte": {
+        "nome": "SIMULADOR NIMBUS",
+        "tipo": "SIMULADO",
+        "descricao": "DADOS FICTICIOS DE DEMONSTRACAO - NAO SAO MEDICOES REAIS"
+      },
+      "data_hora": "2026-10-14T18:00:00",
+      "temperatura": 23.7,
+      "umidade": 78,
+      "precipitacao": 0.72
+    },
+    {
+      "ponto": {
+        "nome": "PONTO SIMULADO - RIO DE JANEIRO",
+        "latitude": -22.9068,
+        "longitude": -43.1729,
+        "cidade": "Rio de Janeiro",
+        "estado": "RJ"
+      },
+      "fonte": {
+        "nome": "SIMULADOR NIMBUS",
+        "tipo": "SIMULADO",
+        "descricao": "DADOS FICTICIOS DE DEMONSTRACAO - NAO SAO MEDICOES REAIS"
+      },
+      "data_hora": "2026-10-15T00:00:00",
+      "temperatura": 22.2,
+      "umidade": 77,
+      "precipitacao": 0
+    },
+    {
+      "ponto": {
+        "nome": "PONTO SIMULADO - RIO DE JANEIRO",
+        "latitude": -22.9068,
+        "longitude": -43.1729,
+        "cidade": "Rio de Janeiro",
+        "estado": "RJ"
+      },
+      "fonte": {
+        "nome": "SIMULADOR NIMBUS COMPARATIVO",
+        "tipo": "SIMULADO",
+        "descricao": "SEGUNDA FONTE FICTICIA PARA TESTAR FILTROS E COMPARACOES"
+      },
+      "data_hora": "2026-10-15T00:00:00",
+      "temperatura": 22.6,
+      "umidade": 79,
+      "precipitacao": 0
+    },
+    {
+      "ponto": {
+        "nome": "PONTO SIMULADO - PETROPOLIS",
+        "latitude": -22.5108,
+        "longitude": -43.1779,
+        "cidade": "Petropolis",
+        "estado": "RJ"
+      },
+      "fonte": {
+        "nome": "SIMULADOR NIMBUS",
+        "tipo": "SIMULADO",
+        "descricao": "DADOS FICTICIOS DE DEMONSTRACAO - NAO SAO MEDICOES REAIS"
+      },
+      "data_hora": "2026-10-15T00:00:00",
+      "temperatura": 15.4,
+      "umidade": 89,
+      "precipitacao": 0
+    },
+    {
+      "ponto": {
+        "nome": "PONTO SIMULADO - TERESOPOLIS",
+        "latitude": -22.412,
+        "longitude": -42.9659,
+        "cidade": "Teresopolis",
+        "estado": "RJ"
+      },
+      "fonte": {
+        "nome": "SIMULADOR NIMBUS",
+        "tipo": "SIMULADO",
+        "descricao": "DADOS FICTICIOS DE DEMONSTRACAO - NAO SAO MEDICOES REAIS"
+      },
+      "data_hora": "2026-10-15T00:00:00",
+      "temperatura": 15.4,
+      "umidade": 88,
+      "precipitacao": 0
+    },
+    {
+      "ponto": {
+        "nome": "PONTO SIMULADO - CABO FRIO",
+        "latitude": -22.8795,
+        "longitude": -42.0187,
+        "cidade": "Cabo Frio",
+        "estado": "RJ"
+      },
+      "fonte": {
+        "nome": "SIMULADOR NIMBUS",
+        "tipo": "SIMULADO",
+        "descricao": "DADOS FICTICIOS DE DEMONSTRACAO - NAO SAO MEDICOES REAIS"
+      },
+      "data_hora": "2026-10-15T00:00:00",
+      "temperatura": 20.8,
+      "umidade": 80,
+      "precipitacao": 0
+    },
+    {
+      "ponto": {
+        "nome": "PONTO SIMULADO - RIO DE JANEIRO",
+        "latitude": -22.9068,
+        "longitude": -43.1729,
+        "cidade": "Rio de Janeiro",
+        "estado": "RJ"
+      },
+      "fonte": {
+        "nome": "SIMULADOR NIMBUS",
+        "tipo": "SIMULADO",
+        "descricao": "DADOS FICTICIOS DE DEMONSTRACAO - NAO SAO MEDICOES REAIS"
+      },
+      "data_hora": "2026-10-15T06:00:00",
+      "temperatura": 20.9,
+      "umidade": 80,
+      "precipitacao": 0
+    },
+    {
+      "ponto": {
+        "nome": "PONTO SIMULADO - RIO DE JANEIRO",
+        "latitude": -22.9068,
+        "longitude": -43.1729,
+        "cidade": "Rio de Janeiro",
+        "estado": "RJ"
+      },
+      "fonte": {
+        "nome": "SIMULADOR NIMBUS COMPARATIVO",
+        "tipo": "SIMULADO",
+        "descricao": "SEGUNDA FONTE FICTICIA PARA TESTAR FILTROS E COMPARACOES"
+      },
+      "data_hora": "2026-10-15T06:00:00",
+      "temperatura": 21.3,
+      "umidade": 82,
+      "precipitacao": 0
+    },
+    {
+      "ponto": {
+        "nome": "PONTO SIMULADO - PETROPOLIS",
+        "latitude": -22.5108,
+        "longitude": -43.1779,
+        "cidade": "Petropolis",
+        "estado": "RJ"
+      },
+      "fonte": {
+        "nome": "SIMULADOR NIMBUS",
+        "tipo": "SIMULADO",
+        "descricao": "DADOS FICTICIOS DE DEMONSTRACAO - NAO SAO MEDICOES REAIS"
+      },
+      "data_hora": "2026-10-15T06:00:00",
+      "temperatura": 14.1,
+      "umidade": 92,
+      "precipitacao": 0
+    },
+    {
+      "ponto": {
+        "nome": "PONTO SIMULADO - TERESOPOLIS",
+        "latitude": -22.412,
+        "longitude": -42.9659,
+        "cidade": "Teresopolis",
+        "estado": "RJ"
+      },
+      "fonte": {
+        "nome": "SIMULADOR NIMBUS",
+        "tipo": "SIMULADO",
+        "descricao": "DADOS FICTICIOS DE DEMONSTRACAO - NAO SAO MEDICOES REAIS"
+      },
+      "data_hora": "2026-10-15T06:00:00",
+      "temperatura": 14.1,
+      "umidade": 91,
+      "precipitacao": 0
+    },
+    {
+      "ponto": {
+        "nome": "PONTO SIMULADO - CABO FRIO",
+        "latitude": -22.8795,
+        "longitude": -42.0187,
+        "cidade": "Cabo Frio",
+        "estado": "RJ"
+      },
+      "fonte": {
+        "nome": "SIMULADOR NIMBUS",
+        "tipo": "SIMULADO",
+        "descricao": "DADOS FICTICIOS DE DEMONSTRACAO - NAO SAO MEDICOES REAIS"
+      },
+      "data_hora": "2026-10-15T06:00:00",
+      "temperatura": 19.5,
+      "umidade": 83,
+      "precipitacao": 0
+    },
+    {
+      "ponto": {
+        "nome": "PONTO SIMULADO - RIO DE JANEIRO",
+        "latitude": -22.9068,
+        "longitude": -43.1729,
+        "cidade": "Rio de Janeiro",
+        "estado": "RJ"
+      },
+      "fonte": {
+        "nome": "SIMULADOR NIMBUS",
+        "tipo": "SIMULADO",
+        "descricao": "DADOS FICTICIOS DE DEMONSTRACAO - NAO SAO MEDICOES REAIS"
+      },
+      "data_hora": "2026-10-15T12:00:00",
+      "temperatura": 28.7,
+      "umidade": 52,
+      "precipitacao": 0
+    },
+    {
+      "ponto": {
+        "nome": "PONTO SIMULADO - RIO DE JANEIRO",
+        "latitude": -22.9068,
+        "longitude": -43.1729,
+        "cidade": "Rio de Janeiro",
+        "estado": "RJ"
+      },
+      "fonte": {
+        "nome": "SIMULADOR NIMBUS COMPARATIVO",
+        "tipo": "SIMULADO",
+        "descricao": "SEGUNDA FONTE FICTICIA PARA TESTAR FILTROS E COMPARACOES"
+      },
+      "data_hora": "2026-10-15T12:00:00",
+      "temperatura": 29.1,
+      "umidade": 54,
+      "precipitacao": 0
+    },
+    {
+      "ponto": {
+        "nome": "PONTO SIMULADO - PETROPOLIS",
+        "latitude": -22.5108,
+        "longitude": -43.1779,
+        "cidade": "Petropolis",
+        "estado": "RJ"
+      },
+      "fonte": {
+        "nome": "SIMULADOR NIMBUS",
+        "tipo": "SIMULADO",
+        "descricao": "DADOS FICTICIOS DE DEMONSTRACAO - NAO SAO MEDICOES REAIS"
+      },
+      "data_hora": "2026-10-15T12:00:00",
+      "temperatura": 21.9,
+      "umidade": 64,
+      "precipitacao": 0
+    },
+    {
+      "ponto": {
+        "nome": "PONTO SIMULADO - TERESOPOLIS",
+        "latitude": -22.412,
+        "longitude": -42.9659,
+        "cidade": "Teresopolis",
+        "estado": "RJ"
+      },
+      "fonte": {
+        "nome": "SIMULADOR NIMBUS",
+        "tipo": "SIMULADO",
+        "descricao": "DADOS FICTICIOS DE DEMONSTRACAO - NAO SAO MEDICOES REAIS"
+      },
+      "data_hora": "2026-10-15T12:00:00",
+      "temperatura": 21.9,
+      "umidade": 63,
+      "precipitacao": 0
+    },
+    {
+      "ponto": {
+        "nome": "PONTO SIMULADO - CABO FRIO",
+        "latitude": -22.8795,
+        "longitude": -42.0187,
+        "cidade": "Cabo Frio",
+        "estado": "RJ"
+      },
+      "fonte": {
+        "nome": "SIMULADOR NIMBUS",
+        "tipo": "SIMULADO",
+        "descricao": "DADOS FICTICIOS DE DEMONSTRACAO - NAO SAO MEDICOES REAIS"
+      },
+      "data_hora": "2026-10-15T12:00:00",
+      "temperatura": 27.3,
+      "umidade": 55,
+      "precipitacao": 0
+    },
+    {
+      "ponto": {
+        "nome": "PONTO SIMULADO - RIO DE JANEIRO",
+        "latitude": -22.9068,
+        "longitude": -43.1729,
+        "cidade": "Rio de Janeiro",
+        "estado": "RJ"
+      },
+      "fonte": {
+        "nome": "SIMULADOR NIMBUS",
+        "tipo": "SIMULADO",
+        "descricao": "DADOS FICTICIOS DE DEMONSTRACAO - NAO SAO MEDICOES REAIS"
+      },
+      "data_hora": "2026-10-15T18:00:00",
+      "temperatura": 25.9,
+      "umidade": 66,
+      "precipitacao": 0
+    },
+    {
+      "ponto": {
+        "nome": "PONTO SIMULADO - RIO DE JANEIRO",
+        "latitude": -22.9068,
+        "longitude": -43.1729,
+        "cidade": "Rio de Janeiro",
+        "estado": "RJ"
+      },
+      "fonte": {
+        "nome": "SIMULADOR NIMBUS COMPARATIVO",
+        "tipo": "SIMULADO",
+        "descricao": "SEGUNDA FONTE FICTICIA PARA TESTAR FILTROS E COMPARACOES"
+      },
+      "data_hora": "2026-10-15T18:00:00",
+      "temperatura": 26.3,
+      "umidade": 68,
+      "precipitacao": 0
+    },
+    {
+      "ponto": {
+        "nome": "PONTO SIMULADO - PETROPOLIS",
+        "latitude": -22.5108,
+        "longitude": -43.1779,
+        "cidade": "Petropolis",
+        "estado": "RJ"
+      },
+      "fonte": {
+        "nome": "SIMULADOR NIMBUS",
+        "tipo": "SIMULADO",
+        "descricao": "DADOS FICTICIOS DE DEMONSTRACAO - NAO SAO MEDICOES REAIS"
+      },
+      "data_hora": "2026-10-15T18:00:00",
+      "temperatura": 19.1,
+      "umidade": 78,
+      "precipitacao": 0
+    },
+    {
+      "ponto": {
+        "nome": "PONTO SIMULADO - TERESOPOLIS",
+        "latitude": -22.412,
+        "longitude": -42.9659,
+        "cidade": "Teresopolis",
+        "estado": "RJ"
+      },
+      "fonte": {
+        "nome": "SIMULADOR NIMBUS",
+        "tipo": "SIMULADO",
+        "descricao": "DADOS FICTICIOS DE DEMONSTRACAO - NAO SAO MEDICOES REAIS"
+      },
+      "data_hora": "2026-10-15T18:00:00",
+      "temperatura": 19.1,
+      "umidade": 77,
+      "precipitacao": 0
+    },
+    {
+      "ponto": {
+        "nome": "PONTO SIMULADO - CABO FRIO",
+        "latitude": -22.8795,
+        "longitude": -42.0187,
+        "cidade": "Cabo Frio",
+        "estado": "RJ"
+      },
+      "fonte": {
+        "nome": "SIMULADOR NIMBUS",
+        "tipo": "SIMULADO",
+        "descricao": "DADOS FICTICIOS DE DEMONSTRACAO - NAO SAO MEDICOES REAIS"
+      },
+      "data_hora": "2026-10-15T18:00:00",
+      "temperatura": 24.5,
+      "umidade": 69,
+      "precipitacao": 0
+    },
+    {
+      "ponto": {
+        "nome": "PONTO SIMULADO - RIO DE JANEIRO",
+        "latitude": -22.9068,
+        "longitude": -43.1729,
+        "cidade": "Rio de Janeiro",
+        "estado": "RJ"
+      },
+      "fonte": {
+        "nome": "SIMULADOR NIMBUS",
+        "tipo": "SIMULADO",
+        "descricao": "DADOS FICTICIOS DE DEMONSTRACAO - NAO SAO MEDICOES REAIS"
+      },
+      "data_hora": "2026-10-16T00:00:00",
+      "temperatura": 23.5,
+      "umidade": 81,
+      "precipitacao": 0
+    },
+    {
+      "ponto": {
+        "nome": "PONTO SIMULADO - RIO DE JANEIRO",
+        "latitude": -22.9068,
+        "longitude": -43.1729,
+        "cidade": "Rio de Janeiro",
+        "estado": "RJ"
+      },
+      "fonte": {
+        "nome": "SIMULADOR NIMBUS COMPARATIVO",
+        "tipo": "SIMULADO",
+        "descricao": "SEGUNDA FONTE FICTICIA PARA TESTAR FILTROS E COMPARACOES"
+      },
+      "data_hora": "2026-10-16T00:00:00",
+      "temperatura": 23.9,
+      "umidade": 83,
+      "precipitacao": 0
+    },
+    {
+      "ponto": {
+        "nome": "PONTO SIMULADO - PETROPOLIS",
+        "latitude": -22.5108,
+        "longitude": -43.1779,
+        "cidade": "Petropolis",
+        "estado": "RJ"
+      },
+      "fonte": {
+        "nome": "SIMULADOR NIMBUS",
+        "tipo": "SIMULADO",
+        "descricao": "DADOS FICTICIOS DE DEMONSTRACAO - NAO SAO MEDICOES REAIS"
+      },
+      "data_hora": "2026-10-16T00:00:00",
+      "temperatura": 17.6,
+      "umidade": 87,
+      "precipitacao": 0
+    },
+    {
+      "ponto": {
+        "nome": "PONTO SIMULADO - TERESOPOLIS",
+        "latitude": -22.412,
+        "longitude": -42.9659,
+        "cidade": "Teresopolis",
+        "estado": "RJ"
+      },
+      "fonte": {
+        "nome": "SIMULADOR NIMBUS",
+        "tipo": "SIMULADO",
+        "descricao": "DADOS FICTICIOS DE DEMONSTRACAO - NAO SAO MEDICOES REAIS"
+      },
+      "data_hora": "2026-10-16T00:00:00",
+      "temperatura": 17.6,
+      "umidade": 86,
+      "precipitacao": 0
+    },
+    {
+      "ponto": {
+        "nome": "PONTO SIMULADO - CABO FRIO",
+        "latitude": -22.8795,
+        "longitude": -42.0187,
+        "cidade": "Cabo Frio",
+        "estado": "RJ"
+      },
+      "fonte": {
+        "nome": "SIMULADOR NIMBUS",
+        "tipo": "SIMULADO",
+        "descricao": "DADOS FICTICIOS DE DEMONSTRACAO - NAO SAO MEDICOES REAIS"
+      },
+      "data_hora": "2026-10-16T00:00:00",
+      "temperatura": 22.1,
+      "umidade": 84,
+      "precipitacao": 0
+    },
+    {
+      "ponto": {
+        "nome": "PONTO SIMULADO - RIO DE JANEIRO",
+        "latitude": -22.9068,
+        "longitude": -43.1729,
+        "cidade": "Rio de Janeiro",
+        "estado": "RJ"
+      },
+      "fonte": {
+        "nome": "SIMULADOR NIMBUS",
+        "tipo": "SIMULADO",
+        "descricao": "DADOS FICTICIOS DE DEMONSTRACAO - NAO SAO MEDICOES REAIS"
+      },
+      "data_hora": "2026-10-16T06:00:00",
+      "temperatura": 22.2,
+      "umidade": 84,
+      "precipitacao": 0
+    },
+    {
+      "ponto": {
+        "nome": "PONTO SIMULADO - RIO DE JANEIRO",
+        "latitude": -22.9068,
+        "longitude": -43.1729,
+        "cidade": "Rio de Janeiro",
+        "estado": "RJ"
+      },
+      "fonte": {
+        "nome": "SIMULADOR NIMBUS COMPARATIVO",
+        "tipo": "SIMULADO",
+        "descricao": "SEGUNDA FONTE FICTICIA PARA TESTAR FILTROS E COMPARACOES"
+      },
+      "data_hora": "2026-10-16T06:00:00",
+      "temperatura": 22.6,
+      "umidade": 86,
+      "precipitacao": 0
+    },
+    {
+      "ponto": {
+        "nome": "PONTO SIMULADO - PETROPOLIS",
+        "latitude": -22.5108,
+        "longitude": -43.1779,
+        "cidade": "Petropolis",
+        "estado": "RJ"
+      },
+      "fonte": {
+        "nome": "SIMULADOR NIMBUS",
+        "tipo": "SIMULADO",
+        "descricao": "DADOS FICTICIOS DE DEMONSTRACAO - NAO SAO MEDICOES REAIS"
+      },
+      "data_hora": "2026-10-16T06:00:00",
+      "temperatura": 16.3,
+      "umidade": 90,
+      "precipitacao": 0
+    },
+    {
+      "ponto": {
+        "nome": "PONTO SIMULADO - TERESOPOLIS",
+        "latitude": -22.412,
+        "longitude": -42.9659,
+        "cidade": "Teresopolis",
+        "estado": "RJ"
+      },
+      "fonte": {
+        "nome": "SIMULADOR NIMBUS",
+        "tipo": "SIMULADO",
+        "descricao": "DADOS FICTICIOS DE DEMONSTRACAO - NAO SAO MEDICOES REAIS"
+      },
+      "data_hora": "2026-10-16T06:00:00",
+      "temperatura": 16.3,
+      "umidade": 89,
+      "precipitacao": 0
+    },
+    {
+      "ponto": {
+        "nome": "PONTO SIMULADO - CABO FRIO",
+        "latitude": -22.8795,
+        "longitude": -42.0187,
+        "cidade": "Cabo Frio",
+        "estado": "RJ"
+      },
+      "fonte": {
+        "nome": "SIMULADOR NIMBUS",
+        "tipo": "SIMULADO",
+        "descricao": "DADOS FICTICIOS DE DEMONSTRACAO - NAO SAO MEDICOES REAIS"
+      },
+      "data_hora": "2026-10-16T06:00:00",
+      "temperatura": 20.8,
+      "umidade": 87,
+      "precipitacao": 0
+    },
+    {
+      "ponto": {
+        "nome": "PONTO SIMULADO - RIO DE JANEIRO",
+        "latitude": -22.9068,
+        "longitude": -43.1729,
+        "cidade": "Rio de Janeiro",
+        "estado": "RJ"
+      },
+      "fonte": {
+        "nome": "SIMULADOR NIMBUS",
+        "tipo": "SIMULADO",
+        "descricao": "DADOS FICTICIOS DE DEMONSTRACAO - NAO SAO MEDICOES REAIS"
+      },
+      "data_hora": "2026-10-16T12:00:00",
+      "temperatura": 30.0,
+      "umidade": 56,
+      "precipitacao": 0
+    },
+    {
+      "ponto": {
+        "nome": "PONTO SIMULADO - RIO DE JANEIRO",
+        "latitude": -22.9068,
+        "longitude": -43.1729,
+        "cidade": "Rio de Janeiro",
+        "estado": "RJ"
+      },
+      "fonte": {
+        "nome": "SIMULADOR NIMBUS COMPARATIVO",
+        "tipo": "SIMULADO",
+        "descricao": "SEGUNDA FONTE FICTICIA PARA TESTAR FILTROS E COMPARACOES"
+      },
+      "data_hora": "2026-10-16T12:00:00",
+      "temperatura": 30.4,
+      "umidade": 58,
+      "precipitacao": 0
+    },
+    {
+      "ponto": {
+        "nome": "PONTO SIMULADO - PETROPOLIS",
+        "latitude": -22.5108,
+        "longitude": -43.1779,
+        "cidade": "Petropolis",
+        "estado": "RJ"
+      },
+      "fonte": {
+        "nome": "SIMULADOR NIMBUS",
+        "tipo": "SIMULADO",
+        "descricao": "DADOS FICTICIOS DE DEMONSTRACAO - NAO SAO MEDICOES REAIS"
+      },
+      "data_hora": "2026-10-16T12:00:00",
+      "temperatura": 24.1,
+      "umidade": 62,
+      "precipitacao": 0
+    },
+    {
+      "ponto": {
+        "nome": "PONTO SIMULADO - TERESOPOLIS",
+        "latitude": -22.412,
+        "longitude": -42.9659,
+        "cidade": "Teresopolis",
+        "estado": "RJ"
+      },
+      "fonte": {
+        "nome": "SIMULADOR NIMBUS",
+        "tipo": "SIMULADO",
+        "descricao": "DADOS FICTICIOS DE DEMONSTRACAO - NAO SAO MEDICOES REAIS"
+      },
+      "data_hora": "2026-10-16T12:00:00",
+      "temperatura": 24.1,
+      "umidade": 61,
+      "precipitacao": 0
+    },
+    {
+      "ponto": {
+        "nome": "PONTO SIMULADO - CABO FRIO",
+        "latitude": -22.8795,
+        "longitude": -42.0187,
+        "cidade": "Cabo Frio",
+        "estado": "RJ"
+      },
+      "fonte": {
+        "nome": "SIMULADOR NIMBUS",
+        "tipo": "SIMULADO",
+        "descricao": "DADOS FICTICIOS DE DEMONSTRACAO - NAO SAO MEDICOES REAIS"
+      },
+      "data_hora": "2026-10-16T12:00:00",
+      "temperatura": 28.6,
+      "umidade": 59,
+      "precipitacao": 0
+    },
+    {
+      "ponto": {
+        "nome": "PONTO SIMULADO - RIO DE JANEIRO",
+        "latitude": -22.9068,
+        "longitude": -43.1729,
+        "cidade": "Rio de Janeiro",
+        "estado": "RJ"
+      },
+      "fonte": {
+        "nome": "SIMULADOR NIMBUS",
+        "tipo": "SIMULADO",
+        "descricao": "DADOS FICTICIOS DE DEMONSTRACAO - NAO SAO MEDICOES REAIS"
+      },
+      "data_hora": "2026-10-16T18:00:00",
+      "temperatura": 27.2,
+      "umidade": 70,
+      "precipitacao": 0
+    },
+    {
+      "ponto": {
+        "nome": "PONTO SIMULADO - RIO DE JANEIRO",
+        "latitude": -22.9068,
+        "longitude": -43.1729,
+        "cidade": "Rio de Janeiro",
+        "estado": "RJ"
+      },
+      "fonte": {
+        "nome": "SIMULADOR NIMBUS COMPARATIVO",
+        "tipo": "SIMULADO",
+        "descricao": "SEGUNDA FONTE FICTICIA PARA TESTAR FILTROS E COMPARACOES"
+      },
+      "data_hora": "2026-10-16T18:00:00",
+      "temperatura": 27.6,
+      "umidade": 72,
+      "precipitacao": 0
+    },
+    {
+      "ponto": {
+        "nome": "PONTO SIMULADO - PETROPOLIS",
+        "latitude": -22.5108,
+        "longitude": -43.1779,
+        "cidade": "Petropolis",
+        "estado": "RJ"
+      },
+      "fonte": {
+        "nome": "SIMULADOR NIMBUS",
+        "tipo": "SIMULADO",
+        "descricao": "DADOS FICTICIOS DE DEMONSTRACAO - NAO SAO MEDICOES REAIS"
+      },
+      "data_hora": "2026-10-16T18:00:00",
+      "temperatura": 21.3,
+      "umidade": 76,
+      "precipitacao": 0
+    },
+    {
+      "ponto": {
+        "nome": "PONTO SIMULADO - TERESOPOLIS",
+        "latitude": -22.412,
+        "longitude": -42.9659,
+        "cidade": "Teresopolis",
+        "estado": "RJ"
+      },
+      "fonte": {
+        "nome": "SIMULADOR NIMBUS",
+        "tipo": "SIMULADO",
+        "descricao": "DADOS FICTICIOS DE DEMONSTRACAO - NAO SAO MEDICOES REAIS"
+      },
+      "data_hora": "2026-10-16T18:00:00",
+      "temperatura": 21.3,
+      "umidade": 75,
+      "precipitacao": 0
+    },
+    {
+      "ponto": {
+        "nome": "PONTO SIMULADO - CABO FRIO",
+        "latitude": -22.8795,
+        "longitude": -42.0187,
+        "cidade": "Cabo Frio",
+        "estado": "RJ"
+      },
+      "fonte": {
+        "nome": "SIMULADOR NIMBUS",
+        "tipo": "SIMULADO",
+        "descricao": "DADOS FICTICIOS DE DEMONSTRACAO - NAO SAO MEDICOES REAIS"
+      },
+      "data_hora": "2026-10-16T18:00:00",
+      "temperatura": 25.8,
+      "umidade": 73,
+      "precipitacao": 0
+    },
+    {
+      "ponto": {
+        "nome": "PONTO SIMULADO - RIO DE JANEIRO",
+        "latitude": -22.9068,
+        "longitude": -43.1729,
+        "cidade": "Rio de Janeiro",
+        "estado": "RJ"
+      },
+      "fonte": {
+        "nome": "SIMULADOR NIMBUS",
+        "tipo": "SIMULADO",
+        "descricao": "DADOS FICTICIOS DE DEMONSTRACAO - NAO SAO MEDICOES REAIS"
+      },
+      "data_hora": "2026-10-17T00:00:00",
+      "temperatura": 21.0,
+      "umidade": 86,
+      "precipitacao": 0.6
+    },
+    {
+      "ponto": {
+        "nome": "PONTO SIMULADO - RIO DE JANEIRO",
+        "latitude": -22.9068,
+        "longitude": -43.1729,
+        "cidade": "Rio de Janeiro",
+        "estado": "RJ"
+      },
+      "fonte": {
+        "nome": "SIMULADOR NIMBUS COMPARATIVO",
+        "tipo": "SIMULADO",
+        "descricao": "SEGUNDA FONTE FICTICIA PARA TESTAR FILTROS E COMPARACOES"
+      },
+      "data_hora": "2026-10-17T00:00:00",
+      "temperatura": 21.4,
+      "umidade": 88,
+      "precipitacao": 0.9
+    },
+    {
+      "ponto": {
+        "nome": "PONTO SIMULADO - PETROPOLIS",
+        "latitude": -22.5108,
+        "longitude": -43.1779,
+        "cidade": "Petropolis",
+        "estado": "RJ"
+      },
+      "fonte": {
+        "nome": "SIMULADOR NIMBUS",
+        "tipo": "SIMULADO",
+        "descricao": "DADOS FICTICIOS DE DEMONSTRACAO - NAO SAO MEDICOES REAIS"
+      },
+      "data_hora": "2026-10-17T00:00:00",
+      "temperatura": 15.1,
+      "umidade": 92,
+      "precipitacao": 0.78
+    },
+    {
+      "ponto": {
+        "nome": "PONTO SIMULADO - TERESOPOLIS",
+        "latitude": -22.412,
+        "longitude": -42.9659,
+        "cidade": "Teresopolis",
+        "estado": "RJ"
+      },
+      "fonte": {
+        "nome": "SIMULADOR NIMBUS",
+        "tipo": "SIMULADO",
+        "descricao": "DADOS FICTICIOS DE DEMONSTRACAO - NAO SAO MEDICOES REAIS"
+      },
+      "data_hora": "2026-10-17T00:00:00",
+      "temperatura": 14.2,
+      "umidade": 97,
+      "precipitacao": 0.72
+    },
+    {
+      "ponto": {
+        "nome": "PONTO SIMULADO - CABO FRIO",
+        "latitude": -22.8795,
+        "longitude": -42.0187,
+        "cidade": "Cabo Frio",
+        "estado": "RJ"
+      },
+      "fonte": {
+        "nome": "SIMULADOR NIMBUS",
+        "tipo": "SIMULADO",
+        "descricao": "DADOS FICTICIOS DE DEMONSTRACAO - NAO SAO MEDICOES REAIS"
+      },
+      "data_hora": "2026-10-17T00:00:00",
+      "temperatura": 19.6,
+      "umidade": 89,
+      "precipitacao": 0.48
+    },
+    {
+      "ponto": {
+        "nome": "PONTO SIMULADO - RIO DE JANEIRO",
+        "latitude": -22.9068,
+        "longitude": -43.1729,
+        "cidade": "Rio de Janeiro",
+        "estado": "RJ"
+      },
+      "fonte": {
+        "nome": "SIMULADOR NIMBUS",
+        "tipo": "SIMULADO",
+        "descricao": "DADOS FICTICIOS DE DEMONSTRACAO - NAO SAO MEDICOES REAIS"
+      },
+      "data_hora": "2026-10-17T06:00:00",
+      "temperatura": 19.7,
+      "umidade": 89,
+      "precipitacao": 4.5
+    },
+    {
+      "ponto": {
+        "nome": "PONTO SIMULADO - RIO DE JANEIRO",
+        "latitude": -22.9068,
+        "longitude": -43.1729,
+        "cidade": "Rio de Janeiro",
+        "estado": "RJ"
+      },
+      "fonte": {
+        "nome": "SIMULADOR NIMBUS COMPARATIVO",
+        "tipo": "SIMULADO",
+        "descricao": "SEGUNDA FONTE FICTICIA PARA TESTAR FILTROS E COMPARACOES"
+      },
+      "data_hora": "2026-10-17T06:00:00",
+      "temperatura": 20.1,
+      "umidade": 91,
+      "precipitacao": 4.8
+    },
+    {
+      "ponto": {
+        "nome": "PONTO SIMULADO - PETROPOLIS",
+        "latitude": -22.5108,
+        "longitude": -43.1779,
+        "cidade": "Petropolis",
+        "estado": "RJ"
+      },
+      "fonte": {
+        "nome": "SIMULADOR NIMBUS",
+        "tipo": "SIMULADO",
+        "descricao": "DADOS FICTICIOS DE DEMONSTRACAO - NAO SAO MEDICOES REAIS"
+      },
+      "data_hora": "2026-10-17T06:00:00",
+      "temperatura": 13.8,
+      "umidade": 95,
+      "precipitacao": 5.85
+    },
+    {
+      "ponto": {
+        "nome": "PONTO SIMULADO - TERESOPOLIS",
+        "latitude": -22.412,
+        "longitude": -42.9659,
+        "cidade": "Teresopolis",
+        "estado": "RJ"
+      },
+      "fonte": {
+        "nome": "SIMULADOR NIMBUS",
+        "tipo": "SIMULADO",
+        "descricao": "DADOS FICTICIOS DE DEMONSTRACAO - NAO SAO MEDICOES REAIS"
+      },
+      "data_hora": "2026-10-17T06:00:00",
+      "temperatura": 12.9,
+      "umidade": 99,
+      "precipitacao": 5.4
+    },
+    {
+      "ponto": {
+        "nome": "PONTO SIMULADO - CABO FRIO",
+        "latitude": -22.8795,
+        "longitude": -42.0187,
+        "cidade": "Cabo Frio",
+        "estado": "RJ"
+      },
+      "fonte": {
+        "nome": "SIMULADOR NIMBUS",
+        "tipo": "SIMULADO",
+        "descricao": "DADOS FICTICIOS DE DEMONSTRACAO - NAO SAO MEDICOES REAIS"
+      },
+      "data_hora": "2026-10-17T06:00:00",
+      "temperatura": 18.3,
+      "umidade": 92,
+      "precipitacao": 3.6
+    },
+    {
+      "ponto": {
+        "nome": "PONTO SIMULADO - RIO DE JANEIRO",
+        "latitude": -22.9068,
+        "longitude": -43.1729,
+        "cidade": "Rio de Janeiro",
+        "estado": "RJ"
+      },
+      "fonte": {
+        "nome": "SIMULADOR NIMBUS",
+        "tipo": "SIMULADO",
+        "descricao": "DADOS FICTICIOS DE DEMONSTRACAO - NAO SAO MEDICOES REAIS"
+      },
+      "data_hora": "2026-10-17T12:00:00",
+      "temperatura": 27.5,
+      "umidade": 61,
+      "precipitacao": 2.1
+    },
+    {
+      "ponto": {
+        "nome": "PONTO SIMULADO - RIO DE JANEIRO",
+        "latitude": -22.9068,
+        "longitude": -43.1729,
+        "cidade": "Rio de Janeiro",
+        "estado": "RJ"
+      },
+      "fonte": {
+        "nome": "SIMULADOR NIMBUS COMPARATIVO",
+        "tipo": "SIMULADO",
+        "descricao": "SEGUNDA FONTE FICTICIA PARA TESTAR FILTROS E COMPARACOES"
+      },
+      "data_hora": "2026-10-17T12:00:00",
+      "temperatura": 27.9,
+      "umidade": 63,
+      "precipitacao": 2.4
+    },
+    {
+      "ponto": {
+        "nome": "PONTO SIMULADO - PETROPOLIS",
+        "latitude": -22.5108,
+        "longitude": -43.1779,
+        "cidade": "Petropolis",
+        "estado": "RJ"
+      },
+      "fonte": {
+        "nome": "SIMULADOR NIMBUS",
+        "tipo": "SIMULADO",
+        "descricao": "DADOS FICTICIOS DE DEMONSTRACAO - NAO SAO MEDICOES REAIS"
+      },
+      "data_hora": "2026-10-17T12:00:00",
+      "temperatura": 21.6,
+      "umidade": 67,
+      "precipitacao": 2.73
+    },
+    {
+      "ponto": {
+        "nome": "PONTO SIMULADO - TERESOPOLIS",
+        "latitude": -22.412,
+        "longitude": -42.9659,
+        "cidade": "Teresopolis",
+        "estado": "RJ"
+      },
+      "fonte": {
+        "nome": "SIMULADOR NIMBUS",
+        "tipo": "SIMULADO",
+        "descricao": "DADOS FICTICIOS DE DEMONSTRACAO - NAO SAO MEDICOES REAIS"
+      },
+      "data_hora": "2026-10-17T12:00:00",
+      "temperatura": 20.7,
+      "umidade": 72,
+      "precipitacao": 2.52
+    },
+    {
+      "ponto": {
+        "nome": "PONTO SIMULADO - CABO FRIO",
+        "latitude": -22.8795,
+        "longitude": -42.0187,
+        "cidade": "Cabo Frio",
+        "estado": "RJ"
+      },
+      "fonte": {
+        "nome": "SIMULADOR NIMBUS",
+        "tipo": "SIMULADO",
+        "descricao": "DADOS FICTICIOS DE DEMONSTRACAO - NAO SAO MEDICOES REAIS"
+      },
+      "data_hora": "2026-10-17T12:00:00",
+      "temperatura": 26.1,
+      "umidade": 64,
+      "precipitacao": 1.68
+    },
+    {
+      "ponto": {
+        "nome": "PONTO SIMULADO - RIO DE JANEIRO",
+        "latitude": -22.9068,
+        "longitude": -43.1729,
+        "cidade": "Rio de Janeiro",
+        "estado": "RJ"
+      },
+      "fonte": {
+        "nome": "SIMULADOR NIMBUS",
+        "tipo": "SIMULADO",
+        "descricao": "DADOS FICTICIOS DE DEMONSTRACAO - NAO SAO MEDICOES REAIS"
+      },
+      "data_hora": "2026-10-17T18:00:00",
+      "temperatura": 24.7,
+      "umidade": 75,
+      "precipitacao": 0.9
+    },
+    {
+      "ponto": {
+        "nome": "PONTO SIMULADO - RIO DE JANEIRO",
+        "latitude": -22.9068,
+        "longitude": -43.1729,
+        "cidade": "Rio de Janeiro",
+        "estado": "RJ"
+      },
+      "fonte": {
+        "nome": "SIMULADOR NIMBUS COMPARATIVO",
+        "tipo": "SIMULADO",
+        "descricao": "SEGUNDA FONTE FICTICIA PARA TESTAR FILTROS E COMPARACOES"
+      },
+      "data_hora": "2026-10-17T18:00:00",
+      "temperatura": 25.1,
+      "umidade": 77,
+      "precipitacao": 1.2
+    },
+    {
+      "ponto": {
+        "nome": "PONTO SIMULADO - PETROPOLIS",
+        "latitude": -22.5108,
+        "longitude": -43.1779,
+        "cidade": "Petropolis",
+        "estado": "RJ"
+      },
+      "fonte": {
+        "nome": "SIMULADOR NIMBUS",
+        "tipo": "SIMULADO",
+        "descricao": "DADOS FICTICIOS DE DEMONSTRACAO - NAO SAO MEDICOES REAIS"
+      },
+      "data_hora": "2026-10-17T18:00:00",
+      "temperatura": 18.8,
+      "umidade": 81,
+      "precipitacao": 1.17
+    },
+    {
+      "ponto": {
+        "nome": "PONTO SIMULADO - TERESOPOLIS",
+        "latitude": -22.412,
+        "longitude": -42.9659,
+        "cidade": "Teresopolis",
+        "estado": "RJ"
+      },
+      "fonte": {
+        "nome": "SIMULADOR NIMBUS",
+        "tipo": "SIMULADO",
+        "descricao": "DADOS FICTICIOS DE DEMONSTRACAO - NAO SAO MEDICOES REAIS"
+      },
+      "data_hora": "2026-10-17T18:00:00",
+      "temperatura": 17.9,
+      "umidade": 86,
+      "precipitacao": 1.08
+    },
+    {
+      "ponto": {
+        "nome": "PONTO SIMULADO - CABO FRIO",
+        "latitude": -22.8795,
+        "longitude": -42.0187,
+        "cidade": "Cabo Frio",
+        "estado": "RJ"
+      },
+      "fonte": {
+        "nome": "SIMULADOR NIMBUS",
+        "tipo": "SIMULADO",
+        "descricao": "DADOS FICTICIOS DE DEMONSTRACAO - NAO SAO MEDICOES REAIS"
+      },
+      "data_hora": "2026-10-17T18:00:00",
+      "temperatura": 23.3,
+      "umidade": 78,
+      "precipitacao": 0.72
+    },
+    {
+      "ponto": {
+        "nome": "PONTO SIMULADO - RIO DE JANEIRO",
+        "latitude": -22.9068,
+        "longitude": -43.1729,
+        "cidade": "Rio de Janeiro",
+        "estado": "RJ"
+      },
+      "fonte": {
+        "nome": "SIMULADOR NIMBUS",
+        "tipo": "SIMULADO",
+        "descricao": "DADOS FICTICIOS DE DEMONSTRACAO - NAO SAO MEDICOES REAIS"
+      },
+      "data_hora": "2026-10-18T00:00:00",
+      "temperatura": 23.5,
+      "umidade": 77,
+      "precipitacao": 0
+    },
+    {
+      "ponto": {
+        "nome": "PONTO SIMULADO - RIO DE JANEIRO",
+        "latitude": -22.9068,
+        "longitude": -43.1729,
+        "cidade": "Rio de Janeiro",
+        "estado": "RJ"
+      },
+      "fonte": {
+        "nome": "SIMULADOR NIMBUS COMPARATIVO",
+        "tipo": "SIMULADO",
+        "descricao": "SEGUNDA FONTE FICTICIA PARA TESTAR FILTROS E COMPARACOES"
+      },
+      "data_hora": "2026-10-18T00:00:00",
+      "temperatura": 23.9,
+      "umidade": 79,
+      "precipitacao": 0
+    },
+    {
+      "ponto": {
+        "nome": "PONTO SIMULADO - PETROPOLIS",
+        "latitude": -22.5108,
+        "longitude": -43.1779,
+        "cidade": "Petropolis",
+        "estado": "RJ"
+      },
+      "fonte": {
+        "nome": "SIMULADOR NIMBUS",
+        "tipo": "SIMULADO",
+        "descricao": "DADOS FICTICIOS DE DEMONSTRACAO - NAO SAO MEDICOES REAIS"
+      },
+      "data_hora": "2026-10-18T00:00:00",
+      "temperatura": 16.7,
+      "umidade": 89,
+      "precipitacao": 0
+    },
+    {
+      "ponto": {
+        "nome": "PONTO SIMULADO - TERESOPOLIS",
+        "latitude": -22.412,
+        "longitude": -42.9659,
+        "cidade": "Teresopolis",
+        "estado": "RJ"
+      },
+      "fonte": {
+        "nome": "SIMULADOR NIMBUS",
+        "tipo": "SIMULADO",
+        "descricao": "DADOS FICTICIOS DE DEMONSTRACAO - NAO SAO MEDICOES REAIS"
+      },
+      "data_hora": "2026-10-18T00:00:00",
+      "temperatura": 16.7,
+      "umidade": 88,
+      "precipitacao": 0
+    },
+    {
+      "ponto": {
+        "nome": "PONTO SIMULADO - CABO FRIO",
+        "latitude": -22.8795,
+        "longitude": -42.0187,
+        "cidade": "Cabo Frio",
+        "estado": "RJ"
+      },
+      "fonte": {
+        "nome": "SIMULADOR NIMBUS",
+        "tipo": "SIMULADO",
+        "descricao": "DADOS FICTICIOS DE DEMONSTRACAO - NAO SAO MEDICOES REAIS"
+      },
+      "data_hora": "2026-10-18T00:00:00",
+      "temperatura": 22.1,
+      "umidade": 80,
+      "precipitacao": 0
+    },
+    {
+      "ponto": {
+        "nome": "PONTO SIMULADO - RIO DE JANEIRO",
+        "latitude": -22.9068,
+        "longitude": -43.1729,
+        "cidade": "Rio de Janeiro",
+        "estado": "RJ"
+      },
+      "fonte": {
+        "nome": "SIMULADOR NIMBUS",
+        "tipo": "SIMULADO",
+        "descricao": "DADOS FICTICIOS DE DEMONSTRACAO - NAO SAO MEDICOES REAIS"
+      },
+      "data_hora": "2026-10-18T06:00:00",
+      "temperatura": 22.2,
+      "umidade": 80,
+      "precipitacao": 0
+    },
+    {
+      "ponto": {
+        "nome": "PONTO SIMULADO - RIO DE JANEIRO",
+        "latitude": -22.9068,
+        "longitude": -43.1729,
+        "cidade": "Rio de Janeiro",
+        "estado": "RJ"
+      },
+      "fonte": {
+        "nome": "SIMULADOR NIMBUS COMPARATIVO",
+        "tipo": "SIMULADO",
+        "descricao": "SEGUNDA FONTE FICTICIA PARA TESTAR FILTROS E COMPARACOES"
+      },
+      "data_hora": "2026-10-18T06:00:00",
+      "temperatura": 22.6,
+      "umidade": 82,
+      "precipitacao": 0
+    },
+    {
+      "ponto": {
+        "nome": "PONTO SIMULADO - PETROPOLIS",
+        "latitude": -22.5108,
+        "longitude": -43.1779,
+        "cidade": "Petropolis",
+        "estado": "RJ"
+      },
+      "fonte": {
+        "nome": "SIMULADOR NIMBUS",
+        "tipo": "SIMULADO",
+        "descricao": "DADOS FICTICIOS DE DEMONSTRACAO - NAO SAO MEDICOES REAIS"
+      },
+      "data_hora": "2026-10-18T06:00:00",
+      "temperatura": 15.4,
+      "umidade": 92,
+      "precipitacao": 0
+    },
+    {
+      "ponto": {
+        "nome": "PONTO SIMULADO - TERESOPOLIS",
+        "latitude": -22.412,
+        "longitude": -42.9659,
+        "cidade": "Teresopolis",
+        "estado": "RJ"
+      },
+      "fonte": {
+        "nome": "SIMULADOR NIMBUS",
+        "tipo": "SIMULADO",
+        "descricao": "DADOS FICTICIOS DE DEMONSTRACAO - NAO SAO MEDICOES REAIS"
+      },
+      "data_hora": "2026-10-18T06:00:00",
+      "temperatura": 15.4,
+      "umidade": 91,
+      "precipitacao": 0
+    },
+    {
+      "ponto": {
+        "nome": "PONTO SIMULADO - CABO FRIO",
+        "latitude": -22.8795,
+        "longitude": -42.0187,
+        "cidade": "Cabo Frio",
+        "estado": "RJ"
+      },
+      "fonte": {
+        "nome": "SIMULADOR NIMBUS",
+        "tipo": "SIMULADO",
+        "descricao": "DADOS FICTICIOS DE DEMONSTRACAO - NAO SAO MEDICOES REAIS"
+      },
+      "data_hora": "2026-10-18T06:00:00",
+      "temperatura": 20.8,
+      "umidade": 83,
+      "precipitacao": 0
+    },
+    {
+      "ponto": {
+        "nome": "PONTO SIMULADO - RIO DE JANEIRO",
+        "latitude": -22.9068,
+        "longitude": -43.1729,
+        "cidade": "Rio de Janeiro",
+        "estado": "RJ"
+      },
+      "fonte": {
+        "nome": "SIMULADOR NIMBUS",
+        "tipo": "SIMULADO",
+        "descricao": "DADOS FICTICIOS DE DEMONSTRACAO - NAO SAO MEDICOES REAIS"
+      },
+      "data_hora": "2026-10-18T12:00:00",
+      "temperatura": 30.0,
+      "umidade": 52,
+      "precipitacao": 0
+    },
+    {
+      "ponto": {
+        "nome": "PONTO SIMULADO - RIO DE JANEIRO",
+        "latitude": -22.9068,
+        "longitude": -43.1729,
+        "cidade": "Rio de Janeiro",
+        "estado": "RJ"
+      },
+      "fonte": {
+        "nome": "SIMULADOR NIMBUS COMPARATIVO",
+        "tipo": "SIMULADO",
+        "descricao": "SEGUNDA FONTE FICTICIA PARA TESTAR FILTROS E COMPARACOES"
+      },
+      "data_hora": "2026-10-18T12:00:00",
+      "temperatura": 30.4,
+      "umidade": 54,
+      "precipitacao": 0
+    },
+    {
+      "ponto": {
+        "nome": "PONTO SIMULADO - PETROPOLIS",
+        "latitude": -22.5108,
+        "longitude": -43.1779,
+        "cidade": "Petropolis",
+        "estado": "RJ"
+      },
+      "fonte": {
+        "nome": "SIMULADOR NIMBUS",
+        "tipo": "SIMULADO",
+        "descricao": "DADOS FICTICIOS DE DEMONSTRACAO - NAO SAO MEDICOES REAIS"
+      },
+      "data_hora": "2026-10-18T12:00:00",
+      "temperatura": 23.2,
+      "umidade": 64,
+      "precipitacao": 0
+    },
+    {
+      "ponto": {
+        "nome": "PONTO SIMULADO - TERESOPOLIS",
+        "latitude": -22.412,
+        "longitude": -42.9659,
+        "cidade": "Teresopolis",
+        "estado": "RJ"
+      },
+      "fonte": {
+        "nome": "SIMULADOR NIMBUS",
+        "tipo": "SIMULADO",
+        "descricao": "DADOS FICTICIOS DE DEMONSTRACAO - NAO SAO MEDICOES REAIS"
+      },
+      "data_hora": "2026-10-18T12:00:00",
+      "temperatura": 23.2,
+      "umidade": 63,
+      "precipitacao": 0
+    },
+    {
+      "ponto": {
+        "nome": "PONTO SIMULADO - CABO FRIO",
+        "latitude": -22.8795,
+        "longitude": -42.0187,
+        "cidade": "Cabo Frio",
+        "estado": "RJ"
+      },
+      "fonte": {
+        "nome": "SIMULADOR NIMBUS",
+        "tipo": "SIMULADO",
+        "descricao": "DADOS FICTICIOS DE DEMONSTRACAO - NAO SAO MEDICOES REAIS"
+      },
+      "data_hora": "2026-10-18T12:00:00",
+      "temperatura": 28.6,
+      "umidade": 55,
+      "precipitacao": 0
+    },
+    {
+      "ponto": {
+        "nome": "PONTO SIMULADO - RIO DE JANEIRO",
+        "latitude": -22.9068,
+        "longitude": -43.1729,
+        "cidade": "Rio de Janeiro",
+        "estado": "RJ"
+      },
+      "fonte": {
+        "nome": "SIMULADOR NIMBUS",
+        "tipo": "SIMULADO",
+        "descricao": "DADOS FICTICIOS DE DEMONSTRACAO - NAO SAO MEDICOES REAIS"
+      },
+      "data_hora": "2026-10-18T18:00:00",
+      "temperatura": 27.2,
+      "umidade": 66,
+      "precipitacao": 0
+    },
+    {
+      "ponto": {
+        "nome": "PONTO SIMULADO - RIO DE JANEIRO",
+        "latitude": -22.9068,
+        "longitude": -43.1729,
+        "cidade": "Rio de Janeiro",
+        "estado": "RJ"
+      },
+      "fonte": {
+        "nome": "SIMULADOR NIMBUS COMPARATIVO",
+        "tipo": "SIMULADO",
+        "descricao": "SEGUNDA FONTE FICTICIA PARA TESTAR FILTROS E COMPARACOES"
+      },
+      "data_hora": "2026-10-18T18:00:00",
+      "temperatura": 27.6,
+      "umidade": 68,
+      "precipitacao": 0
+    },
+    {
+      "ponto": {
+        "nome": "PONTO SIMULADO - PETROPOLIS",
+        "latitude": -22.5108,
+        "longitude": -43.1779,
+        "cidade": "Petropolis",
+        "estado": "RJ"
+      },
+      "fonte": {
+        "nome": "SIMULADOR NIMBUS",
+        "tipo": "SIMULADO",
+        "descricao": "DADOS FICTICIOS DE DEMONSTRACAO - NAO SAO MEDICOES REAIS"
+      },
+      "data_hora": "2026-10-18T18:00:00",
+      "temperatura": 20.4,
+      "umidade": 78,
+      "precipitacao": 0
+    },
+    {
+      "ponto": {
+        "nome": "PONTO SIMULADO - TERESOPOLIS",
+        "latitude": -22.412,
+        "longitude": -42.9659,
+        "cidade": "Teresopolis",
+        "estado": "RJ"
+      },
+      "fonte": {
+        "nome": "SIMULADOR NIMBUS",
+        "tipo": "SIMULADO",
+        "descricao": "DADOS FICTICIOS DE DEMONSTRACAO - NAO SAO MEDICOES REAIS"
+      },
+      "data_hora": "2026-10-18T18:00:00",
+      "temperatura": 20.4,
+      "umidade": 77,
+      "precipitacao": 0
+    },
+    {
+      "ponto": {
+        "nome": "PONTO SIMULADO - CABO FRIO",
+        "latitude": -22.8795,
+        "longitude": -42.0187,
+        "cidade": "Cabo Frio",
+        "estado": "RJ"
+      },
+      "fonte": {
+        "nome": "SIMULADOR NIMBUS",
+        "tipo": "SIMULADO",
+        "descricao": "DADOS FICTICIOS DE DEMONSTRACAO - NAO SAO MEDICOES REAIS"
+      },
+      "data_hora": "2026-10-18T18:00:00",
+      "temperatura": 25.8,
+      "umidade": 69,
+      "precipitacao": 0
+    },
+    {
+      "ponto": {
+        "nome": "PONTO SIMULADO - RIO DE JANEIRO",
+        "latitude": -22.9068,
+        "longitude": -43.1729,
+        "cidade": "Rio de Janeiro",
+        "estado": "RJ"
+      },
+      "fonte": {
+        "nome": "SIMULADOR NIMBUS",
+        "tipo": "SIMULADO",
+        "descricao": "DADOS FICTICIOS DE DEMONSTRACAO - NAO SAO MEDICOES REAIS"
+      },
+      "data_hora": "2026-10-19T00:00:00",
+      "temperatura": 20.1,
+      "umidade": 88,
+      "precipitacao": 0.6
+    },
+    {
+      "ponto": {
+        "nome": "PONTO SIMULADO - RIO DE JANEIRO",
+        "latitude": -22.9068,
+        "longitude": -43.1729,
+        "cidade": "Rio de Janeiro",
+        "estado": "RJ"
+      },
+      "fonte": {
+        "nome": "SIMULADOR NIMBUS COMPARATIVO",
+        "tipo": "SIMULADO",
+        "descricao": "SEGUNDA FONTE FICTICIA PARA TESTAR FILTROS E COMPARACOES"
+      },
+      "data_hora": "2026-10-19T00:00:00",
+      "temperatura": 20.5,
+      "umidade": 90,
+      "precipitacao": 0.9
+    },
+    {
+      "ponto": {
+        "nome": "PONTO SIMULADO - PETROPOLIS",
+        "latitude": -22.5108,
+        "longitude": -43.1779,
+        "cidade": "Petropolis",
+        "estado": "RJ"
+      },
+      "fonte": {
+        "nome": "SIMULADOR NIMBUS",
+        "tipo": "SIMULADO",
+        "descricao": "DADOS FICTICIOS DE DEMONSTRACAO - NAO SAO MEDICOES REAIS"
+      },
+      "data_hora": "2026-10-19T00:00:00",
+      "temperatura": 14.2,
+      "umidade": 94,
+      "precipitacao": 0.78
+    },
+    {
+      "ponto": {
+        "nome": "PONTO SIMULADO - TERESOPOLIS",
+        "latitude": -22.412,
+        "longitude": -42.9659,
+        "cidade": "Teresopolis",
+        "estado": "RJ"
+      },
+      "fonte": {
+        "nome": "SIMULADOR NIMBUS",
+        "tipo": "SIMULADO",
+        "descricao": "DADOS FICTICIOS DE DEMONSTRACAO - NAO SAO MEDICOES REAIS"
+      },
+      "data_hora": "2026-10-19T00:00:00",
+      "temperatura": 14.2,
+      "umidade": 93,
+      "precipitacao": 0.72
+    },
+    {
+      "ponto": {
+        "nome": "PONTO SIMULADO - CABO FRIO",
+        "latitude": -22.8795,
+        "longitude": -42.0187,
+        "cidade": "Cabo Frio",
+        "estado": "RJ"
+      },
+      "fonte": {
+        "nome": "SIMULADOR NIMBUS",
+        "tipo": "SIMULADO",
+        "descricao": "DADOS FICTICIOS DE DEMONSTRACAO - NAO SAO MEDICOES REAIS"
+      },
+      "data_hora": "2026-10-19T00:00:00",
+      "temperatura": 18.7,
+      "umidade": 91,
+      "precipitacao": 0.48
+    },
+    {
+      "ponto": {
+        "nome": "PONTO SIMULADO - RIO DE JANEIRO",
+        "latitude": -22.9068,
+        "longitude": -43.1729,
+        "cidade": "Rio de Janeiro",
+        "estado": "RJ"
+      },
+      "fonte": {
+        "nome": "SIMULADOR NIMBUS",
+        "tipo": "SIMULADO",
+        "descricao": "DADOS FICTICIOS DE DEMONSTRACAO - NAO SAO MEDICOES REAIS"
+      },
+      "data_hora": "2026-10-19T06:00:00",
+      "temperatura": 18.8,
+      "umidade": 91,
+      "precipitacao": 1.5
+    },
+    {
+      "ponto": {
+        "nome": "PONTO SIMULADO - RIO DE JANEIRO",
+        "latitude": -22.9068,
+        "longitude": -43.1729,
+        "cidade": "Rio de Janeiro",
+        "estado": "RJ"
+      },
+      "fonte": {
+        "nome": "SIMULADOR NIMBUS COMPARATIVO",
+        "tipo": "SIMULADO",
+        "descricao": "SEGUNDA FONTE FICTICIA PARA TESTAR FILTROS E COMPARACOES"
+      },
+      "data_hora": "2026-10-19T06:00:00",
+      "temperatura": 19.2,
+      "umidade": 93,
+      "precipitacao": 1.8
+    },
+    {
+      "ponto": {
+        "nome": "PONTO SIMULADO - PETROPOLIS",
+        "latitude": -22.5108,
+        "longitude": -43.1779,
+        "cidade": "Petropolis",
+        "estado": "RJ"
+      },
+      "fonte": {
+        "nome": "SIMULADOR NIMBUS",
+        "tipo": "SIMULADO",
+        "descricao": "DADOS FICTICIOS DE DEMONSTRACAO - NAO SAO MEDICOES REAIS"
+      },
+      "data_hora": "2026-10-19T06:00:00",
+      "temperatura": 12.9,
+      "umidade": 97,
+      "precipitacao": 1.95
+    },
+    {
+      "ponto": {
+        "nome": "PONTO SIMULADO - TERESOPOLIS",
+        "latitude": -22.412,
+        "longitude": -42.9659,
+        "cidade": "Teresopolis",
+        "estado": "RJ"
+      },
+      "fonte": {
+        "nome": "SIMULADOR NIMBUS",
+        "tipo": "SIMULADO",
+        "descricao": "DADOS FICTICIOS DE DEMONSTRACAO - NAO SAO MEDICOES REAIS"
+      },
+      "data_hora": "2026-10-19T06:00:00",
+      "temperatura": 12.9,
+      "umidade": 96,
+      "precipitacao": 1.8
+    },
+    {
+      "ponto": {
+        "nome": "PONTO SIMULADO - CABO FRIO",
+        "latitude": -22.8795,
+        "longitude": -42.0187,
+        "cidade": "Cabo Frio",
+        "estado": "RJ"
+      },
+      "fonte": {
+        "nome": "SIMULADOR NIMBUS",
+        "tipo": "SIMULADO",
+        "descricao": "DADOS FICTICIOS DE DEMONSTRACAO - NAO SAO MEDICOES REAIS"
+      },
+      "data_hora": "2026-10-19T06:00:00",
+      "temperatura": 17.4,
+      "umidade": 94,
+      "precipitacao": 1.2
+    },
+    {
+      "ponto": {
+        "nome": "PONTO SIMULADO - RIO DE JANEIRO",
+        "latitude": -22.9068,
+        "longitude": -43.1729,
+        "cidade": "Rio de Janeiro",
+        "estado": "RJ"
+      },
+      "fonte": {
+        "nome": "SIMULADOR NIMBUS",
+        "tipo": "SIMULADO",
+        "descricao": "DADOS FICTICIOS DE DEMONSTRACAO - NAO SAO MEDICOES REAIS"
+      },
+      "data_hora": "2026-10-19T12:00:00",
+      "temperatura": 26.6,
+      "umidade": 63,
+      "precipitacao": 2.1
+    },
+    {
+      "ponto": {
+        "nome": "PONTO SIMULADO - RIO DE JANEIRO",
+        "latitude": -22.9068,
+        "longitude": -43.1729,
+        "cidade": "Rio de Janeiro",
+        "estado": "RJ"
+      },
+      "fonte": {
+        "nome": "SIMULADOR NIMBUS COMPARATIVO",
+        "tipo": "SIMULADO",
+        "descricao": "SEGUNDA FONTE FICTICIA PARA TESTAR FILTROS E COMPARACOES"
+      },
+      "data_hora": "2026-10-19T12:00:00",
+      "temperatura": 27.0,
+      "umidade": 65,
+      "precipitacao": 2.4
+    },
+    {
+      "ponto": {
+        "nome": "PONTO SIMULADO - PETROPOLIS",
+        "latitude": -22.5108,
+        "longitude": -43.1779,
+        "cidade": "Petropolis",
+        "estado": "RJ"
+      },
+      "fonte": {
+        "nome": "SIMULADOR NIMBUS",
+        "tipo": "SIMULADO",
+        "descricao": "DADOS FICTICIOS DE DEMONSTRACAO - NAO SAO MEDICOES REAIS"
+      },
+      "data_hora": "2026-10-19T12:00:00",
+      "temperatura": 20.7,
+      "umidade": 69,
+      "precipitacao": 2.73
+    },
+    {
+      "ponto": {
+        "nome": "PONTO SIMULADO - TERESOPOLIS",
+        "latitude": -22.412,
+        "longitude": -42.9659,
+        "cidade": "Teresopolis",
+        "estado": "RJ"
+      },
+      "fonte": {
+        "nome": "SIMULADOR NIMBUS",
+        "tipo": "SIMULADO",
+        "descricao": "DADOS FICTICIOS DE DEMONSTRACAO - NAO SAO MEDICOES REAIS"
+      },
+      "data_hora": "2026-10-19T12:00:00",
+      "temperatura": 20.7,
+      "umidade": 68,
+      "precipitacao": 2.52
+    },
+    {
+      "ponto": {
+        "nome": "PONTO SIMULADO - CABO FRIO",
+        "latitude": -22.8795,
+        "longitude": -42.0187,
+        "cidade": "Cabo Frio",
+        "estado": "RJ"
+      },
+      "fonte": {
+        "nome": "SIMULADOR NIMBUS",
+        "tipo": "SIMULADO",
+        "descricao": "DADOS FICTICIOS DE DEMONSTRACAO - NAO SAO MEDICOES REAIS"
+      },
+      "data_hora": "2026-10-19T12:00:00",
+      "temperatura": 25.2,
+      "umidade": 66,
+      "precipitacao": 1.68
+    },
+    {
+      "ponto": {
+        "nome": "PONTO SIMULADO - RIO DE JANEIRO",
+        "latitude": -22.9068,
+        "longitude": -43.1729,
+        "cidade": "Rio de Janeiro",
+        "estado": "RJ"
+      },
+      "fonte": {
+        "nome": "SIMULADOR NIMBUS",
+        "tipo": "SIMULADO",
+        "descricao": "DADOS FICTICIOS DE DEMONSTRACAO - NAO SAO MEDICOES REAIS"
+      },
+      "data_hora": "2026-10-19T18:00:00",
+      "temperatura": 23.8,
+      "umidade": 77,
+      "precipitacao": 2.9
+    },
+    {
+      "ponto": {
+        "nome": "PONTO SIMULADO - RIO DE JANEIRO",
+        "latitude": -22.9068,
+        "longitude": -43.1729,
+        "cidade": "Rio de Janeiro",
+        "estado": "RJ"
+      },
+      "fonte": {
+        "nome": "SIMULADOR NIMBUS COMPARATIVO",
+        "tipo": "SIMULADO",
+        "descricao": "SEGUNDA FONTE FICTICIA PARA TESTAR FILTROS E COMPARACOES"
+      },
+      "data_hora": "2026-10-19T18:00:00",
+      "temperatura": 24.2,
+      "umidade": 79,
+      "precipitacao": 3.2
+    },
+    {
+      "ponto": {
+        "nome": "PONTO SIMULADO - PETROPOLIS",
+        "latitude": -22.5108,
+        "longitude": -43.1779,
+        "cidade": "Petropolis",
+        "estado": "RJ"
+      },
+      "fonte": {
+        "nome": "SIMULADOR NIMBUS",
+        "tipo": "SIMULADO",
+        "descricao": "DADOS FICTICIOS DE DEMONSTRACAO - NAO SAO MEDICOES REAIS"
+      },
+      "data_hora": "2026-10-19T18:00:00",
+      "temperatura": 17.9,
+      "umidade": 83,
+      "precipitacao": 3.77
+    },
+    {
+      "ponto": {
+        "nome": "PONTO SIMULADO - TERESOPOLIS",
+        "latitude": -22.412,
+        "longitude": -42.9659,
+        "cidade": "Teresopolis",
+        "estado": "RJ"
+      },
+      "fonte": {
+        "nome": "SIMULADOR NIMBUS",
+        "tipo": "SIMULADO",
+        "descricao": "DADOS FICTICIOS DE DEMONSTRACAO - NAO SAO MEDICOES REAIS"
+      },
+      "data_hora": "2026-10-19T18:00:00",
+      "temperatura": 17.9,
+      "umidade": 82,
+      "precipitacao": 3.48
+    },
+    {
+      "ponto": {
+        "nome": "PONTO SIMULADO - CABO FRIO",
+        "latitude": -22.8795,
+        "longitude": -42.0187,
+        "cidade": "Cabo Frio",
+        "estado": "RJ"
+      },
+      "fonte": {
+        "nome": "SIMULADOR NIMBUS",
+        "tipo": "SIMULADO",
+        "descricao": "DADOS FICTICIOS DE DEMONSTRACAO - NAO SAO MEDICOES REAIS"
+      },
+      "data_hora": "2026-10-19T18:00:00",
+      "temperatura": 22.4,
+      "umidade": 80,
+      "precipitacao": 2.32
+    }
+  ]
+}

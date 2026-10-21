@@ -1,0 +1,41 @@
+NIMBUS v4.2 - INSTALADOR PARA WINDOWS + UBUNTU WSL 2
+===================================================
+
+1) Extraia TODO o conteudo deste ZIP (nao execute dentro do ZIP).
+2) Dê dois cliques em INSTALAR_NIMBUS.cmd.
+3) O instalador verifica Python/Tkinter, copia o projeto para
+   %LOCALAPPDATA%\Nimbus, configura o .env com senhas fortes, inicia
+   Docker no Ubuntu WSL e sobe MySQL/API.
+4) Depois, use o atalho 'Nimbus' na Area de Trabalho.
+   O atalho tenta iniciar a API automaticamente se estiver parada.
+
+PRE-REQUISITOS (seu computador ja demonstrou possuir esses componentes):
+- Windows 10/11 e distribuicao WSL chamada Ubuntu;
+- Docker Engine + plugin Compose instalados dentro do Ubuntu;
+- Python 3.10+ com Tkinter instalado no Windows;
+- Acesso a internet na primeira construcao do Docker (imagens e pip).
+
+IMPORTANTE:
+- Nao e um instalador .exe assinado. E um instalador em .CMD + PowerShell,
+  com codigo legivel, executado por duplo clique.
+- O instalador NAO instala WSL, Docker ou Python se estiverem faltando;
+  ele verifica e informa o problema. Seu computador ja instalou Docker.
+- Nao pede nem imprime senhas: gera senhas aleatorias para MySQL e
+  guarda-as no arquivo .env no diretorio instalado.
+- Se a instalacao ja existir, preserva .env e interface/dados.
+- O atalho 'Nimbus' usa MySQL/API. 'Nimbus - Local' usa arquivos JSON.
+- O modo API nao importa automaticamente dados do modo JSON local.
+- Nao use 'docker compose down -v': isso apaga o volume do banco.
+- A aplicacao nao implementa autenticação para usuarios: use localmente.
+
+ATUALIZACAO OU MANUTENCAO:
+- Reexecute INSTALAR_NIMBUS.cmd para atualizar o codigo preservando dados.
+- Use o atalho 'Nimbus - Servicos' para ver status e logs, iniciar/parar.
+- Pasta instalada: %LOCALAPPDATA%\Nimbus
+- API: http://127.0.0.1:5000/health
+- Arquivo de configuracao: %LOCALAPPDATA%\Nimbus\.env (NAO compartilhe)
+
+SE DER ERRO:
+- Copie somente a mensagem do terminal (sem o conteudo do .env).
+- Para erros de MySQL/API, abra 'Nimbus - Servicos' e selecione 1 e 3.
+- Nao reinicialize nem exclua volumes do Docker sem backup.
