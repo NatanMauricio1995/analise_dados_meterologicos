@@ -65,7 +65,7 @@ class FontesPage(tk.Frame):
             else:
                 self.store.update("fontes", self.editing_id, values)
                 message = "Fonte atualizada com sucesso."
-        except (OSError, KeyError) as exc:
+        except (OSError, KeyError, ValueError, ConnectionError) as exc:
             show_error(self, self.status, f"Não foi possível salvar a fonte: {exc}")
             return
         self.clear()
@@ -86,7 +86,7 @@ class FontesPage(tk.Frame):
         self.editing_id = item_id
         for key, entry in self.fields.items():
             entry.delete(0, tk.END)
-            entry.insert(0, source.get(key, ""))
+            entry.insert(0, source.get(key) or "")
         self.save_button.configure(text="Salvar alterações")
         self.clear_button.configure(text="Cancelar edição")
         self.status.configure(text=f"Editando a fonte {item_id}.", fg="#B7791F")
@@ -112,7 +112,7 @@ class FontesPage(tk.Frame):
             return
         try:
             self.store.delete("fontes", item_id)
-        except (OSError, KeyError) as exc:
+        except (OSError, KeyError, ValueError, ConnectionError) as exc:
             show_error(self, self.status, f"Não foi possível excluir a fonte: {exc}")
             return
         if self.editing_id == item_id:

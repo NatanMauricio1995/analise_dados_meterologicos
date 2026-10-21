@@ -115,7 +115,7 @@ class RegistrosPage(tk.Frame):
             else:
                 self.store.update("registros", self.editing_id, values)
                 message = "Registro meteorológico atualizado com sucesso."
-        except (OSError, KeyError) as exc:
+        except (OSError, KeyError, ValueError, ConnectionError) as exc:
             show_error(self, self.status, f"Não foi possível salvar o registro: {exc}")
             return
         self.clear()
@@ -166,7 +166,7 @@ class RegistrosPage(tk.Frame):
             return
         try:
             self.store.delete("registros", item_id)
-        except (OSError, KeyError) as exc:
+        except (OSError, KeyError, ValueError, ConnectionError) as exc:
             show_error(self, self.status, f"Não foi possível excluir o registro: {exc}")
             return
         if self.editing_id == item_id:

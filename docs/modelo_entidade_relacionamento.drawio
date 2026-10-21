@@ -67,7 +67,7 @@
             <mxRectangle height="30" width="30" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="IefcIVa4wl7Bh_4QSH7b-18" parent="IefcIVa4wl7Bh_4QSH7b-16" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;overflow=hidden;" value="cidade (varchar(100))" vertex="1">
+        <mxCell id="IefcIVa4wl7Bh_4QSH7b-18" parent="IefcIVa4wl7Bh_4QSH7b-16" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;overflow=hidden;" value="cidade (varchar(100), opcional)" vertex="1">
           <mxGeometry height="30" width="210" x="30" as="geometry">
             <mxRectangle height="30" width="210" as="alternateBounds" />
           </mxGeometry>
@@ -80,7 +80,7 @@
             <mxRectangle height="30" width="30" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="IefcIVa4wl7Bh_4QSH7b-21" parent="IefcIVa4wl7Bh_4QSH7b-19" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;overflow=hidden;" value="estado (char(2)" vertex="1">
+        <mxCell id="IefcIVa4wl7Bh_4QSH7b-21" parent="IefcIVa4wl7Bh_4QSH7b-19" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;overflow=hidden;" value="estado (char(2), opcional)" vertex="1">
           <mxGeometry height="30" width="210" x="30" as="geometry">
             <mxRectangle height="30" width="210" as="alternateBounds" />
           </mxGeometry>

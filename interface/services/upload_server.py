@@ -1,4 +1,4 @@
-"""Recebe CSVs do computador quando o Nimbus roda no Codespaces."""
+"""Recebe arquivos JSON do computador quando o Nimbus roda no Codespaces."""
 
 import json
 import secrets
@@ -10,7 +10,7 @@ from urllib.parse import parse_qs, urlparse
 MAX_SIZE = 15 * 1024 * 1024
 
 
-class BrowserCSVUploadServer:
+class BrowserJSONUploadServer:
     def __init__(self, upload_dir, host="0.0.0.0", port=8765):
         self.upload_dir = Path(upload_dir)
         self.upload_dir.mkdir(parents=True, exist_ok=True)
@@ -63,29 +63,40 @@ class BrowserCSVUploadServer:
                     self.error(403, "Envio não autorizado.")
                     return
 
-                size = int(self.headers.get("Content-Length", 0))
+                try:
+                    size = int(self.headers.get("Content-Length", 0))
+                except ValueError:
+                    self.error(400, "Content-Length inválido.")
+                    return
                 if size <= 0 or size > MAX_SIZE:
                     self.error(400 if size <= 0 else 413, "Arquivo vazio ou maior que 15 MB.")
                     return
 
-                name = parse_qs(urlparse(self.path).query).get("filename", ["dados.csv"])[0]
+                name = parse_qs(urlparse(self.path).query).get("filename", ["dados.json"])[0]
                 name = Path(name.replace("\\", "/")).name
-                if Path(name).suffix.lower() != ".csv":
-                    self.error(415, "Selecione um arquivo CSV.")
+                if Path(name).suffix.lower() != ".json":
+                    self.error(415, "Selecione um arquivo JSON.")
                     return
 
                 content = self.rfile.read(size)
                 try:
                     content.decode("utf-8-sig")
                 except UnicodeDecodeError:
-                    self.error(400, "O CSV deve estar codificado em UTF-8.")
+                    self.error(400, "O JSON deve estar codificado em UTF-8.")
                     return
 
+                try:
+                    payload=json.loads(content.decode('utf-8-sig'))
+                    if not isinstance(payload,dict) or not isinstance(payload.get('observacoes'),list):
+                        raise ValueError('Documento deve conter observacoes como lista.')
+                except (json.JSONDecodeError,ValueError) as exc:
+                    self.error(400,f'Arquivo JSON inválido: {exc}')
+                    return
                 original = Path(name)
                 destination = upload_dir / name
                 number = 2
                 while destination.exists():
-                    destination = upload_dir / f"{original.stem}_{number}.csv"
+                    destination = upload_dir / f"{original.stem}_{number}.json"
                     number += 1
                 destination.write_bytes(content)
                 body = json.dumps({"filename": destination.name}, ensure_ascii=False).encode("utf-8")

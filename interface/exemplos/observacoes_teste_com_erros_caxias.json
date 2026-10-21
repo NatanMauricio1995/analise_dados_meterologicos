@@ -1,0 +1,508 @@
+{
+  "observacoes": [
+    {
+      "ponto": {
+        "nome": "ESTACAO CAXIAS CENTRO",
+        "latitude": "-22.785600",
+        "longitude": "-43.311700",
+        "cidade": "DUQUE DE CAXIAS",
+        "estado": "RJ"
+      },
+      "fonte": {
+        "nome": "INMET",
+        "tipo": "API",
+        "descricao": "INSTITUTO NACIONAL DE METEOROLOGIA"
+      },
+      "data_hora": "2026-10-19T08:00:00",
+      "temperatura": "22.4",
+      "umidade": "84",
+      "precipitacao": "0.0"
+    },
+    {
+      "ponto": {
+        "nome": "ESTACAO CAXIAS CENTRO",
+        "latitude": "-22.785600",
+        "longitude": "-43.311700",
+        "cidade": "DUQUE DE CAXIAS",
+        "estado": "RJ"
+      },
+      "fonte": {
+        "nome": "INMET",
+        "tipo": "API",
+        "descricao": "INSTITUTO NACIONAL DE METEOROLOGIA"
+      },
+      "data_hora": "2026-10-19T09:00:00",
+      "temperatura": "23,1",
+      "umidade": "82",
+      "precipitacao": "0,0"
+    },
+    {
+      "ponto": {
+        "nome": "ESTACAO NOVA IGUACU",
+        "latitude": "-22.759200",
+        "longitude": "-43.451000",
+        "cidade": "NOVA IGUAÇU",
+        "estado": "RJ"
+      },
+      "fonte": {
+        "nome": "INMET",
+        "tipo": "API",
+        "descricao": "INSTITUTO NACIONAL DE METEOROLOGIA"
+      },
+      "data_hora": "2026-10-19T10:00:00",
+      "temperatura": "25.2",
+      "umidade": "75",
+      "precipitacao": "0.0"
+    },
+    {
+      "ponto": {
+        "nome": "ESTACAO CAXIAS CENTRO",
+        "latitude": "-22.785600",
+        "longitude": "-43.311700",
+        "cidade": "DUQUE DE CAXIAS",
+        "estado": "RJ"
+      },
+      "fonte": {
+        "nome": "INMET",
+        "tipo": "API",
+        "descricao": "INSTITUTO NACIONAL DE METEOROLOGIA"
+      },
+      "data_hora": "2026-10-19T08:00:00",
+      "temperatura": "22.4",
+      "umidade": "84",
+      "precipitacao": "0.0"
+    },
+    {
+      "ponto": {
+        "nome": "ESTACAO CAXIAS CENTRO",
+        "latitude": "-22.785600",
+        "longitude": "-43.311700",
+        "cidade": "DUQUE DE CAXIAS",
+        "estado": "RJ"
+      },
+      "fonte": {
+        "nome": "INMET",
+        "tipo": "API",
+        "descricao": "INSTITUTO NACIONAL DE METEOROLOGIA"
+      },
+      "data_hora": "2026-10-19T11:00:00",
+      "temperatura": "75",
+      "umidade": "84",
+      "precipitacao": "0.0"
+    },
+    {
+      "ponto": {
+        "nome": "ESTACAO CAXIAS CENTRO",
+        "latitude": "-22.785600",
+        "longitude": "-43.311700",
+        "cidade": "DUQUE DE CAXIAS",
+        "estado": "RJ"
+      },
+      "fonte": {
+        "nome": "INMET",
+        "tipo": "API",
+        "descricao": "INSTITUTO NACIONAL DE METEOROLOGIA"
+      },
+      "data_hora": "2026-10-19T12:00:00",
+      "temperatura": "-95",
+      "umidade": "84",
+      "precipitacao": "0.0"
+    },
+    {
+      "ponto": {
+        "nome": "ESTACAO CAXIAS CENTRO",
+        "latitude": "-22.785600",
+        "longitude": "-43.311700",
+        "cidade": "DUQUE DE CAXIAS",
+        "estado": "RJ"
+      },
+      "fonte": {
+        "nome": "INMET",
+        "tipo": "API",
+        "descricao": "INSTITUTO NACIONAL DE METEOROLOGIA"
+      },
+      "data_hora": "2026-10-19T13:00:00",
+      "temperatura": "22.4",
+      "umidade": "120",
+      "precipitacao": "0.0"
+    },
+    {
+      "ponto": {
+        "nome": "ESTACAO CAXIAS CENTRO",
+        "latitude": "-22.785600",
+        "longitude": "-43.311700",
+        "cidade": "DUQUE DE CAXIAS",
+        "estado": "RJ"
+      },
+      "fonte": {
+        "nome": "INMET",
+        "tipo": "API",
+        "descricao": "INSTITUTO NACIONAL DE METEOROLOGIA"
+      },
+      "data_hora": "2026-10-19T14:00:00",
+      "temperatura": "22.4",
+      "umidade": "-5",
+      "precipitacao": "0.0"
+    },
+    {
+      "ponto": {
+        "nome": "ESTACAO CAXIAS CENTRO",
+        "latitude": "-22.785600",
+        "longitude": "-43.311700",
+        "cidade": "DUQUE DE CAXIAS",
+        "estado": "RJ"
+      },
+      "fonte": {
+        "nome": "INMET",
+        "tipo": "API",
+        "descricao": "INSTITUTO NACIONAL DE METEOROLOGIA"
+      },
+      "data_hora": "2026-10-19T15:00:00",
+      "temperatura": "22.4",
+      "umidade": "84",
+      "precipitacao": "-1.0"
+    },
+    {
+      "ponto": {
+        "nome": "ESTACAO CAXIAS CENTRO",
+        "latitude": "-22.785600",
+        "longitude": "-43.311700",
+        "cidade": "DUQUE DE CAXIAS",
+        "estado": "RJ"
+      },
+      "fonte": {
+        "nome": "INMET",
+        "tipo": "API",
+        "descricao": "INSTITUTO NACIONAL DE METEOROLOGIA"
+      },
+      "data_hora": "2026-10-19T16:00:00",
+      "temperatura": "abc",
+      "umidade": "84",
+      "precipitacao": "0.0"
+    },
+    {
+      "ponto": {
+        "nome": "ESTACAO CAXIAS CENTRO",
+        "latitude": "-22.785600",
+        "longitude": "-43.311700",
+        "cidade": "DUQUE DE CAXIAS",
+        "estado": "RJ"
+      },
+      "fonte": {
+        "nome": "INMET",
+        "tipo": "API",
+        "descricao": "INSTITUTO NACIONAL DE METEOROLOGIA"
+      },
+      "data_hora": "2026-10-19T17:00:00",
+      "temperatura": "nan",
+      "umidade": "84",
+      "precipitacao": "0.0"
+    },
+    {
+      "ponto": {
+        "nome": "ESTACAO CAXIAS CENTRO",
+        "latitude": "-22.785600",
+        "longitude": "-43.311700",
+        "cidade": "DUQUE DE CAXIAS",
+        "estado": "RJ"
+      },
+      "fonte": {
+        "nome": "INMET",
+        "tipo": "API",
+        "descricao": "INSTITUTO NACIONAL DE METEOROLOGIA"
+      },
+      "data_hora": "2026-10-19T18:00:00",
+      "temperatura": "22.4",
+      "umidade": "inf",
+      "precipitacao": "0.0"
+    },
+    {
+      "ponto": {
+        "nome": "ESTACAO CAXIAS CENTRO",
+        "latitude": "-22.785600",
+        "longitude": "-43.311700",
+        "cidade": "DUQUE DE CAXIAS",
+        "estado": "RJ"
+      },
+      "fonte": {
+        "nome": "INMET",
+        "tipo": "API",
+        "descricao": "INSTITUTO NACIONAL DE METEOROLOGIA"
+      },
+      "data_hora": "2027-01-15T10:00:00",
+      "temperatura": "22.4",
+      "umidade": "84",
+      "precipitacao": "0.0"
+    },
+    {
+      "ponto": {
+        "nome": "ESTACAO CAXIAS CENTRO",
+        "latitude": "-22.785600",
+        "longitude": "-43.311700",
+        "cidade": "DUQUE DE CAXIAS",
+        "estado": "RJ"
+      },
+      "fonte": {
+        "nome": "INMET",
+        "tipo": "API",
+        "descricao": "INSTITUTO NACIONAL DE METEOROLOGIA"
+      },
+      "data_hora": "19/10/2026T10:00:00",
+      "temperatura": "22.4",
+      "umidade": "84",
+      "precipitacao": "0.0"
+    },
+    {
+      "ponto": {
+        "nome": "ESTACAO CAXIAS CENTRO",
+        "latitude": "-22.785600",
+        "longitude": "-43.311700",
+        "cidade": "DUQUE DE CAXIAS",
+        "estado": "RJ"
+      },
+      "fonte": {
+        "nome": "INMET",
+        "tipo": "API",
+        "descricao": "INSTITUTO NACIONAL DE METEOROLOGIA"
+      },
+      "data_hora": "2026-10-19T10:00",
+      "temperatura": "22.4",
+      "umidade": "84",
+      "precipitacao": "0.0"
+    },
+    {
+      "ponto": {
+        "nome": "ESTACAO CAXIAS CENTRO",
+        "latitude": "-22.785600",
+        "longitude": "-43.311700",
+        "cidade": "DUQUE DE CAXIAS",
+        "estado": "RJ"
+      },
+      "fonte": {
+        "nome": "INMET",
+        "tipo": "API",
+        "descricao": "INSTITUTO NACIONAL DE METEOROLOGIA"
+      },
+      "data_hora": "2026-02-30T10:00:00",
+      "temperatura": "22.4",
+      "umidade": "84",
+      "precipitacao": "0.0"
+    },
+    {
+      "ponto": {
+        "nome": "ESTACAO CAXIAS CENTRO",
+        "latitude": "-22.785600",
+        "longitude": "-43.311700",
+        "cidade": "DUQUE DE CAXIAS",
+        "estado": "RJ"
+      },
+      "fonte": {
+        "nome": "INMET",
+        "tipo": "API",
+        "descricao": "INSTITUTO NACIONAL DE METEOROLOGIA"
+      },
+      "data_hora": "2026-10-19T24:00:00",
+      "temperatura": "22.4",
+      "umidade": "84",
+      "precipitacao": "0.0"
+    },
+    {
+      "ponto": {
+        "nome": "ESTACAO CAXIAS CENTRO",
+        "latitude": "-22.785600",
+        "longitude": "-43.311700",
+        "cidade": "DUQUE DE CAXIAS",
+        "estado": "RJ"
+      },
+      "fonte": {
+        "nome": "INMET",
+        "tipo": "API",
+        "descricao": "INSTITUTO NACIONAL DE METEOROLOGIA"
+      },
+      "data_hora": "",
+      "temperatura": "22.4",
+      "umidade": "84",
+      "precipitacao": "0.0"
+    },
+    {
+      "ponto": {
+        "nome": "ESTACAO CAXIAS CENTRO",
+        "latitude": "-95.000000",
+        "longitude": "-43.311700",
+        "cidade": "DUQUE DE CAXIAS",
+        "estado": "RJ"
+      },
+      "fonte": {
+        "nome": "INMET",
+        "tipo": "API",
+        "descricao": "INSTITUTO NACIONAL DE METEOROLOGIA"
+      },
+      "data_hora": "2026-10-19T19:00:00",
+      "temperatura": "22.4",
+      "umidade": "84",
+      "precipitacao": "0.0"
+    },
+    {
+      "ponto": {
+        "nome": "ESTACAO CAXIAS CENTRO",
+        "latitude": "-22.785600",
+        "longitude": "-200.000000",
+        "cidade": "DUQUE DE CAXIAS",
+        "estado": "RJ"
+      },
+      "fonte": {
+        "nome": "INMET",
+        "tipo": "API",
+        "descricao": "INSTITUTO NACIONAL DE METEOROLOGIA"
+      },
+      "data_hora": "2026-10-19T19:00:00",
+      "temperatura": "22.4",
+      "umidade": "84",
+      "precipitacao": "0.0"
+    },
+    {
+      "ponto": {
+        "nome": "ESTACAO CAXIAS CENTRO",
+        "latitude": "norte",
+        "longitude": "-43.311700",
+        "cidade": "DUQUE DE CAXIAS",
+        "estado": "RJ"
+      },
+      "fonte": {
+        "nome": "INMET",
+        "tipo": "API",
+        "descricao": "INSTITUTO NACIONAL DE METEOROLOGIA"
+      },
+      "data_hora": "2026-10-19T19:00:00",
+      "temperatura": "22.4",
+      "umidade": "84",
+      "precipitacao": "0.0"
+    },
+    {
+      "ponto": {
+        "nome": "ESTACAO CAXIAS CENTRO",
+        "latitude": "-22.785600",
+        "longitude": "-43.311700",
+        "cidade": "DUQUE DE CAXIAS",
+        "estado": "RJX"
+      },
+      "fonte": {
+        "nome": "INMET",
+        "tipo": "API",
+        "descricao": "INSTITUTO NACIONAL DE METEOROLOGIA"
+      },
+      "data_hora": "2026-10-19T20:00:00",
+      "temperatura": "22.4",
+      "umidade": "84",
+      "precipitacao": "0.0"
+    },
+    {
+      "ponto": {
+        "nome": "ESTACAO CAXIAS CENTRO",
+        "latitude": "-22.785600",
+        "longitude": "-43.311700",
+        "cidade": "DUQUE DE CAXIAS",
+        "estado": "R1"
+      },
+      "fonte": {
+        "nome": "INMET",
+        "tipo": "API",
+        "descricao": "INSTITUTO NACIONAL DE METEOROLOGIA"
+      },
+      "data_hora": "2026-10-19T20:00:00",
+      "temperatura": "22.4",
+      "umidade": "84",
+      "precipitacao": "0.0"
+    },
+    {
+      "ponto": {
+        "nome": "",
+        "latitude": "-22.785600",
+        "longitude": "-43.311700",
+        "cidade": "DUQUE DE CAXIAS",
+        "estado": "RJ"
+      },
+      "fonte": {
+        "nome": "INMET",
+        "tipo": "API",
+        "descricao": "INSTITUTO NACIONAL DE METEOROLOGIA"
+      },
+      "data_hora": "2026-10-19T20:00:00",
+      "temperatura": "22.4",
+      "umidade": "84",
+      "precipitacao": "0.0"
+    },
+    {
+      "ponto": {
+        "nome": "ESTACAO CAXIAS CENTRO",
+        "latitude": "-22.785600",
+        "longitude": "-43.311700",
+        "cidade": "",
+        "estado": "RJ"
+      },
+      "fonte": {
+        "nome": "INMET",
+        "tipo": "API",
+        "descricao": "INSTITUTO NACIONAL DE METEOROLOGIA"
+      },
+      "data_hora": "2026-10-19T20:00:00",
+      "temperatura": "22.4",
+      "umidade": "84",
+      "precipitacao": "0.0"
+    },
+    {
+      "ponto": {
+        "nome": "ESTACAO CAXIAS CENTRO",
+        "latitude": "-22.785600",
+        "longitude": "-43.311700",
+        "cidade": "DUQUE DE CAXIAS",
+        "estado": "RJ"
+      },
+      "fonte": {
+        "nome": "INMET",
+        "tipo": "",
+        "descricao": "INSTITUTO NACIONAL DE METEOROLOGIA"
+      },
+      "data_hora": "2026-10-19T20:00:00",
+      "temperatura": "22.4",
+      "umidade": "84",
+      "precipitacao": "0.0"
+    },
+    {
+      "ponto": {
+        "nome": "ESTACAO CAXIAS CENTRO",
+        "latitude": "-22.785600",
+        "longitude": "-43.311700",
+        "cidade": "DUQUE DE CAXIAS",
+        "estado": "RJ"
+      },
+      "fonte": {
+        "nome": "INMET",
+        "tipo": "API",
+        "descricao": "INSTITUTO NACIONAL DE METEOROLOGIA"
+      },
+      "data_hora": "2026-10-19T20:00:00",
+      "temperatura": "22.4",
+      "umidade": "",
+      "precipitacao": "0.0"
+    },
+    {
+      "ponto": {
+        "nome": "ESTACAO CAXIAS CENTRO",
+        "latitude": "-22.785600",
+        "longitude": "-43.311700",
+        "cidade": "DUQUE DE CAXIAS",
+        "estado": "RJ"
+      },
+      "fonte": {
+        "nome": "INMET",
+        "tipo": "API",
+        "descricao": "INSTITUTO NACIONAL DE METEOROLOGIA"
+      },
+      "data_hora": "2026-10-19T20:00:00",
+      "temperatura": "22.4",
+      "umidade": "84",
+      "precipitacao": ""
+    }
+  ]
+}

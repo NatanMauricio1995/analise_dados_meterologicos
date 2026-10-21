@@ -1,0 +1,6322 @@
+{
+  "observacoes": [
+    {
+      "ponto": {
+        "nome": "ESTACAO CAXIAS CENTRO",
+        "latitude": "-22.785600",
+        "longitude": "-43.311700",
+        "cidade": "DUQUE DE CAXIAS",
+        "estado": "RJ"
+      },
+      "fonte": {
+        "nome": "INMET",
+        "tipo": "API",
+        "descricao": "INSTITUTO NACIONAL DE METEOROLOGIA"
+      },
+      "data_hora": "2026-10-15T08:00:00",
+      "temperatura": "22.2",
+      "umidade": "87",
+      "precipitacao": "0.0"
+    },
+    {
+      "ponto": {
+        "nome": "ESTACAO CAXIAS CENTRO",
+        "latitude": "-22.785600",
+        "longitude": "-43.311700",
+        "cidade": "DUQUE DE CAXIAS",
+        "estado": "RJ"
+      },
+      "fonte": {
+        "nome": "INMET",
+        "tipo": "API",
+        "descricao": "INSTITUTO NACIONAL DE METEOROLOGIA"
+      },
+      "data_hora": "2026-10-15T09:00:00",
+      "temperatura": "22.7",
+      "umidade": "85",
+      "precipitacao": "0.0"
+    },
+    {
+      "ponto": {
+        "nome": "ESTACAO CAXIAS CENTRO",
+        "latitude": "-22.785600",
+        "longitude": "-43.311700",
+        "cidade": "DUQUE DE CAXIAS",
+        "estado": "RJ"
+      },
+      "fonte": {
+        "nome": "INMET",
+        "tipo": "API",
+        "descricao": "INSTITUTO NACIONAL DE METEOROLOGIA"
+      },
+      "data_hora": "2026-10-15T10:00:00",
+      "temperatura": "23.6",
+      "umidade": "83",
+      "precipitacao": "0.0"
+    },
+    {
+      "ponto": {
+        "nome": "ESTACAO CAXIAS CENTRO",
+        "latitude": "-22.785600",
+        "longitude": "-43.311700",
+        "cidade": "DUQUE DE CAXIAS",
+        "estado": "RJ"
+      },
+      "fonte": {
+        "nome": "INMET",
+        "tipo": "API",
+        "descricao": "INSTITUTO NACIONAL DE METEOROLOGIA"
+      },
+      "data_hora": "2026-10-15T11:00:00",
+      "temperatura": "26.0",
+      "umidade": "76",
+      "precipitacao": "0.0"
+    },
+    {
+      "ponto": {
+        "nome": "ESTACAO CAXIAS CENTRO",
+        "latitude": "-22.785600",
+        "longitude": "-43.311700",
+        "cidade": "DUQUE DE CAXIAS",
+        "estado": "RJ"
+      },
+      "fonte": {
+        "nome": "INMET",
+        "tipo": "API",
+        "descricao": "INSTITUTO NACIONAL DE METEOROLOGIA"
+      },
+      "data_hora": "2026-10-15T12:00:00",
+      "temperatura": "27.9",
+      "umidade": "70",
+      "precipitacao": "0.0"
+    },
+    {
+      "ponto": {
+        "nome": "ESTACAO CAXIAS CENTRO",
+        "latitude": "-22.785600",
+        "longitude": "-43.311700",
+        "cidade": "DUQUE DE CAXIAS",
+        "estado": "RJ"
+      },
+      "fonte": {
+        "nome": "INMET",
+        "tipo": "API",
+        "descricao": "INSTITUTO NACIONAL DE METEOROLOGIA"
+      },
+      "data_hora": "2026-10-15T13:00:00",
+      "temperatura": "30.1",
+      "umidade": "69",
+      "precipitacao": "0.0"
+    },
+    {
+      "ponto": {
+        "nome": "ESTACAO CAXIAS CENTRO",
+        "latitude": "-22.785600",
+        "longitude": "-43.311700",
+        "cidade": "DUQUE DE CAXIAS",
+        "estado": "RJ"
+      },
+      "fonte": {
+        "nome": "INMET",
+        "tipo": "API",
+        "descricao": "INSTITUTO NACIONAL DE METEOROLOGIA"
+      },
+      "data_hora": "2026-10-15T14:00:00",
+      "temperatura": "30.7",
+      "umidade": "63",
+      "precipitacao": "0.0"
+    },
+    {
+      "ponto": {
+        "nome": "ESTACAO CAXIAS CENTRO",
+        "latitude": "-22.785600",
+        "longitude": "-43.311700",
+        "cidade": "DUQUE DE CAXIAS",
+        "estado": "RJ"
+      },
+      "fonte": {
+        "nome": "INMET",
+        "tipo": "API",
+        "descricao": "INSTITUTO NACIONAL DE METEOROLOGIA"
+      },
+      "data_hora": "2026-10-15T15:00:00",
+      "temperatura": "30.7",
+      "umidade": "64",
+      "precipitacao": "0.0"
+    },
+    {
+      "ponto": {
+        "nome": "ESTACAO CAXIAS CENTRO",
+        "latitude": "-22.785600",
+        "longitude": "-43.311700",
+        "cidade": "DUQUE DE CAXIAS",
+        "estado": "RJ"
+      },
+      "fonte": {
+        "nome": "INMET",
+        "tipo": "API",
+        "descricao": "INSTITUTO NACIONAL DE METEOROLOGIA"
+      },
+      "data_hora": "2026-10-15T16:00:00",
+      "temperatura": "30.3",
+      "umidade": "69",
+      "precipitacao": "0.0"
+    },
+    {
+      "ponto": {
+        "nome": "ESTACAO CAXIAS CENTRO",
+        "latitude": "-22.785600",
+        "longitude": "-43.311700",
+        "cidade": "DUQUE DE CAXIAS",
+        "estado": "RJ"
+      },
+      "fonte": {
+        "nome": "INMET",
+        "tipo": "API",
+        "descricao": "INSTITUTO NACIONAL DE METEOROLOGIA"
+      },
+      "data_hora": "2026-10-15T17:00:00",
+      "temperatura": "29.5",
+      "umidade": "68",
+      "precipitacao": "0.0"
+    },
+    {
+      "ponto": {
+        "nome": "ESTACAO CAXIAS CENTRO",
+        "latitude": "-22.785600",
+        "longitude": "-43.311700",
+        "cidade": "DUQUE DE CAXIAS",
+        "estado": "RJ"
+      },
+      "fonte": {
+        "nome": "INMET",
+        "tipo": "API",
+        "descricao": "INSTITUTO NACIONAL DE METEOROLOGIA"
+      },
+      "data_hora": "2026-10-15T18:00:00",
+      "temperatura": "28.5",
+      "umidade": "68",
+      "precipitacao": "0.0"
+    },
+    {
+      "ponto": {
+        "nome": "ESTACAO CAXIAS CENTRO",
+        "latitude": "-22.785600",
+        "longitude": "-43.311700",
+        "cidade": "DUQUE DE CAXIAS",
+        "estado": "RJ"
+      },
+      "fonte": {
+        "nome": "INMET",
+        "tipo": "API",
+        "descricao": "INSTITUTO NACIONAL DE METEOROLOGIA"
+      },
+      "data_hora": "2026-10-15T19:00:00",
+      "temperatura": "27.4",
+      "umidade": "75",
+      "precipitacao": "0.0"
+    },
+    {
+      "ponto": {
+        "nome": "ESTACAO CAXIAS CENTRO",
+        "latitude": "-22.785600",
+        "longitude": "-43.311700",
+        "cidade": "DUQUE DE CAXIAS",
+        "estado": "RJ"
+      },
+      "fonte": {
+        "nome": "INMET",
+        "tipo": "API",
+        "descricao": "INSTITUTO NACIONAL DE METEOROLOGIA"
+      },
+      "data_hora": "2026-10-15T20:00:00",
+      "temperatura": "26.2",
+      "umidade": "76",
+      "precipitacao": "0.0"
+    },
+    {
+      "ponto": {
+        "nome": "ESTACAO CAXIAS CENTRO",
+        "latitude": "-22.785600",
+        "longitude": "-43.311700",
+        "cidade": "DUQUE DE CAXIAS",
+        "estado": "RJ"
+      },
+      "fonte": {
+        "nome": "INMET",
+        "tipo": "API",
+        "descricao": "INSTITUTO NACIONAL DE METEOROLOGIA"
+      },
+      "data_hora": "2026-10-16T08:00:00",
+      "temperatura": "22.1",
+      "umidade": "88",
+      "precipitacao": "0.0"
+    },
+    {
+      "ponto": {
+        "nome": "ESTACAO CAXIAS CENTRO",
+        "latitude": "-22.785600",
+        "longitude": "-43.311700",
+        "cidade": "DUQUE DE CAXIAS",
+        "estado": "RJ"
+      },
+      "fonte": {
+        "nome": "INMET",
+        "tipo": "API",
+        "descricao": "INSTITUTO NACIONAL DE METEOROLOGIA"
+      },
+      "data_hora": "2026-10-16T09:00:00",
+      "temperatura": "23.0",
+      "umidade": "82",
+      "precipitacao": "0.0"
+    },
+    {
+      "ponto": {
+        "nome": "ESTACAO CAXIAS CENTRO",
+        "latitude": "-22.785600",
+        "longitude": "-43.311700",
+        "cidade": "DUQUE DE CAXIAS",
+        "estado": "RJ"
+      },
+      "fonte": {
+        "nome": "INMET",
+        "tipo": "API",
+        "descricao": "INSTITUTO NACIONAL DE METEOROLOGIA"
+      },
+      "data_hora": "2026-10-16T10:00:00",
+      "temperatura": "24.0",
+      "umidade": "79",
+      "precipitacao": "0.0"
+    },
+    {
+      "ponto": {
+        "nome": "ESTACAO CAXIAS CENTRO",
+        "latitude": "-22.785600",
+        "longitude": "-43.311700",
+        "cidade": "DUQUE DE CAXIAS",
+        "estado": "RJ"
+      },
+      "fonte": {
+        "nome": "INMET",
+        "tipo": "API",
+        "descricao": "INSTITUTO NACIONAL DE METEOROLOGIA"
+      },
+      "data_hora": "2026-10-16T11:00:00",
+      "temperatura": "24.7",
+      "umidade": "81",
+      "precipitacao": "0.0"
+    },
+    {
+      "ponto": {
+        "nome": "ESTACAO CAXIAS CENTRO",
+        "latitude": "-22.785600",
+        "longitude": "-43.311700",
+        "cidade": "DUQUE DE CAXIAS",
+        "estado": "RJ"
+      },
+      "fonte": {
+        "nome": "INMET",
+        "tipo": "API",
+        "descricao": "INSTITUTO NACIONAL DE METEOROLOGIA"
+      },
+      "data_hora": "2026-10-16T12:00:00",
+      "temperatura": "26.4",
+      "umidade": "78",
+      "precipitacao": "0.0"
+    },
+    {
+      "ponto": {
+        "nome": "ESTACAO CAXIAS CENTRO",
+        "latitude": "-22.785600",
+        "longitude": "-43.311700",
+        "cidade": "DUQUE DE CAXIAS",
+        "estado": "RJ"
+      },
+      "fonte": {
+        "nome": "INMET",
+        "tipo": "API",
+        "descricao": "INSTITUTO NACIONAL DE METEOROLOGIA"
+      },
+      "data_hora": "2026-10-16T13:00:00",
+      "temperatura": "27.8",
+      "umidade": "71",
+      "precipitacao": "0.0"
+    },
+    {
+      "ponto": {
+        "nome": "ESTACAO CAXIAS CENTRO",
+        "latitude": "-22.785600",
+        "longitude": "-43.311700",
+        "cidade": "DUQUE DE CAXIAS",
+        "estado": "RJ"
+      },
+      "fonte": {
+        "nome": "INMET",
+        "tipo": "API",
+        "descricao": "INSTITUTO NACIONAL DE METEOROLOGIA"
+      },
+      "data_hora": "2026-10-16T14:00:00",
+      "temperatura": "28.5",
+      "umidade": "70",
+      "precipitacao": "0.0"
+    },
+    {
+      "ponto": {
+        "nome": "ESTACAO CAXIAS CENTRO",
+        "latitude": "-22.785600",
+        "longitude": "-43.311700",
+        "cidade": "DUQUE DE CAXIAS",
+        "estado": "RJ"
+      },
+      "fonte": {
+        "nome": "INMET",
+        "tipo": "API",
+        "descricao": "INSTITUTO NACIONAL DE METEOROLOGIA"
+      },
+      "data_hora": "2026-10-16T15:00:00",
+      "temperatura": "28.5",
+      "umidade": "74",
+      "precipitacao": "0.0"
+    },
+    {
+      "ponto": {
+        "nome": "ESTACAO CAXIAS CENTRO",
+        "latitude": "-22.785600",
+        "longitude": "-43.311700",
+        "cidade": "DUQUE DE CAXIAS",
+        "estado": "RJ"
+      },
+      "fonte": {
+        "nome": "INMET",
+        "tipo": "API",
+        "descricao": "INSTITUTO NACIONAL DE METEOROLOGIA"
+      },
+      "data_hora": "2026-10-16T16:00:00",
+      "temperatura": "28.3",
+      "umidade": "74",
+      "precipitacao": "0.0"
+    },
+    {
+      "ponto": {
+        "nome": "ESTACAO CAXIAS CENTRO",
+        "latitude": "-22.785600",
+        "longitude": "-43.311700",
+        "cidade": "DUQUE DE CAXIAS",
+        "estado": "RJ"
+      },
+      "fonte": {
+        "nome": "INMET",
+        "tipo": "API",
+        "descricao": "INSTITUTO NACIONAL DE METEOROLOGIA"
+      },
+      "data_hora": "2026-10-16T17:00:00",
+      "temperatura": "28.0",
+      "umidade": "69",
+      "precipitacao": "0.0"
+    },
+    {
+      "ponto": {
+        "nome": "ESTACAO CAXIAS CENTRO",
+        "latitude": "-22.785600",
+        "longitude": "-43.311700",
+        "cidade": "DUQUE DE CAXIAS",
+        "estado": "RJ"
+      },
+      "fonte": {
+        "nome": "INMET",
+        "tipo": "API",
+        "descricao": "INSTITUTO NACIONAL DE METEOROLOGIA"
+      },
+      "data_hora": "2026-10-16T18:00:00",
+      "temperatura": "27.4",
+      "umidade": "75",
+      "precipitacao": "0.0"
+    },
+    {
+      "ponto": {
+        "nome": "ESTACAO CAXIAS CENTRO",
+        "latitude": "-22.785600",
+        "longitude": "-43.311700",
+        "cidade": "DUQUE DE CAXIAS",
+        "estado": "RJ"
+      },
+      "fonte": {
+        "nome": "INMET",
+        "tipo": "API",
+        "descricao": "INSTITUTO NACIONAL DE METEOROLOGIA"
+      },
+      "data_hora": "2026-10-16T19:00:00",
+      "temperatura": "26.5",
+      "umidade": "74",
+      "precipitacao": "0.0"
+    },
+    {
+      "ponto": {
+        "nome": "ESTACAO CAXIAS CENTRO",
+        "latitude": "-22.785600",
+        "longitude": "-43.311700",
+        "cidade": "DUQUE DE CAXIAS",
+        "estado": "RJ"
+      },
+      "fonte": {
+        "nome": "INMET",
+        "tipo": "API",
+        "descricao": "INSTITUTO NACIONAL DE METEOROLOGIA"
+      },
+      "data_hora": "2026-10-16T20:00:00",
+      "temperatura": "25.1",
+      "umidade": "79",
+      "precipitacao": "0.0"
+    },
+    {
+      "ponto": {
+        "nome": "ESTACAO CAXIAS CENTRO",
+        "latitude": "-22.785600",
+        "longitude": "-43.311700",
+        "cidade": "DUQUE DE CAXIAS",
+        "estado": "RJ"
+      },
+      "fonte": {
+        "nome": "INMET",
+        "tipo": "API",
+        "descricao": "INSTITUTO NACIONAL DE METEOROLOGIA"
+      },
+      "data_hora": "2026-10-17T08:00:00",
+      "temperatura": "21.5",
+      "umidade": "88",
+      "precipitacao": "0.0"
+    },
+    {
+      "ponto": {
+        "nome": "ESTACAO CAXIAS CENTRO",
+        "latitude": "-22.785600",
+        "longitude": "-43.311700",
+        "cidade": "DUQUE DE CAXIAS",
+        "estado": "RJ"
+      },
+      "fonte": {
+        "nome": "INMET",
+        "tipo": "API",
+        "descricao": "INSTITUTO NACIONAL DE METEOROLOGIA"
+      },
+      "data_hora": "2026-10-17T09:00:00",
+      "temperatura": "21.9",
+      "umidade": "88",
+      "precipitacao": "0.0"
+    },
+    {
+      "ponto": {
+        "nome": "ESTACAO CAXIAS CENTRO",
+        "latitude": "-22.785600",
+        "longitude": "-43.311700",
+        "cidade": "DUQUE DE CAXIAS",
+        "estado": "RJ"
+      },
+      "fonte": {
+        "nome": "INMET",
+        "tipo": "API",
+        "descricao": "INSTITUTO NACIONAL DE METEOROLOGIA"
+      },
+      "data_hora": "2026-10-17T10:00:00",
+      "temperatura": "22.7",
+      "umidade": "85",
+      "precipitacao": "0.0"
+    },
+    {
+      "ponto": {
+        "nome": "ESTACAO CAXIAS CENTRO",
+        "latitude": "-22.785600",
+        "longitude": "-43.311700",
+        "cidade": "DUQUE DE CAXIAS",
+        "estado": "RJ"
+      },
+      "fonte": {
+        "nome": "INMET",
+        "tipo": "API",
+        "descricao": "INSTITUTO NACIONAL DE METEOROLOGIA"
+      },
+      "data_hora": "2026-10-17T11:00:00",
+      "temperatura": "23.7",
+      "umidade": "80",
+      "precipitacao": "0.0"
+    },
+    {
+      "ponto": {
+        "nome": "ESTACAO CAXIAS CENTRO",
+        "latitude": "-22.785600",
+        "longitude": "-43.311700",
+        "cidade": "DUQUE DE CAXIAS",
+        "estado": "RJ"
+      },
+      "fonte": {
+        "nome": "INMET",
+        "tipo": "API",
+        "descricao": "INSTITUTO NACIONAL DE METEOROLOGIA"
+      },
+      "data_hora": "2026-10-17T12:00:00",
+      "temperatura": "24.4",
+      "umidade": "78",
+      "precipitacao": "0.0"
+    },
+    {
+      "ponto": {
+        "nome": "ESTACAO CAXIAS CENTRO",
+        "latitude": "-22.785600",
+        "longitude": "-43.311700",
+        "cidade": "DUQUE DE CAXIAS",
+        "estado": "RJ"
+      },
+      "fonte": {
+        "nome": "INMET",
+        "tipo": "API",
+        "descricao": "INSTITUTO NACIONAL DE METEOROLOGIA"
+      },
+      "data_hora": "2026-10-17T13:00:00",
+      "temperatura": "25.3",
+      "umidade": "80",
+      "precipitacao": "0.0"
+    },
+    {
+      "ponto": {
+        "nome": "ESTACAO CAXIAS CENTRO",
+        "latitude": "-22.785600",
+        "longitude": "-43.311700",
+        "cidade": "DUQUE DE CAXIAS",
+        "estado": "RJ"
+      },
+      "fonte": {
+        "nome": "INMET",
+        "tipo": "API",
+        "descricao": "INSTITUTO NACIONAL DE METEOROLOGIA"
+      },
+      "data_hora": "2026-10-17T14:00:00",
+      "temperatura": "25.8",
+      "umidade": "82",
+      "precipitacao": "0.7"
+    },
+    {
+      "ponto": {
+        "nome": "ESTACAO CAXIAS CENTRO",
+        "latitude": "-22.785600",
+        "longitude": "-43.311700",
+        "cidade": "DUQUE DE CAXIAS",
+        "estado": "RJ"
+      },
+      "fonte": {
+        "nome": "INMET",
+        "tipo": "API",
+        "descricao": "INSTITUTO NACIONAL DE METEOROLOGIA"
+      },
+      "data_hora": "2026-10-17T15:00:00",
+      "temperatura": "24.9",
+      "umidade": "88",
+      "precipitacao": "2.4"
+    },
+    {
+      "ponto": {
+        "nome": "ESTACAO CAXIAS CENTRO",
+        "latitude": "-22.785600",
+        "longitude": "-43.311700",
+        "cidade": "DUQUE DE CAXIAS",
+        "estado": "RJ"
+      },
+      "fonte": {
+        "nome": "INMET",
+        "tipo": "API",
+        "descricao": "INSTITUTO NACIONAL DE METEOROLOGIA"
+      },
+      "data_hora": "2026-10-17T16:00:00",
+      "temperatura": "23.6",
+      "umidade": "89",
+      "precipitacao": "4.2"
+    },
+    {
+      "ponto": {
+        "nome": "ESTACAO CAXIAS CENTRO",
+        "latitude": "-22.785600",
+        "longitude": "-43.311700",
+        "cidade": "DUQUE DE CAXIAS",
+        "estado": "RJ"
+      },
+      "fonte": {
+        "nome": "INMET",
+        "tipo": "API",
+        "descricao": "INSTITUTO NACIONAL DE METEOROLOGIA"
+      },
+      "data_hora": "2026-10-17T17:00:00",
+      "temperatura": "22.9",
+      "umidade": "89",
+      "precipitacao": "5.3"
+    },
+    {
+      "ponto": {
+        "nome": "ESTACAO CAXIAS CENTRO",
+        "latitude": "-22.785600",
+        "longitude": "-43.311700",
+        "cidade": "DUQUE DE CAXIAS",
+        "estado": "RJ"
+      },
+      "fonte": {
+        "nome": "INMET",
+        "tipo": "API",
+        "descricao": "INSTITUTO NACIONAL DE METEOROLOGIA"
+      },
+      "data_hora": "2026-10-17T18:00:00",
+      "temperatura": "23.1",
+      "umidade": "91",
+      "precipitacao": "3.1"
+    },
+    {
+      "ponto": {
+        "nome": "ESTACAO CAXIAS CENTRO",
+        "latitude": "-22.785600",
+        "longitude": "-43.311700",
+        "cidade": "DUQUE DE CAXIAS",
+        "estado": "RJ"
+      },
+      "fonte": {
+        "nome": "INMET",
+        "tipo": "API",
+        "descricao": "INSTITUTO NACIONAL DE METEOROLOGIA"
+      },
+      "data_hora": "2026-10-17T19:00:00",
+      "temperatura": "23.8",
+      "umidade": "88",
+      "precipitacao": "1.8"
+    },
+    {
+      "ponto": {
+        "nome": "ESTACAO CAXIAS CENTRO",
+        "latitude": "-22.785600",
+        "longitude": "-43.311700",
+        "cidade": "DUQUE DE CAXIAS",
+        "estado": "RJ"
+      },
+      "fonte": {
+        "nome": "INMET",
+        "tipo": "API",
+        "descricao": "INSTITUTO NACIONAL DE METEOROLOGIA"
+      },
+      "data_hora": "2026-10-17T20:00:00",
+      "temperatura": "23.2",
+      "umidade": "88",
+      "precipitacao": "1.1"
+    },
+    {
+      "ponto": {
+        "nome": "ESTACAO CAXIAS CENTRO",
+        "latitude": "-22.785600",
+        "longitude": "-43.311700",
+        "cidade": "DUQUE DE CAXIAS",
+        "estado": "RJ"
+      },
+      "fonte": {
+        "nome": "INMET",
+        "tipo": "API",
+        "descricao": "INSTITUTO NACIONAL DE METEOROLOGIA"
+      },
+      "data_hora": "2026-10-18T08:00:00",
+      "temperatura": "18.5",
+      "umidade": "98",
+      "precipitacao": "0.8"
+    },
+    {
+      "ponto": {
+        "nome": "ESTACAO CAXIAS CENTRO",
+        "latitude": "-22.785600",
+        "longitude": "-43.311700",
+        "cidade": "DUQUE DE CAXIAS",
+        "estado": "RJ"
+      },
+      "fonte": {
+        "nome": "INMET",
+        "tipo": "API",
+        "descricao": "INSTITUTO NACIONAL DE METEOROLOGIA"
+      },
+      "data_hora": "2026-10-18T09:00:00",
+      "temperatura": "18.4",
+      "umidade": "98",
+      "precipitacao": "2.0"
+    },
+    {
+      "ponto": {
+        "nome": "ESTACAO CAXIAS CENTRO",
+        "latitude": "-22.785600",
+        "longitude": "-43.311700",
+        "cidade": "DUQUE DE CAXIAS",
+        "estado": "RJ"
+      },
+      "fonte": {
+        "nome": "INMET",
+        "tipo": "API",
+        "descricao": "INSTITUTO NACIONAL DE METEOROLOGIA"
+      },
+      "data_hora": "2026-10-18T10:00:00",
+      "temperatura": "19.0",
+      "umidade": "98",
+      "precipitacao": "2.1"
+    },
+    {
+      "ponto": {
+        "nome": "ESTACAO CAXIAS CENTRO",
+        "latitude": "-22.785600",
+        "longitude": "-43.311700",
+        "cidade": "DUQUE DE CAXIAS",
+        "estado": "RJ"
+      },
+      "fonte": {
+        "nome": "INMET",
+        "tipo": "API",
+        "descricao": "INSTITUTO NACIONAL DE METEOROLOGIA"
+      },
+      "data_hora": "2026-10-18T11:00:00",
+      "temperatura": "20.8",
+      "umidade": "97",
+      "precipitacao": "0.8"
+    },
+    {
+      "ponto": {
+        "nome": "ESTACAO CAXIAS CENTRO",
+        "latitude": "-22.785600",
+        "longitude": "-43.311700",
+        "cidade": "DUQUE DE CAXIAS",
+        "estado": "RJ"
+      },
+      "fonte": {
+        "nome": "INMET",
+        "tipo": "API",
+        "descricao": "INSTITUTO NACIONAL DE METEOROLOGIA"
+      },
+      "data_hora": "2026-10-18T12:00:00",
+      "temperatura": "22.4",
+      "umidade": "83",
+      "precipitacao": "0.0"
+    },
+    {
+      "ponto": {
+        "nome": "ESTACAO CAXIAS CENTRO",
+        "latitude": "-22.785600",
+        "longitude": "-43.311700",
+        "cidade": "DUQUE DE CAXIAS",
+        "estado": "RJ"
+      },
+      "fonte": {
+        "nome": "INMET",
+        "tipo": "API",
+        "descricao": "INSTITUTO NACIONAL DE METEOROLOGIA"
+      },
+      "data_hora": "2026-10-18T13:00:00",
+      "temperatura": "23.7",
+      "umidade": "80",
+      "precipitacao": "0.0"
+    },
+    {
+      "ponto": {
+        "nome": "ESTACAO CAXIAS CENTRO",
+        "latitude": "-22.785600",
+        "longitude": "-43.311700",
+        "cidade": "DUQUE DE CAXIAS",
+        "estado": "RJ"
+      },
+      "fonte": {
+        "nome": "INMET",
+        "tipo": "API",
+        "descricao": "INSTITUTO NACIONAL DE METEOROLOGIA"
+      },
+      "data_hora": "2026-10-18T14:00:00",
+      "temperatura": "24.7",
+      "umidade": "78",
+      "precipitacao": "0.0"
+    },
+    {
+      "ponto": {
+        "nome": "ESTACAO CAXIAS CENTRO",
+        "latitude": "-22.785600",
+        "longitude": "-43.311700",
+        "cidade": "DUQUE DE CAXIAS",
+        "estado": "RJ"
+      },
+      "fonte": {
+        "nome": "INMET",
+        "tipo": "API",
+        "descricao": "INSTITUTO NACIONAL DE METEOROLOGIA"
+      },
+      "data_hora": "2026-10-18T15:00:00",
+      "temperatura": "24.7",
+      "umidade": "81",
+      "precipitacao": "0.0"
+    },
+    {
+      "ponto": {
+        "nome": "ESTACAO CAXIAS CENTRO",
+        "latitude": "-22.785600",
+        "longitude": "-43.311700",
+        "cidade": "DUQUE DE CAXIAS",
+        "estado": "RJ"
+      },
+      "fonte": {
+        "nome": "INMET",
+        "tipo": "API",
+        "descricao": "INSTITUTO NACIONAL DE METEOROLOGIA"
+      },
+      "data_hora": "2026-10-18T16:00:00",
+      "temperatura": "24.0",
+      "umidade": "84",
+      "precipitacao": "0.0"
+    },
+    {
+      "ponto": {
+        "nome": "ESTACAO CAXIAS CENTRO",
+        "latitude": "-22.785600",
+        "longitude": "-43.311700",
+        "cidade": "DUQUE DE CAXIAS",
+        "estado": "RJ"
+      },
+      "fonte": {
+        "nome": "INMET",
+        "tipo": "API",
+        "descricao": "INSTITUTO NACIONAL DE METEOROLOGIA"
+      },
+      "data_hora": "2026-10-18T17:00:00",
+      "temperatura": "23.5",
+      "umidade": "83",
+      "precipitacao": "0.0"
+    },
+    {
+      "ponto": {
+        "nome": "ESTACAO CAXIAS CENTRO",
+        "latitude": "-22.785600",
+        "longitude": "-43.311700",
+        "cidade": "DUQUE DE CAXIAS",
+        "estado": "RJ"
+      },
+      "fonte": {
+        "nome": "INMET",
+        "tipo": "API",
+        "descricao": "INSTITUTO NACIONAL DE METEOROLOGIA"
+      },
+      "data_hora": "2026-10-18T18:00:00",
+      "temperatura": "23.1",
+      "umidade": "83",
+      "precipitacao": "0.0"
+    },
+    {
+      "ponto": {
+        "nome": "ESTACAO CAXIAS CENTRO",
+        "latitude": "-22.785600",
+        "longitude": "-43.311700",
+        "cidade": "DUQUE DE CAXIAS",
+        "estado": "RJ"
+      },
+      "fonte": {
+        "nome": "INMET",
+        "tipo": "API",
+        "descricao": "INSTITUTO NACIONAL DE METEOROLOGIA"
+      },
+      "data_hora": "2026-10-18T19:00:00",
+      "temperatura": "22.8",
+      "umidade": "84",
+      "precipitacao": "0.0"
+    },
+    {
+      "ponto": {
+        "nome": "ESTACAO CAXIAS CENTRO",
+        "latitude": "-22.785600",
+        "longitude": "-43.311700",
+        "cidade": "DUQUE DE CAXIAS",
+        "estado": "RJ"
+      },
+      "fonte": {
+        "nome": "INMET",
+        "tipo": "API",
+        "descricao": "INSTITUTO NACIONAL DE METEOROLOGIA"
+      },
+      "data_hora": "2026-10-18T20:00:00",
+      "temperatura": "21.7",
+      "umidade": "86",
+      "precipitacao": "0.0"
+    },
+    {
+      "ponto": {
+        "nome": "ESTACAO CAXIAS CENTRO",
+        "latitude": "-22.785600",
+        "longitude": "-43.311700",
+        "cidade": "DUQUE DE CAXIAS",
+        "estado": "RJ"
+      },
+      "fonte": {
+        "nome": "INMET",
+        "tipo": "API",
+        "descricao": "INSTITUTO NACIONAL DE METEOROLOGIA"
+      },
+      "data_hora": "2026-10-19T08:00:00",
+      "temperatura": "20.7",
+      "umidade": "86",
+      "precipitacao": "0.0"
+    },
+    {
+      "ponto": {
+        "nome": "ESTACAO CAXIAS CENTRO",
+        "latitude": "-22.785600",
+        "longitude": "-43.311700",
+        "cidade": "DUQUE DE CAXIAS",
+        "estado": "RJ"
+      },
+      "fonte": {
+        "nome": "INMET",
+        "tipo": "API",
+        "descricao": "INSTITUTO NACIONAL DE METEOROLOGIA"
+      },
+      "data_hora": "2026-10-19T09:00:00",
+      "temperatura": "21.2",
+      "umidade": "87",
+      "precipitacao": "0.0"
+    },
+    {
+      "ponto": {
+        "nome": "ESTACAO CAXIAS CENTRO",
+        "latitude": "-22.785600",
+        "longitude": "-43.311700",
+        "cidade": "DUQUE DE CAXIAS",
+        "estado": "RJ"
+      },
+      "fonte": {
+        "nome": "INMET",
+        "tipo": "API",
+        "descricao": "INSTITUTO NACIONAL DE METEOROLOGIA"
+      },
+      "data_hora": "2026-10-19T10:00:00",
+      "temperatura": "22.4",
+      "umidade": "85",
+      "precipitacao": "0.0"
+    },
+    {
+      "ponto": {
+        "nome": "ESTACAO CAXIAS CENTRO",
+        "latitude": "-22.785600",
+        "longitude": "-43.311700",
+        "cidade": "DUQUE DE CAXIAS",
+        "estado": "RJ"
+      },
+      "fonte": {
+        "nome": "INMET",
+        "tipo": "API",
+        "descricao": "INSTITUTO NACIONAL DE METEOROLOGIA"
+      },
+      "data_hora": "2026-10-19T11:00:00",
+      "temperatura": "24.9",
+      "umidade": "77",
+      "precipitacao": "0.0"
+    },
+    {
+      "ponto": {
+        "nome": "ESTACAO CAXIAS CENTRO",
+        "latitude": "-22.785600",
+        "longitude": "-43.311700",
+        "cidade": "DUQUE DE CAXIAS",
+        "estado": "RJ"
+      },
+      "fonte": {
+        "nome": "INMET",
+        "tipo": "API",
+        "descricao": "INSTITUTO NACIONAL DE METEOROLOGIA"
+      },
+      "data_hora": "2026-10-19T12:00:00",
+      "temperatura": "27.0",
+      "umidade": "77",
+      "precipitacao": "0.0"
+    },
+    {
+      "ponto": {
+        "nome": "ESTACAO CAXIAS CENTRO",
+        "latitude": "-22.785600",
+        "longitude": "-43.311700",
+        "cidade": "DUQUE DE CAXIAS",
+        "estado": "RJ"
+      },
+      "fonte": {
+        "nome": "INMET",
+        "tipo": "API",
+        "descricao": "INSTITUTO NACIONAL DE METEOROLOGIA"
+      },
+      "data_hora": "2026-10-19T13:00:00",
+      "temperatura": "28.9",
+      "umidade": "70",
+      "precipitacao": "0.0"
+    },
+    {
+      "ponto": {
+        "nome": "ESTACAO CAXIAS CENTRO",
+        "latitude": "-22.785600",
+        "longitude": "-43.311700",
+        "cidade": "DUQUE DE CAXIAS",
+        "estado": "RJ"
+      },
+      "fonte": {
+        "nome": "INMET",
+        "tipo": "API",
+        "descricao": "INSTITUTO NACIONAL DE METEOROLOGIA"
+      },
+      "data_hora": "2026-10-19T14:00:00",
+      "temperatura": "29.5",
+      "umidade": "68",
+      "precipitacao": "0.0"
+    },
+    {
+      "ponto": {
+        "nome": "ESTACAO CAXIAS CENTRO",
+        "latitude": "-22.785600",
+        "longitude": "-43.311700",
+        "cidade": "DUQUE DE CAXIAS",
+        "estado": "RJ"
+      },
+      "fonte": {
+        "nome": "INMET",
+        "tipo": "API",
+        "descricao": "INSTITUTO NACIONAL DE METEOROLOGIA"
+      },
+      "data_hora": "2026-10-19T15:00:00",
+      "temperatura": "30.2",
+      "umidade": "64",
+      "precipitacao": "0.0"
+    },
+    {
+      "ponto": {
+        "nome": "ESTACAO CAXIAS CENTRO",
+        "latitude": "-22.785600",
+        "longitude": "-43.311700",
+        "cidade": "DUQUE DE CAXIAS",
+        "estado": "RJ"
+      },
+      "fonte": {
+        "nome": "INMET",
+        "tipo": "API",
+        "descricao": "INSTITUTO NACIONAL DE METEOROLOGIA"
+      },
+      "data_hora": "2026-10-19T16:00:00",
+      "temperatura": "29.9",
+      "umidade": "70",
+      "precipitacao": "0.0"
+    },
+    {
+      "ponto": {
+        "nome": "ESTACAO CAXIAS CENTRO",
+        "latitude": "-22.785600",
+        "longitude": "-43.311700",
+        "cidade": "DUQUE DE CAXIAS",
+        "estado": "RJ"
+      },
+      "fonte": {
+        "nome": "INMET",
+        "tipo": "API",
+        "descricao": "INSTITUTO NACIONAL DE METEOROLOGIA"
+      },
+      "data_hora": "2026-10-19T17:00:00",
+      "temperatura": "28.9",
+      "umidade": "72",
+      "precipitacao": "0.0"
+    },
+    {
+      "ponto": {
+        "nome": "ESTACAO CAXIAS CENTRO",
+        "latitude": "-22.785600",
+        "longitude": "-43.311700",
+        "cidade": "DUQUE DE CAXIAS",
+        "estado": "RJ"
+      },
+      "fonte": {
+        "nome": "INMET",
+        "tipo": "API",
+        "descricao": "INSTITUTO NACIONAL DE METEOROLOGIA"
+      },
+      "data_hora": "2026-10-19T18:00:00",
+      "temperatura": "27.6",
+      "umidade": "71",
+      "precipitacao": "0.0"
+    },
+    {
+      "ponto": {
+        "nome": "ESTACAO CAXIAS CENTRO",
+        "latitude": "-22.785600",
+        "longitude": "-43.311700",
+        "cidade": "DUQUE DE CAXIAS",
+        "estado": "RJ"
+      },
+      "fonte": {
+        "nome": "INMET",
+        "tipo": "API",
+        "descricao": "INSTITUTO NACIONAL DE METEOROLOGIA"
+      },
+      "data_hora": "2026-10-19T19:00:00",
+      "temperatura": "26.3",
+      "umidade": "73",
+      "precipitacao": "0.0"
+    },
+    {
+      "ponto": {
+        "nome": "ESTACAO CAXIAS CENTRO",
+        "latitude": "-22.785600",
+        "longitude": "-43.311700",
+        "cidade": "DUQUE DE CAXIAS",
+        "estado": "RJ"
+      },
+      "fonte": {
+        "nome": "INMET",
+        "tipo": "API",
+        "descricao": "INSTITUTO NACIONAL DE METEOROLOGIA"
+      },
+      "data_hora": "2026-10-19T20:00:00",
+      "temperatura": "25.0",
+      "umidade": "76",
+      "precipitacao": "0.0"
+    },
+    {
+      "ponto": {
+        "nome": "ESTACAO MAGE CENTRO",
+        "latitude": "-22.655300",
+        "longitude": "-43.040700",
+        "cidade": "MAGÉ",
+        "estado": "RJ"
+      },
+      "fonte": {
+        "nome": "INMET",
+        "tipo": "API",
+        "descricao": "INSTITUTO NACIONAL DE METEOROLOGIA"
+      },
+      "data_hora": "2026-10-15T08:00:00",
+      "temperatura": "21.4",
+      "umidade": "84",
+      "precipitacao": "0.0"
+    },
+    {
+      "ponto": {
+        "nome": "ESTACAO MAGE CENTRO",
+        "latitude": "-22.655300",
+        "longitude": "-43.040700",
+        "cidade": "MAGÉ",
+        "estado": "RJ"
+      },
+      "fonte": {
+        "nome": "INMET",
+        "tipo": "API",
+        "descricao": "INSTITUTO NACIONAL DE METEOROLOGIA"
+      },
+      "data_hora": "2026-10-15T09:00:00",
+      "temperatura": "22.4",
+      "umidade": "84",
+      "precipitacao": "0.0"
+    },
+    {
+      "ponto": {
+        "nome": "ESTACAO MAGE CENTRO",
+        "latitude": "-22.655300",
+        "longitude": "-43.040700",
+        "cidade": "MAGÉ",
+        "estado": "RJ"
+      },
+      "fonte": {
+        "nome": "INMET",
+        "tipo": "API",
+        "descricao": "INSTITUTO NACIONAL DE METEOROLOGIA"
+      },
+      "data_hora": "2026-10-15T10:00:00",
+      "temperatura": "23.5",
+      "umidade": "84",
+      "precipitacao": "0.0"
+    },
+    {
+      "ponto": {
+        "nome": "ESTACAO MAGE CENTRO",
+        "latitude": "-22.655300",
+        "longitude": "-43.040700",
+        "cidade": "MAGÉ",
+        "estado": "RJ"
+      },
+      "fonte": {
+        "nome": "INMET",
+        "tipo": "API",
+        "descricao": "INSTITUTO NACIONAL DE METEOROLOGIA"
+      },
+      "data_hora": "2026-10-15T11:00:00",
+      "temperatura": "25.4",
+      "umidade": "78",
+      "precipitacao": "0.0"
+    },
+    {
+      "ponto": {
+        "nome": "ESTACAO MAGE CENTRO",
+        "latitude": "-22.655300",
+        "longitude": "-43.040700",
+        "cidade": "MAGÉ",
+        "estado": "RJ"
+      },
+      "fonte": {
+        "nome": "INMET",
+        "tipo": "API",
+        "descricao": "INSTITUTO NACIONAL DE METEOROLOGIA"
+      },
+      "data_hora": "2026-10-15T12:00:00",
+      "temperatura": "27.7",
+      "umidade": "74",
+      "precipitacao": "0.0"
+    },
+    {
+      "ponto": {
+        "nome": "ESTACAO MAGE CENTRO",
+        "latitude": "-22.655300",
+        "longitude": "-43.040700",
+        "cidade": "MAGÉ",
+        "estado": "RJ"
+      },
+      "fonte": {
+        "nome": "INMET",
+        "tipo": "API",
+        "descricao": "INSTITUTO NACIONAL DE METEOROLOGIA"
+      },
+      "data_hora": "2026-10-15T13:00:00",
+      "temperatura": "29.7",
+      "umidade": "68",
+      "precipitacao": "0.0"
+    },
+    {
+      "ponto": {
+        "nome": "ESTACAO MAGE CENTRO",
+        "latitude": "-22.655300",
+        "longitude": "-43.040700",
+        "cidade": "MAGÉ",
+        "estado": "RJ"
+      },
+      "fonte": {
+        "nome": "INMET",
+        "tipo": "API",
+        "descricao": "INSTITUTO NACIONAL DE METEOROLOGIA"
+      },
+      "data_hora": "2026-10-15T14:00:00",
+      "temperatura": "30.3",
+      "umidade": "67",
+      "precipitacao": "0.0"
+    },
+    {
+      "ponto": {
+        "nome": "ESTACAO MAGE CENTRO",
+        "latitude": "-22.655300",
+        "longitude": "-43.040700",
+        "cidade": "MAGÉ",
+        "estado": "RJ"
+      },
+      "fonte": {
+        "nome": "INMET",
+        "tipo": "API",
+        "descricao": "INSTITUTO NACIONAL DE METEOROLOGIA"
+      },
+      "data_hora": "2026-10-15T15:00:00",
+      "temperatura": "30.9",
+      "umidade": "65",
+      "precipitacao": "0.0"
+    },
+    {
+      "ponto": {
+        "nome": "ESTACAO MAGE CENTRO",
+        "latitude": "-22.655300",
+        "longitude": "-43.040700",
+        "cidade": "MAGÉ",
+        "estado": "RJ"
+      },
+      "fonte": {
+        "nome": "INMET",
+        "tipo": "API",
+        "descricao": "INSTITUTO NACIONAL DE METEOROLOGIA"
+      },
+      "data_hora": "2026-10-15T16:00:00",
+      "temperatura": "30.4",
+      "umidade": "65",
+      "precipitacao": "0.0"
+    },
+    {
+      "ponto": {
+        "nome": "ESTACAO MAGE CENTRO",
+        "latitude": "-22.655300",
+        "longitude": "-43.040700",
+        "cidade": "MAGÉ",
+        "estado": "RJ"
+      },
+      "fonte": {
+        "nome": "INMET",
+        "tipo": "API",
+        "descricao": "INSTITUTO NACIONAL DE METEOROLOGIA"
+      },
+      "data_hora": "2026-10-15T17:00:00",
+      "temperatura": "29.8",
+      "umidade": "68",
+      "precipitacao": "0.0"
+    },
+    {
+      "ponto": {
+        "nome": "ESTACAO MAGE CENTRO",
+        "latitude": "-22.655300",
+        "longitude": "-43.040700",
+        "cidade": "MAGÉ",
+        "estado": "RJ"
+      },
+      "fonte": {
+        "nome": "INMET",
+        "tipo": "API",
+        "descricao": "INSTITUTO NACIONAL DE METEOROLOGIA"
+      },
+      "data_hora": "2026-10-15T18:00:00",
+      "temperatura": "28.5",
+      "umidade": "73",
+      "precipitacao": "0.0"
+    },
+    {
+      "ponto": {
+        "nome": "ESTACAO MAGE CENTRO",
+        "latitude": "-22.655300",
+        "longitude": "-43.040700",
+        "cidade": "MAGÉ",
+        "estado": "RJ"
+      },
+      "fonte": {
+        "nome": "INMET",
+        "tipo": "API",
+        "descricao": "INSTITUTO NACIONAL DE METEOROLOGIA"
+      },
+      "data_hora": "2026-10-15T19:00:00",
+      "temperatura": "27.4",
+      "umidade": "76",
+      "precipitacao": "0.0"
+    },
+    {
+      "ponto": {
+        "nome": "ESTACAO MAGE CENTRO",
+        "latitude": "-22.655300",
+        "longitude": "-43.040700",
+        "cidade": "MAGÉ",
+        "estado": "RJ"
+      },
+      "fonte": {
+        "nome": "INMET",
+        "tipo": "API",
+        "descricao": "INSTITUTO NACIONAL DE METEOROLOGIA"
+      },
+      "data_hora": "2026-10-15T20:00:00",
+      "temperatura": "25.8",
+      "umidade": "79",
+      "precipitacao": "0.0"
+    },
+    {
+      "ponto": {
+        "nome": "ESTACAO MAGE CENTRO",
+        "latitude": "-22.655300",
+        "longitude": "-43.040700",
+        "cidade": "MAGÉ",
+        "estado": "RJ"
+      },
+      "fonte": {
+        "nome": "INMET",
+        "tipo": "API",
+        "descricao": "INSTITUTO NACIONAL DE METEOROLOGIA"
+      },
+      "data_hora": "2026-10-16T08:00:00",
+      "temperatura": "22.2",
+      "umidade": "86",
+      "precipitacao": "0.0"
+    },
+    {
+      "ponto": {
+        "nome": "ESTACAO MAGE CENTRO",
+        "latitude": "-22.655300",
+        "longitude": "-43.040700",
+        "cidade": "MAGÉ",
+        "estado": "RJ"
+      },
+      "fonte": {
+        "nome": "INMET",
+        "tipo": "API",
+        "descricao": "INSTITUTO NACIONAL DE METEOROLOGIA"
+      },
+      "data_hora": "2026-10-16T09:00:00",
+      "temperatura": "22.7",
+      "umidade": "85",
+      "precipitacao": "0.0"
+    },
+    {
+      "ponto": {
+        "nome": "ESTACAO MAGE CENTRO",
+        "latitude": "-22.655300",
+        "longitude": "-43.040700",
+        "cidade": "MAGÉ",
+        "estado": "RJ"
+      },
+      "fonte": {
+        "nome": "INMET",
+        "tipo": "API",
+        "descricao": "INSTITUTO NACIONAL DE METEOROLOGIA"
+      },
+      "data_hora": "2026-10-16T10:00:00",
+      "temperatura": "23.2",
+      "umidade": "83",
+      "precipitacao": "0.0"
+    },
+    {
+      "ponto": {
+        "nome": "ESTACAO MAGE CENTRO",
+        "latitude": "-22.655300",
+        "longitude": "-43.040700",
+        "cidade": "MAGÉ",
+        "estado": "RJ"
+      },
+      "fonte": {
+        "nome": "INMET",
+        "tipo": "API",
+        "descricao": "INSTITUTO NACIONAL DE METEOROLOGIA"
+      },
+      "data_hora": "2026-10-16T11:00:00",
+      "temperatura": "25.0",
+      "umidade": "77",
+      "precipitacao": "0.0"
+    },
+    {
+      "ponto": {
+        "nome": "ESTACAO MAGE CENTRO",
+        "latitude": "-22.655300",
+        "longitude": "-43.040700",
+        "cidade": "MAGÉ",
+        "estado": "RJ"
+      },
+      "fonte": {
+        "nome": "INMET",
+        "tipo": "API",
+        "descricao": "INSTITUTO NACIONAL DE METEOROLOGIA"
+      },
+      "data_hora": "2026-10-16T12:00:00",
+      "temperatura": "26.2",
+      "umidade": "78",
+      "precipitacao": "0.0"
+    },
+    {
+      "ponto": {
+        "nome": "ESTACAO MAGE CENTRO",
+        "latitude": "-22.655300",
+        "longitude": "-43.040700",
+        "cidade": "MAGÉ",
+        "estado": "RJ"
+      },
+      "fonte": {
+        "nome": "INMET",
+        "tipo": "API",
+        "descricao": "INSTITUTO NACIONAL DE METEOROLOGIA"
+      },
+      "data_hora": "2026-10-16T13:00:00",
+      "temperatura": "27.4",
+      "umidade": "73",
+      "precipitacao": "0.0"
+    },
+    {
+      "ponto": {
+        "nome": "ESTACAO MAGE CENTRO",
+        "latitude": "-22.655300",
+        "longitude": "-43.040700",
+        "cidade": "MAGÉ",
+        "estado": "RJ"
+      },
+      "fonte": {
+        "nome": "INMET",
+        "tipo": "API",
+        "descricao": "INSTITUTO NACIONAL DE METEOROLOGIA"
+      },
+      "data_hora": "2026-10-16T14:00:00",
+      "temperatura": "27.7",
+      "umidade": "71",
+      "precipitacao": "0.0"
+    },
+    {
+      "ponto": {
+        "nome": "ESTACAO MAGE CENTRO",
+        "latitude": "-22.655300",
+        "longitude": "-43.040700",
+        "cidade": "MAGÉ",
+        "estado": "RJ"
+      },
+      "fonte": {
+        "nome": "INMET",
+        "tipo": "API",
+        "descricao": "INSTITUTO NACIONAL DE METEOROLOGIA"
+      },
+      "data_hora": "2026-10-16T15:00:00",
+      "temperatura": "28.4",
+      "umidade": "71",
+      "precipitacao": "0.0"
+    },
+    {
+      "ponto": {
+        "nome": "ESTACAO MAGE CENTRO",
+        "latitude": "-22.655300",
+        "longitude": "-43.040700",
+        "cidade": "MAGÉ",
+        "estado": "RJ"
+      },
+      "fonte": {
+        "nome": "INMET",
+        "tipo": "API",
+        "descricao": "INSTITUTO NACIONAL DE METEOROLOGIA"
+      },
+      "data_hora": "2026-10-16T16:00:00",
+      "temperatura": "27.5",
+      "umidade": "72",
+      "precipitacao": "0.0"
+    },
+    {
+      "ponto": {
+        "nome": "ESTACAO MAGE CENTRO",
+        "latitude": "-22.655300",
+        "longitude": "-43.040700",
+        "cidade": "MAGÉ",
+        "estado": "RJ"
+      },
+      "fonte": {
+        "nome": "INMET",
+        "tipo": "API",
+        "descricao": "INSTITUTO NACIONAL DE METEOROLOGIA"
+      },
+      "data_hora": "2026-10-16T17:00:00",
+      "temperatura": "27.1",
+      "umidade": "75",
+      "precipitacao": "0.0"
+    },
+    {
+      "ponto": {
+        "nome": "ESTACAO MAGE CENTRO",
+        "latitude": "-22.655300",
+        "longitude": "-43.040700",
+        "cidade": "MAGÉ",
+        "estado": "RJ"
+      },
+      "fonte": {
+        "nome": "INMET",
+        "tipo": "API",
+        "descricao": "INSTITUTO NACIONAL DE METEOROLOGIA"
+      },
+      "data_hora": "2026-10-16T18:00:00",
+      "temperatura": "26.8",
+      "umidade": "77",
+      "precipitacao": "0.0"
+    },
+    {
+      "ponto": {
+        "nome": "ESTACAO MAGE CENTRO",
+        "latitude": "-22.655300",
+        "longitude": "-43.040700",
+        "cidade": "MAGÉ",
+        "estado": "RJ"
+      },
+      "fonte": {
+        "nome": "INMET",
+        "tipo": "API",
+        "descricao": "INSTITUTO NACIONAL DE METEOROLOGIA"
+      },
+      "data_hora": "2026-10-16T19:00:00",
+      "temperatura": "25.8",
+      "umidade": "78",
+      "precipitacao": "0.0"
+    },
+    {
+      "ponto": {
+        "nome": "ESTACAO MAGE CENTRO",
+        "latitude": "-22.655300",
+        "longitude": "-43.040700",
+        "cidade": "MAGÉ",
+        "estado": "RJ"
+      },
+      "fonte": {
+        "nome": "INMET",
+        "tipo": "API",
+        "descricao": "INSTITUTO NACIONAL DE METEOROLOGIA"
+      },
+      "data_hora": "2026-10-16T20:00:00",
+      "temperatura": "24.8",
+      "umidade": "81",
+      "precipitacao": "0.0"
+    },
+    {
+      "ponto": {
+        "nome": "ESTACAO MAGE CENTRO",
+        "latitude": "-22.655300",
+        "longitude": "-43.040700",
+        "cidade": "MAGÉ",
+        "estado": "RJ"
+      },
+      "fonte": {
+        "nome": "INMET",
+        "tipo": "API",
+        "descricao": "INSTITUTO NACIONAL DE METEOROLOGIA"
+      },
+      "data_hora": "2026-10-17T08:00:00",
+      "temperatura": "21.4",
+      "umidade": "87",
+      "precipitacao": "0.0"
+    },
+    {
+      "ponto": {
+        "nome": "ESTACAO MAGE CENTRO",
+        "latitude": "-22.655300",
+        "longitude": "-43.040700",
+        "cidade": "MAGÉ",
+        "estado": "RJ"
+      },
+      "fonte": {
+        "nome": "INMET",
+        "tipo": "API",
+        "descricao": "INSTITUTO NACIONAL DE METEOROLOGIA"
+      },
+      "data_hora": "2026-10-17T09:00:00",
+      "temperatura": "21.6",
+      "umidade": "83",
+      "precipitacao": "0.0"
+    },
+    {
+      "ponto": {
+        "nome": "ESTACAO MAGE CENTRO",
+        "latitude": "-22.655300",
+        "longitude": "-43.040700",
+        "cidade": "MAGÉ",
+        "estado": "RJ"
+      },
+      "fonte": {
+        "nome": "INMET",
+        "tipo": "API",
+        "descricao": "INSTITUTO NACIONAL DE METEOROLOGIA"
+      },
+      "data_hora": "2026-10-17T10:00:00",
+      "temperatura": "22.3",
+      "umidade": "83",
+      "precipitacao": "0.0"
+    },
+    {
+      "ponto": {
+        "nome": "ESTACAO MAGE CENTRO",
+        "latitude": "-22.655300",
+        "longitude": "-43.040700",
+        "cidade": "MAGÉ",
+        "estado": "RJ"
+      },
+      "fonte": {
+        "nome": "INMET",
+        "tipo": "API",
+        "descricao": "INSTITUTO NACIONAL DE METEOROLOGIA"
+      },
+      "data_hora": "2026-10-17T11:00:00",
+      "temperatura": "23.5",
+      "umidade": "83",
+      "precipitacao": "0.0"
+    },
+    {
+      "ponto": {
+        "nome": "ESTACAO MAGE CENTRO",
+        "latitude": "-22.655300",
+        "longitude": "-43.040700",
+        "cidade": "MAGÉ",
+        "estado": "RJ"
+      },
+      "fonte": {
+        "nome": "INMET",
+        "tipo": "API",
+        "descricao": "INSTITUTO NACIONAL DE METEOROLOGIA"
+      },
+      "data_hora": "2026-10-17T12:00:00",
+      "temperatura": "24.0",
+      "umidade": "79",
+      "precipitacao": "0.0"
+    },
+    {
+      "ponto": {
+        "nome": "ESTACAO MAGE CENTRO",
+        "latitude": "-22.655300",
+        "longitude": "-43.040700",
+        "cidade": "MAGÉ",
+        "estado": "RJ"
+      },
+      "fonte": {
+        "nome": "INMET",
+        "tipo": "API",
+        "descricao": "INSTITUTO NACIONAL DE METEOROLOGIA"
+      },
+      "data_hora": "2026-10-17T13:00:00",
+      "temperatura": "25.0",
+      "umidade": "78",
+      "precipitacao": "0.0"
+    },
+    {
+      "ponto": {
+        "nome": "ESTACAO MAGE CENTRO",
+        "latitude": "-22.655300",
+        "longitude": "-43.040700",
+        "cidade": "MAGÉ",
+        "estado": "RJ"
+      },
+      "fonte": {
+        "nome": "INMET",
+        "tipo": "API",
+        "descricao": "INSTITUTO NACIONAL DE METEOROLOGIA"
+      },
+      "data_hora": "2026-10-17T14:00:00",
+      "temperatura": "25.0",
+      "umidade": "89",
+      "precipitacao": "1.0"
+    },
+    {
+      "ponto": {
+        "nome": "ESTACAO MAGE CENTRO",
+        "latitude": "-22.655300",
+        "longitude": "-43.040700",
+        "cidade": "MAGÉ",
+        "estado": "RJ"
+      },
+      "fonte": {
+        "nome": "INMET",
+        "tipo": "API",
+        "descricao": "INSTITUTO NACIONAL DE METEOROLOGIA"
+      },
+      "data_hora": "2026-10-17T15:00:00",
+      "temperatura": "24.6",
+      "umidade": "87",
+      "precipitacao": "2.6"
+    },
+    {
+      "ponto": {
+        "nome": "ESTACAO MAGE CENTRO",
+        "latitude": "-22.655300",
+        "longitude": "-43.040700",
+        "cidade": "MAGÉ",
+        "estado": "RJ"
+      },
+      "fonte": {
+        "nome": "INMET",
+        "tipo": "API",
+        "descricao": "INSTITUTO NACIONAL DE METEOROLOGIA"
+      },
+      "data_hora": "2026-10-17T16:00:00",
+      "temperatura": "23.3",
+      "umidade": "93",
+      "precipitacao": "4.8"
+    },
+    {
+      "ponto": {
+        "nome": "ESTACAO MAGE CENTRO",
+        "latitude": "-22.655300",
+        "longitude": "-43.040700",
+        "cidade": "MAGÉ",
+        "estado": "RJ"
+      },
+      "fonte": {
+        "nome": "INMET",
+        "tipo": "API",
+        "descricao": "INSTITUTO NACIONAL DE METEOROLOGIA"
+      },
+      "data_hora": "2026-10-17T17:00:00",
+      "temperatura": "23.3",
+      "umidade": "93",
+      "precipitacao": "4.3"
+    },
+    {
+      "ponto": {
+        "nome": "ESTACAO MAGE CENTRO",
+        "latitude": "-22.655300",
+        "longitude": "-43.040700",
+        "cidade": "MAGÉ",
+        "estado": "RJ"
+      },
+      "fonte": {
+        "nome": "INMET",
+        "tipo": "API",
+        "descricao": "INSTITUTO NACIONAL DE METEOROLOGIA"
+      },
+      "data_hora": "2026-10-17T18:00:00",
+      "temperatura": "21.9",
+      "umidade": "97",
+      "precipitacao": "5.2"
+    },
+    {
+      "ponto": {
+        "nome": "ESTACAO MAGE CENTRO",
+        "latitude": "-22.655300",
+        "longitude": "-43.040700",
+        "cidade": "MAGÉ",
+        "estado": "RJ"
+      },
+      "fonte": {
+        "nome": "INMET",
+        "tipo": "API",
+        "descricao": "INSTITUTO NACIONAL DE METEOROLOGIA"
+      },
+      "data_hora": "2026-10-17T19:00:00",
+      "temperatura": "22.6",
+      "umidade": "92",
+      "precipitacao": "3.4"
+    },
+    {
+      "ponto": {
+        "nome": "ESTACAO MAGE CENTRO",
+        "latitude": "-22.655300",
+        "longitude": "-43.040700",
+        "cidade": "MAGÉ",
+        "estado": "RJ"
+      },
+      "fonte": {
+        "nome": "INMET",
+        "tipo": "API",
+        "descricao": "INSTITUTO NACIONAL DE METEOROLOGIA"
+      },
+      "data_hora": "2026-10-17T20:00:00",
+      "temperatura": "22.7",
+      "umidade": "91",
+      "precipitacao": "1.2"
+    },
+    {
+      "ponto": {
+        "nome": "ESTACAO MAGE CENTRO",
+        "latitude": "-22.655300",
+        "longitude": "-43.040700",
+        "cidade": "MAGÉ",
+        "estado": "RJ"
+      },
+      "fonte": {
+        "nome": "INMET",
+        "tipo": "API",
+        "descricao": "INSTITUTO NACIONAL DE METEOROLOGIA"
+      },
+      "data_hora": "2026-10-18T08:00:00",
+      "temperatura": "18.4",
+      "umidade": "98",
+      "precipitacao": "0.9"
+    },
+    {
+      "ponto": {
+        "nome": "ESTACAO MAGE CENTRO",
+        "latitude": "-22.655300",
+        "longitude": "-43.040700",
+        "cidade": "MAGÉ",
+        "estado": "RJ"
+      },
+      "fonte": {
+        "nome": "INMET",
+        "tipo": "API",
+        "descricao": "INSTITUTO NACIONAL DE METEOROLOGIA"
+      },
+      "data_hora": "2026-10-18T09:00:00",
+      "temperatura": "18.7",
+      "umidade": "98",
+      "precipitacao": "1.3"
+    },
+    {
+      "ponto": {
+        "nome": "ESTACAO MAGE CENTRO",
+        "latitude": "-22.655300",
+        "longitude": "-43.040700",
+        "cidade": "MAGÉ",
+        "estado": "RJ"
+      },
+      "fonte": {
+        "nome": "INMET",
+        "tipo": "API",
+        "descricao": "INSTITUTO NACIONAL DE METEOROLOGIA"
+      },
+      "data_hora": "2026-10-18T10:00:00",
+      "temperatura": "19.2",
+      "umidade": "98",
+      "precipitacao": "1.3"
+    },
+    {
+      "ponto": {
+        "nome": "ESTACAO MAGE CENTRO",
+        "latitude": "-22.655300",
+        "longitude": "-43.040700",
+        "cidade": "MAGÉ",
+        "estado": "RJ"
+      },
+      "fonte": {
+        "nome": "INMET",
+        "tipo": "API",
+        "descricao": "INSTITUTO NACIONAL DE METEOROLOGIA"
+      },
+      "data_hora": "2026-10-18T11:00:00",
+      "temperatura": "21.0",
+      "umidade": "96",
+      "precipitacao": "0.8"
+    },
+    {
+      "ponto": {
+        "nome": "ESTACAO MAGE CENTRO",
+        "latitude": "-22.655300",
+        "longitude": "-43.040700",
+        "cidade": "MAGÉ",
+        "estado": "RJ"
+      },
+      "fonte": {
+        "nome": "INMET",
+        "tipo": "API",
+        "descricao": "INSTITUTO NACIONAL DE METEOROLOGIA"
+      },
+      "data_hora": "2026-10-18T12:00:00",
+      "temperatura": "22.3",
+      "umidade": "87",
+      "precipitacao": "0.0"
+    },
+    {
+      "ponto": {
+        "nome": "ESTACAO MAGE CENTRO",
+        "latitude": "-22.655300",
+        "longitude": "-43.040700",
+        "cidade": "MAGÉ",
+        "estado": "RJ"
+      },
+      "fonte": {
+        "nome": "INMET",
+        "tipo": "API",
+        "descricao": "INSTITUTO NACIONAL DE METEOROLOGIA"
+      },
+      "data_hora": "2026-10-18T13:00:00",
+      "temperatura": "23.3",
+      "umidade": "84",
+      "precipitacao": "0.0"
+    },
+    {
+      "ponto": {
+        "nome": "ESTACAO MAGE CENTRO",
+        "latitude": "-22.655300",
+        "longitude": "-43.040700",
+        "cidade": "MAGÉ",
+        "estado": "RJ"
+      },
+      "fonte": {
+        "nome": "INMET",
+        "tipo": "API",
+        "descricao": "INSTITUTO NACIONAL DE METEOROLOGIA"
+      },
+      "data_hora": "2026-10-18T14:00:00",
+      "temperatura": "24.1",
+      "umidade": "82",
+      "precipitacao": "0.0"
+    },
+    {
+      "ponto": {
+        "nome": "ESTACAO MAGE CENTRO",
+        "latitude": "-22.655300",
+        "longitude": "-43.040700",
+        "cidade": "MAGÉ",
+        "estado": "RJ"
+      },
+      "fonte": {
+        "nome": "INMET",
+        "tipo": "API",
+        "descricao": "INSTITUTO NACIONAL DE METEOROLOGIA"
+      },
+      "data_hora": "2026-10-18T15:00:00",
+      "temperatura": "23.8",
+      "umidade": "84",
+      "precipitacao": "0.0"
+    },
+    {
+      "ponto": {
+        "nome": "ESTACAO MAGE CENTRO",
+        "latitude": "-22.655300",
+        "longitude": "-43.040700",
+        "cidade": "MAGÉ",
+        "estado": "RJ"
+      },
+      "fonte": {
+        "nome": "INMET",
+        "tipo": "API",
+        "descricao": "INSTITUTO NACIONAL DE METEOROLOGIA"
+      },
+      "data_hora": "2026-10-18T16:00:00",
+      "temperatura": "24.3",
+      "umidade": "77",
+      "precipitacao": "0.0"
+    },
+    {
+      "ponto": {
+        "nome": "ESTACAO MAGE CENTRO",
+        "latitude": "-22.655300",
+        "longitude": "-43.040700",
+        "cidade": "MAGÉ",
+        "estado": "RJ"
+      },
+      "fonte": {
+        "nome": "INMET",
+        "tipo": "API",
+        "descricao": "INSTITUTO NACIONAL DE METEOROLOGIA"
+      },
+      "data_hora": "2026-10-18T17:00:00",
+      "temperatura": "23.3",
+      "umidade": "80",
+      "precipitacao": "0.0"
+    },
+    {
+      "ponto": {
+        "nome": "ESTACAO MAGE CENTRO",
+        "latitude": "-22.655300",
+        "longitude": "-43.040700",
+        "cidade": "MAGÉ",
+        "estado": "RJ"
+      },
+      "fonte": {
+        "nome": "INMET",
+        "tipo": "API",
+        "descricao": "INSTITUTO NACIONAL DE METEOROLOGIA"
+      },
+      "data_hora": "2026-10-18T18:00:00",
+      "temperatura": "22.5",
+      "umidade": "84",
+      "precipitacao": "0.0"
+    },
+    {
+      "ponto": {
+        "nome": "ESTACAO MAGE CENTRO",
+        "latitude": "-22.655300",
+        "longitude": "-43.040700",
+        "cidade": "MAGÉ",
+        "estado": "RJ"
+      },
+      "fonte": {
+        "nome": "INMET",
+        "tipo": "API",
+        "descricao": "INSTITUTO NACIONAL DE METEOROLOGIA"
+      },
+      "data_hora": "2026-10-18T19:00:00",
+      "temperatura": "22.2",
+      "umidade": "82",
+      "precipitacao": "0.0"
+    },
+    {
+      "ponto": {
+        "nome": "ESTACAO MAGE CENTRO",
+        "latitude": "-22.655300",
+        "longitude": "-43.040700",
+        "cidade": "MAGÉ",
+        "estado": "RJ"
+      },
+      "fonte": {
+        "nome": "INMET",
+        "tipo": "API",
+        "descricao": "INSTITUTO NACIONAL DE METEOROLOGIA"
+      },
+      "data_hora": "2026-10-18T20:00:00",
+      "temperatura": "21.4",
+      "umidade": "85",
+      "precipitacao": "0.0"
+    },
+    {
+      "ponto": {
+        "nome": "ESTACAO MAGE CENTRO",
+        "latitude": "-22.655300",
+        "longitude": "-43.040700",
+        "cidade": "MAGÉ",
+        "estado": "RJ"
+      },
+      "fonte": {
+        "nome": "INMET",
+        "tipo": "API",
+        "descricao": "INSTITUTO NACIONAL DE METEOROLOGIA"
+      },
+      "data_hora": "2026-10-19T08:00:00",
+      "temperatura": "20.2",
+      "umidade": "87",
+      "precipitacao": "0.0"
+    },
+    {
+      "ponto": {
+        "nome": "ESTACAO MAGE CENTRO",
+        "latitude": "-22.655300",
+        "longitude": "-43.040700",
+        "cidade": "MAGÉ",
+        "estado": "RJ"
+      },
+      "fonte": {
+        "nome": "INMET",
+        "tipo": "API",
+        "descricao": "INSTITUTO NACIONAL DE METEOROLOGIA"
+      },
+      "data_hora": "2026-10-19T09:00:00",
+      "temperatura": "20.4",
+      "umidade": "91",
+      "precipitacao": "0.0"
+    },
+    {
+      "ponto": {
+        "nome": "ESTACAO MAGE CENTRO",
+        "latitude": "-22.655300",
+        "longitude": "-43.040700",
+        "cidade": "MAGÉ",
+        "estado": "RJ"
+      },
+      "fonte": {
+        "nome": "INMET",
+        "tipo": "API",
+        "descricao": "INSTITUTO NACIONAL DE METEOROLOGIA"
+      },
+      "data_hora": "2026-10-19T10:00:00",
+      "temperatura": "22.5",
+      "umidade": "85",
+      "precipitacao": "0.0"
+    },
+    {
+      "ponto": {
+        "nome": "ESTACAO MAGE CENTRO",
+        "latitude": "-22.655300",
+        "longitude": "-43.040700",
+        "cidade": "MAGÉ",
+        "estado": "RJ"
+      },
+      "fonte": {
+        "nome": "INMET",
+        "tipo": "API",
+        "descricao": "INSTITUTO NACIONAL DE METEOROLOGIA"
+      },
+      "data_hora": "2026-10-19T11:00:00",
+      "temperatura": "24.3",
+      "umidade": "80",
+      "precipitacao": "0.0"
+    },
+    {
+      "ponto": {
+        "nome": "ESTACAO MAGE CENTRO",
+        "latitude": "-22.655300",
+        "longitude": "-43.040700",
+        "cidade": "MAGÉ",
+        "estado": "RJ"
+      },
+      "fonte": {
+        "nome": "INMET",
+        "tipo": "API",
+        "descricao": "INSTITUTO NACIONAL DE METEOROLOGIA"
+      },
+      "data_hora": "2026-10-19T12:00:00",
+      "temperatura": "26.6",
+      "umidade": "76",
+      "precipitacao": "0.0"
+    },
+    {
+      "ponto": {
+        "nome": "ESTACAO MAGE CENTRO",
+        "latitude": "-22.655300",
+        "longitude": "-43.040700",
+        "cidade": "MAGÉ",
+        "estado": "RJ"
+      },
+      "fonte": {
+        "nome": "INMET",
+        "tipo": "API",
+        "descricao": "INSTITUTO NACIONAL DE METEOROLOGIA"
+      },
+      "data_hora": "2026-10-19T13:00:00",
+      "temperatura": "28.2",
+      "umidade": "72",
+      "precipitacao": "0.0"
+    },
+    {
+      "ponto": {
+        "nome": "ESTACAO MAGE CENTRO",
+        "latitude": "-22.655300",
+        "longitude": "-43.040700",
+        "cidade": "MAGÉ",
+        "estado": "RJ"
+      },
+      "fonte": {
+        "nome": "INMET",
+        "tipo": "API",
+        "descricao": "INSTITUTO NACIONAL DE METEOROLOGIA"
+      },
+      "data_hora": "2026-10-19T14:00:00",
+      "temperatura": "29.8",
+      "umidade": "68",
+      "precipitacao": "0.0"
+    },
+    {
+      "ponto": {
+        "nome": "ESTACAO MAGE CENTRO",
+        "latitude": "-22.655300",
+        "longitude": "-43.040700",
+        "cidade": "MAGÉ",
+        "estado": "RJ"
+      },
+      "fonte": {
+        "nome": "INMET",
+        "tipo": "API",
+        "descricao": "INSTITUTO NACIONAL DE METEOROLOGIA"
+      },
+      "data_hora": "2026-10-19T15:00:00",
+      "temperatura": "29.7",
+      "umidade": "68",
+      "precipitacao": "0.0"
+    },
+    {
+      "ponto": {
+        "nome": "ESTACAO MAGE CENTRO",
+        "latitude": "-22.655300",
+        "longitude": "-43.040700",
+        "cidade": "MAGÉ",
+        "estado": "RJ"
+      },
+      "fonte": {
+        "nome": "INMET",
+        "tipo": "API",
+        "descricao": "INSTITUTO NACIONAL DE METEOROLOGIA"
+      },
+      "data_hora": "2026-10-19T16:00:00",
+      "temperatura": "29.0",
+      "umidade": "71",
+      "precipitacao": "0.0"
+    },
+    {
+      "ponto": {
+        "nome": "ESTACAO MAGE CENTRO",
+        "latitude": "-22.655300",
+        "longitude": "-43.040700",
+        "cidade": "MAGÉ",
+        "estado": "RJ"
+      },
+      "fonte": {
+        "nome": "INMET",
+        "tipo": "API",
+        "descricao": "INSTITUTO NACIONAL DE METEOROLOGIA"
+      },
+      "data_hora": "2026-10-19T17:00:00",
+      "temperatura": "28.1",
+      "umidade": "70",
+      "precipitacao": "0.0"
+    },
+    {
+      "ponto": {
+        "nome": "ESTACAO MAGE CENTRO",
+        "latitude": "-22.655300",
+        "longitude": "-43.040700",
+        "cidade": "MAGÉ",
+        "estado": "RJ"
+      },
+      "fonte": {
+        "nome": "INMET",
+        "tipo": "API",
+        "descricao": "INSTITUTO NACIONAL DE METEOROLOGIA"
+      },
+      "data_hora": "2026-10-19T18:00:00",
+      "temperatura": "27.2",
+      "umidade": "75",
+      "precipitacao": "0.0"
+    },
+    {
+      "ponto": {
+        "nome": "ESTACAO MAGE CENTRO",
+        "latitude": "-22.655300",
+        "longitude": "-43.040700",
+        "cidade": "MAGÉ",
+        "estado": "RJ"
+      },
+      "fonte": {
+        "nome": "INMET",
+        "tipo": "API",
+        "descricao": "INSTITUTO NACIONAL DE METEOROLOGIA"
+      },
+      "data_hora": "2026-10-19T19:00:00",
+      "temperatura": "25.9",
+      "umidade": "75",
+      "precipitacao": "0.0"
+    },
+    {
+      "ponto": {
+        "nome": "ESTACAO MAGE CENTRO",
+        "latitude": "-22.655300",
+        "longitude": "-43.040700",
+        "cidade": "MAGÉ",
+        "estado": "RJ"
+      },
+      "fonte": {
+        "nome": "INMET",
+        "tipo": "API",
+        "descricao": "INSTITUTO NACIONAL DE METEOROLOGIA"
+      },
+      "data_hora": "2026-10-19T20:00:00",
+      "temperatura": "25.0",
+      "umidade": "79",
+      "precipitacao": "0.0"
+    },
+    {
+      "ponto": {
+        "nome": "ESTACAO CENTRAL",
+        "latitude": "-22.903500",
+        "longitude": "-43.209600",
+        "cidade": "RIO DE JANEIRO",
+        "estado": "RJ"
+      },
+      "fonte": {
+        "nome": "INMET",
+        "tipo": "API",
+        "descricao": "INSTITUTO NACIONAL DE METEOROLOGIA"
+      },
+      "data_hora": "2026-10-15T08:00:00",
+      "temperatura": "22.7",
+      "umidade": "85",
+      "precipitacao": "0.0"
+    },
+    {
+      "ponto": {
+        "nome": "ESTACAO CENTRAL",
+        "latitude": "-22.903500",
+        "longitude": "-43.209600",
+        "cidade": "RIO DE JANEIRO",
+        "estado": "RJ"
+      },
+      "fonte": {
+        "nome": "INMET",
+        "tipo": "API",
+        "descricao": "INSTITUTO NACIONAL DE METEOROLOGIA"
+      },
+      "data_hora": "2026-10-15T09:00:00",
+      "temperatura": "22.9",
+      "umidade": "86",
+      "precipitacao": "0.0"
+    },
+    {
+      "ponto": {
+        "nome": "ESTACAO CENTRAL",
+        "latitude": "-22.903500",
+        "longitude": "-43.209600",
+        "cidade": "RIO DE JANEIRO",
+        "estado": "RJ"
+      },
+      "fonte": {
+        "nome": "INMET",
+        "tipo": "API",
+        "descricao": "INSTITUTO NACIONAL DE METEOROLOGIA"
+      },
+      "data_hora": "2026-10-15T10:00:00",
+      "temperatura": "24.2",
+      "umidade": "80",
+      "precipitacao": "0.0"
+    },
+    {
+      "ponto": {
+        "nome": "ESTACAO CENTRAL",
+        "latitude": "-22.903500",
+        "longitude": "-43.209600",
+        "cidade": "RIO DE JANEIRO",
+        "estado": "RJ"
+      },
+      "fonte": {
+        "nome": "INMET",
+        "tipo": "API",
+        "descricao": "INSTITUTO NACIONAL DE METEOROLOGIA"
+      },
+      "data_hora": "2026-10-15T11:00:00",
+      "temperatura": "26.2",
+      "umidade": "76",
+      "precipitacao": "0.0"
+    },
+    {
+      "ponto": {
+        "nome": "ESTACAO CENTRAL",
+        "latitude": "-22.903500",
+        "longitude": "-43.209600",
+        "cidade": "RIO DE JANEIRO",
+        "estado": "RJ"
+      },
+      "fonte": {
+        "nome": "INMET",
+        "tipo": "API",
+        "descricao": "INSTITUTO NACIONAL DE METEOROLOGIA"
+      },
+      "data_hora": "2026-10-15T12:00:00",
+      "temperatura": "28.3",
+      "umidade": "75",
+      "precipitacao": "0.0"
+    },
+    {
+      "ponto": {
+        "nome": "ESTACAO CENTRAL",
+        "latitude": "-22.903500",
+        "longitude": "-43.209600",
+        "cidade": "RIO DE JANEIRO",
+        "estado": "RJ"
+      },
+      "fonte": {
+        "nome": "INMET",
+        "tipo": "API",
+        "descricao": "INSTITUTO NACIONAL DE METEOROLOGIA"
+      },
+      "data_hora": "2026-10-15T13:00:00",
+      "temperatura": "30.3",
+      "umidade": "66",
+      "precipitacao": "0.0"
+    },
+    {
+      "ponto": {
+        "nome": "ESTACAO CENTRAL",
+        "latitude": "-22.903500",
+        "longitude": "-43.209600",
+        "cidade": "RIO DE JANEIRO",
+        "estado": "RJ"
+      },
+      "fonte": {
+        "nome": "INMET",
+        "tipo": "API",
+        "descricao": "INSTITUTO NACIONAL DE METEOROLOGIA"
+      },
+      "data_hora": "2026-10-15T14:00:00",
+      "temperatura": "31.0",
+      "umidade": "69",
+      "precipitacao": "0.0"
+    },
+    {
+      "ponto": {
+        "nome": "ESTACAO CENTRAL",
+        "latitude": "-22.903500",
+        "longitude": "-43.209600",
+        "cidade": "RIO DE JANEIRO",
+        "estado": "RJ"
+      },
+      "fonte": {
+        "nome": "INMET",
+        "tipo": "API",
+        "descricao": "INSTITUTO NACIONAL DE METEOROLOGIA"
+      },
+      "data_hora": "2026-10-15T15:00:00",
+      "temperatura": "31.2",
+      "umidade": "68",
+      "precipitacao": "0.0"
+    },
+    {
+      "ponto": {
+        "nome": "ESTACAO CENTRAL",
+        "latitude": "-22.903500",
+        "longitude": "-43.209600",
+        "cidade": "RIO DE JANEIRO",
+        "estado": "RJ"
+      },
+      "fonte": {
+        "nome": "INMET",
+        "tipo": "API",
+        "descricao": "INSTITUTO NACIONAL DE METEOROLOGIA"
+      },
+      "data_hora": "2026-10-15T16:00:00",
+      "temperatura": "30.6",
+      "umidade": "68",
+      "precipitacao": "0.0"
+    },
+    {
+      "ponto": {
+        "nome": "ESTACAO CENTRAL",
+        "latitude": "-22.903500",
+        "longitude": "-43.209600",
+        "cidade": "RIO DE JANEIRO",
+        "estado": "RJ"
+      },
+      "fonte": {
+        "nome": "INMET",
+        "tipo": "API",
+        "descricao": "INSTITUTO NACIONAL DE METEOROLOGIA"
+      },
+      "data_hora": "2026-10-15T17:00:00",
+      "temperatura": "29.9",
+      "umidade": "71",
+      "precipitacao": "0.0"
+    },
+    {
+      "ponto": {
+        "nome": "ESTACAO CENTRAL",
+        "latitude": "-22.903500",
+        "longitude": "-43.209600",
+        "cidade": "RIO DE JANEIRO",
+        "estado": "RJ"
+      },
+      "fonte": {
+        "nome": "INMET",
+        "tipo": "API",
+        "descricao": "INSTITUTO NACIONAL DE METEOROLOGIA"
+      },
+      "data_hora": "2026-10-15T18:00:00",
+      "temperatura": "29.5",
+      "umidade": "70",
+      "precipitacao": "0.0"
+    },
+    {
+      "ponto": {
+        "nome": "ESTACAO CENTRAL",
+        "latitude": "-22.903500",
+        "longitude": "-43.209600",
+        "cidade": "RIO DE JANEIRO",
+        "estado": "RJ"
+      },
+      "fonte": {
+        "nome": "INMET",
+        "tipo": "API",
+        "descricao": "INSTITUTO NACIONAL DE METEOROLOGIA"
+      },
+      "data_hora": "2026-10-15T19:00:00",
+      "temperatura": "27.8",
+      "umidade": "71",
+      "precipitacao": "0.0"
+    },
+    {
+      "ponto": {
+        "nome": "ESTACAO CENTRAL",
+        "latitude": "-22.903500",
+        "longitude": "-43.209600",
+        "cidade": "RIO DE JANEIRO",
+        "estado": "RJ"
+      },
+      "fonte": {
+        "nome": "INMET",
+        "tipo": "API",
+        "descricao": "INSTITUTO NACIONAL DE METEOROLOGIA"
+      },
+      "data_hora": "2026-10-15T20:00:00",
+      "temperatura": "26.8",
+      "umidade": "76",
+      "precipitacao": "0.0"
+    },
+    {
+      "ponto": {
+        "nome": "ESTACAO CENTRAL",
+        "latitude": "-22.903500",
+        "longitude": "-43.209600",
+        "cidade": "RIO DE JANEIRO",
+        "estado": "RJ"
+      },
+      "fonte": {
+        "nome": "INMET",
+        "tipo": "API",
+        "descricao": "INSTITUTO NACIONAL DE METEOROLOGIA"
+      },
+      "data_hora": "2026-10-16T08:00:00",
+      "temperatura": "23.2",
+      "umidade": "82",
+      "precipitacao": "0.0"
+    },
+    {
+      "ponto": {
+        "nome": "ESTACAO CENTRAL",
+        "latitude": "-22.903500",
+        "longitude": "-43.209600",
+        "cidade": "RIO DE JANEIRO",
+        "estado": "RJ"
+      },
+      "fonte": {
+        "nome": "INMET",
+        "tipo": "API",
+        "descricao": "INSTITUTO NACIONAL DE METEOROLOGIA"
+      },
+      "data_hora": "2026-10-16T09:00:00",
+      "temperatura": "22.9",
+      "umidade": "84",
+      "precipitacao": "0.0"
+    },
+    {
+      "ponto": {
+        "nome": "ESTACAO CENTRAL",
+        "latitude": "-22.903500",
+        "longitude": "-43.209600",
+        "cidade": "RIO DE JANEIRO",
+        "estado": "RJ"
+      },
+      "fonte": {
+        "nome": "INMET",
+        "tipo": "API",
+        "descricao": "INSTITUTO NACIONAL DE METEOROLOGIA"
+      },
+      "data_hora": "2026-10-16T10:00:00",
+      "temperatura": "24.2",
+      "umidade": "83",
+      "precipitacao": "0.0"
+    },
+    {
+      "ponto": {
+        "nome": "ESTACAO CENTRAL",
+        "latitude": "-22.903500",
+        "longitude": "-43.209600",
+        "cidade": "RIO DE JANEIRO",
+        "estado": "RJ"
+      },
+      "fonte": {
+        "nome": "INMET",
+        "tipo": "API",
+        "descricao": "INSTITUTO NACIONAL DE METEOROLOGIA"
+      },
+      "data_hora": "2026-10-16T11:00:00",
+      "temperatura": "25.7",
+      "umidade": "77",
+      "precipitacao": "0.0"
+    },
+    {
+      "ponto": {
+        "nome": "ESTACAO CENTRAL",
+        "latitude": "-22.903500",
+        "longitude": "-43.209600",
+        "cidade": "RIO DE JANEIRO",
+        "estado": "RJ"
+      },
+      "fonte": {
+        "nome": "INMET",
+        "tipo": "API",
+        "descricao": "INSTITUTO NACIONAL DE METEOROLOGIA"
+      },
+      "data_hora": "2026-10-16T12:00:00",
+      "temperatura": "26.9",
+      "umidade": "76",
+      "precipitacao": "0.0"
+    },
+    {
+      "ponto": {
+        "nome": "ESTACAO CENTRAL",
+        "latitude": "-22.903500",
+        "longitude": "-43.209600",
+        "cidade": "RIO DE JANEIRO",
+        "estado": "RJ"
+      },
+      "fonte": {
+        "nome": "INMET",
+        "tipo": "API",
+        "descricao": "INSTITUTO NACIONAL DE METEOROLOGIA"
+      },
+      "data_hora": "2026-10-16T13:00:00",
+      "temperatura": "28.2",
+      "umidade": "70",
+      "precipitacao": "0.0"
+    },
+    {
+      "ponto": {
+        "nome": "ESTACAO CENTRAL",
+        "latitude": "-22.903500",
+        "longitude": "-43.209600",
+        "cidade": "RIO DE JANEIRO",
+        "estado": "RJ"
+      },
+      "fonte": {
+        "nome": "INMET",
+        "tipo": "API",
+        "descricao": "INSTITUTO NACIONAL DE METEOROLOGIA"
+      },
+      "data_hora": "2026-10-16T14:00:00",
+      "temperatura": "28.5",
+      "umidade": "69",
+      "precipitacao": "0.0"
+    },
+    {
+      "ponto": {
+        "nome": "ESTACAO CENTRAL",
+        "latitude": "-22.903500",
+        "longitude": "-43.209600",
+        "cidade": "RIO DE JANEIRO",
+        "estado": "RJ"
+      },
+      "fonte": {
+        "nome": "INMET",
+        "tipo": "API",
+        "descricao": "INSTITUTO NACIONAL DE METEOROLOGIA"
+      },
+      "data_hora": "2026-10-16T15:00:00",
+      "temperatura": "28.8",
+      "umidade": "68",
+      "precipitacao": "0.0"
+    },
+    {
+      "ponto": {
+        "nome": "ESTACAO CENTRAL",
+        "latitude": "-22.903500",
+        "longitude": "-43.209600",
+        "cidade": "RIO DE JANEIRO",
+        "estado": "RJ"
+      },
+      "fonte": {
+        "nome": "INMET",
+        "tipo": "API",
+        "descricao": "INSTITUTO NACIONAL DE METEOROLOGIA"
+      },
+      "data_hora": "2026-10-16T16:00:00",
+      "temperatura": "28.5",
+      "umidade": "70",
+      "precipitacao": "0.0"
+    },
+    {
+      "ponto": {
+        "nome": "ESTACAO CENTRAL",
+        "latitude": "-22.903500",
+        "longitude": "-43.209600",
+        "cidade": "RIO DE JANEIRO",
+        "estado": "RJ"
+      },
+      "fonte": {
+        "nome": "INMET",
+        "tipo": "API",
+        "descricao": "INSTITUTO NACIONAL DE METEOROLOGIA"
+      },
+      "data_hora": "2026-10-16T17:00:00",
+      "temperatura": "28.4",
+      "umidade": "72",
+      "precipitacao": "0.0"
+    },
+    {
+      "ponto": {
+        "nome": "ESTACAO CENTRAL",
+        "latitude": "-22.903500",
+        "longitude": "-43.209600",
+        "cidade": "RIO DE JANEIRO",
+        "estado": "RJ"
+      },
+      "fonte": {
+        "nome": "INMET",
+        "tipo": "API",
+        "descricao": "INSTITUTO NACIONAL DE METEOROLOGIA"
+      },
+      "data_hora": "2026-10-16T18:00:00",
+      "temperatura": "27.2",
+      "umidade": "74",
+      "precipitacao": "0.0"
+    },
+    {
+      "ponto": {
+        "nome": "ESTACAO CENTRAL",
+        "latitude": "-22.903500",
+        "longitude": "-43.209600",
+        "cidade": "RIO DE JANEIRO",
+        "estado": "RJ"
+      },
+      "fonte": {
+        "nome": "INMET",
+        "tipo": "API",
+        "descricao": "INSTITUTO NACIONAL DE METEOROLOGIA"
+      },
+      "data_hora": "2026-10-16T19:00:00",
+      "temperatura": "27.0",
+      "umidade": "76",
+      "precipitacao": "0.0"
+    },
+    {
+      "ponto": {
+        "nome": "ESTACAO CENTRAL",
+        "latitude": "-22.903500",
+        "longitude": "-43.209600",
+        "cidade": "RIO DE JANEIRO",
+        "estado": "RJ"
+      },
+      "fonte": {
+        "nome": "INMET",
+        "tipo": "API",
+        "descricao": "INSTITUTO NACIONAL DE METEOROLOGIA"
+      },
+      "data_hora": "2026-10-16T20:00:00",
+      "temperatura": "25.9",
+      "umidade": "80",
+      "precipitacao": "0.0"
+    },
+    {
+      "ponto": {
+        "nome": "ESTACAO CENTRAL",
+        "latitude": "-22.903500",
+        "longitude": "-43.209600",
+        "cidade": "RIO DE JANEIRO",
+        "estado": "RJ"
+      },
+      "fonte": {
+        "nome": "INMET",
+        "tipo": "API",
+        "descricao": "INSTITUTO NACIONAL DE METEOROLOGIA"
+      },
+      "data_hora": "2026-10-17T08:00:00",
+      "temperatura": "21.8",
+      "umidade": "88",
+      "precipitacao": "0.0"
+    },
+    {
+      "ponto": {
+        "nome": "ESTACAO CENTRAL",
+        "latitude": "-22.903500",
+        "longitude": "-43.209600",
+        "cidade": "RIO DE JANEIRO",
+        "estado": "RJ"
+      },
+      "fonte": {
+        "nome": "INMET",
+        "tipo": "API",
+        "descricao": "INSTITUTO NACIONAL DE METEOROLOGIA"
+      },
+      "data_hora": "2026-10-17T09:00:00",
+      "temperatura": "22.3",
+      "umidade": "83",
+      "precipitacao": "0.0"
+    },
+    {
+      "ponto": {
+        "nome": "ESTACAO CENTRAL",
+        "latitude": "-22.903500",
+        "longitude": "-43.209600",
+        "cidade": "RIO DE JANEIRO",
+        "estado": "RJ"
+      },
+      "fonte": {
+        "nome": "INMET",
+        "tipo": "API",
+        "descricao": "INSTITUTO NACIONAL DE METEOROLOGIA"
+      },
+      "data_hora": "2026-10-17T10:00:00",
+      "temperatura": "22.5",
+      "umidade": "88",
+      "precipitacao": "0.0"
+    },
+    {
+      "ponto": {
+        "nome": "ESTACAO CENTRAL",
+        "latitude": "-22.903500",
+        "longitude": "-43.209600",
+        "cidade": "RIO DE JANEIRO",
+        "estado": "RJ"
+      },
+      "fonte": {
+        "nome": "INMET",
+        "tipo": "API",
+        "descricao": "INSTITUTO NACIONAL DE METEOROLOGIA"
+      },
+      "data_hora": "2026-10-17T11:00:00",
+      "temperatura": "23.6",
+      "umidade": "83",
+      "precipitacao": "0.0"
+    },
+    {
+      "ponto": {
+        "nome": "ESTACAO CENTRAL",
+        "latitude": "-22.903500",
+        "longitude": "-43.209600",
+        "cidade": "RIO DE JANEIRO",
+        "estado": "RJ"
+      },
+      "fonte": {
+        "nome": "INMET",
+        "tipo": "API",
+        "descricao": "INSTITUTO NACIONAL DE METEOROLOGIA"
+      },
+      "data_hora": "2026-10-17T12:00:00",
+      "temperatura": "25.2",
+      "umidade": "76",
+      "precipitacao": "0.0"
+    },
+    {
+      "ponto": {
+        "nome": "ESTACAO CENTRAL",
+        "latitude": "-22.903500",
+        "longitude": "-43.209600",
+        "cidade": "RIO DE JANEIRO",
+        "estado": "RJ"
+      },
+      "fonte": {
+        "nome": "INMET",
+        "tipo": "API",
+        "descricao": "INSTITUTO NACIONAL DE METEOROLOGIA"
+      },
+      "data_hora": "2026-10-17T13:00:00",
+      "temperatura": "25.5",
+      "umidade": "81",
+      "precipitacao": "0.0"
+    },
+    {
+      "ponto": {
+        "nome": "ESTACAO CENTRAL",
+        "latitude": "-22.903500",
+        "longitude": "-43.209600",
+        "cidade": "RIO DE JANEIRO",
+        "estado": "RJ"
+      },
+      "fonte": {
+        "nome": "INMET",
+        "tipo": "API",
+        "descricao": "INSTITUTO NACIONAL DE METEOROLOGIA"
+      },
+      "data_hora": "2026-10-17T14:00:00",
+      "temperatura": "25.9",
+      "umidade": "85",
+      "precipitacao": "0.7"
+    },
+    {
+      "ponto": {
+        "nome": "ESTACAO CENTRAL",
+        "latitude": "-22.903500",
+        "longitude": "-43.209600",
+        "cidade": "RIO DE JANEIRO",
+        "estado": "RJ"
+      },
+      "fonte": {
+        "nome": "INMET",
+        "tipo": "API",
+        "descricao": "INSTITUTO NACIONAL DE METEOROLOGIA"
+      },
+      "data_hora": "2026-10-17T15:00:00",
+      "temperatura": "25.9",
+      "umidade": "84",
+      "precipitacao": "1.6"
+    },
+    {
+      "ponto": {
+        "nome": "ESTACAO CENTRAL",
+        "latitude": "-22.903500",
+        "longitude": "-43.209600",
+        "cidade": "RIO DE JANEIRO",
+        "estado": "RJ"
+      },
+      "fonte": {
+        "nome": "INMET",
+        "tipo": "API",
+        "descricao": "INSTITUTO NACIONAL DE METEOROLOGIA"
+      },
+      "data_hora": "2026-10-17T16:00:00",
+      "temperatura": "24.6",
+      "umidade": "91",
+      "precipitacao": "3.2"
+    },
+    {
+      "ponto": {
+        "nome": "ESTACAO CENTRAL",
+        "latitude": "-22.903500",
+        "longitude": "-43.209600",
+        "cidade": "RIO DE JANEIRO",
+        "estado": "RJ"
+      },
+      "fonte": {
+        "nome": "INMET",
+        "tipo": "API",
+        "descricao": "INSTITUTO NACIONAL DE METEOROLOGIA"
+      },
+      "data_hora": "2026-10-17T17:00:00",
+      "temperatura": "23.5",
+      "umidade": "90",
+      "precipitacao": "5.0"
+    },
+    {
+      "ponto": {
+        "nome": "ESTACAO CENTRAL",
+        "latitude": "-22.903500",
+        "longitude": "-43.209600",
+        "cidade": "RIO DE JANEIRO",
+        "estado": "RJ"
+      },
+      "fonte": {
+        "nome": "INMET",
+        "tipo": "API",
+        "descricao": "INSTITUTO NACIONAL DE METEOROLOGIA"
+      },
+      "data_hora": "2026-10-17T18:00:00",
+      "temperatura": "22.9",
+      "umidade": "94",
+      "precipitacao": "4.5"
+    },
+    {
+      "ponto": {
+        "nome": "ESTACAO CENTRAL",
+        "latitude": "-22.903500",
+        "longitude": "-43.209600",
+        "cidade": "RIO DE JANEIRO",
+        "estado": "RJ"
+      },
+      "fonte": {
+        "nome": "INMET",
+        "tipo": "API",
+        "descricao": "INSTITUTO NACIONAL DE METEOROLOGIA"
+      },
+      "data_hora": "2026-10-17T19:00:00",
+      "temperatura": "23.7",
+      "umidade": "88",
+      "precipitacao": "2.8"
+    },
+    {
+      "ponto": {
+        "nome": "ESTACAO CENTRAL",
+        "latitude": "-22.903500",
+        "longitude": "-43.209600",
+        "cidade": "RIO DE JANEIRO",
+        "estado": "RJ"
+      },
+      "fonte": {
+        "nome": "INMET",
+        "tipo": "API",
+        "descricao": "INSTITUTO NACIONAL DE METEOROLOGIA"
+      },
+      "data_hora": "2026-10-17T20:00:00",
+      "temperatura": "23.8",
+      "umidade": "89",
+      "precipitacao": "0.9"
+    },
+    {
+      "ponto": {
+        "nome": "ESTACAO CENTRAL",
+        "latitude": "-22.903500",
+        "longitude": "-43.209600",
+        "cidade": "RIO DE JANEIRO",
+        "estado": "RJ"
+      },
+      "fonte": {
+        "nome": "INMET",
+        "tipo": "API",
+        "descricao": "INSTITUTO NACIONAL DE METEOROLOGIA"
+      },
+      "data_hora": "2026-10-18T08:00:00",
+      "temperatura": "19.1",
+      "umidade": "98",
+      "precipitacao": "0.6"
+    },
+    {
+      "ponto": {
+        "nome": "ESTACAO CENTRAL",
+        "latitude": "-22.903500",
+        "longitude": "-43.209600",
+        "cidade": "RIO DE JANEIRO",
+        "estado": "RJ"
+      },
+      "fonte": {
+        "nome": "INMET",
+        "tipo": "API",
+        "descricao": "INSTITUTO NACIONAL DE METEOROLOGIA"
+      },
+      "data_hora": "2026-10-18T09:00:00",
+      "temperatura": "19.1",
+      "umidade": "98",
+      "precipitacao": "1.6"
+    },
+    {
+      "ponto": {
+        "nome": "ESTACAO CENTRAL",
+        "latitude": "-22.903500",
+        "longitude": "-43.209600",
+        "cidade": "RIO DE JANEIRO",
+        "estado": "RJ"
+      },
+      "fonte": {
+        "nome": "INMET",
+        "tipo": "API",
+        "descricao": "INSTITUTO NACIONAL DE METEOROLOGIA"
+      },
+      "data_hora": "2026-10-18T10:00:00",
+      "temperatura": "19.9",
+      "umidade": "98",
+      "precipitacao": "1.6"
+    },
+    {
+      "ponto": {
+        "nome": "ESTACAO CENTRAL",
+        "latitude": "-22.903500",
+        "longitude": "-43.209600",
+        "cidade": "RIO DE JANEIRO",
+        "estado": "RJ"
+      },
+      "fonte": {
+        "nome": "INMET",
+        "tipo": "API",
+        "descricao": "INSTITUTO NACIONAL DE METEOROLOGIA"
+      },
+      "data_hora": "2026-10-18T11:00:00",
+      "temperatura": "21.3",
+      "umidade": "96",
+      "precipitacao": "0.6"
+    },
+    {
+      "ponto": {
+        "nome": "ESTACAO CENTRAL",
+        "latitude": "-22.903500",
+        "longitude": "-43.209600",
+        "cidade": "RIO DE JANEIRO",
+        "estado": "RJ"
+      },
+      "fonte": {
+        "nome": "INMET",
+        "tipo": "API",
+        "descricao": "INSTITUTO NACIONAL DE METEOROLOGIA"
+      },
+      "data_hora": "2026-10-18T12:00:00",
+      "temperatura": "23.0",
+      "umidade": "86",
+      "precipitacao": "0.0"
+    },
+    {
+      "ponto": {
+        "nome": "ESTACAO CENTRAL",
+        "latitude": "-22.903500",
+        "longitude": "-43.209600",
+        "cidade": "RIO DE JANEIRO",
+        "estado": "RJ"
+      },
+      "fonte": {
+        "nome": "INMET",
+        "tipo": "API",
+        "descricao": "INSTITUTO NACIONAL DE METEOROLOGIA"
+      },
+      "data_hora": "2026-10-18T13:00:00",
+      "temperatura": "24.2",
+      "umidade": "79",
+      "precipitacao": "0.0"
+    },
+    {
+      "ponto": {
+        "nome": "ESTACAO CENTRAL",
+        "latitude": "-22.903500",
+        "longitude": "-43.209600",
+        "cidade": "RIO DE JANEIRO",
+        "estado": "RJ"
+      },
+      "fonte": {
+        "nome": "INMET",
+        "tipo": "API",
+        "descricao": "INSTITUTO NACIONAL DE METEOROLOGIA"
+      },
+      "data_hora": "2026-10-18T14:00:00",
+      "temperatura": "24.9",
+      "umidade": "82",
+      "precipitacao": "0.0"
+    },
+    {
+      "ponto": {
+        "nome": "ESTACAO CENTRAL",
+        "latitude": "-22.903500",
+        "longitude": "-43.209600",
+        "cidade": "RIO DE JANEIRO",
+        "estado": "RJ"
+      },
+      "fonte": {
+        "nome": "INMET",
+        "tipo": "API",
+        "descricao": "INSTITUTO NACIONAL DE METEOROLOGIA"
+      },
+      "data_hora": "2026-10-18T15:00:00",
+      "temperatura": "25.1",
+      "umidade": "78",
+      "precipitacao": "0.0"
+    },
+    {
+      "ponto": {
+        "nome": "ESTACAO CENTRAL",
+        "latitude": "-22.903500",
+        "longitude": "-43.209600",
+        "cidade": "RIO DE JANEIRO",
+        "estado": "RJ"
+      },
+      "fonte": {
+        "nome": "INMET",
+        "tipo": "API",
+        "descricao": "INSTITUTO NACIONAL DE METEOROLOGIA"
+      },
+      "data_hora": "2026-10-18T16:00:00",
+      "temperatura": "24.3",
+      "umidade": "84",
+      "precipitacao": "0.0"
+    },
+    {
+      "ponto": {
+        "nome": "ESTACAO CENTRAL",
+        "latitude": "-22.903500",
+        "longitude": "-43.209600",
+        "cidade": "RIO DE JANEIRO",
+        "estado": "RJ"
+      },
+      "fonte": {
+        "nome": "INMET",
+        "tipo": "API",
+        "descricao": "INSTITUTO NACIONAL DE METEOROLOGIA"
+      },
+      "data_hora": "2026-10-18T17:00:00",
+      "temperatura": "24.5",
+      "umidade": "79",
+      "precipitacao": "0.0"
+    },
+    {
+      "ponto": {
+        "nome": "ESTACAO CENTRAL",
+        "latitude": "-22.903500",
+        "longitude": "-43.209600",
+        "cidade": "RIO DE JANEIRO",
+        "estado": "RJ"
+      },
+      "fonte": {
+        "nome": "INMET",
+        "tipo": "API",
+        "descricao": "INSTITUTO NACIONAL DE METEOROLOGIA"
+      },
+      "data_hora": "2026-10-18T18:00:00",
+      "temperatura": "23.6",
+      "umidade": "85",
+      "precipitacao": "0.0"
+    },
+    {
+      "ponto": {
+        "nome": "ESTACAO CENTRAL",
+        "latitude": "-22.903500",
+        "longitude": "-43.209600",
+        "cidade": "RIO DE JANEIRO",
+        "estado": "RJ"
+      },
+      "fonte": {
+        "nome": "INMET",
+        "tipo": "API",
+        "descricao": "INSTITUTO NACIONAL DE METEOROLOGIA"
+      },
+      "data_hora": "2026-10-18T19:00:00",
+      "temperatura": "23.2",
+      "umidade": "86",
+      "precipitacao": "0.0"
+    },
+    {
+      "ponto": {
+        "nome": "ESTACAO CENTRAL",
+        "latitude": "-22.903500",
+        "longitude": "-43.209600",
+        "cidade": "RIO DE JANEIRO",
+        "estado": "RJ"
+      },
+      "fonte": {
+        "nome": "INMET",
+        "tipo": "API",
+        "descricao": "INSTITUTO NACIONAL DE METEOROLOGIA"
+      },
+      "data_hora": "2026-10-18T20:00:00",
+      "temperatura": "21.8",
+      "umidade": "84",
+      "precipitacao": "0.0"
+    },
+    {
+      "ponto": {
+        "nome": "ESTACAO CENTRAL",
+        "latitude": "-22.903500",
+        "longitude": "-43.209600",
+        "cidade": "RIO DE JANEIRO",
+        "estado": "RJ"
+      },
+      "fonte": {
+        "nome": "INMET",
+        "tipo": "API",
+        "descricao": "INSTITUTO NACIONAL DE METEOROLOGIA"
+      },
+      "data_hora": "2026-10-19T08:00:00",
+      "temperatura": "21.2",
+      "umidade": "86",
+      "precipitacao": "0.0"
+    },
+    {
+      "ponto": {
+        "nome": "ESTACAO CENTRAL",
+        "latitude": "-22.903500",
+        "longitude": "-43.209600",
+        "cidade": "RIO DE JANEIRO",
+        "estado": "RJ"
+      },
+      "fonte": {
+        "nome": "INMET",
+        "tipo": "API",
+        "descricao": "INSTITUTO NACIONAL DE METEOROLOGIA"
+      },
+      "data_hora": "2026-10-19T09:00:00",
+      "temperatura": "21.7",
+      "umidade": "87",
+      "precipitacao": "0.0"
+    },
+    {
+      "ponto": {
+        "nome": "ESTACAO CENTRAL",
+        "latitude": "-22.903500",
+        "longitude": "-43.209600",
+        "cidade": "RIO DE JANEIRO",
+        "estado": "RJ"
+      },
+      "fonte": {
+        "nome": "INMET",
+        "tipo": "API",
+        "descricao": "INSTITUTO NACIONAL DE METEOROLOGIA"
+      },
+      "data_hora": "2026-10-19T10:00:00",
+      "temperatura": "22.6",
+      "umidade": "87",
+      "precipitacao": "0.0"
+    },
+    {
+      "ponto": {
+        "nome": "ESTACAO CENTRAL",
+        "latitude": "-22.903500",
+        "longitude": "-43.209600",
+        "cidade": "RIO DE JANEIRO",
+        "estado": "RJ"
+      },
+      "fonte": {
+        "nome": "INMET",
+        "tipo": "API",
+        "descricao": "INSTITUTO NACIONAL DE METEOROLOGIA"
+      },
+      "data_hora": "2026-10-19T11:00:00",
+      "temperatura": "24.9",
+      "umidade": "81",
+      "precipitacao": "0.0"
+    },
+    {
+      "ponto": {
+        "nome": "ESTACAO CENTRAL",
+        "latitude": "-22.903500",
+        "longitude": "-43.209600",
+        "cidade": "RIO DE JANEIRO",
+        "estado": "RJ"
+      },
+      "fonte": {
+        "nome": "INMET",
+        "tipo": "API",
+        "descricao": "INSTITUTO NACIONAL DE METEOROLOGIA"
+      },
+      "data_hora": "2026-10-19T12:00:00",
+      "temperatura": "27.1",
+      "umidade": "72",
+      "precipitacao": "0.0"
+    },
+    {
+      "ponto": {
+        "nome": "ESTACAO CENTRAL",
+        "latitude": "-22.903500",
+        "longitude": "-43.209600",
+        "cidade": "RIO DE JANEIRO",
+        "estado": "RJ"
+      },
+      "fonte": {
+        "nome": "INMET",
+        "tipo": "API",
+        "descricao": "INSTITUTO NACIONAL DE METEOROLOGIA"
+      },
+      "data_hora": "2026-10-19T13:00:00",
+      "temperatura": "29.3",
+      "umidade": "71",
+      "precipitacao": "0.0"
+    },
+    {
+      "ponto": {
+        "nome": "ESTACAO CENTRAL",
+        "latitude": "-22.903500",
+        "longitude": "-43.209600",
+        "cidade": "RIO DE JANEIRO",
+        "estado": "RJ"
+      },
+      "fonte": {
+        "nome": "INMET",
+        "tipo": "API",
+        "descricao": "INSTITUTO NACIONAL DE METEOROLOGIA"
+      },
+      "data_hora": "2026-10-19T14:00:00",
+      "temperatura": "30.6",
+      "umidade": "69",
+      "precipitacao": "0.0"
+    },
+    {
+      "ponto": {
+        "nome": "ESTACAO CENTRAL",
+        "latitude": "-22.903500",
+        "longitude": "-43.209600",
+        "cidade": "RIO DE JANEIRO",
+        "estado": "RJ"
+      },
+      "fonte": {
+        "nome": "INMET",
+        "tipo": "API",
+        "descricao": "INSTITUTO NACIONAL DE METEOROLOGIA"
+      },
+      "data_hora": "2026-10-19T15:00:00",
+      "temperatura": "30.2",
+      "umidade": "65",
+      "precipitacao": "0.0"
+    },
+    {
+      "ponto": {
+        "nome": "ESTACAO CENTRAL",
+        "latitude": "-22.903500",
+        "longitude": "-43.209600",
+        "cidade": "RIO DE JANEIRO",
+        "estado": "RJ"
+      },
+      "fonte": {
+        "nome": "INMET",
+        "tipo": "API",
+        "descricao": "INSTITUTO NACIONAL DE METEOROLOGIA"
+      },
+      "data_hora": "2026-10-19T16:00:00",
+      "temperatura": "29.9",
+      "umidade": "70",
+      "precipitacao": "0.0"
+    },
+    {
+      "ponto": {
+        "nome": "ESTACAO CENTRAL",
+        "latitude": "-22.903500",
+        "longitude": "-43.209600",
+        "cidade": "RIO DE JANEIRO",
+        "estado": "RJ"
+      },
+      "fonte": {
+        "nome": "INMET",
+        "tipo": "API",
+        "descricao": "INSTITUTO NACIONAL DE METEOROLOGIA"
+      },
+      "data_hora": "2026-10-19T17:00:00",
+      "temperatura": "29.5",
+      "umidade": "66",
+      "precipitacao": "0.0"
+    },
+    {
+      "ponto": {
+        "nome": "ESTACAO CENTRAL",
+        "latitude": "-22.903500",
+        "longitude": "-43.209600",
+        "cidade": "RIO DE JANEIRO",
+        "estado": "RJ"
+      },
+      "fonte": {
+        "nome": "INMET",
+        "tipo": "API",
+        "descricao": "INSTITUTO NACIONAL DE METEOROLOGIA"
+      },
+      "data_hora": "2026-10-19T18:00:00",
+      "temperatura": "28.3",
+      "umidade": "74",
+      "precipitacao": "0.0"
+    },
+    {
+      "ponto": {
+        "nome": "ESTACAO CENTRAL",
+        "latitude": "-22.903500",
+        "longitude": "-43.209600",
+        "cidade": "RIO DE JANEIRO",
+        "estado": "RJ"
+      },
+      "fonte": {
+        "nome": "INMET",
+        "tipo": "API",
+        "descricao": "INSTITUTO NACIONAL DE METEOROLOGIA"
+      },
+      "data_hora": "2026-10-19T19:00:00",
+      "temperatura": "26.6",
+      "umidade": "76",
+      "precipitacao": "0.0"
+    },
+    {
+      "ponto": {
+        "nome": "ESTACAO CENTRAL",
+        "latitude": "-22.903500",
+        "longitude": "-43.209600",
+        "cidade": "RIO DE JANEIRO",
+        "estado": "RJ"
+      },
+      "fonte": {
+        "nome": "INMET",
+        "tipo": "API",
+        "descricao": "INSTITUTO NACIONAL DE METEOROLOGIA"
+      },
+      "data_hora": "2026-10-19T20:00:00",
+      "temperatura": "25.4",
+      "umidade": "76",
+      "precipitacao": "0.0"
+    },
+    {
+      "ponto": {
+        "nome": "ESTACAO NITEROI",
+        "latitude": "-22.883300",
+        "longitude": "-43.103600",
+        "cidade": "NITERÓI",
+        "estado": "RJ"
+      },
+      "fonte": {
+        "nome": "INMET",
+        "tipo": "API",
+        "descricao": "INSTITUTO NACIONAL DE METEOROLOGIA"
+      },
+      "data_hora": "2026-10-15T08:00:00",
+      "temperatura": "22.3",
+      "umidade": "88",
+      "precipitacao": "0.0"
+    },
+    {
+      "ponto": {
+        "nome": "ESTACAO NITEROI",
+        "latitude": "-22.883300",
+        "longitude": "-43.103600",
+        "cidade": "NITERÓI",
+        "estado": "RJ"
+      },
+      "fonte": {
+        "nome": "INMET",
+        "tipo": "API",
+        "descricao": "INSTITUTO NACIONAL DE METEOROLOGIA"
+      },
+      "data_hora": "2026-10-15T09:00:00",
+      "temperatura": "22.7",
+      "umidade": "87",
+      "precipitacao": "0.0"
+    },
+    {
+      "ponto": {
+        "nome": "ESTACAO NITEROI",
+        "latitude": "-22.883300",
+        "longitude": "-43.103600",
+        "cidade": "NITERÓI",
+        "estado": "RJ"
+      },
+      "fonte": {
+        "nome": "INMET",
+        "tipo": "API",
+        "descricao": "INSTITUTO NACIONAL DE METEOROLOGIA"
+      },
+      "data_hora": "2026-10-15T10:00:00",
+      "temperatura": "24.0",
+      "umidade": "83",
+      "precipitacao": "0.0"
+    },
+    {
+      "ponto": {
+        "nome": "ESTACAO NITEROI",
+        "latitude": "-22.883300",
+        "longitude": "-43.103600",
+        "cidade": "NITERÓI",
+        "estado": "RJ"
+      },
+      "fonte": {
+        "nome": "INMET",
+        "tipo": "API",
+        "descricao": "INSTITUTO NACIONAL DE METEOROLOGIA"
+      },
+      "data_hora": "2026-10-15T11:00:00",
+      "temperatura": "26.0",
+      "umidade": "77",
+      "precipitacao": "0.0"
+    },
+    {
+      "ponto": {
+        "nome": "ESTACAO NITEROI",
+        "latitude": "-22.883300",
+        "longitude": "-43.103600",
+        "cidade": "NITERÓI",
+        "estado": "RJ"
+      },
+      "fonte": {
+        "nome": "INMET",
+        "tipo": "API",
+        "descricao": "INSTITUTO NACIONAL DE METEOROLOGIA"
+      },
+      "data_hora": "2026-10-15T12:00:00",
+      "temperatura": "28.4",
+      "umidade": "73",
+      "precipitacao": "0.0"
+    },
+    {
+      "ponto": {
+        "nome": "ESTACAO NITEROI",
+        "latitude": "-22.883300",
+        "longitude": "-43.103600",
+        "cidade": "NITERÓI",
+        "estado": "RJ"
+      },
+      "fonte": {
+        "nome": "INMET",
+        "tipo": "API",
+        "descricao": "INSTITUTO NACIONAL DE METEOROLOGIA"
+      },
+      "data_hora": "2026-10-15T13:00:00",
+      "temperatura": "29.8",
+      "umidade": "70",
+      "precipitacao": "0.0"
+    },
+    {
+      "ponto": {
+        "nome": "ESTACAO NITEROI",
+        "latitude": "-22.883300",
+        "longitude": "-43.103600",
+        "cidade": "NITERÓI",
+        "estado": "RJ"
+      },
+      "fonte": {
+        "nome": "INMET",
+        "tipo": "API",
+        "descricao": "INSTITUTO NACIONAL DE METEOROLOGIA"
+      },
+      "data_hora": "2026-10-15T14:00:00",
+      "temperatura": "31.3",
+      "umidade": "65",
+      "precipitacao": "0.0"
+    },
+    {
+      "ponto": {
+        "nome": "ESTACAO NITEROI",
+        "latitude": "-22.883300",
+        "longitude": "-43.103600",
+        "cidade": "NITERÓI",
+        "estado": "RJ"
+      },
+      "fonte": {
+        "nome": "INMET",
+        "tipo": "API",
+        "descricao": "INSTITUTO NACIONAL DE METEOROLOGIA"
+      },
+      "data_hora": "2026-10-15T15:00:00",
+      "temperatura": "31.1",
+      "umidade": "63",
+      "precipitacao": "0.0"
+    },
+    {
+      "ponto": {
+        "nome": "ESTACAO NITEROI",
+        "latitude": "-22.883300",
+        "longitude": "-43.103600",
+        "cidade": "NITERÓI",
+        "estado": "RJ"
+      },
+      "fonte": {
+        "nome": "INMET",
+        "tipo": "API",
+        "descricao": "INSTITUTO NACIONAL DE METEOROLOGIA"
+      },
+      "data_hora": "2026-10-15T16:00:00",
+      "temperatura": "30.5",
+      "umidade": "68",
+      "precipitacao": "0.0"
+    },
+    {
+      "ponto": {
+        "nome": "ESTACAO NITEROI",
+        "latitude": "-22.883300",
+        "longitude": "-43.103600",
+        "cidade": "NITERÓI",
+        "estado": "RJ"
+      },
+      "fonte": {
+        "nome": "INMET",
+        "tipo": "API",
+        "descricao": "INSTITUTO NACIONAL DE METEOROLOGIA"
+      },
+      "data_hora": "2026-10-15T17:00:00",
+      "temperatura": "30.2",
+      "umidade": "70",
+      "precipitacao": "0.0"
+    },
+    {
+      "ponto": {
+        "nome": "ESTACAO NITEROI",
+        "latitude": "-22.883300",
+        "longitude": "-43.103600",
+        "cidade": "NITERÓI",
+        "estado": "RJ"
+      },
+      "fonte": {
+        "nome": "INMET",
+        "tipo": "API",
+        "descricao": "INSTITUTO NACIONAL DE METEOROLOGIA"
+      },
+      "data_hora": "2026-10-15T18:00:00",
+      "temperatura": "28.9",
+      "umidade": "68",
+      "precipitacao": "0.0"
+    },
+    {
+      "ponto": {
+        "nome": "ESTACAO NITEROI",
+        "latitude": "-22.883300",
+        "longitude": "-43.103600",
+        "cidade": "NITERÓI",
+        "estado": "RJ"
+      },
+      "fonte": {
+        "nome": "INMET",
+        "tipo": "API",
+        "descricao": "INSTITUTO NACIONAL DE METEOROLOGIA"
+      },
+      "data_hora": "2026-10-15T19:00:00",
+      "temperatura": "27.7",
+      "umidade": "70",
+      "precipitacao": "0.0"
+    },
+    {
+      "ponto": {
+        "nome": "ESTACAO NITEROI",
+        "latitude": "-22.883300",
+        "longitude": "-43.103600",
+        "cidade": "NITERÓI",
+        "estado": "RJ"
+      },
+      "fonte": {
+        "nome": "INMET",
+        "tipo": "API",
+        "descricao": "INSTITUTO NACIONAL DE METEOROLOGIA"
+      },
+      "data_hora": "2026-10-15T20:00:00",
+      "temperatura": "26.6",
+      "umidade": "77",
+      "precipitacao": "0.0"
+    },
+    {
+      "ponto": {
+        "nome": "ESTACAO NITEROI",
+        "latitude": "-22.883300",
+        "longitude": "-43.103600",
+        "cidade": "NITERÓI",
+        "estado": "RJ"
+      },
+      "fonte": {
+        "nome": "INMET",
+        "tipo": "API",
+        "descricao": "INSTITUTO NACIONAL DE METEOROLOGIA"
+      },
+      "data_hora": "2026-10-16T08:00:00",
+      "temperatura": "22.7",
+      "umidade": "85",
+      "precipitacao": "0.0"
+    },
+    {
+      "ponto": {
+        "nome": "ESTACAO NITEROI",
+        "latitude": "-22.883300",
+        "longitude": "-43.103600",
+        "cidade": "NITERÓI",
+        "estado": "RJ"
+      },
+      "fonte": {
+        "nome": "INMET",
+        "tipo": "API",
+        "descricao": "INSTITUTO NACIONAL DE METEOROLOGIA"
+      },
+      "data_hora": "2026-10-16T09:00:00",
+      "temperatura": "23.4",
+      "umidade": "84",
+      "precipitacao": "0.0"
+    },
+    {
+      "ponto": {
+        "nome": "ESTACAO NITEROI",
+        "latitude": "-22.883300",
+        "longitude": "-43.103600",
+        "cidade": "NITERÓI",
+        "estado": "RJ"
+      },
+      "fonte": {
+        "nome": "INMET",
+        "tipo": "API",
+        "descricao": "INSTITUTO NACIONAL DE METEOROLOGIA"
+      },
+      "data_hora": "2026-10-16T10:00:00",
+      "temperatura": "23.6",
+      "umidade": "80",
+      "precipitacao": "0.0"
+    },
+    {
+      "ponto": {
+        "nome": "ESTACAO NITEROI",
+        "latitude": "-22.883300",
+        "longitude": "-43.103600",
+        "cidade": "NITERÓI",
+        "estado": "RJ"
+      },
+      "fonte": {
+        "nome": "INMET",
+        "tipo": "API",
+        "descricao": "INSTITUTO NACIONAL DE METEOROLOGIA"
+      },
+      "data_hora": "2026-10-16T11:00:00",
+      "temperatura": "25.7",
+      "umidade": "75",
+      "precipitacao": "0.0"
+    },
+    {
+      "ponto": {
+        "nome": "ESTACAO NITEROI",
+        "latitude": "-22.883300",
+        "longitude": "-43.103600",
+        "cidade": "NITERÓI",
+        "estado": "RJ"
+      },
+      "fonte": {
+        "nome": "INMET",
+        "tipo": "API",
+        "descricao": "INSTITUTO NACIONAL DE METEOROLOGIA"
+      },
+      "data_hora": "2026-10-16T12:00:00",
+      "temperatura": "26.4",
+      "umidade": "76",
+      "precipitacao": "0.0"
+    },
+    {
+      "ponto": {
+        "nome": "ESTACAO NITEROI",
+        "latitude": "-22.883300",
+        "longitude": "-43.103600",
+        "cidade": "NITERÓI",
+        "estado": "RJ"
+      },
+      "fonte": {
+        "nome": "INMET",
+        "tipo": "API",
+        "descricao": "INSTITUTO NACIONAL DE METEOROLOGIA"
+      },
+      "data_hora": "2026-10-16T13:00:00",
+      "temperatura": "27.8",
+      "umidade": "70",
+      "precipitacao": "0.0"
+    },
+    {
+      "ponto": {
+        "nome": "ESTACAO NITEROI",
+        "latitude": "-22.883300",
+        "longitude": "-43.103600",
+        "cidade": "NITERÓI",
+        "estado": "RJ"
+      },
+      "fonte": {
+        "nome": "INMET",
+        "tipo": "API",
+        "descricao": "INSTITUTO NACIONAL DE METEOROLOGIA"
+      },
+      "data_hora": "2026-10-16T14:00:00",
+      "temperatura": "28.3",
+      "umidade": "72",
+      "precipitacao": "0.0"
+    },
+    {
+      "ponto": {
+        "nome": "ESTACAO NITEROI",
+        "latitude": "-22.883300",
+        "longitude": "-43.103600",
+        "cidade": "NITERÓI",
+        "estado": "RJ"
+      },
+      "fonte": {
+        "nome": "INMET",
+        "tipo": "API",
+        "descricao": "INSTITUTO NACIONAL DE METEOROLOGIA"
+      },
+      "data_hora": "2026-10-16T15:00:00",
+      "temperatura": "28.7",
+      "umidade": "73",
+      "precipitacao": "0.0"
+    },
+    {
+      "ponto": {
+        "nome": "ESTACAO NITEROI",
+        "latitude": "-22.883300",
+        "longitude": "-43.103600",
+        "cidade": "NITERÓI",
+        "estado": "RJ"
+      },
+      "fonte": {
+        "nome": "INMET",
+        "tipo": "API",
+        "descricao": "INSTITUTO NACIONAL DE METEOROLOGIA"
+      },
+      "data_hora": "2026-10-16T16:00:00",
+      "temperatura": "28.4",
+      "umidade": "72",
+      "precipitacao": "0.0"
+    },
+    {
+      "ponto": {
+        "nome": "ESTACAO NITEROI",
+        "latitude": "-22.883300",
+        "longitude": "-43.103600",
+        "cidade": "NITERÓI",
+        "estado": "RJ"
+      },
+      "fonte": {
+        "nome": "INMET",
+        "tipo": "API",
+        "descricao": "INSTITUTO NACIONAL DE METEOROLOGIA"
+      },
+      "data_hora": "2026-10-16T17:00:00",
+      "temperatura": "28.0",
+      "umidade": "70",
+      "precipitacao": "0.0"
+    },
+    {
+      "ponto": {
+        "nome": "ESTACAO NITEROI",
+        "latitude": "-22.883300",
+        "longitude": "-43.103600",
+        "cidade": "NITERÓI",
+        "estado": "RJ"
+      },
+      "fonte": {
+        "nome": "INMET",
+        "tipo": "API",
+        "descricao": "INSTITUTO NACIONAL DE METEOROLOGIA"
+      },
+      "data_hora": "2026-10-16T18:00:00",
+      "temperatura": "27.5",
+      "umidade": "73",
+      "precipitacao": "0.0"
+    },
+    {
+      "ponto": {
+        "nome": "ESTACAO NITEROI",
+        "latitude": "-22.883300",
+        "longitude": "-43.103600",
+        "cidade": "NITERÓI",
+        "estado": "RJ"
+      },
+      "fonte": {
+        "nome": "INMET",
+        "tipo": "API",
+        "descricao": "INSTITUTO NACIONAL DE METEOROLOGIA"
+      },
+      "data_hora": "2026-10-16T19:00:00",
+      "temperatura": "26.3",
+      "umidade": "75",
+      "precipitacao": "0.0"
+    },
+    {
+      "ponto": {
+        "nome": "ESTACAO NITEROI",
+        "latitude": "-22.883300",
+        "longitude": "-43.103600",
+        "cidade": "NITERÓI",
+        "estado": "RJ"
+      },
+      "fonte": {
+        "nome": "INMET",
+        "tipo": "API",
+        "descricao": "INSTITUTO NACIONAL DE METEOROLOGIA"
+      },
+      "data_hora": "2026-10-16T20:00:00",
+      "temperatura": "26.0",
+      "umidade": "76",
+      "precipitacao": "0.0"
+    },
+    {
+      "ponto": {
+        "nome": "ESTACAO NITEROI",
+        "latitude": "-22.883300",
+        "longitude": "-43.103600",
+        "cidade": "NITERÓI",
+        "estado": "RJ"
+      },
+      "fonte": {
+        "nome": "INMET",
+        "tipo": "API",
+        "descricao": "INSTITUTO NACIONAL DE METEOROLOGIA"
+      },
+      "data_hora": "2026-10-17T08:00:00",
+      "temperatura": "22.0",
+      "umidade": "84",
+      "precipitacao": "0.0"
+    },
+    {
+      "ponto": {
+        "nome": "ESTACAO NITEROI",
+        "latitude": "-22.883300",
+        "longitude": "-43.103600",
+        "cidade": "NITERÓI",
+        "estado": "RJ"
+      },
+      "fonte": {
+        "nome": "INMET",
+        "tipo": "API",
+        "descricao": "INSTITUTO NACIONAL DE METEOROLOGIA"
+      },
+      "data_hora": "2026-10-17T09:00:00",
+      "temperatura": "22.2",
+      "umidade": "83",
+      "precipitacao": "0.0"
+    },
+    {
+      "ponto": {
+        "nome": "ESTACAO NITEROI",
+        "latitude": "-22.883300",
+        "longitude": "-43.103600",
+        "cidade": "NITERÓI",
+        "estado": "RJ"
+      },
+      "fonte": {
+        "nome": "INMET",
+        "tipo": "API",
+        "descricao": "INSTITUTO NACIONAL DE METEOROLOGIA"
+      },
+      "data_hora": "2026-10-17T10:00:00",
+      "temperatura": "22.7",
+      "umidade": "85",
+      "precipitacao": "0.0"
+    },
+    {
+      "ponto": {
+        "nome": "ESTACAO NITEROI",
+        "latitude": "-22.883300",
+        "longitude": "-43.103600",
+        "cidade": "NITERÓI",
+        "estado": "RJ"
+      },
+      "fonte": {
+        "nome": "INMET",
+        "tipo": "API",
+        "descricao": "INSTITUTO NACIONAL DE METEOROLOGIA"
+      },
+      "data_hora": "2026-10-17T11:00:00",
+      "temperatura": "23.6",
+      "umidade": "80",
+      "precipitacao": "0.0"
+    },
+    {
+      "ponto": {
+        "nome": "ESTACAO NITEROI",
+        "latitude": "-22.883300",
+        "longitude": "-43.103600",
+        "cidade": "NITERÓI",
+        "estado": "RJ"
+      },
+      "fonte": {
+        "nome": "INMET",
+        "tipo": "API",
+        "descricao": "INSTITUTO NACIONAL DE METEOROLOGIA"
+      },
+      "data_hora": "2026-10-17T12:00:00",
+      "temperatura": "25.1",
+      "umidade": "76",
+      "precipitacao": "0.0"
+    },
+    {
+      "ponto": {
+        "nome": "ESTACAO NITEROI",
+        "latitude": "-22.883300",
+        "longitude": "-43.103600",
+        "cidade": "NITERÓI",
+        "estado": "RJ"
+      },
+      "fonte": {
+        "nome": "INMET",
+        "tipo": "API",
+        "descricao": "INSTITUTO NACIONAL DE METEOROLOGIA"
+      },
+      "data_hora": "2026-10-17T13:00:00",
+      "temperatura": "25.5",
+      "umidade": "75",
+      "precipitacao": "0.0"
+    },
+    {
+      "ponto": {
+        "nome": "ESTACAO NITEROI",
+        "latitude": "-22.883300",
+        "longitude": "-43.103600",
+        "cidade": "NITERÓI",
+        "estado": "RJ"
+      },
+      "fonte": {
+        "nome": "INMET",
+        "tipo": "API",
+        "descricao": "INSTITUTO NACIONAL DE METEOROLOGIA"
+      },
+      "data_hora": "2026-10-17T14:00:00",
+      "temperatura": "26.1",
+      "umidade": "87",
+      "precipitacao": "0.8"
+    },
+    {
+      "ponto": {
+        "nome": "ESTACAO NITEROI",
+        "latitude": "-22.883300",
+        "longitude": "-43.103600",
+        "cidade": "NITERÓI",
+        "estado": "RJ"
+      },
+      "fonte": {
+        "nome": "INMET",
+        "tipo": "API",
+        "descricao": "INSTITUTO NACIONAL DE METEOROLOGIA"
+      },
+      "data_hora": "2026-10-17T15:00:00",
+      "temperatura": "25.1",
+      "umidade": "85",
+      "precipitacao": "1.5"
+    },
+    {
+      "ponto": {
+        "nome": "ESTACAO NITEROI",
+        "latitude": "-22.883300",
+        "longitude": "-43.103600",
+        "cidade": "NITERÓI",
+        "estado": "RJ"
+      },
+      "fonte": {
+        "nome": "INMET",
+        "tipo": "API",
+        "descricao": "INSTITUTO NACIONAL DE METEOROLOGIA"
+      },
+      "data_hora": "2026-10-17T16:00:00",
+      "temperatura": "24.1",
+      "umidade": "88",
+      "precipitacao": "4.0"
+    },
+    {
+      "ponto": {
+        "nome": "ESTACAO NITEROI",
+        "latitude": "-22.883300",
+        "longitude": "-43.103600",
+        "cidade": "NITERÓI",
+        "estado": "RJ"
+      },
+      "fonte": {
+        "nome": "INMET",
+        "tipo": "API",
+        "descricao": "INSTITUTO NACIONAL DE METEOROLOGIA"
+      },
+      "data_hora": "2026-10-17T17:00:00",
+      "temperatura": "22.9",
+      "umidade": "93",
+      "precipitacao": "4.6"
+    },
+    {
+      "ponto": {
+        "nome": "ESTACAO NITEROI",
+        "latitude": "-22.883300",
+        "longitude": "-43.103600",
+        "cidade": "NITERÓI",
+        "estado": "RJ"
+      },
+      "fonte": {
+        "nome": "INMET",
+        "tipo": "API",
+        "descricao": "INSTITUTO NACIONAL DE METEOROLOGIA"
+      },
+      "data_hora": "2026-10-17T18:00:00",
+      "temperatura": "23.6",
+      "umidade": "89",
+      "precipitacao": "3.6"
+    },
+    {
+      "ponto": {
+        "nome": "ESTACAO NITEROI",
+        "latitude": "-22.883300",
+        "longitude": "-43.103600",
+        "cidade": "NITERÓI",
+        "estado": "RJ"
+      },
+      "fonte": {
+        "nome": "INMET",
+        "tipo": "API",
+        "descricao": "INSTITUTO NACIONAL DE METEOROLOGIA"
+      },
+      "data_hora": "2026-10-17T19:00:00",
+      "temperatura": "23.4",
+      "umidade": "92",
+      "precipitacao": "2.1"
+    },
+    {
+      "ponto": {
+        "nome": "ESTACAO NITEROI",
+        "latitude": "-22.883300",
+        "longitude": "-43.103600",
+        "cidade": "NITERÓI",
+        "estado": "RJ"
+      },
+      "fonte": {
+        "nome": "INMET",
+        "tipo": "API",
+        "descricao": "INSTITUTO NACIONAL DE METEOROLOGIA"
+      },
+      "data_hora": "2026-10-17T20:00:00",
+      "temperatura": "23.8",
+      "umidade": "91",
+      "precipitacao": "1.0"
+    },
+    {
+      "ponto": {
+        "nome": "ESTACAO NITEROI",
+        "latitude": "-22.883300",
+        "longitude": "-43.103600",
+        "cidade": "NITERÓI",
+        "estado": "RJ"
+      },
+      "fonte": {
+        "nome": "INMET",
+        "tipo": "API",
+        "descricao": "INSTITUTO NACIONAL DE METEOROLOGIA"
+      },
+      "data_hora": "2026-10-18T08:00:00",
+      "temperatura": "19.2",
+      "umidade": "98",
+      "precipitacao": "0.4"
+    },
+    {
+      "ponto": {
+        "nome": "ESTACAO NITEROI",
+        "latitude": "-22.883300",
+        "longitude": "-43.103600",
+        "cidade": "NITERÓI",
+        "estado": "RJ"
+      },
+      "fonte": {
+        "nome": "INMET",
+        "tipo": "API",
+        "descricao": "INSTITUTO NACIONAL DE METEOROLOGIA"
+      },
+      "data_hora": "2026-10-18T09:00:00",
+      "temperatura": "18.3",
+      "umidade": "98",
+      "precipitacao": "1.8"
+    },
+    {
+      "ponto": {
+        "nome": "ESTACAO NITEROI",
+        "latitude": "-22.883300",
+        "longitude": "-43.103600",
+        "cidade": "NITERÓI",
+        "estado": "RJ"
+      },
+      "fonte": {
+        "nome": "INMET",
+        "tipo": "API",
+        "descricao": "INSTITUTO NACIONAL DE METEOROLOGIA"
+      },
+      "data_hora": "2026-10-18T10:00:00",
+      "temperatura": "20.1",
+      "umidade": "98",
+      "precipitacao": "1.2"
+    },
+    {
+      "ponto": {
+        "nome": "ESTACAO NITEROI",
+        "latitude": "-22.883300",
+        "longitude": "-43.103600",
+        "cidade": "NITERÓI",
+        "estado": "RJ"
+      },
+      "fonte": {
+        "nome": "INMET",
+        "tipo": "API",
+        "descricao": "INSTITUTO NACIONAL DE METEOROLOGIA"
+      },
+      "data_hora": "2026-10-18T11:00:00",
+      "temperatura": "21.4",
+      "umidade": "95",
+      "precipitacao": "0.5"
+    },
+    {
+      "ponto": {
+        "nome": "ESTACAO NITEROI",
+        "latitude": "-22.883300",
+        "longitude": "-43.103600",
+        "cidade": "NITERÓI",
+        "estado": "RJ"
+      },
+      "fonte": {
+        "nome": "INMET",
+        "tipo": "API",
+        "descricao": "INSTITUTO NACIONAL DE METEOROLOGIA"
+      },
+      "data_hora": "2026-10-18T12:00:00",
+      "temperatura": "23.0",
+      "umidade": "81",
+      "precipitacao": "0.0"
+    },
+    {
+      "ponto": {
+        "nome": "ESTACAO NITEROI",
+        "latitude": "-22.883300",
+        "longitude": "-43.103600",
+        "cidade": "NITERÓI",
+        "estado": "RJ"
+      },
+      "fonte": {
+        "nome": "INMET",
+        "tipo": "API",
+        "descricao": "INSTITUTO NACIONAL DE METEOROLOGIA"
+      },
+      "data_hora": "2026-10-18T13:00:00",
+      "temperatura": "23.7",
+      "umidade": "80",
+      "precipitacao": "0.0"
+    },
+    {
+      "ponto": {
+        "nome": "ESTACAO NITEROI",
+        "latitude": "-22.883300",
+        "longitude": "-43.103600",
+        "cidade": "NITERÓI",
+        "estado": "RJ"
+      },
+      "fonte": {
+        "nome": "INMET",
+        "tipo": "API",
+        "descricao": "INSTITUTO NACIONAL DE METEOROLOGIA"
+      },
+      "data_hora": "2026-10-18T14:00:00",
+      "temperatura": "24.4",
+      "umidade": "82",
+      "precipitacao": "0.0"
+    },
+    {
+      "ponto": {
+        "nome": "ESTACAO NITEROI",
+        "latitude": "-22.883300",
+        "longitude": "-43.103600",
+        "cidade": "NITERÓI",
+        "estado": "RJ"
+      },
+      "fonte": {
+        "nome": "INMET",
+        "tipo": "API",
+        "descricao": "INSTITUTO NACIONAL DE METEOROLOGIA"
+      },
+      "data_hora": "2026-10-18T15:00:00",
+      "temperatura": "24.3",
+      "umidade": "82",
+      "precipitacao": "0.0"
+    },
+    {
+      "ponto": {
+        "nome": "ESTACAO NITEROI",
+        "latitude": "-22.883300",
+        "longitude": "-43.103600",
+        "cidade": "NITERÓI",
+        "estado": "RJ"
+      },
+      "fonte": {
+        "nome": "INMET",
+        "tipo": "API",
+        "descricao": "INSTITUTO NACIONAL DE METEOROLOGIA"
+      },
+      "data_hora": "2026-10-18T16:00:00",
+      "temperatura": "24.2",
+      "umidade": "84",
+      "precipitacao": "0.0"
+    },
+    {
+      "ponto": {
+        "nome": "ESTACAO NITEROI",
+        "latitude": "-22.883300",
+        "longitude": "-43.103600",
+        "cidade": "NITERÓI",
+        "estado": "RJ"
+      },
+      "fonte": {
+        "nome": "INMET",
+        "tipo": "API",
+        "descricao": "INSTITUTO NACIONAL DE METEOROLOGIA"
+      },
+      "data_hora": "2026-10-18T17:00:00",
+      "temperatura": "24.2",
+      "umidade": "79",
+      "precipitacao": "0.0"
+    },
+    {
+      "ponto": {
+        "nome": "ESTACAO NITEROI",
+        "latitude": "-22.883300",
+        "longitude": "-43.103600",
+        "cidade": "NITERÓI",
+        "estado": "RJ"
+      },
+      "fonte": {
+        "nome": "INMET",
+        "tipo": "API",
+        "descricao": "INSTITUTO NACIONAL DE METEOROLOGIA"
+      },
+      "data_hora": "2026-10-18T18:00:00",
+      "temperatura": "23.5",
+      "umidade": "83",
+      "precipitacao": "0.0"
+    },
+    {
+      "ponto": {
+        "nome": "ESTACAO NITEROI",
+        "latitude": "-22.883300",
+        "longitude": "-43.103600",
+        "cidade": "NITERÓI",
+        "estado": "RJ"
+      },
+      "fonte": {
+        "nome": "INMET",
+        "tipo": "API",
+        "descricao": "INSTITUTO NACIONAL DE METEOROLOGIA"
+      },
+      "data_hora": "2026-10-18T19:00:00",
+      "temperatura": "22.9",
+      "umidade": "84",
+      "precipitacao": "0.0"
+    },
+    {
+      "ponto": {
+        "nome": "ESTACAO NITEROI",
+        "latitude": "-22.883300",
+        "longitude": "-43.103600",
+        "cidade": "NITERÓI",
+        "estado": "RJ"
+      },
+      "fonte": {
+        "nome": "INMET",
+        "tipo": "API",
+        "descricao": "INSTITUTO NACIONAL DE METEOROLOGIA"
+      },
+      "data_hora": "2026-10-18T20:00:00",
+      "temperatura": "21.7",
+      "umidade": "85",
+      "precipitacao": "0.0"
+    },
+    {
+      "ponto": {
+        "nome": "ESTACAO NITEROI",
+        "latitude": "-22.883300",
+        "longitude": "-43.103600",
+        "cidade": "NITERÓI",
+        "estado": "RJ"
+      },
+      "fonte": {
+        "nome": "INMET",
+        "tipo": "API",
+        "descricao": "INSTITUTO NACIONAL DE METEOROLOGIA"
+      },
+      "data_hora": "2026-10-19T08:00:00",
+      "temperatura": "20.8",
+      "umidade": "86",
+      "precipitacao": "0.0"
+    },
+    {
+      "ponto": {
+        "nome": "ESTACAO NITEROI",
+        "latitude": "-22.883300",
+        "longitude": "-43.103600",
+        "cidade": "NITERÓI",
+        "estado": "RJ"
+      },
+      "fonte": {
+        "nome": "INMET",
+        "tipo": "API",
+        "descricao": "INSTITUTO NACIONAL DE METEOROLOGIA"
+      },
+      "data_hora": "2026-10-19T09:00:00",
+      "temperatura": "21.0",
+      "umidade": "86",
+      "precipitacao": "0.0"
+    },
+    {
+      "ponto": {
+        "nome": "ESTACAO NITEROI",
+        "latitude": "-22.883300",
+        "longitude": "-43.103600",
+        "cidade": "NITERÓI",
+        "estado": "RJ"
+      },
+      "fonte": {
+        "nome": "INMET",
+        "tipo": "API",
+        "descricao": "INSTITUTO NACIONAL DE METEOROLOGIA"
+      },
+      "data_hora": "2026-10-19T10:00:00",
+      "temperatura": "22.4",
+      "umidade": "86",
+      "precipitacao": "0.0"
+    },
+    {
+      "ponto": {
+        "nome": "ESTACAO NITEROI",
+        "latitude": "-22.883300",
+        "longitude": "-43.103600",
+        "cidade": "NITERÓI",
+        "estado": "RJ"
+      },
+      "fonte": {
+        "nome": "INMET",
+        "tipo": "API",
+        "descricao": "INSTITUTO NACIONAL DE METEOROLOGIA"
+      },
+      "data_hora": "2026-10-19T11:00:00",
+      "temperatura": "24.5",
+      "umidade": "83",
+      "precipitacao": "0.0"
+    },
+    {
+      "ponto": {
+        "nome": "ESTACAO NITEROI",
+        "latitude": "-22.883300",
+        "longitude": "-43.103600",
+        "cidade": "NITERÓI",
+        "estado": "RJ"
+      },
+      "fonte": {
+        "nome": "INMET",
+        "tipo": "API",
+        "descricao": "INSTITUTO NACIONAL DE METEOROLOGIA"
+      },
+      "data_hora": "2026-10-19T12:00:00",
+      "temperatura": "27.5",
+      "umidade": "76",
+      "precipitacao": "0.0"
+    },
+    {
+      "ponto": {
+        "nome": "ESTACAO NITEROI",
+        "latitude": "-22.883300",
+        "longitude": "-43.103600",
+        "cidade": "NITERÓI",
+        "estado": "RJ"
+      },
+      "fonte": {
+        "nome": "INMET",
+        "tipo": "API",
+        "descricao": "INSTITUTO NACIONAL DE METEOROLOGIA"
+      },
+      "data_hora": "2026-10-19T13:00:00",
+      "temperatura": "28.8",
+      "umidade": "68",
+      "precipitacao": "0.0"
+    },
+    {
+      "ponto": {
+        "nome": "ESTACAO NITEROI",
+        "latitude": "-22.883300",
+        "longitude": "-43.103600",
+        "cidade": "NITERÓI",
+        "estado": "RJ"
+      },
+      "fonte": {
+        "nome": "INMET",
+        "tipo": "API",
+        "descricao": "INSTITUTO NACIONAL DE METEOROLOGIA"
+      },
+      "data_hora": "2026-10-19T14:00:00",
+      "temperatura": "29.8",
+      "umidade": "69",
+      "precipitacao": "0.0"
+    },
+    {
+      "ponto": {
+        "nome": "ESTACAO NITEROI",
+        "latitude": "-22.883300",
+        "longitude": "-43.103600",
+        "cidade": "NITERÓI",
+        "estado": "RJ"
+      },
+      "fonte": {
+        "nome": "INMET",
+        "tipo": "API",
+        "descricao": "INSTITUTO NACIONAL DE METEOROLOGIA"
+      },
+      "data_hora": "2026-10-19T15:00:00",
+      "temperatura": "29.9",
+      "umidade": "68",
+      "precipitacao": "0.0"
+    },
+    {
+      "ponto": {
+        "nome": "ESTACAO NITEROI",
+        "latitude": "-22.883300",
+        "longitude": "-43.103600",
+        "cidade": "NITERÓI",
+        "estado": "RJ"
+      },
+      "fonte": {
+        "nome": "INMET",
+        "tipo": "API",
+        "descricao": "INSTITUTO NACIONAL DE METEOROLOGIA"
+      },
+      "data_hora": "2026-10-19T16:00:00",
+      "temperatura": "29.8",
+      "umidade": "68",
+      "precipitacao": "0.0"
+    },
+    {
+      "ponto": {
+        "nome": "ESTACAO NITEROI",
+        "latitude": "-22.883300",
+        "longitude": "-43.103600",
+        "cidade": "NITERÓI",
+        "estado": "RJ"
+      },
+      "fonte": {
+        "nome": "INMET",
+        "tipo": "API",
+        "descricao": "INSTITUTO NACIONAL DE METEOROLOGIA"
+      },
+      "data_hora": "2026-10-19T17:00:00",
+      "temperatura": "29.0",
+      "umidade": "72",
+      "precipitacao": "0.0"
+    },
+    {
+      "ponto": {
+        "nome": "ESTACAO NITEROI",
+        "latitude": "-22.883300",
+        "longitude": "-43.103600",
+        "cidade": "NITERÓI",
+        "estado": "RJ"
+      },
+      "fonte": {
+        "nome": "INMET",
+        "tipo": "API",
+        "descricao": "INSTITUTO NACIONAL DE METEOROLOGIA"
+      },
+      "data_hora": "2026-10-19T18:00:00",
+      "temperatura": "27.5",
+      "umidade": "75",
+      "precipitacao": "0.0"
+    },
+    {
+      "ponto": {
+        "nome": "ESTACAO NITEROI",
+        "latitude": "-22.883300",
+        "longitude": "-43.103600",
+        "cidade": "NITERÓI",
+        "estado": "RJ"
+      },
+      "fonte": {
+        "nome": "INMET",
+        "tipo": "API",
+        "descricao": "INSTITUTO NACIONAL DE METEOROLOGIA"
+      },
+      "data_hora": "2026-10-19T19:00:00",
+      "temperatura": "26.9",
+      "umidade": "72",
+      "precipitacao": "0.0"
+    },
+    {
+      "ponto": {
+        "nome": "ESTACAO NITEROI",
+        "latitude": "-22.883300",
+        "longitude": "-43.103600",
+        "cidade": "NITERÓI",
+        "estado": "RJ"
+      },
+      "fonte": {
+        "nome": "INMET",
+        "tipo": "API",
+        "descricao": "INSTITUTO NACIONAL DE METEOROLOGIA"
+      },
+      "data_hora": "2026-10-19T20:00:00",
+      "temperatura": "25.8",
+      "umidade": "79",
+      "precipitacao": "0.0"
+    },
+    {
+      "ponto": {
+        "nome": "ESTACAO PETROPOLIS",
+        "latitude": "-22.511200",
+        "longitude": "-43.177900",
+        "cidade": "PETRÓPOLIS",
+        "estado": "RJ"
+      },
+      "fonte": {
+        "nome": "INMET",
+        "tipo": "API",
+        "descricao": "INSTITUTO NACIONAL DE METEOROLOGIA"
+      },
+      "data_hora": "2026-10-15T08:00:00",
+      "temperatura": "17.2",
+      "umidade": "89",
+      "precipitacao": "0.0"
+    },
+    {
+      "ponto": {
+        "nome": "ESTACAO PETROPOLIS",
+        "latitude": "-22.511200",
+        "longitude": "-43.177900",
+        "cidade": "PETRÓPOLIS",
+        "estado": "RJ"
+      },
+      "fonte": {
+        "nome": "INMET",
+        "tipo": "API",
+        "descricao": "INSTITUTO NACIONAL DE METEOROLOGIA"
+      },
+      "data_hora": "2026-10-15T09:00:00",
+      "temperatura": "17.3",
+      "umidade": "88",
+      "precipitacao": "0.0"
+    },
+    {
+      "ponto": {
+        "nome": "ESTACAO PETROPOLIS",
+        "latitude": "-22.511200",
+        "longitude": "-43.177900",
+        "cidade": "PETRÓPOLIS",
+        "estado": "RJ"
+      },
+      "fonte": {
+        "nome": "INMET",
+        "tipo": "API",
+        "descricao": "INSTITUTO NACIONAL DE METEOROLOGIA"
+      },
+      "data_hora": "2026-10-15T10:00:00",
+      "temperatura": "18.6",
+      "umidade": "86",
+      "precipitacao": "0.0"
+    },
+    {
+      "ponto": {
+        "nome": "ESTACAO PETROPOLIS",
+        "latitude": "-22.511200",
+        "longitude": "-43.177900",
+        "cidade": "PETRÓPOLIS",
+        "estado": "RJ"
+      },
+      "fonte": {
+        "nome": "INMET",
+        "tipo": "API",
+        "descricao": "INSTITUTO NACIONAL DE METEOROLOGIA"
+      },
+      "data_hora": "2026-10-15T11:00:00",
+      "temperatura": "21.4",
+      "umidade": "79",
+      "precipitacao": "0.0"
+    },
+    {
+      "ponto": {
+        "nome": "ESTACAO PETROPOLIS",
+        "latitude": "-22.511200",
+        "longitude": "-43.177900",
+        "cidade": "PETRÓPOLIS",
+        "estado": "RJ"
+      },
+      "fonte": {
+        "nome": "INMET",
+        "tipo": "API",
+        "descricao": "INSTITUTO NACIONAL DE METEOROLOGIA"
+      },
+      "data_hora": "2026-10-15T12:00:00",
+      "temperatura": "23.5",
+      "umidade": "80",
+      "precipitacao": "0.0"
+    },
+    {
+      "ponto": {
+        "nome": "ESTACAO PETROPOLIS",
+        "latitude": "-22.511200",
+        "longitude": "-43.177900",
+        "cidade": "PETRÓPOLIS",
+        "estado": "RJ"
+      },
+      "fonte": {
+        "nome": "INMET",
+        "tipo": "API",
+        "descricao": "INSTITUTO NACIONAL DE METEOROLOGIA"
+      },
+      "data_hora": "2026-10-15T13:00:00",
+      "temperatura": "24.5",
+      "umidade": "72",
+      "precipitacao": "0.0"
+    },
+    {
+      "ponto": {
+        "nome": "ESTACAO PETROPOLIS",
+        "latitude": "-22.511200",
+        "longitude": "-43.177900",
+        "cidade": "PETRÓPOLIS",
+        "estado": "RJ"
+      },
+      "fonte": {
+        "nome": "INMET",
+        "tipo": "API",
+        "descricao": "INSTITUTO NACIONAL DE METEOROLOGIA"
+      },
+      "data_hora": "2026-10-15T14:00:00",
+      "temperatura": "25.9",
+      "umidade": "68",
+      "precipitacao": "0.0"
+    },
+    {
+      "ponto": {
+        "nome": "ESTACAO PETROPOLIS",
+        "latitude": "-22.511200",
+        "longitude": "-43.177900",
+        "cidade": "PETRÓPOLIS",
+        "estado": "RJ"
+      },
+      "fonte": {
+        "nome": "INMET",
+        "tipo": "API",
+        "descricao": "INSTITUTO NACIONAL DE METEOROLOGIA"
+      },
+      "data_hora": "2026-10-15T15:00:00",
+      "temperatura": "26.3",
+      "umidade": "71",
+      "precipitacao": "0.0"
+    },
+    {
+      "ponto": {
+        "nome": "ESTACAO PETROPOLIS",
+        "latitude": "-22.511200",
+        "longitude": "-43.177900",
+        "cidade": "PETRÓPOLIS",
+        "estado": "RJ"
+      },
+      "fonte": {
+        "nome": "INMET",
+        "tipo": "API",
+        "descricao": "INSTITUTO NACIONAL DE METEOROLOGIA"
+      },
+      "data_hora": "2026-10-15T16:00:00",
+      "temperatura": "25.9",
+      "umidade": "73",
+      "precipitacao": "0.0"
+    },
+    {
+      "ponto": {
+        "nome": "ESTACAO PETROPOLIS",
+        "latitude": "-22.511200",
+        "longitude": "-43.177900",
+        "cidade": "PETRÓPOLIS",
+        "estado": "RJ"
+      },
+      "fonte": {
+        "nome": "INMET",
+        "tipo": "API",
+        "descricao": "INSTITUTO NACIONAL DE METEOROLOGIA"
+      },
+      "data_hora": "2026-10-15T17:00:00",
+      "temperatura": "24.9",
+      "umidade": "72",
+      "precipitacao": "0.0"
+    },
+    {
+      "ponto": {
+        "nome": "ESTACAO PETROPOLIS",
+        "latitude": "-22.511200",
+        "longitude": "-43.177900",
+        "cidade": "PETRÓPOLIS",
+        "estado": "RJ"
+      },
+      "fonte": {
+        "nome": "INMET",
+        "tipo": "API",
+        "descricao": "INSTITUTO NACIONAL DE METEOROLOGIA"
+      },
+      "data_hora": "2026-10-15T18:00:00",
+      "temperatura": "23.9",
+      "umidade": "75",
+      "precipitacao": "0.0"
+    },
+    {
+      "ponto": {
+        "nome": "ESTACAO PETROPOLIS",
+        "latitude": "-22.511200",
+        "longitude": "-43.177900",
+        "cidade": "PETRÓPOLIS",
+        "estado": "RJ"
+      },
+      "fonte": {
+        "nome": "INMET",
+        "tipo": "API",
+        "descricao": "INSTITUTO NACIONAL DE METEOROLOGIA"
+      },
+      "data_hora": "2026-10-15T19:00:00",
+      "temperatura": "22.7",
+      "umidade": "78",
+      "precipitacao": "0.0"
+    },
+    {
+      "ponto": {
+        "nome": "ESTACAO PETROPOLIS",
+        "latitude": "-22.511200",
+        "longitude": "-43.177900",
+        "cidade": "PETRÓPOLIS",
+        "estado": "RJ"
+      },
+      "fonte": {
+        "nome": "INMET",
+        "tipo": "API",
+        "descricao": "INSTITUTO NACIONAL DE METEOROLOGIA"
+      },
+      "data_hora": "2026-10-15T20:00:00",
+      "temperatura": "21.7",
+      "umidade": "82",
+      "precipitacao": "0.0"
+    },
+    {
+      "ponto": {
+        "nome": "ESTACAO PETROPOLIS",
+        "latitude": "-22.511200",
+        "longitude": "-43.177900",
+        "cidade": "PETRÓPOLIS",
+        "estado": "RJ"
+      },
+      "fonte": {
+        "nome": "INMET",
+        "tipo": "API",
+        "descricao": "INSTITUTO NACIONAL DE METEOROLOGIA"
+      },
+      "data_hora": "2026-10-16T08:00:00",
+      "temperatura": "17.5",
+      "umidade": "92",
+      "precipitacao": "0.0"
+    },
+    {
+      "ponto": {
+        "nome": "ESTACAO PETROPOLIS",
+        "latitude": "-22.511200",
+        "longitude": "-43.177900",
+        "cidade": "PETRÓPOLIS",
+        "estado": "RJ"
+      },
+      "fonte": {
+        "nome": "INMET",
+        "tipo": "API",
+        "descricao": "INSTITUTO NACIONAL DE METEOROLOGIA"
+      },
+      "data_hora": "2026-10-16T09:00:00",
+      "temperatura": "17.6",
+      "umidade": "90",
+      "precipitacao": "0.0"
+    },
+    {
+      "ponto": {
+        "nome": "ESTACAO PETROPOLIS",
+        "latitude": "-22.511200",
+        "longitude": "-43.177900",
+        "cidade": "PETRÓPOLIS",
+        "estado": "RJ"
+      },
+      "fonte": {
+        "nome": "INMET",
+        "tipo": "API",
+        "descricao": "INSTITUTO NACIONAL DE METEOROLOGIA"
+      },
+      "data_hora": "2026-10-16T10:00:00",
+      "temperatura": "18.9",
+      "umidade": "85",
+      "precipitacao": "0.0"
+    },
+    {
+      "ponto": {
+        "nome": "ESTACAO PETROPOLIS",
+        "latitude": "-22.511200",
+        "longitude": "-43.177900",
+        "cidade": "PETRÓPOLIS",
+        "estado": "RJ"
+      },
+      "fonte": {
+        "nome": "INMET",
+        "tipo": "API",
+        "descricao": "INSTITUTO NACIONAL DE METEOROLOGIA"
+      },
+      "data_hora": "2026-10-16T11:00:00",
+      "temperatura": "20.4",
+      "umidade": "82",
+      "precipitacao": "0.0"
+    },
+    {
+      "ponto": {
+        "nome": "ESTACAO PETROPOLIS",
+        "latitude": "-22.511200",
+        "longitude": "-43.177900",
+        "cidade": "PETRÓPOLIS",
+        "estado": "RJ"
+      },
+      "fonte": {
+        "nome": "INMET",
+        "tipo": "API",
+        "descricao": "INSTITUTO NACIONAL DE METEOROLOGIA"
+      },
+      "data_hora": "2026-10-16T12:00:00",
+      "temperatura": "21.4",
+      "umidade": "83",
+      "precipitacao": "0.0"
+    },
+    {
+      "ponto": {
+        "nome": "ESTACAO PETROPOLIS",
+        "latitude": "-22.511200",
+        "longitude": "-43.177900",
+        "cidade": "PETRÓPOLIS",
+        "estado": "RJ"
+      },
+      "fonte": {
+        "nome": "INMET",
+        "tipo": "API",
+        "descricao": "INSTITUTO NACIONAL DE METEOROLOGIA"
+      },
+      "data_hora": "2026-10-16T13:00:00",
+      "temperatura": "22.4",
+      "umidade": "80",
+      "precipitacao": "0.0"
+    },
+    {
+      "ponto": {
+        "nome": "ESTACAO PETROPOLIS",
+        "latitude": "-22.511200",
+        "longitude": "-43.177900",
+        "cidade": "PETRÓPOLIS",
+        "estado": "RJ"
+      },
+      "fonte": {
+        "nome": "INMET",
+        "tipo": "API",
+        "descricao": "INSTITUTO NACIONAL DE METEOROLOGIA"
+      },
+      "data_hora": "2026-10-16T14:00:00",
+      "temperatura": "23.2",
+      "umidade": "75",
+      "precipitacao": "0.0"
+    },
+    {
+      "ponto": {
+        "nome": "ESTACAO PETROPOLIS",
+        "latitude": "-22.511200",
+        "longitude": "-43.177900",
+        "cidade": "PETRÓPOLIS",
+        "estado": "RJ"
+      },
+      "fonte": {
+        "nome": "INMET",
+        "tipo": "API",
+        "descricao": "INSTITUTO NACIONAL DE METEOROLOGIA"
+      },
+      "data_hora": "2026-10-16T15:00:00",
+      "temperatura": "23.2",
+      "umidade": "78",
+      "precipitacao": "0.0"
+    },
+    {
+      "ponto": {
+        "nome": "ESTACAO PETROPOLIS",
+        "latitude": "-22.511200",
+        "longitude": "-43.177900",
+        "cidade": "PETRÓPOLIS",
+        "estado": "RJ"
+      },
+      "fonte": {
+        "nome": "INMET",
+        "tipo": "API",
+        "descricao": "INSTITUTO NACIONAL DE METEOROLOGIA"
+      },
+      "data_hora": "2026-10-16T16:00:00",
+      "temperatura": "23.4",
+      "umidade": "79",
+      "precipitacao": "0.0"
+    },
+    {
+      "ponto": {
+        "nome": "ESTACAO PETROPOLIS",
+        "latitude": "-22.511200",
+        "longitude": "-43.177900",
+        "cidade": "PETRÓPOLIS",
+        "estado": "RJ"
+      },
+      "fonte": {
+        "nome": "INMET",
+        "tipo": "API",
+        "descricao": "INSTITUTO NACIONAL DE METEOROLOGIA"
+      },
+      "data_hora": "2026-10-16T17:00:00",
+      "temperatura": "22.9",
+      "umidade": "77",
+      "precipitacao": "0.0"
+    },
+    {
+      "ponto": {
+        "nome": "ESTACAO PETROPOLIS",
+        "latitude": "-22.511200",
+        "longitude": "-43.177900",
+        "cidade": "PETRÓPOLIS",
+        "estado": "RJ"
+      },
+      "fonte": {
+        "nome": "INMET",
+        "tipo": "API",
+        "descricao": "INSTITUTO NACIONAL DE METEOROLOGIA"
+      },
+      "data_hora": "2026-10-16T18:00:00",
+      "temperatura": "22.0",
+      "umidade": "77",
+      "precipitacao": "0.0"
+    },
+    {
+      "ponto": {
+        "nome": "ESTACAO PETROPOLIS",
+        "latitude": "-22.511200",
+        "longitude": "-43.177900",
+        "cidade": "PETRÓPOLIS",
+        "estado": "RJ"
+      },
+      "fonte": {
+        "nome": "INMET",
+        "tipo": "API",
+        "descricao": "INSTITUTO NACIONAL DE METEOROLOGIA"
+      },
+      "data_hora": "2026-10-16T19:00:00",
+      "temperatura": "21.2",
+      "umidade": "85",
+      "precipitacao": "0.0"
+    },
+    {
+      "ponto": {
+        "nome": "ESTACAO PETROPOLIS",
+        "latitude": "-22.511200",
+        "longitude": "-43.177900",
+        "cidade": "PETRÓPOLIS",
+        "estado": "RJ"
+      },
+      "fonte": {
+        "nome": "INMET",
+        "tipo": "API",
+        "descricao": "INSTITUTO NACIONAL DE METEOROLOGIA"
+      },
+      "data_hora": "2026-10-16T20:00:00",
+      "temperatura": "20.9",
+      "umidade": "81",
+      "precipitacao": "0.0"
+    },
+    {
+      "ponto": {
+        "nome": "ESTACAO PETROPOLIS",
+        "latitude": "-22.511200",
+        "longitude": "-43.177900",
+        "cidade": "PETRÓPOLIS",
+        "estado": "RJ"
+      },
+      "fonte": {
+        "nome": "INMET",
+        "tipo": "API",
+        "descricao": "INSTITUTO NACIONAL DE METEOROLOGIA"
+      },
+      "data_hora": "2026-10-17T08:00:00",
+      "temperatura": "16.8",
+      "umidade": "93",
+      "precipitacao": "0.0"
+    },
+    {
+      "ponto": {
+        "nome": "ESTACAO PETROPOLIS",
+        "latitude": "-22.511200",
+        "longitude": "-43.177900",
+        "cidade": "PETRÓPOLIS",
+        "estado": "RJ"
+      },
+      "fonte": {
+        "nome": "INMET",
+        "tipo": "API",
+        "descricao": "INSTITUTO NACIONAL DE METEOROLOGIA"
+      },
+      "data_hora": "2026-10-17T09:00:00",
+      "temperatura": "16.5",
+      "umidade": "92",
+      "precipitacao": "0.0"
+    },
+    {
+      "ponto": {
+        "nome": "ESTACAO PETROPOLIS",
+        "latitude": "-22.511200",
+        "longitude": "-43.177900",
+        "cidade": "PETRÓPOLIS",
+        "estado": "RJ"
+      },
+      "fonte": {
+        "nome": "INMET",
+        "tipo": "API",
+        "descricao": "INSTITUTO NACIONAL DE METEOROLOGIA"
+      },
+      "data_hora": "2026-10-17T10:00:00",
+      "temperatura": "17.5",
+      "umidade": "89",
+      "precipitacao": "0.0"
+    },
+    {
+      "ponto": {
+        "nome": "ESTACAO PETROPOLIS",
+        "latitude": "-22.511200",
+        "longitude": "-43.177900",
+        "cidade": "PETRÓPOLIS",
+        "estado": "RJ"
+      },
+      "fonte": {
+        "nome": "INMET",
+        "tipo": "API",
+        "descricao": "INSTITUTO NACIONAL DE METEOROLOGIA"
+      },
+      "data_hora": "2026-10-17T11:00:00",
+      "temperatura": "18.5",
+      "umidade": "89",
+      "precipitacao": "0.0"
+    },
+    {
+      "ponto": {
+        "nome": "ESTACAO PETROPOLIS",
+        "latitude": "-22.511200",
+        "longitude": "-43.177900",
+        "cidade": "PETRÓPOLIS",
+        "estado": "RJ"
+      },
+      "fonte": {
+        "nome": "INMET",
+        "tipo": "API",
+        "descricao": "INSTITUTO NACIONAL DE METEOROLOGIA"
+      },
+      "data_hora": "2026-10-17T12:00:00",
+      "temperatura": "19.5",
+      "umidade": "86",
+      "precipitacao": "0.0"
+    },
+    {
+      "ponto": {
+        "nome": "ESTACAO PETROPOLIS",
+        "latitude": "-22.511200",
+        "longitude": "-43.177900",
+        "cidade": "PETRÓPOLIS",
+        "estado": "RJ"
+      },
+      "fonte": {
+        "nome": "INMET",
+        "tipo": "API",
+        "descricao": "INSTITUTO NACIONAL DE METEOROLOGIA"
+      },
+      "data_hora": "2026-10-17T13:00:00",
+      "temperatura": "20.7",
+      "umidade": "84",
+      "precipitacao": "0.0"
+    },
+    {
+      "ponto": {
+        "nome": "ESTACAO PETROPOLIS",
+        "latitude": "-22.511200",
+        "longitude": "-43.177900",
+        "cidade": "PETRÓPOLIS",
+        "estado": "RJ"
+      },
+      "fonte": {
+        "nome": "INMET",
+        "tipo": "API",
+        "descricao": "INSTITUTO NACIONAL DE METEOROLOGIA"
+      },
+      "data_hora": "2026-10-17T14:00:00",
+      "temperatura": "20.8",
+      "umidade": "88",
+      "precipitacao": "0.9"
+    },
+    {
+      "ponto": {
+        "nome": "ESTACAO PETROPOLIS",
+        "latitude": "-22.511200",
+        "longitude": "-43.177900",
+        "cidade": "PETRÓPOLIS",
+        "estado": "RJ"
+      },
+      "fonte": {
+        "nome": "INMET",
+        "tipo": "API",
+        "descricao": "INSTITUTO NACIONAL DE METEOROLOGIA"
+      },
+      "data_hora": "2026-10-17T15:00:00",
+      "temperatura": "20.0",
+      "umidade": "95",
+      "precipitacao": "2.7"
+    },
+    {
+      "ponto": {
+        "nome": "ESTACAO PETROPOLIS",
+        "latitude": "-22.511200",
+        "longitude": "-43.177900",
+        "cidade": "PETRÓPOLIS",
+        "estado": "RJ"
+      },
+      "fonte": {
+        "nome": "INMET",
+        "tipo": "API",
+        "descricao": "INSTITUTO NACIONAL DE METEOROLOGIA"
+      },
+      "data_hora": "2026-10-17T16:00:00",
+      "temperatura": "17.9",
+      "umidade": "96",
+      "precipitacao": "6.4"
+    },
+    {
+      "ponto": {
+        "nome": "ESTACAO PETROPOLIS",
+        "latitude": "-22.511200",
+        "longitude": "-43.177900",
+        "cidade": "PETRÓPOLIS",
+        "estado": "RJ"
+      },
+      "fonte": {
+        "nome": "INMET",
+        "tipo": "API",
+        "descricao": "INSTITUTO NACIONAL DE METEOROLOGIA"
+      },
+      "data_hora": "2026-10-17T17:00:00",
+      "temperatura": "17.3",
+      "umidade": "98",
+      "precipitacao": "10.1"
+    },
+    {
+      "ponto": {
+        "nome": "ESTACAO PETROPOLIS",
+        "latitude": "-22.511200",
+        "longitude": "-43.177900",
+        "cidade": "PETRÓPOLIS",
+        "estado": "RJ"
+      },
+      "fonte": {
+        "nome": "INMET",
+        "tipo": "API",
+        "descricao": "INSTITUTO NACIONAL DE METEOROLOGIA"
+      },
+      "data_hora": "2026-10-17T18:00:00",
+      "temperatura": "16.7",
+      "umidade": "98",
+      "precipitacao": "7.0"
+    },
+    {
+      "ponto": {
+        "nome": "ESTACAO PETROPOLIS",
+        "latitude": "-22.511200",
+        "longitude": "-43.177900",
+        "cidade": "PETRÓPOLIS",
+        "estado": "RJ"
+      },
+      "fonte": {
+        "nome": "INMET",
+        "tipo": "API",
+        "descricao": "INSTITUTO NACIONAL DE METEOROLOGIA"
+      },
+      "data_hora": "2026-10-17T19:00:00",
+      "temperatura": "18.1",
+      "umidade": "94",
+      "precipitacao": "2.7"
+    },
+    {
+      "ponto": {
+        "nome": "ESTACAO PETROPOLIS",
+        "latitude": "-22.511200",
+        "longitude": "-43.177900",
+        "cidade": "PETRÓPOLIS",
+        "estado": "RJ"
+      },
+      "fonte": {
+        "nome": "INMET",
+        "tipo": "API",
+        "descricao": "INSTITUTO NACIONAL DE METEOROLOGIA"
+      },
+      "data_hora": "2026-10-17T20:00:00",
+      "temperatura": "18.0",
+      "umidade": "94",
+      "precipitacao": "1.5"
+    },
+    {
+      "ponto": {
+        "nome": "ESTACAO PETROPOLIS",
+        "latitude": "-22.511200",
+        "longitude": "-43.177900",
+        "cidade": "PETRÓPOLIS",
+        "estado": "RJ"
+      },
+      "fonte": {
+        "nome": "INMET",
+        "tipo": "API",
+        "descricao": "INSTITUTO NACIONAL DE METEOROLOGIA"
+      },
+      "data_hora": "2026-10-18T08:00:00",
+      "temperatura": "13.4",
+      "umidade": "98",
+      "precipitacao": "0.7"
+    },
+    {
+      "ponto": {
+        "nome": "ESTACAO PETROPOLIS",
+        "latitude": "-22.511200",
+        "longitude": "-43.177900",
+        "cidade": "PETRÓPOLIS",
+        "estado": "RJ"
+      },
+      "fonte": {
+        "nome": "INMET",
+        "tipo": "API",
+        "descricao": "INSTITUTO NACIONAL DE METEOROLOGIA"
+      },
+      "data_hora": "2026-10-18T09:00:00",
+      "temperatura": "12.9",
+      "umidade": "98",
+      "precipitacao": "2.6"
+    },
+    {
+      "ponto": {
+        "nome": "ESTACAO PETROPOLIS",
+        "latitude": "-22.511200",
+        "longitude": "-43.177900",
+        "cidade": "PETRÓPOLIS",
+        "estado": "RJ"
+      },
+      "fonte": {
+        "nome": "INMET",
+        "tipo": "API",
+        "descricao": "INSTITUTO NACIONAL DE METEOROLOGIA"
+      },
+      "data_hora": "2026-10-18T10:00:00",
+      "temperatura": "13.8",
+      "umidade": "98",
+      "precipitacao": "3.0"
+    },
+    {
+      "ponto": {
+        "nome": "ESTACAO PETROPOLIS",
+        "latitude": "-22.511200",
+        "longitude": "-43.177900",
+        "cidade": "PETRÓPOLIS",
+        "estado": "RJ"
+      },
+      "fonte": {
+        "nome": "INMET",
+        "tipo": "API",
+        "descricao": "INSTITUTO NACIONAL DE METEOROLOGIA"
+      },
+      "data_hora": "2026-10-18T11:00:00",
+      "temperatura": "15.8",
+      "umidade": "98",
+      "precipitacao": "0.8"
+    },
+    {
+      "ponto": {
+        "nome": "ESTACAO PETROPOLIS",
+        "latitude": "-22.511200",
+        "longitude": "-43.177900",
+        "cidade": "PETRÓPOLIS",
+        "estado": "RJ"
+      },
+      "fonte": {
+        "nome": "INMET",
+        "tipo": "API",
+        "descricao": "INSTITUTO NACIONAL DE METEOROLOGIA"
+      },
+      "data_hora": "2026-10-18T12:00:00",
+      "temperatura": "17.6",
+      "umidade": "91",
+      "precipitacao": "0.0"
+    },
+    {
+      "ponto": {
+        "nome": "ESTACAO PETROPOLIS",
+        "latitude": "-22.511200",
+        "longitude": "-43.177900",
+        "cidade": "PETRÓPOLIS",
+        "estado": "RJ"
+      },
+      "fonte": {
+        "nome": "INMET",
+        "tipo": "API",
+        "descricao": "INSTITUTO NACIONAL DE METEOROLOGIA"
+      },
+      "data_hora": "2026-10-18T13:00:00",
+      "temperatura": "18.7",
+      "umidade": "86",
+      "precipitacao": "0.0"
+    },
+    {
+      "ponto": {
+        "nome": "ESTACAO PETROPOLIS",
+        "latitude": "-22.511200",
+        "longitude": "-43.177900",
+        "cidade": "PETRÓPOLIS",
+        "estado": "RJ"
+      },
+      "fonte": {
+        "nome": "INMET",
+        "tipo": "API",
+        "descricao": "INSTITUTO NACIONAL DE METEOROLOGIA"
+      },
+      "data_hora": "2026-10-18T14:00:00",
+      "temperatura": "19.5",
+      "umidade": "87",
+      "precipitacao": "0.0"
+    },
+    {
+      "ponto": {
+        "nome": "ESTACAO PETROPOLIS",
+        "latitude": "-22.511200",
+        "longitude": "-43.177900",
+        "cidade": "PETRÓPOLIS",
+        "estado": "RJ"
+      },
+      "fonte": {
+        "nome": "INMET",
+        "tipo": "API",
+        "descricao": "INSTITUTO NACIONAL DE METEOROLOGIA"
+      },
+      "data_hora": "2026-10-18T15:00:00",
+      "temperatura": "19.5",
+      "umidade": "87",
+      "precipitacao": "0.0"
+    },
+    {
+      "ponto": {
+        "nome": "ESTACAO PETROPOLIS",
+        "latitude": "-22.511200",
+        "longitude": "-43.177900",
+        "cidade": "PETRÓPOLIS",
+        "estado": "RJ"
+      },
+      "fonte": {
+        "nome": "INMET",
+        "tipo": "API",
+        "descricao": "INSTITUTO NACIONAL DE METEOROLOGIA"
+      },
+      "data_hora": "2026-10-18T16:00:00",
+      "temperatura": "19.0",
+      "umidade": "89",
+      "precipitacao": "0.0"
+    },
+    {
+      "ponto": {
+        "nome": "ESTACAO PETROPOLIS",
+        "latitude": "-22.511200",
+        "longitude": "-43.177900",
+        "cidade": "PETRÓPOLIS",
+        "estado": "RJ"
+      },
+      "fonte": {
+        "nome": "INMET",
+        "tipo": "API",
+        "descricao": "INSTITUTO NACIONAL DE METEOROLOGIA"
+      },
+      "data_hora": "2026-10-18T17:00:00",
+      "temperatura": "18.7",
+      "umidade": "90",
+      "precipitacao": "0.0"
+    },
+    {
+      "ponto": {
+        "nome": "ESTACAO PETROPOLIS",
+        "latitude": "-22.511200",
+        "longitude": "-43.177900",
+        "cidade": "PETRÓPOLIS",
+        "estado": "RJ"
+      },
+      "fonte": {
+        "nome": "INMET",
+        "tipo": "API",
+        "descricao": "INSTITUTO NACIONAL DE METEOROLOGIA"
+      },
+      "data_hora": "2026-10-18T18:00:00",
+      "temperatura": "18.2",
+      "umidade": "90",
+      "precipitacao": "0.0"
+    },
+    {
+      "ponto": {
+        "nome": "ESTACAO PETROPOLIS",
+        "latitude": "-22.511200",
+        "longitude": "-43.177900",
+        "cidade": "PETRÓPOLIS",
+        "estado": "RJ"
+      },
+      "fonte": {
+        "nome": "INMET",
+        "tipo": "API",
+        "descricao": "INSTITUTO NACIONAL DE METEOROLOGIA"
+      },
+      "data_hora": "2026-10-18T19:00:00",
+      "temperatura": "17.7",
+      "umidade": "90",
+      "precipitacao": "0.0"
+    },
+    {
+      "ponto": {
+        "nome": "ESTACAO PETROPOLIS",
+        "latitude": "-22.511200",
+        "longitude": "-43.177900",
+        "cidade": "PETRÓPOLIS",
+        "estado": "RJ"
+      },
+      "fonte": {
+        "nome": "INMET",
+        "tipo": "API",
+        "descricao": "INSTITUTO NACIONAL DE METEOROLOGIA"
+      },
+      "data_hora": "2026-10-18T20:00:00",
+      "temperatura": "16.4",
+      "umidade": "91",
+      "precipitacao": "0.0"
+    },
+    {
+      "ponto": {
+        "nome": "ESTACAO PETROPOLIS",
+        "latitude": "-22.511200",
+        "longitude": "-43.177900",
+        "cidade": "PETRÓPOLIS",
+        "estado": "RJ"
+      },
+      "fonte": {
+        "nome": "INMET",
+        "tipo": "API",
+        "descricao": "INSTITUTO NACIONAL DE METEOROLOGIA"
+      },
+      "data_hora": "2026-10-19T08:00:00",
+      "temperatura": "15.6",
+      "umidade": "97",
+      "precipitacao": "0.0"
+    },
+    {
+      "ponto": {
+        "nome": "ESTACAO PETROPOLIS",
+        "latitude": "-22.511200",
+        "longitude": "-43.177900",
+        "cidade": "PETRÓPOLIS",
+        "estado": "RJ"
+      },
+      "fonte": {
+        "nome": "INMET",
+        "tipo": "API",
+        "descricao": "INSTITUTO NACIONAL DE METEOROLOGIA"
+      },
+      "data_hora": "2026-10-19T09:00:00",
+      "temperatura": "16.1",
+      "umidade": "96",
+      "precipitacao": "0.0"
+    },
+    {
+      "ponto": {
+        "nome": "ESTACAO PETROPOLIS",
+        "latitude": "-22.511200",
+        "longitude": "-43.177900",
+        "cidade": "PETRÓPOLIS",
+        "estado": "RJ"
+      },
+      "fonte": {
+        "nome": "INMET",
+        "tipo": "API",
+        "descricao": "INSTITUTO NACIONAL DE METEOROLOGIA"
+      },
+      "data_hora": "2026-10-19T10:00:00",
+      "temperatura": "17.3",
+      "umidade": "91",
+      "precipitacao": "0.0"
+    },
+    {
+      "ponto": {
+        "nome": "ESTACAO PETROPOLIS",
+        "latitude": "-22.511200",
+        "longitude": "-43.177900",
+        "cidade": "PETRÓPOLIS",
+        "estado": "RJ"
+      },
+      "fonte": {
+        "nome": "INMET",
+        "tipo": "API",
+        "descricao": "INSTITUTO NACIONAL DE METEOROLOGIA"
+      },
+      "data_hora": "2026-10-19T11:00:00",
+      "temperatura": "19.9",
+      "umidade": "85",
+      "precipitacao": "0.0"
+    },
+    {
+      "ponto": {
+        "nome": "ESTACAO PETROPOLIS",
+        "latitude": "-22.511200",
+        "longitude": "-43.177900",
+        "cidade": "PETRÓPOLIS",
+        "estado": "RJ"
+      },
+      "fonte": {
+        "nome": "INMET",
+        "tipo": "API",
+        "descricao": "INSTITUTO NACIONAL DE METEOROLOGIA"
+      },
+      "data_hora": "2026-10-19T12:00:00",
+      "temperatura": "22.2",
+      "umidade": "80",
+      "precipitacao": "0.0"
+    },
+    {
+      "ponto": {
+        "nome": "ESTACAO PETROPOLIS",
+        "latitude": "-22.511200",
+        "longitude": "-43.177900",
+        "cidade": "PETRÓPOLIS",
+        "estado": "RJ"
+      },
+      "fonte": {
+        "nome": "INMET",
+        "tipo": "API",
+        "descricao": "INSTITUTO NACIONAL DE METEOROLOGIA"
+      },
+      "data_hora": "2026-10-19T13:00:00",
+      "temperatura": "23.5",
+      "umidade": "74",
+      "precipitacao": "0.0"
+    },
+    {
+      "ponto": {
+        "nome": "ESTACAO PETROPOLIS",
+        "latitude": "-22.511200",
+        "longitude": "-43.177900",
+        "cidade": "PETRÓPOLIS",
+        "estado": "RJ"
+      },
+      "fonte": {
+        "nome": "INMET",
+        "tipo": "API",
+        "descricao": "INSTITUTO NACIONAL DE METEOROLOGIA"
+      },
+      "data_hora": "2026-10-19T14:00:00",
+      "temperatura": "24.7",
+      "umidade": "73",
+      "precipitacao": "0.0"
+    },
+    {
+      "ponto": {
+        "nome": "ESTACAO PETROPOLIS",
+        "latitude": "-22.511200",
+        "longitude": "-43.177900",
+        "cidade": "PETRÓPOLIS",
+        "estado": "RJ"
+      },
+      "fonte": {
+        "nome": "INMET",
+        "tipo": "API",
+        "descricao": "INSTITUTO NACIONAL DE METEOROLOGIA"
+      },
+      "data_hora": "2026-10-19T15:00:00",
+      "temperatura": "25.1",
+      "umidade": "71",
+      "precipitacao": "0.0"
+    },
+    {
+      "ponto": {
+        "nome": "ESTACAO PETROPOLIS",
+        "latitude": "-22.511200",
+        "longitude": "-43.177900",
+        "cidade": "PETRÓPOLIS",
+        "estado": "RJ"
+      },
+      "fonte": {
+        "nome": "INMET",
+        "tipo": "API",
+        "descricao": "INSTITUTO NACIONAL DE METEOROLOGIA"
+      },
+      "data_hora": "2026-10-19T16:00:00",
+      "temperatura": "24.7",
+      "umidade": "75",
+      "precipitacao": "0.0"
+    },
+    {
+      "ponto": {
+        "nome": "ESTACAO PETROPOLIS",
+        "latitude": "-22.511200",
+        "longitude": "-43.177900",
+        "cidade": "PETRÓPOLIS",
+        "estado": "RJ"
+      },
+      "fonte": {
+        "nome": "INMET",
+        "tipo": "API",
+        "descricao": "INSTITUTO NACIONAL DE METEOROLOGIA"
+      },
+      "data_hora": "2026-10-19T17:00:00",
+      "temperatura": "24.1",
+      "umidade": "76",
+      "precipitacao": "0.0"
+    },
+    {
+      "ponto": {
+        "nome": "ESTACAO PETROPOLIS",
+        "latitude": "-22.511200",
+        "longitude": "-43.177900",
+        "cidade": "PETRÓPOLIS",
+        "estado": "RJ"
+      },
+      "fonte": {
+        "nome": "INMET",
+        "tipo": "API",
+        "descricao": "INSTITUTO NACIONAL DE METEOROLOGIA"
+      },
+      "data_hora": "2026-10-19T18:00:00",
+      "temperatura": "22.6",
+      "umidade": "81",
+      "precipitacao": "0.0"
+    },
+    {
+      "ponto": {
+        "nome": "ESTACAO PETROPOLIS",
+        "latitude": "-22.511200",
+        "longitude": "-43.177900",
+        "cidade": "PETRÓPOLIS",
+        "estado": "RJ"
+      },
+      "fonte": {
+        "nome": "INMET",
+        "tipo": "API",
+        "descricao": "INSTITUTO NACIONAL DE METEOROLOGIA"
+      },
+      "data_hora": "2026-10-19T19:00:00",
+      "temperatura": "21.8",
+      "umidade": "79",
+      "precipitacao": "0.0"
+    },
+    {
+      "ponto": {
+        "nome": "ESTACAO PETROPOLIS",
+        "latitude": "-22.511200",
+        "longitude": "-43.177900",
+        "cidade": "PETRÓPOLIS",
+        "estado": "RJ"
+      },
+      "fonte": {
+        "nome": "INMET",
+        "tipo": "API",
+        "descricao": "INSTITUTO NACIONAL DE METEOROLOGIA"
+      },
+      "data_hora": "2026-10-19T20:00:00",
+      "temperatura": "20.1",
+      "umidade": "84",
+      "precipitacao": "0.0"
+    },
+    {
+      "ponto": {
+        "nome": "ESTACAO CAXIAS CENTRO",
+        "latitude": "-22.785600",
+        "longitude": "-43.311700",
+        "cidade": "DUQUE DE CAXIAS",
+        "estado": "RJ"
+      },
+      "fonte": {
+        "nome": "OPEN-METEO",
+        "tipo": "API",
+        "descricao": "SERVICO METEOROLOGICO"
+      },
+      "data_hora": "2026-10-18T08:00:00",
+      "temperatura": "18.9",
+      "umidade": "98",
+      "precipitacao": "0.8"
+    },
+    {
+      "ponto": {
+        "nome": "ESTACAO CAXIAS CENTRO",
+        "latitude": "-22.785600",
+        "longitude": "-43.311700",
+        "cidade": "DUQUE DE CAXIAS",
+        "estado": "RJ"
+      },
+      "fonte": {
+        "nome": "OPEN-METEO",
+        "tipo": "API",
+        "descricao": "SERVICO METEOROLOGICO"
+      },
+      "data_hora": "2026-10-18T09:00:00",
+      "temperatura": "18.7",
+      "umidade": "98",
+      "precipitacao": "1.7"
+    },
+    {
+      "ponto": {
+        "nome": "ESTACAO CAXIAS CENTRO",
+        "latitude": "-22.785600",
+        "longitude": "-43.311700",
+        "cidade": "DUQUE DE CAXIAS",
+        "estado": "RJ"
+      },
+      "fonte": {
+        "nome": "OPEN-METEO",
+        "tipo": "API",
+        "descricao": "SERVICO METEOROLOGICO"
+      },
+      "data_hora": "2026-10-18T10:00:00",
+      "temperatura": "19.7",
+      "umidade": "98",
+      "precipitacao": "1.7"
+    },
+    {
+      "ponto": {
+        "nome": "ESTACAO CAXIAS CENTRO",
+        "latitude": "-22.785600",
+        "longitude": "-43.311700",
+        "cidade": "DUQUE DE CAXIAS",
+        "estado": "RJ"
+      },
+      "fonte": {
+        "nome": "OPEN-METEO",
+        "tipo": "API",
+        "descricao": "SERVICO METEOROLOGICO"
+      },
+      "data_hora": "2026-10-18T11:00:00",
+      "temperatura": "21.9",
+      "umidade": "94",
+      "precipitacao": "0.4"
+    },
+    {
+      "ponto": {
+        "nome": "ESTACAO CAXIAS CENTRO",
+        "latitude": "-22.785600",
+        "longitude": "-43.311700",
+        "cidade": "DUQUE DE CAXIAS",
+        "estado": "RJ"
+      },
+      "fonte": {
+        "nome": "OPEN-METEO",
+        "tipo": "API",
+        "descricao": "SERVICO METEOROLOGICO"
+      },
+      "data_hora": "2026-10-18T12:00:00",
+      "temperatura": "23.3",
+      "umidade": "83",
+      "precipitacao": "0.0"
+    },
+    {
+      "ponto": {
+        "nome": "ESTACAO CAXIAS CENTRO",
+        "latitude": "-22.785600",
+        "longitude": "-43.311700",
+        "cidade": "DUQUE DE CAXIAS",
+        "estado": "RJ"
+      },
+      "fonte": {
+        "nome": "OPEN-METEO",
+        "tipo": "API",
+        "descricao": "SERVICO METEOROLOGICO"
+      },
+      "data_hora": "2026-10-18T13:00:00",
+      "temperatura": "24.5",
+      "umidade": "78",
+      "precipitacao": "0.0"
+    },
+    {
+      "ponto": {
+        "nome": "ESTACAO CAXIAS CENTRO",
+        "latitude": "-22.785600",
+        "longitude": "-43.311700",
+        "cidade": "DUQUE DE CAXIAS",
+        "estado": "RJ"
+      },
+      "fonte": {
+        "nome": "OPEN-METEO",
+        "tipo": "API",
+        "descricao": "SERVICO METEOROLOGICO"
+      },
+      "data_hora": "2026-10-18T14:00:00",
+      "temperatura": "25.2",
+      "umidade": "78",
+      "precipitacao": "0.0"
+    },
+    {
+      "ponto": {
+        "nome": "ESTACAO CAXIAS CENTRO",
+        "latitude": "-22.785600",
+        "longitude": "-43.311700",
+        "cidade": "DUQUE DE CAXIAS",
+        "estado": "RJ"
+      },
+      "fonte": {
+        "nome": "OPEN-METEO",
+        "tipo": "API",
+        "descricao": "SERVICO METEOROLOGICO"
+      },
+      "data_hora": "2026-10-18T15:00:00",
+      "temperatura": "25.3",
+      "umidade": "79",
+      "precipitacao": "0.0"
+    },
+    {
+      "ponto": {
+        "nome": "ESTACAO CAXIAS CENTRO",
+        "latitude": "-22.785600",
+        "longitude": "-43.311700",
+        "cidade": "DUQUE DE CAXIAS",
+        "estado": "RJ"
+      },
+      "fonte": {
+        "nome": "OPEN-METEO",
+        "tipo": "API",
+        "descricao": "SERVICO METEOROLOGICO"
+      },
+      "data_hora": "2026-10-18T16:00:00",
+      "temperatura": "25.1",
+      "umidade": "77",
+      "precipitacao": "0.0"
+    },
+    {
+      "ponto": {
+        "nome": "ESTACAO CAXIAS CENTRO",
+        "latitude": "-22.785600",
+        "longitude": "-43.311700",
+        "cidade": "DUQUE DE CAXIAS",
+        "estado": "RJ"
+      },
+      "fonte": {
+        "nome": "OPEN-METEO",
+        "tipo": "API",
+        "descricao": "SERVICO METEOROLOGICO"
+      },
+      "data_hora": "2026-10-18T17:00:00",
+      "temperatura": "24.6",
+      "umidade": "81",
+      "precipitacao": "0.0"
+    },
+    {
+      "ponto": {
+        "nome": "ESTACAO CAXIAS CENTRO",
+        "latitude": "-22.785600",
+        "longitude": "-43.311700",
+        "cidade": "DUQUE DE CAXIAS",
+        "estado": "RJ"
+      },
+      "fonte": {
+        "nome": "OPEN-METEO",
+        "tipo": "API",
+        "descricao": "SERVICO METEOROLOGICO"
+      },
+      "data_hora": "2026-10-18T18:00:00",
+      "temperatura": "23.3",
+      "umidade": "85",
+      "precipitacao": "0.0"
+    },
+    {
+      "ponto": {
+        "nome": "ESTACAO CAXIAS CENTRO",
+        "latitude": "-22.785600",
+        "longitude": "-43.311700",
+        "cidade": "DUQUE DE CAXIAS",
+        "estado": "RJ"
+      },
+      "fonte": {
+        "nome": "OPEN-METEO",
+        "tipo": "API",
+        "descricao": "SERVICO METEOROLOGICO"
+      },
+      "data_hora": "2026-10-18T19:00:00",
+      "temperatura": "23.2",
+      "umidade": "84",
+      "precipitacao": "0.0"
+    },
+    {
+      "ponto": {
+        "nome": "ESTACAO CAXIAS CENTRO",
+        "latitude": "-22.785600",
+        "longitude": "-43.311700",
+        "cidade": "DUQUE DE CAXIAS",
+        "estado": "RJ"
+      },
+      "fonte": {
+        "nome": "OPEN-METEO",
+        "tipo": "API",
+        "descricao": "SERVICO METEOROLOGICO"
+      },
+      "data_hora": "2026-10-18T20:00:00",
+      "temperatura": "22.4",
+      "umidade": "86",
+      "precipitacao": "0.0"
+    },
+    {
+      "ponto": {
+        "nome": "ESTACAO CAXIAS CENTRO",
+        "latitude": "-22.785600",
+        "longitude": "-43.311700",
+        "cidade": "DUQUE DE CAXIAS",
+        "estado": "RJ"
+      },
+      "fonte": {
+        "nome": "OPEN-METEO",
+        "tipo": "API",
+        "descricao": "SERVICO METEOROLOGICO"
+      },
+      "data_hora": "2026-10-19T08:00:00",
+      "temperatura": "20.8",
+      "umidade": "90",
+      "precipitacao": "0.0"
+    },
+    {
+      "ponto": {
+        "nome": "ESTACAO CAXIAS CENTRO",
+        "latitude": "-22.785600",
+        "longitude": "-43.311700",
+        "cidade": "DUQUE DE CAXIAS",
+        "estado": "RJ"
+      },
+      "fonte": {
+        "nome": "OPEN-METEO",
+        "tipo": "API",
+        "descricao": "SERVICO METEOROLOGICO"
+      },
+      "data_hora": "2026-10-19T09:00:00",
+      "temperatura": "21.9",
+      "umidade": "88",
+      "precipitacao": "0.0"
+    },
+    {
+      "ponto": {
+        "nome": "ESTACAO CAXIAS CENTRO",
+        "latitude": "-22.785600",
+        "longitude": "-43.311700",
+        "cidade": "DUQUE DE CAXIAS",
+        "estado": "RJ"
+      },
+      "fonte": {
+        "nome": "OPEN-METEO",
+        "tipo": "API",
+        "descricao": "SERVICO METEOROLOGICO"
+      },
+      "data_hora": "2026-10-19T10:00:00",
+      "temperatura": "23.4",
+      "umidade": "81",
+      "precipitacao": "0.0"
+    },
+    {
+      "ponto": {
+        "nome": "ESTACAO CAXIAS CENTRO",
+        "latitude": "-22.785600",
+        "longitude": "-43.311700",
+        "cidade": "DUQUE DE CAXIAS",
+        "estado": "RJ"
+      },
+      "fonte": {
+        "nome": "OPEN-METEO",
+        "tipo": "API",
+        "descricao": "SERVICO METEOROLOGICO"
+      },
+      "data_hora": "2026-10-19T11:00:00",
+      "temperatura": "25.4",
+      "umidade": "75",
+      "precipitacao": "0.0"
+    },
+    {
+      "ponto": {
+        "nome": "ESTACAO CAXIAS CENTRO",
+        "latitude": "-22.785600",
+        "longitude": "-43.311700",
+        "cidade": "DUQUE DE CAXIAS",
+        "estado": "RJ"
+      },
+      "fonte": {
+        "nome": "OPEN-METEO",
+        "tipo": "API",
+        "descricao": "SERVICO METEOROLOGICO"
+      },
+      "data_hora": "2026-10-19T12:00:00",
+      "temperatura": "27.8",
+      "umidade": "72",
+      "precipitacao": "0.0"
+    },
+    {
+      "ponto": {
+        "nome": "ESTACAO CAXIAS CENTRO",
+        "latitude": "-22.785600",
+        "longitude": "-43.311700",
+        "cidade": "DUQUE DE CAXIAS",
+        "estado": "RJ"
+      },
+      "fonte": {
+        "nome": "OPEN-METEO",
+        "tipo": "API",
+        "descricao": "SERVICO METEOROLOGICO"
+      },
+      "data_hora": "2026-10-19T13:00:00",
+      "temperatura": "29.4",
+      "umidade": "68",
+      "precipitacao": "0.0"
+    },
+    {
+      "ponto": {
+        "nome": "ESTACAO CAXIAS CENTRO",
+        "latitude": "-22.785600",
+        "longitude": "-43.311700",
+        "cidade": "DUQUE DE CAXIAS",
+        "estado": "RJ"
+      },
+      "fonte": {
+        "nome": "OPEN-METEO",
+        "tipo": "API",
+        "descricao": "SERVICO METEOROLOGICO"
+      },
+      "data_hora": "2026-10-19T14:00:00",
+      "temperatura": "30.9",
+      "umidade": "64",
+      "precipitacao": "0.0"
+    },
+    {
+      "ponto": {
+        "nome": "ESTACAO CAXIAS CENTRO",
+        "latitude": "-22.785600",
+        "longitude": "-43.311700",
+        "cidade": "DUQUE DE CAXIAS",
+        "estado": "RJ"
+      },
+      "fonte": {
+        "nome": "OPEN-METEO",
+        "tipo": "API",
+        "descricao": "SERVICO METEOROLOGICO"
+      },
+      "data_hora": "2026-10-19T15:00:00",
+      "temperatura": "30.6",
+      "umidade": "69",
+      "precipitacao": "0.0"
+    },
+    {
+      "ponto": {
+        "nome": "ESTACAO CAXIAS CENTRO",
+        "latitude": "-22.785600",
+        "longitude": "-43.311700",
+        "cidade": "DUQUE DE CAXIAS",
+        "estado": "RJ"
+      },
+      "fonte": {
+        "nome": "OPEN-METEO",
+        "tipo": "API",
+        "descricao": "SERVICO METEOROLOGICO"
+      },
+      "data_hora": "2026-10-19T16:00:00",
+      "temperatura": "30.5",
+      "umidade": "65",
+      "precipitacao": "0.0"
+    },
+    {
+      "ponto": {
+        "nome": "ESTACAO CAXIAS CENTRO",
+        "latitude": "-22.785600",
+        "longitude": "-43.311700",
+        "cidade": "DUQUE DE CAXIAS",
+        "estado": "RJ"
+      },
+      "fonte": {
+        "nome": "OPEN-METEO",
+        "tipo": "API",
+        "descricao": "SERVICO METEOROLOGICO"
+      },
+      "data_hora": "2026-10-19T17:00:00",
+      "temperatura": "29.0",
+      "umidade": "71",
+      "precipitacao": "0.0"
+    },
+    {
+      "ponto": {
+        "nome": "ESTACAO CAXIAS CENTRO",
+        "latitude": "-22.785600",
+        "longitude": "-43.311700",
+        "cidade": "DUQUE DE CAXIAS",
+        "estado": "RJ"
+      },
+      "fonte": {
+        "nome": "OPEN-METEO",
+        "tipo": "API",
+        "descricao": "SERVICO METEOROLOGICO"
+      },
+      "data_hora": "2026-10-19T18:00:00",
+      "temperatura": "28.2",
+      "umidade": "74",
+      "precipitacao": "0.0"
+    },
+    {
+      "ponto": {
+        "nome": "ESTACAO CAXIAS CENTRO",
+        "latitude": "-22.785600",
+        "longitude": "-43.311700",
+        "cidade": "DUQUE DE CAXIAS",
+        "estado": "RJ"
+      },
+      "fonte": {
+        "nome": "OPEN-METEO",
+        "tipo": "API",
+        "descricao": "SERVICO METEOROLOGICO"
+      },
+      "data_hora": "2026-10-19T19:00:00",
+      "temperatura": "26.9",
+      "umidade": "76",
+      "precipitacao": "0.0"
+    },
+    {
+      "ponto": {
+        "nome": "ESTACAO CAXIAS CENTRO",
+        "latitude": "-22.785600",
+        "longitude": "-43.311700",
+        "cidade": "DUQUE DE CAXIAS",
+        "estado": "RJ"
+      },
+      "fonte": {
+        "nome": "OPEN-METEO",
+        "tipo": "API",
+        "descricao": "SERVICO METEOROLOGICO"
+      },
+      "data_hora": "2026-10-19T20:00:00",
+      "temperatura": "26.1",
+      "umidade": "78",
+      "precipitacao": "0.0"
+    }
+  ]
+}

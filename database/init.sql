@@ -1,14 +1,15 @@
 
-USE nimbus;
+-- O MYSQL_DATABASE do Compose seleciona o banco automaticamente.
+-- No terminal: mysql -u usuario -p nome_do_banco < database/init.sql
 
 -- TABELA 1: PONTOS DE OBSERVAÇÃO
-CREATE TABLE ponto_observacao (
+CREATE TABLE IF NOT EXISTS ponto_observacao (
     ponto_observacao_id INT AUTO_INCREMENT PRIMARY KEY,
     nome VARCHAR(100) NOT NULL,
     latitude DECIMAL(9,6) NOT NULL,
     longitude DECIMAL(9,6) NOT NULL,
-    cidade VARCHAR(100) NOT NULL,
-    estado CHAR(2) NOT NULL,
+    cidade VARCHAR(100) NULL,
+    estado CHAR(2) NULL,
 
     CONSTRAINT chk_ponto_latitude
         CHECK (latitude BETWEEN -90 AND 90),
@@ -19,7 +20,7 @@ CREATE TABLE ponto_observacao (
 
 
 -- TABELA 2: FONTES DE DADOS
-CREATE TABLE fonte_dados (
+CREATE TABLE IF NOT EXISTS fonte_dados (
     fonte_dados_id INT AUTO_INCREMENT PRIMARY KEY,
     nome VARCHAR(100) NOT NULL,
     tipo VARCHAR(50) NOT NULL,
@@ -28,7 +29,7 @@ CREATE TABLE fonte_dados (
 
 
 -- TABELA 3: REGISTROS METEOROLÓGICOS
-CREATE TABLE registro_meteorologico (
+CREATE TABLE IF NOT EXISTS registro_meteorologico (
     registro_meteorologico_id INT AUTO_INCREMENT PRIMARY KEY,
 
     ponto_observacao_id INT NOT NULL,

@@ -7,18 +7,34 @@ import os
 
 from .config import BG, WHITE, BLACK, GRAY, BORDER
 from .services.storage import DataStore
-from .services.upload_server import BrowserCSVUploadServer
+from .services.api_storage import ApiDataStore
+from .services.upload_server import BrowserJSONUploadServer
 from .telas.base import create_table_styles
 from .telas.dashboard import DashboardPage
 from .telas.pontos import PontosPage
 from .telas.fontes import FontesPage
 from .telas.registros import RegistrosPage
-from .telas.importacao_csv import CSVPage
+from .telas.importacao_json import JSONPage
 from .telas.analises import AnalisesPage
 
 
+def load_ui_settings():
+    """Lê somente parâmetros não sensíveis da interface a partir de .env."""
+    settings_file=Path(__file__).resolve().parents[1]/'.env'
+    if not settings_file.is_file():
+        return
+    for raw in settings_file.read_text(encoding='utf-8').splitlines():
+        text=raw.strip()
+        if not text or text.startswith('#') or '=' not in text:
+            continue
+        key,value=text.split('=',1)
+        key=key.strip()
+        if key in {'NIMBUS_STORAGE','NIMBUS_API_URL'}:
+            os.environ.setdefault(key,value.strip().strip('"').strip("'"))
+
 class NimbusApp(tk.Tk):
     def __init__(self):
+        load_ui_settings()
         super().__init__()
         self.title("Nimbus | Sistema de Análise de Dados Meteorológicos")
         self.geometry("1160x690")
@@ -27,8 +43,9 @@ class NimbusApp(tk.Tk):
 
         self.startup_failed = False
         try:
-            self.store = DataStore()
-        except (OSError, ValueError) as exc:
+            self.use_api = os.environ.get('NIMBUS_STORAGE','local').lower() == 'api'
+            self.store = ApiDataStore() if self.use_api else DataStore()
+        except (OSError, ValueError, ConnectionError) as exc:
             self.startup_failed = True
             messagebox.showerror("Falha ao carregar dados", str(exc), parent=self)
             self.after_idle(self.destroy)
@@ -38,14 +55,14 @@ class NimbusApp(tk.Tk):
         is_codespaces = os.environ.get("CODESPACES", "").lower() == "true" or bool(os.environ.get("CODESPACE_NAME"))
         if is_codespaces:
             try:
-                self.upload_server = BrowserCSVUploadServer(
+                self.upload_server = BrowserJSONUploadServer(
                     self.store.data_dir / "importacoes",
                     host="0.0.0.0",
                     port=8765,
                 ).start()
             except OSError as exc:
                 messagebox.showwarning(
-                    "Envio de CSV pelo navegador",
+                    "Envio de JSON pelo navegador",
                     f"Não foi possível iniciar o portal de envio na porta 8765: {exc}. "
                     "Você ainda poderá selecionar arquivos que já estejam no Codespace.",
                     parent=self,
@@ -87,7 +104,7 @@ class NimbusApp(tk.Tk):
 
         options = [
             "Dashboard", "Pontos de observação", "Fontes de dados",
-            "Registros meteorológicos", "Importação CSV", "Análises",
+            "Registros meteorológicos", "Importação JSON", "Análises",
         ]
         for name in options:
             button = tk.Button(
@@ -104,11 +121,11 @@ class NimbusApp(tk.Tk):
         footer = tk.Frame(self.sidebar, bg="#F9FAFB")
         footer.pack(side="bottom", fill="x", padx=12, pady=9)
         tk.Label(
-            footer, text="●  MODO LOCAL (JSON)", bg="#F9FAFB",
+            footer, text="●  API / MySQL" if self.use_api else "●  MODO LOCAL (JSON)", bg="#F9FAFB",
             fg="#B7791F", font=("Arial", 9, "bold")
         ).pack(anchor="w", padx=10, pady=(10, 4))
         tk.Label(
-            footer, text="Aguardando integração com a API", bg="#F9FAFB",
+            footer, text="Conectado à API" if self.use_api else "Arquivos JSON locais", bg="#F9FAFB",
             fg=GRAY, font=("Arial", 8)
         ).pack(anchor="w", padx=10, pady=(0, 10))
 
@@ -153,7 +170,7 @@ class NimbusApp(tk.Tk):
             "Pontos de observação": lambda: PontosPage(self.content, self.store),
             "Fontes de dados": lambda: FontesPage(self.content, self.store),
             "Registros meteorológicos": lambda: RegistrosPage(self.content, self.store),
-            "Importação CSV": lambda: CSVPage(
+            "Importação JSON": lambda: JSONPage(
                 self.content, self.store, browser_upload_enabled=self.upload_server is not None
             ),
             "Análises": lambda: AnalisesPage(self.content, self.store),

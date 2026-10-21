@@ -22,6 +22,15 @@ class AnalisesPage(tk.Frame):
             options[f'{point["id"]} - {point["nome"]}'] = int(point["id"])
         return options
 
+    def _source_options(self):
+        options={"Todas as fontes":None}
+        for source in self.store.list('fontes'):
+            options[f'{source["id"]} - {source["nome"]}']=int(source['id'])
+        return options
+
+    def _rain_label(self,stats):
+        return f'{stats["precipitacao_total"]:.2f} mm' if stats and stats['precipitacao_total'] is not None else '-- mm'
+
     def _build(self):
         page_header(self, "Análises meteorológicas", "Filtre observações, consulte estatísticas e compare pontos ou períodos.")
 
@@ -32,6 +41,12 @@ class AnalisesPage(tk.Frame):
         self.point_filter = ttk.Combobox(filters, state="readonly", values=list(self.point_options), width=29)
         self.point_filter.grid(row=1, column=0, padx=12, pady=(0, 10), sticky="ew")
         self.point_filter.set("Todos os pontos")
+
+        tk.Label(filters,text="Fonte de dados",bg=WHITE,fg=BLACK,font=("Arial",9,"bold")).grid(row=2,column=0,sticky="w",padx=12,pady=(4,2))
+        self.source_options=self._source_options()
+        self.source_filter=ttk.Combobox(filters,state="readonly",values=list(self.source_options),width=29)
+        self.source_filter.grid(row=3,column=0,padx=12,pady=(0,10),sticky="ew")
+        self.source_filter.set('Todas as fontes')
 
         tk.Label(filters, text="Data inicial (DD-MM-AAAA)", bg=WHITE, fg=BLACK, font=("Arial", 9, "bold")).grid(row=0, column=1, sticky="w", padx=12, pady=(10, 4))
         self.start_filter = DateEntry(filters, width=15)
@@ -80,6 +95,7 @@ class AnalisesPage(tk.Frame):
 
     def clear_filters(self):
         self.point_filter.set("Todos os pontos")
+        self.source_filter.set('Todas as fontes')
         self.start_filter.delete(0, tk.END)
         self.end_filter.delete(0, tk.END)
         self.apply_filters()
@@ -91,7 +107,8 @@ class AnalisesPage(tk.Frame):
             messagebox.showerror("Período inválido", str(exc), parent=self)
             return
         point_id = self.point_options.get(self.point_filter.get())
-        self.filtered = filter_records(self.store.list("registros"), point_id, start, end)
+        source_id=self.source_options.get(self.source_filter.get())
+        self.filtered = filter_records(self.store.list("registros"), point_id, start, end, source_id)
         stats = summarize(self.filtered)
         values = ["0", "-- °C", "-- °C", "-- °C", "-- %", "-- mm"]
         if stats:
@@ -101,7 +118,7 @@ class AnalisesPage(tk.Frame):
                 f'{stats["temperatura_minima"]:.2f} °C',
                 f'{stats["temperatura_maxima"]:.2f} °C',
                 f'{stats["umidade_media"]:.2f} %',
-                f'{stats["precipitacao_total"]:.2f} mm',
+                self._rain_label(stats),
             ]
         for label, value in zip(self.card_values, values):
             label.configure(text=value)
@@ -165,8 +182,9 @@ class AnalisesPage(tk.Frame):
             messagebox.showerror("Período inválido", str(exc), parent=self)
             return
         records = self.store.list("registros")
-        stats_a = summarize(filter_records(records, id_a, start, end))
-        stats_b = summarize(filter_records(records, id_b, start, end))
+        source_id=self.source_options.get(self.source_filter.get())
+        stats_a = summarize(filter_records(records, id_a, start, end, source_id))
+        stats_b = summarize(filter_records(records, id_b, start, end, source_id))
         point_names = {int(p["id"]): p["nome"] for p in self.store.list("pontos")}
 
         def line(title, stats):
@@ -177,7 +195,7 @@ class AnalisesPage(tk.Frame):
                 f'Temperatura média {stats["temperatura_media"]:.2f} °C '
                 f'(mín. {stats["temperatura_minima"]:.2f} °C / máx. {stats["temperatura_maxima"]:.2f} °C) | '
                 f'Umidade média {stats["umidade_media"]:.2f}% | '
-                f'Precipitação total {stats["precipitacao_total"]:.2f} mm'
+                f'Precipitação total {self._rain_label(stats)}'
             )
         self.point_comparison.configure(
             text=line(point_names.get(id_a, label_a), stats_a) + "\n\n" + line(point_names.get(id_b, label_b), stats_b),
@@ -236,7 +254,8 @@ class AnalisesPage(tk.Frame):
             except ValueError as exc:
                 messagebox.showerror("Período inválido", f"{name}: {exc}", parent=self)
                 return
-            stats = summarize(filter_records(self.store.list("registros"), point_id, start, end))
+            source_id=self.source_options.get(self.source_filter.get())
+            stats = summarize(filter_records(self.store.list("registros"), point_id, start, end, source_id))
             if not stats:
                 values = (name, 0, "--", "--", "--", "--", "--")
             else:
@@ -246,6 +265,6 @@ class AnalisesPage(tk.Frame):
                     f'{stats["temperatura_minima"]:.2f} °C',
                     f'{stats["temperatura_maxima"]:.2f} °C',
                     f'{stats["umidade_media"]:.2f} %',
-                    f'{stats["precipitacao_total"]:.2f} mm',
+                    self._rain_label(stats),
                 )
             self.period_result.insert("", "end", values=values)

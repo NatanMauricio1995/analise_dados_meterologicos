@@ -22,7 +22,7 @@ class DashboardPage(tk.Frame):
             values = [
                 ("Temperatura média", f'{stats["temperatura_media"]:.1f} °C', f'Mín. {stats["temperatura_minima"]:.1f} °C · Máx. {stats["temperatura_maxima"]:.1f} °C'),
                 ("Umidade média", f'{stats["umidade_media"]:.1f} %', f'Mín. {stats["umidade_minima"]:.1f}% · Máx. {stats["umidade_maxima"]:.1f}%'),
-                ("Precipitação total", f'{stats["precipitacao_total"]:.1f} mm', f'Maior observação {stats["precipitacao_maxima"]:.1f} mm'),
+                ("Precipitação total", f'{stats["precipitacao_total"]:.1f} mm' if stats["precipitacao_total"] is not None else "-- mm", "Selecione ponto e fonte nas análises" if stats["precipitacao_total"] is None else f'Maior observação {stats["precipitacao_maxima"]:.1f} mm'),
                 ("Observações", str(stats["quantidade"]), "Registros armazenados"),
             ]
         else:
@@ -59,7 +59,7 @@ class DashboardPage(tk.Frame):
             ("Cadastrar ponto", "Pontos de observação"),
             ("Cadastrar fonte", "Fontes de dados"),
             ("Novo registro", "Registros meteorológicos"),
-            ("Importar CSV", "Importação CSV"),
+            ("Importar JSON", "Importação JSON"),
             ("Análises e filtros", "Análises"),
         ]:
             tk.Button(quick, text=label, command=lambda name=destination: self.navigate(name), bg="#F3F4F6", fg=BLACK, activebackground="#E5E7EB", relief="flat", anchor="w", padx=12, pady=10).pack(fill="x", padx=12, pady=4)

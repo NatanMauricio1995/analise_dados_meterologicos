@@ -3,101 +3,36 @@ import tempfile
 import unittest
 from pathlib import Path
 from urllib.error import HTTPError
-from urllib.request import Request, urlopen
+from urllib.request import Request,urlopen
+from interface.services.upload_server import BrowserJSONUploadServer
 
-from interface.services.upload_server import BrowserCSVUploadServer
-
-
-class BrowserCSVUploadServerTests(unittest.TestCase):
+class BrowserJSONUploadServerTests(unittest.TestCase):
     def setUp(self):
-        self.temp = tempfile.TemporaryDirectory()
-        root = Path(self.temp.name)
-        interface_dir = root / "interface"
-        resources = interface_dir / "recursos"
-        upload_dir = interface_dir / "dados" / "importacoes"
-        resources.mkdir(parents=True)
-        upload_dir.mkdir(parents=True)
-        self.upload_dir = upload_dir
-        (resources / "nimbus_logo.png").write_bytes(b"fake-png-for-route-test")
-        (resources / "upload.html").write_text(
-            '<img src="/logo.png"><input type="file" accept=".csv,text/csv"><h1>Enviar arquivo CSV</h1>',
-            encoding="utf-8",
-        )
-        self.server = BrowserCSVUploadServer(upload_dir, port=0)
-        self.server.start()
-        self.base_url = f"http://127.0.0.1:{self.server.port}"
-
+        self.temp=tempfile.TemporaryDirectory()
+        root=Path(self.temp.name)/'interface'
+        resources=root/'recursos';resources.mkdir(parents=True)
+        self.dest=root/'dados'/'importacoes';self.dest.mkdir(parents=True)
+        (resources/'nimbus_logo.png').write_bytes(b'fake-png')
+        (resources/'upload.html').write_text('<input type="file" accept=".json,application/json">__TOKEN__',encoding='utf8')
+        self.server=BrowserJSONUploadServer(self.dest,host='127.0.0.1',port=0).start()
+        self.url=f'http://127.0.0.1:{self.server.port}'
     def tearDown(self):
-        self.server.stop()
-        self.temp.cleanup()
-
-    def test_upload_page_has_local_file_picker(self):
-        with urlopen(self.base_url + "/") as response:
-            html = response.read().decode("utf-8")
-        self.assertIn('type="file"', html)
-        self.assertIn('accept=".csv,text/csv"', html)
-        self.assertIn('src="/logo.png"', html)
-        self.assertIn("Enviar arquivo CSV", html)
-
-    def test_upload_page_serves_nimbus_logo(self):
-        with urlopen(self.base_url + "/logo.png") as response:
-            self.assertEqual(response.status, 200)
-            self.assertEqual(response.headers.get_content_type(), "image/png")
-            self.assertEqual(response.read(), b"fake-png-for-route-test")
-
-    def test_upload_csv_saves_file(self):
-        content = (
-            "ponto_nome;latitude;longitude;cidade;estado;fonte_nome;fonte_tipo;"
-            "fonte_descricao;data_hora;temperatura;umidade;precipitacao\n"
-            "ESTACAO CENTRO;-22.9;-43.2;RIO DE JANEIRO;RJ;INMET;API;FONTE;"
-            "2026-10-10 14:00:00;23.5;72;0.0\n"
-        ).encode("utf-8")
-        request = Request(
-            self.base_url + "/upload?filename=teste_nimbus.csv",
-            data=content,
-            headers={
-                "Content-Type": "application/octet-stream",
-                "X-Nimbus-Token": self.server.token,
-            },
-            method="POST",
-        )
-        with urlopen(request) as response:
-            result = json.loads(response.read().decode("utf-8"))
-            self.assertEqual(response.status, 201)
-        self.assertEqual(result["filename"], "teste_nimbus.csv")
-        self.assertEqual(
-            (self.upload_dir / "teste_nimbus.csv").read_bytes(),
-            content,
-        )
-
-    def test_upload_rejects_wrong_token(self):
-        request = Request(
-            self.base_url + "/upload?filename=teste.csv",
-            data=b"a;b\n1;2\n",
-            headers={
-                "Content-Type": "application/octet-stream",
-                "X-Nimbus-Token": "invalid-token",
-            },
-            method="POST",
-        )
-        with self.assertRaises(HTTPError) as context:
-            urlopen(request)
-        self.assertEqual(context.exception.code, 403)
-
-    def test_upload_rejects_non_csv(self):
-        request = Request(
-            self.base_url + "/upload?filename=teste.txt",
-            data=b"conteudo",
-            headers={
-                "Content-Type": "application/octet-stream",
-                "X-Nimbus-Token": self.server.token,
-            },
-            method="POST",
-        )
-        with self.assertRaises(HTTPError) as context:
-            urlopen(request)
-        self.assertEqual(context.exception.code, 415)
-
-
-if __name__ == "__main__":
-    unittest.main()
+        self.server.stop();self.temp.cleanup()
+    def send(self,filename,body,token=None):
+        return urlopen(Request(self.url+'/upload?filename='+filename,data=body,
+                headers={'X-Nimbus-Token':token or self.server.token},method='POST'))
+    def test_portal_and_logo(self):
+        self.assertIn('type="file"',urlopen(self.url+'/').read().decode())
+        self.assertEqual(urlopen(self.url+'/logo.png').read(),b'fake-png')
+    def test_valid_json(self):
+        content=json.dumps({'observacoes':[]}).encode()
+        with self.send('data.json',content) as reply:
+            self.assertEqual(reply.status,201)
+        self.assertEqual((self.dest/'data.json').read_bytes(),content)
+    def test_rejects_bad_token(self):
+        with self.assertRaises(HTTPError) as ctx:self.send('data.json',b'{}','incorrect')
+        self.assertEqual(ctx.exception.code,403)
+    def test_rejects_csv_and_malformed_json(self):
+        for name,content,expected in (('data.csv',b'{}',415),('data.json',b'{',400),('data.json',b'[]',400)):
+            with self.subTest(name=name),self.assertRaises(HTTPError) as ctx:self.send(name,content)
+            self.assertEqual(ctx.exception.code,expected)

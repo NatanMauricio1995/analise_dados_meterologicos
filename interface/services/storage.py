@@ -46,6 +46,23 @@ class DataStore:
             json.dump(rows, file, ensure_ascii=False, indent=4)
         temporary.replace(path)
 
+    def save_import(self, points, sources, records):
+        """Grava o lote. Em erro, tenta restaurar estado e arquivos anteriores."""
+        import copy
+        old = copy.deepcopy(self.data)
+        try:
+            self.data['pontos'].extend(points)
+            self.data['fontes'].extend(sources)
+            start = self.next_id('registros')
+            self.data['registros'].extend([{'id':start+i,**record} for i,record in enumerate(records)])
+            for name in FILES:
+                self._write(name)
+        except OSError:
+            self.data = old
+            for name in FILES:
+                self._write(name)
+            raise
+
     def list(self, name):
         return self.data[name]
 

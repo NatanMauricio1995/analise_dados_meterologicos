@@ -29,8 +29,8 @@ class PontosPage(tk.Frame):
         tk.Label(form, text="Dados do ponto", bg=WHITE, fg=BLACK, font=("Arial", 15, "bold")).pack(anchor="w", padx=16, pady=(18, 8))
         for label, key in [
             ("Nome do ponto *", "nome"), ("Latitude *", "latitude"),
-            ("Longitude *", "longitude"), ("Cidade *", "cidade"),
-            ("Estado (UF) *", "estado")
+            ("Longitude *", "longitude"), ("Cidade (opcional)", "cidade"),
+            ("Estado (UF opcional)", "estado")
         ]:
             self.fields[key] = field(form, label)
         buttons = tk.Frame(form, bg=WHITE)
@@ -39,7 +39,7 @@ class PontosPage(tk.Frame):
         self.save_button.pack(fill="x", pady=(0, 6))
         self.clear_button = tk.Button(buttons, text="Limpar formulário", command=self.clear, bg="#F3F4F6", fg=BLACK, relief="flat", pady=8)
         self.clear_button.pack(fill="x")
-        self.status = status_label(form, "Todos os campos são obrigatórios.")
+        self.status = status_label(form, "Nome e coordenadas são obrigatórios. Cidade e UF são opcionais.")
 
         panel = tk.Frame(area, bg=WHITE, highlightbackground=BORDER, highlightthickness=1)
         panel.grid(row=0, column=1, sticky="nsew")
@@ -74,7 +74,7 @@ class PontosPage(tk.Frame):
             else:
                 self.store.update("pontos", self.editing_id, values)
                 message = "Ponto atualizado com sucesso."
-        except (OSError, KeyError) as exc:
+        except (OSError, KeyError, ValueError, ConnectionError) as exc:
             show_error(self, self.status, f"Não foi possível salvar o ponto: {exc}")
             return
         self.clear()
@@ -95,7 +95,7 @@ class PontosPage(tk.Frame):
         self.editing_id = item_id
         for key, entry in self.fields.items():
             entry.delete(0, tk.END)
-            entry.insert(0, str(point.get(key, "")))
+            entry.insert(0, str(point.get(key) or ""))
         self.save_button.configure(text="Salvar alterações")
         self.clear_button.configure(text="Cancelar edição")
         self.status.configure(text=f"Editando o ponto {item_id}.", fg="#B7791F")
@@ -106,7 +106,7 @@ class PontosPage(tk.Frame):
         self.editing_id = None
         self.save_button.configure(text="Cadastrar ponto")
         self.clear_button.configure(text="Limpar formulário")
-        self.status.configure(text="Todos os campos são obrigatórios.", fg=GRAY)
+        self.status.configure(text="Nome e coordenadas são obrigatórios. Cidade e UF são opcionais.", fg=GRAY)
 
     def delete(self):
         selected = self.table.selection()
@@ -121,7 +121,7 @@ class PontosPage(tk.Frame):
             return
         try:
             self.store.delete("pontos", item_id)
-        except (OSError, KeyError) as exc:
+        except (OSError, KeyError, ValueError, ConnectionError) as exc:
             show_error(self, self.status, f"Não foi possível excluir o ponto: {exc}")
             return
         if self.editing_id == item_id:

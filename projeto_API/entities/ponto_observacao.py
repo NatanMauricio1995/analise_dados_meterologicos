@@ -1,4 +1,5 @@
 from sqlalchemy import Integer, String, Numeric, CheckConstraint
+from decimal import Decimal
 from sqlalchemy.orm import Mapped, mapped_column, relationship
 
 from entities.base import Base
@@ -16,12 +17,12 @@ class PontoObservacao(Base): # Define uma classe que herda a configuração decl
 
     nome: Mapped[str] = mapped_column(String(100), nullable = False)
 
-    latitude: Mapped[float] = mapped_column(Numeric(9,6), nullable = False)
+    latitude: Mapped[Decimal] = mapped_column(Numeric(9,6), nullable = False)
 
-    longitude: Mapped[float] = mapped_column(Numeric(9,6), nullable = False)
+    longitude: Mapped[Decimal] = mapped_column(Numeric(9,6), nullable = False)
 
-    cidade: Mapped[str] = mapped_column(String(100), nullable = False)
+    cidade: Mapped[str | None] = mapped_column(String(100), nullable = True)
 
-    estado: Mapped[str] = mapped_column(String(2), nullable = False)
+    estado: Mapped[str | None] = mapped_column(String(2), nullable = True)
 
     registros: Mapped[list["RegistroMeteorologico"]] = relationship(back_populates = "ponto_observacao")

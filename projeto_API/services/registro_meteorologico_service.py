@@ -6,6 +6,8 @@ from sqlalchemy.exc import IntegrityError, SQLAlchemyError
 from sqlalchemy.orm import Session
 
 from entities.registro_meteorologico import RegistroMeteorologico
+from exceptions.erros import RecursoNaoEncontradoError
+from zoneinfo import ZoneInfo
 from repositories.registro_meteorologico_repository import (RegistroMeteorologicoRepository,)
 from repositories.ponto_observacao_repository import (PontoObservacaoRepository,)
 from repositories.fonte_dados_repository import FonteDadosRepository
@@ -26,19 +28,19 @@ class RegistroMeteorologicoService:
         registro = self.repositorio.buscar_por_id(registro_meteorologico_id)
 
         if registro is None:
-            raise ValueError("Registro meteorológico não encontrado.")
+            raise RecursoNaoEncontradoError("Registro meteorológico não encontrado.")
 
         return registro
 
     def listar_por_ponto(self, ponto_observacao_id: int,) -> list[RegistroMeteorologico]:
         if self.pontos.buscar_por_id(ponto_observacao_id) is None:
-            raise ValueError("Ponto de observação não encontrado.")
+            raise RecursoNaoEncontradoError("Ponto de observação não encontrado.")
 
         return self.repositorio.listar_por_ponto(ponto_observacao_id)
 
     def listar_por_fonte(self, fonte_dados_id: int,) -> list[RegistroMeteorologico]:
         if self.fontes.buscar_por_id(fonte_dados_id) is None:
-            raise ValueError("Fonte de dados não encontrada.")
+            raise RecursoNaoEncontradoError("Fonte de dados não encontrada.")
 
         return self.repositorio.listar_por_fonte(fonte_dados_id)
 
@@ -187,6 +189,11 @@ class RegistroMeteorologicoService:
                     "A data/hora deve ser informada sem fuso horário."
                 )
 
+            # Convenção existente dos CSVs: hora civil de America/Sao_Paulo, sem offset.
+            # MySQL armazena o horário local como DATETIME. Não misturar com UTC.
+            agora_local = datetime.now(ZoneInfo("America/Sao_Paulo")).replace(tzinfo=None)
+            if data_hora > agora_local:
+                raise ValueError("A data/hora da observação não pode estar no futuro.")
             dados["data_hora"] = data_hora
 
         limites = {
@@ -207,7 +214,7 @@ class RegistroMeteorologicoService:
                 )
 
             try:
-                valor = Decimal(str(valor))
+                valor = Decimal(str(valor).replace(",", "."))
             except (InvalidOperation, ValueError, TypeError) as erro:
                 raise ValueError(
                     f"O campo '{campo}' deve ser numérico."

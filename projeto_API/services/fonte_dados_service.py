@@ -3,6 +3,7 @@ from sqlalchemy.exc import IntegrityError, SQLAlchemyError
 from sqlalchemy.orm import Session
 
 from entities.fonte_dados import FonteDados
+from exceptions.erros import RecursoNaoEncontradoError
 from repositories.fonte_dados_repository import FonteDadosRepository
 
 
@@ -19,7 +20,7 @@ class FonteDadosService:
         fonte = self.repositorio.buscar_por_id(fonte_dados_id)
 
         if fonte is None:
-            raise ValueError("Fonte de dados não encontrada.")
+            raise RecursoNaoEncontradoError("Fonte de dados não encontrada.")
 
         return fonte
 
@@ -75,8 +76,8 @@ class FonteDadosService:
         if not isinstance(dados, dict):
             raise ValueError("Os dados devem ser enviados como objeto.")
 
-        campos_obrigatorios = {"nome", "tipo", "descricao"}
-        campos_permitidos = campos_obrigatorios
+        campos_obrigatorios = {"nome", "tipo"}
+        campos_permitidos = campos_obrigatorios | {"descricao"}
 
         if not parcial:
             faltantes = campos_obrigatorios - dados.keys()

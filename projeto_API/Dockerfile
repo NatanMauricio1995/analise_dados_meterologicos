@@ -1,17 +1,9 @@
-
-FROM python:3.14-slim
-
-ENV PYTHONDONTWRITEBYTECODE=1
-ENV PYTHONUNBUFFERED=1
-
+FROM python:3.13-slim
+ENV PYTHONDONTWRITEBYTECODE=1 PYTHONUNBUFFERED=1
 WORKDIR /app
-
-COPY requirements.txt .
-
-RUN pip install --no-cache-dir -r requirements.txt
-
-COPY . .
-
+COPY projeto_API/requirements.txt /app/requirements.txt
+RUN pip install --no-cache-dir -r /app/requirements.txt
+COPY projeto_API/ /app/projeto_API/
+COPY shared/ /app/shared/
 EXPOSE 5000
-
-CMD ["python", "app.py"]
+CMD ["python", "projeto_API/app.py"]

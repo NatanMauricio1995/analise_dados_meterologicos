@@ -1,2 +1,4 @@
-# O frontend utiliza somente a biblioteca padrão do Python.
-# O Tkinter deve estar instalado no ambiente (python3-tk no Debian/Ubuntu).
+# Tkinter deve estar instalado no ambiente (python3-tk no Debian/Ubuntu).
+# No Windows, zoneinfo não encontra America/Sao_Paulo sem dados IANA.
+# Há um fallback UTC-03:00 no projeto, mas tzdata é recomendado.
+tzdata>=2025.2,<2028

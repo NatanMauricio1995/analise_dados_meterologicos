@@ -1,0 +1,22 @@
+{
+  "observacoes": [
+    {
+      "ponto": {
+        "nome": "",
+        "latitude": "",
+        "longitude": "",
+        "cidade": "DUQUE DE CAXIAS",
+        "estado": "RJ"
+      },
+      "fonte": {
+        "nome": "",
+        "tipo": "",
+        "descricao": ""
+      },
+      "data_hora": "",
+      "temperatura": "",
+      "umidade": "",
+      "precipitacao": ""
+    }
+  ]
+}

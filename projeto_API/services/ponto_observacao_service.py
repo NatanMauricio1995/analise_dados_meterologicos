@@ -1,5 +1,6 @@
 
 from sqlalchemy.exc import IntegrityError, SQLAlchemyError
+from decimal import Decimal, InvalidOperation
 from sqlalchemy.orm import Session
 
 from entities.estados import validar_estado
@@ -79,9 +80,8 @@ class PontoObservacaoService:
         if not isinstance(dados, dict):
             raise ValueError("Os dados devem ser enviados como objeto.")
 
-        campos_obrigatorios = {"nome", "latitude", "longitude", "cidade", "estado"}
-
-        campos_permitidos = campos_obrigatorios
+        campos_obrigatorios = {"nome", "latitude", "longitude"}
+        campos_permitidos = campos_obrigatorios | {"cidade", "estado"}
 
         if not parcial:
             faltantes = campos_obrigatorios - dados.keys()
@@ -100,8 +100,10 @@ class PontoObservacaoService:
             if campo in dados:
                 valor = dados[campo]
 
-                if not isinstance(valor, str) or not valor.strip():
-                    raise ValueError(f"O campo '{campo}' deve ser um texto não vazio.")
+                if campo == "cidade" and valor is None:
+                    continue
+                if not isinstance(valor, str) or (campo == "nome" and not valor.strip()):
+                    raise ValueError(f"O campo '{campo}' deve ser um texto válido.")
 
                 limite = 100
 
@@ -113,12 +115,14 @@ class PontoObservacaoService:
         if "estado" in dados:
             estado = dados["estado"]
 
-            if not isinstance(estado, str):
+            if estado is None or estado == "":
+                dados["estado"] = None
+                estado = None
+            if estado is not None and not isinstance(estado, str):
                 raise ValueError("O estado deve ser informado por uma sigla.")
+            estado = estado.strip().upper() if estado is not None else None
 
-            estado = estado.strip().upper()
-
-            if not validar_estado(estado):
+            if estado is not None and not validar_estado(estado):
                 raise ValueError("Informe uma sigla válida de estado brasileiro.")
 
             dados["estado"] = estado
@@ -131,13 +135,15 @@ class PontoObservacaoService:
                     raise ValueError(f"O campo '{campo}' deve ser numérico.")
 
                 try:
-                    valor = float(valor)
-                except (TypeError, ValueError) as erro:
+                    valor = Decimal(str(valor).replace(",", "."))
+                except (TypeError, ValueError, InvalidOperation) as erro:
                     raise ValueError(f"O campo '{campo}' deve ser numérico.") from erro
 
-                if not minimo <= valor <= maximo:
+                if not valor.is_finite() or not Decimal(minimo) <= valor <= Decimal(maximo):
                     raise ValueError(f"O campo '{campo}' deve estar entre " f"{minimo} e {maximo}.")
 
+                if valor != valor.quantize(Decimal("0.000001")):
+                    raise ValueError(f"O campo '{campo}' aceita no máximo seis casas decimais.")
                 dados[campo] = valor
 
         return dados

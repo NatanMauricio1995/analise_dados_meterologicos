@@ -22,7 +22,11 @@ class APIClient:
                 result = response.read().decode("utf-8")
                 return json.loads(result) if result else None
         except HTTPError as exc:
-            raise RuntimeError(f"Erro HTTP {exc.code}: {exc.reason}") from exc
+            try:
+                detail=json.loads(exc.read().decode('utf-8')).get('erro',exc.reason)
+            except (ValueError,UnicodeError):
+                detail=exc.reason
+            raise ValueError(f"API HTTP {exc.code}: {detail}") from exc
         except URLError as exc:
             raise ConnectionError(f"Não foi possível conectar à API: {exc.reason}") from exc
 
