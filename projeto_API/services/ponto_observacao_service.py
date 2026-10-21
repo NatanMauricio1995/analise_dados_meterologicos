@@ -6,6 +6,7 @@ from entities.estados import validar_estado
 from entities.ponto_observacao import PontoObservacao
 from repositories.ponto_observacao_repository import PontoObservacaoRepository
 
+from exceptions.erros import RecursoNaoEncontradoError
 
 class PontoObservacaoService:
 
@@ -20,7 +21,9 @@ class PontoObservacaoService:
         ponto = self.repositorio.buscar_por_id(ponto_observacao_id)
 
         if ponto is None:
-            raise ValueError("Ponto de observação não encontrado.")
+            raise RecursoNaoEncontradoError(
+                "Ponto de observação não encontrado."
+            )
 
         return ponto
 
