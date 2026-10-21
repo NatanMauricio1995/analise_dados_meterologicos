@@ -4,6 +4,8 @@ from controllers.ponto_observacao_controller import (
     listar_pontos,
     buscar_ponto,
     criar_ponto,
+    atualizar_ponto,
+    excluir_ponto,
 )
 
 
@@ -29,4 +31,16 @@ ponto_observacao_bp.add_url_rule(
     "/<int:ponto_observacao_id>",
     view_func=buscar_ponto,
     methods=["GET"],
+)
+
+ponto_observacao_bp.add_url_rule(
+    "/<int:ponto_observacao_id>",
+    view_func=atualizar_ponto,
+    methods=["PUT"],
+)
+
+ponto_observacao_bp.add_url_rule(
+    "/<int:ponto_observacao_id>",
+    view_func=excluir_ponto,
+    methods=["DELETE"],
 )
