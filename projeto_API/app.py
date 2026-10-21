@@ -7,6 +7,8 @@ from routes.ponto_observacao_routes import ponto_observacao_bp
 app = Flask(__name__)
 api = Api(app)
 
+app.register_blueprint(ponto_observacao_bp)
+
 
 @app.route("/", methods=["GET"])
 def inicio():
